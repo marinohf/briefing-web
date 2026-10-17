@@ -35,3 +35,8 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/
           git diff --staged --quiet || (git commit -m "auto: actualización de datos [skip ci]" && git push)
+- name: Ejecutar script de actualización
+  env:
+    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    GEMINI_MODEL: gemini-3.8-flash
+  run: node scripts/run.mjs
