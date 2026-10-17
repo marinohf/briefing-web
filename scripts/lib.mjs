@@ -33,7 +33,7 @@ export const api = {
   async call(prompt, { search = false, json = false } = {}) {
     const key = process.env.GEMINI_API_KEY;
     if (!key) throw new Error('Falta la variable GEMINI_API_KEY');
-    const model = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const model = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
     const body = { contents: [{ parts: [{ text: prompt }] }] };
     if (search) body.tools = [{ google_search: {} }];
     if (json) body.generationConfig = { responseMimeType: 'application/json', temperature: 0.2 };
