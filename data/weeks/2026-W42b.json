@@ -1,20 +1,58 @@
 {
  "start": "2026-10-12",
  "label": "Semana 42 · edición del 17 Oct 2026",
- "tension": { "label": "CRÍTICA", "tone": "crit" },
+ "tension": {
+  "label": "CRÍTICA",
+  "tone": "crit"
+ },
  "ticker": [
-  { "k": "BRENT", "v": "89,40 $/b", "tone": "warn" },
-  { "k": "GAS TTF", "v": "44,50 €/MWh", "tone": "warn" },
-  { "k": "US 10Y", "v": "4,62%", "tone": "warn" },
-  { "k": "BUND 10Y", "v": "2,68%" },
-  { "k": "ORO", "v": "2.680 $/oz", "tone": "ok" },
-  { "k": "EUR/USD", "v": "1,072" },
-  { "k": "ORMUZ", "v": "SEVERAMENTE ALTERADO", "tone": "crit", "pulse": true },
-  { "k": "MAR ROJO / SUEZ", "v": "BLOQUEO PARCIAL", "tone": "warn", "pulse": true }
+  {
+   "k": "BRENT",
+   "v": "89,40 $/b",
+   "tone": "warn"
+  },
+  {
+   "k": "GAS TTF",
+   "v": "44,50 €/MWh",
+   "tone": "warn"
+  },
+  {
+   "k": "US 10Y",
+   "v": "4,62%",
+   "tone": "warn"
+  },
+  {
+   "k": "BUND 10Y",
+   "v": "2,68%"
+  },
+  {
+   "k": "ORO",
+   "v": "2.680 $/oz",
+   "tone": "ok"
+  },
+  {
+   "k": "EUR/USD",
+   "v": "1,072"
+  },
+  {
+   "k": "ORMUZ",
+   "v": "SEVERAMENTE ALTERADO",
+   "tone": "crit",
+   "pulse": true
+  },
+  {
+   "k": "MAR ROJO / SUEZ",
+   "v": "BLOQUEO PARCIAL",
+   "tone": "warn",
+   "pulse": true
+  }
  ],
  "top10": [
   {
-   "id": 1, "level": "crit", "badge": "CRÍTICO", "timeframe": "hoy",
+   "id": 1,
+   "level": "crit",
+   "badge": "CRÍTICO",
+   "timeframe": "hoy",
    "title": "El G7 libera 100M de barriles tras el ataque a Ormuz y a la refinería de Rabigh",
    "what": "El G7 y la AIE acordaron el despliegue coordinado de 100 millones de barriles de sus Reservas Estratégicas de Petróleo (SPR) tras la escalada de ataques con drones contra buques cisterna en Ormuz y la refinería de Rabigh (Arabia Saudí). Hoy la AIE detalló la cuota: EE. UU. 45M, Japón 15M, Corea del Sur 10M y Europa 30M.",
    "why": "Tratan de sofocar el pico inflacionario que amenaza con llevar el Brent por encima de los 115 $/barril y paralizar la economía industrial europea y asiática.",
@@ -23,7 +61,22 @@
    "watch": "El ritmo real de entrega física de los barriles frente a los tiempos de tránsito por el Cabo de Buena Esperanza."
   },
   {
-   "id": 2, "level": "crit", "badge": "ENERGÍA UE", "timeframe": "7d",
+   "id": 2,
+   "level": "warn",
+   "badge": "IA Y ENERGÍA",
+   "timeframe": "hoy",
+   "title": "Cuello de botella de la IA: energía para datacenters y veto cruzado de silicio",
+   "what": "Los hyperscalers retrasan el despliegue de infraestructura de IA por restricciones de red eléctrica, mientras China amplía el control de materias primas procesadas para GPUs. Hoy EE. UU. publicó una orden ejecutiva que amplía los controles de exportación sobre clústeres de IA en Oriente Medio.",
+   "why": "La demanda de energía para cómputo de IA crece a un ritmo que la red de alta tensión no puede absorber sin acelerar los reactores modulares pequeños (SMR).",
+   "who": "EE. UU. (Big Tech y Departamento de Energía) frente a China (MOFCOM y fabricantes de obleas).",
+   "impact": "Retraso de los centros de datos de última generación en la UE y EE. UU. y encarecimiento del MW hídrico y nuclear dedicado a cómputo.",
+   "watch": "Acuerdos PPA directos entre firmas de IA y centrales nucleares existentes."
+  },
+  {
+   "id": 3,
+   "level": "crit",
+   "badge": "ENERGÍA UE",
+   "timeframe": "7d",
    "title": "Ruptura del pacto energético de invierno y colapso de la red de Járkov",
    "what": "Un ataque masivo de misiles hipersónicos rusos destruyó la infraestructura eléctrica crítica de Járkov y paralizó los nodos de bombeo hacia Europa Central, dando por rota la tregua energética informal.",
    "why": "Rusia busca forzar una brecha política en la UE antes del invierno mediante un nuevo flujo de refugiados energéticos y presión sobre los costes de calefacción en Centroeuropa.",
@@ -32,8 +85,11 @@
    "watch": "La respuesta de la UE en materia de compras conjuntas de LNG spot en el mercado asiático."
   },
   {
-   "id": 3, "level": "crit", "badge": "ALTO RIESGO", "timeframe": "hoy",
-   "title": "Escalada en el Mar Rojo: drones hutíes alcanzan instalaciones en Riad y Rabigh",
+   "id": 4,
+   "level": "crit",
+   "badge": "ALTO RIESGO",
+   "timeframe": "hoy",
+   "title": "Escalada en el Mar Rojo: drones hutíes alcanzan Riad y la refinería de Rabigh",
    "what": "Drones de largo alcance de fabricación iraní alcanzaron un centro logístico en las afueras de Riad y la refinería comercial de Rabigh. Hoy, un buque quimiquero liberiano fue atacado con un dron marítimo a 35 millas de Al Hudaydah.",
    "why": "Respuesta ante el incremento de las incursiones y del patrullaje naval coordinado anglo-estadounidense en Bab el-Mandeb.",
    "who": "Ansar Allah (hutíes) y Fuerza Quds frente a Arabia Saudí y la coalición de seguridad marítima.",
@@ -41,7 +97,10 @@
    "watch": "Respuestas militares directas de Arabia Saudí y congelación de las conversaciones bilaterales de paz con Saná."
   },
   {
-   "id": 4, "level": "warn", "badge": "BANCOS CENTRALES", "timeframe": "3d",
+   "id": 5,
+   "level": "warn",
+   "badge": "BANCOS CENTRALES",
+   "timeframe": "3d",
    "title": "La FED y el BCE congelan los recortes de tipos",
    "what": "La Reserva Federal y el BCE comunicaron la pausa indefinida de su senda de flexibilización monetaria tras el repunte de los precios de la energía y de los fletes. El BCE interrumpió además sus previsiones de bajada para diciembre tras un IPP del +1,4% mensual en la eurozona.",
    "why": "La transmisión de costes energéticos al IPC subyacente muestra señales de desanclaje de las expectativas de inflación a 2 años.",
@@ -50,16 +109,22 @@
    "watch": "Las actas de la próxima reunión de la FED y los datos preliminares del PMI de servicios."
   },
   {
-   "id": 5, "level": "warn", "badge": "ESPAÑA/MED", "timeframe": "3d",
+   "id": 6,
+   "level": "warn",
+   "badge": "ESPAÑA/MED",
+   "timeframe": "3d",
    "title": "Marruecos amplía maniobras navales frente a Canarias",
    "what": "Las Fuerzas Armadas Reales de Marruecos desplegaron ejercicios navales no anunciados cerca de la ZEE de Canarias (dos patrulleras de la clase Bir Anzaran), mientras Argelia renegocia los contratos de gas con el sur de Europa.",
    "why": "Rabat busca consolidar de facto su soberanía sobre el espacio marítimo del Sáhara Occidental y sus recursos energéticos y minerales, aprovechando la debilidad política europea.",
    "who": "Rabat frente a Argel, España y la UE.",
    "impact": "Mayor fricción diplomática hispano-marroquí y encarecimiento de la prima de riesgo geopolítico en el Mediterráneo Occidental.",
-   "watch": "La delimitación oficial de la mediana marítima y las concesiones de exploración de tierras raras submarinas."
+   "watch": "La delimitación oficial de la mediana marítima y las licencias de exploración offshore."
   },
   {
-   "id": 6, "level": "warn", "badge": "POLÍTICA UE", "timeframe": "3d",
+   "id": 7,
+   "level": "warn",
+   "badge": "POLÍTICA UE",
+   "timeframe": "3d",
    "title": "Crisis de gobernabilidad y huelgas de transporte en Francia",
    "what": "Protestas masivas y bloqueos de puertos (Marsella, Le Havre) de sindicatos y movimientos estudiantiles contra los recortes de emergencia. La Asamblea Nacional debatió la primera moción de censura contra el Primer Ministro.",
    "why": "El gobierno intentó aprobar por decreto un paquete de consolidación fiscal de 40.000 millones de euros para contener la prima del bono francés (OAT) frente al Bund.",
@@ -68,7 +133,10 @@
    "watch": "La votación de la moción de censura en la Asamblea Nacional."
   },
   {
-   "id": 7, "level": "info", "badge": "COMERCIO", "timeframe": "7d",
+   "id": 8,
+   "level": "info",
+   "badge": "COMERCIO",
+   "timeframe": "7d",
    "title": "China formaliza el Corredor Transcaspiano sin participación rusa",
    "what": "Beijing firmó acuerdos marco con Kazajistán, Azerbaiyán y Georgia para cuadruplicar la carga del Corredor de Transporte Internacional Transcaspiano (TITR, Ruta Media).",
    "why": "China necesita rodear las sanciones occidentales sobre el corredor ruso del norte y asegurar sus exportaciones de vehículos eléctricos e industria pesada a Europa.",
@@ -77,68 +145,91 @@
    "watch": "Aranceles y controles aduaneros en los puertos kazajos del Caspio (Aktau y Kuryk)."
   },
   {
-   "id": 8, "level": "warn", "badge": "TECNOLOGÍA", "timeframe": "7d",
+   "id": 9,
+   "level": "warn",
+   "badge": "TECNOLOGÍA",
+   "timeframe": "7d",
    "title": "China restringe las exportaciones de galio, germanio y antimonio",
-   "what": "China endureció el régimen de licencias para exportar metales críticos esenciales para semiconductores militares y paneles solares.",
-   "why": "Respuesta a las nuevas restricciones estadounidenses sobre la venta de GPUs de IA de última generación y equipos de litografía UV a fábricas chinas.",
+   "what": "China endureció el régimen de licencias para exportar metales críticos esenciales para semiconductores militares y la cadena de suministro de IA.",
+   "why": "Respuesta directa a las nuevas restricciones estadounidenses sobre la venta de GPUs de IA de última generación y equipos de litografía UV.",
    "who": "MOFCOM (Ministerio de Comercio de China) frente a la industria tecnológica de EE. UU., Taiwán y Europa.",
-   "impact": "El galio sube un 38% interanual y se estrangula la cadena de suministro de defensa en EE. UU.",
-   "watch": "Las reservas estratégicas militares de EE. UU. y las decisiones de suministro desde Australia."
+   "impact": "El galio sube un 38% interanual y se estrangulan la cadena de suministro de defensa y la optoelectrónica.",
+   "watch": "Las reservas estratégicas militares de EE. UU. y los envíos alternativos desde Australia."
   },
   {
-   "id": 9, "level": "warn", "badge": "LOGÍSTICA", "timeframe": "7d",
+   "id": 10,
+   "level": "warn",
+   "badge": "LOGÍSTICA",
+   "timeframe": "7d",
    "title": "Prima de riesgo de 100.000 $ por viaje para capitanes en Ormuz",
    "what": "Las grandes navieras (A.P. Moller-Maersk, MSC) aceptaron abonar bonificaciones récord a capitanes y tripulaciones para mantener operativas las rutas por el Golfo Pérsico.",
    "why": "El rechazo masivo de las tripulaciones a navegar por zonas de hostilidad asimétrica amenazaba con paralizar el 18% del suministro mundial de petróleo marítimo.",
    "who": "Armadores globales, clubes P&I (aseguradoras) y sindicatos marítimos internacionales.",
    "impact": "El flete de los VLCC subió un 220% en tres semanas, repercutido íntegramente en el precio del crudo importado.",
    "watch": "El número de desvíos acumulados hacia la ruta del Cabo de Buena Esperanza."
-  },
-  {
-   "id": 10, "level": "info", "badge": "RECURSOS", "timeframe": "7d",
-   "title": "Rosatom asume el uranio de Imouraren, en Níger",
-   "what": "La junta militar de Niamey formalizó la transferencia de los yacimientos de uranio de Imouraren, hasta ahora operados por la francesa Orano, a la corporación estatal rusa Rosatom.",
-   "why": "Expulsión definitiva de la influencia energética francesa en el Sahel y consolidación del dominio ruso sobre el ciclo del combustible nuclear.",
-   "who": "Junta militar de Níger y Rosatom frente a Orano (sector nuclear francés) y la UE.",
-   "impact": "Vulnerabilidad estructural de la red nuclear francesa a medio plazo y subida del uranio U3O8 al contado (+8,5%).",
-   "watch": "Los contratos de suministro a largo plazo de las utilities nucleares europeas."
   }
  ],
  "bigIdea": {
   "tag": "La Idea Más Importante",
-  "title": "La erosión acelerada de los colchones de amortiguación del sistema económico global",
-  "text": "Durante décadas, el sistema geoeconómico operó respaldado por tres seguros estructurales: energía barata y excedentaria, rutas marítimas fluidas garantizadas por el orden naval multilateral y abundantes reservas fiscales y monetarias. Esta semana los tres han demostrado operar cerca de su límite. La liberación de reservas del G7 es un parche financiero que no arregla la falta de seguridad física en Ormuz y Bab el-Mandeb.",
+  "title": "La erosión acelerada de los colchones de amortiguación del sistema económico y tecnológico global",
+  "text": "Durante décadas, el sistema geoeconómico operó respaldado por tres seguros estructurales: energía barata y excedentaria, rutas marítimas fluidas garantizadas por el orden naval multilateral y capacidad de red eléctrica libre para crecer. Esta semana los tres operan cerca de su límite. La liberación de reservas del G7 es un parche financiero que no arregla la falta de seguridad física en Ormuz, mientras la carrera por la infraestructura de IA empieza a chocar con las necesidades energéticas de la economía real.",
   "points": [
-   { "icon": "bolt", "tone": "crit", "b": "Energía:", "t": "la capacidad excedentaria ya no absorbe los ataques a refinerías y redes eléctricas." },
-   { "icon": "ship", "tone": "warn", "b": "Rutas:", "t": "Ormuz y Bab el-Mandeb obligan a desvíos de 12–14 días y a primas de riesgo récord." },
-   { "icon": "vault", "tone": "warn", "b": "Reservas:", "t": "el colchón de la AIE queda en mínimos de 40 años tras liberar 100M de barriles." }
+   {
+    "icon": "bolt",
+    "tone": "crit",
+    "b": "Energía:",
+    "t": "la liberación de 100M de barriles deja el colchón de la AIE en mínimos de 40 años."
+   },
+   {
+    "icon": "ship",
+    "tone": "warn",
+    "b": "Rutas:",
+    "t": "Ormuz y Bab el-Mandeb obligan a desvíos de 12–14 días y a primas de riesgo récord."
+   },
+   {
+    "icon": "plug",
+    "tone": "warn",
+    "b": "Red eléctrica:",
+    "t": "la IA exige más de 50 GW adicionales hasta 2028 que las redes de EE. UU. y Europa no pueden suministrar."
+   }
   ]
  },
  "hypotheses": [
   {
-   "tone": "warn", "t": "1. Brent en la horquilla de 85–92 $/barril",
+   "tone": "warn",
+   "t": "1. Brent en la horquilla de 85–92 $/barril",
    "d": "La liberación de reservas de la AIE frenará la escalada, pero el mercado cotizará con una prima geopolítica estructural no inferior a 15 $/barril."
   },
   {
-   "tone": "info", "t": "2. Flujo de capital hacia activos refugio de corto plazo",
-   "d": "Mayor demanda de letras del Tesoro de EE. UU. a corto plazo y de dólar estadounidense."
+   "tone": "info",
+   "t": "2. Nuevos acuerdos entre tecnológicas y eléctricas",
+   "d": "Se anunciarán más acuerdos comerciales entre firmas tecnológicas y utilities para asegurar suministro nuclear exclusivo a los datacenters."
   },
   {
-   "tone": "crit", "t": "3. Más tensión en la periferia de la eurozona",
+   "tone": "crit",
+   "t": "3. Más tensión en la periferia de la eurozona",
    "d": "Las primas de riesgo se tensarán si la moción de censura en Francia acaba con la dimisión del Ejecutivo."
   }
  ],
  "stories": [
   {
-   "id": 42001, "level": "crit",
+   "id": 42001,
+   "level": "crit",
    "title": "Ataque a la refinería de Rabigh y crisis en el Estrecho de Ormuz",
-   "date": "14–17 Octubre 2026", "timeframe": "3d",
-   "countries": ["Arabia Saudí", "Irán", "Yemen", "EE.UU.", "G7"],
+   "date": "14–17 Octubre 2026",
+   "timeframe": "3d",
+   "countries": [
+    "Arabia Saudí",
+    "Irán",
+    "Yemen",
+    "EE.UU.",
+    "G7"
+   ],
    "importance": 5,
    "what": "Drones suicidas de largo alcance y misiles de crucero antibuque lanzados por las fuerzas hutíes alcanzaron los tanques de almacenamiento de la refinería de Rabigh, en el Mar Rojo saudí. A la vez, el tráfico comercial de petroleros por Ormuz cayó un 35% por la amenaza de minado y de lanchas rápidas no tripuladas. El G7 respondió con 100 millones de barriles de sus reservas estratégicas.",
    "why": "La estrategia defensiva de EE. UU. y sus aliados en el Mar Rojo no ha disuadido la producción de bajo coste de las milicias aliadas de Irán. La presión sobre los chokepoints energéticos es la mayor palanca para forzar un alto el fuego global y castigar a la economía occidental en un periodo preelectoral e inflacionario.",
    "whyNow": "Coincide con el inicio de la temporada de mayor demanda de calefacción en el hemisferio norte, cuando la elasticidad de la demanda es mínima y el impacto político del precio de los carburantes es máximo.",
-   "context": "Los grupos no estatales han pasado de tácticas guerrilleras a capacidades de denegación de área (A2/AD) propias de un Estado. La infraestructura petrolera saudí, pese a estar muy blindada, es vulnerable en sus puntos de acopio de la costa del Mar Rojo.",
+   "context": "Los grupos no estatales han pasado de tácticas guerrilleras a capacidades de denegación de área (A2/AD) propias de un Estado. La infraestructura petrolera saudí presenta vulnerabilidades estructurales en sus puntos de acopio de la costa del Mar Rojo.",
    "interests": "Hutíes e Irán: demostrar que pueden paralizar la economía energética mundial sin sufrir un contraataque terrestre masivo. Arabia Saudí: evitar una guerra abierta que destruya Vision 2030 sin perder ingresos fiscales. EE. UU. y G7: contener la inflación antes de que fuerce una recesión con tipos altos.",
    "winnersLosers": "Gana: productores no afectados por el conflicto (Brasil, Guyana, Noruega) y refinerías asiáticas independientes con crudo ruso con descuento. Pierde: importadores netos de energía (Europa, India, Japón) y consumidores occidentales.",
    "econImpact": "PIB global: -0,3% si el crudo supera los 100 $/barril durante más de un trimestre. Inflación: +0,8% en el IPC de las economías avanzadas. Comercio: +12–14 días de tránsito por el Cabo de Buena Esperanza. Deuda: mayores rendimientos exigidos a los importadores. Energía: el crudo físico se reorienta hacia compradores asiáticos que asumen riesgo de transporte.",
@@ -156,10 +247,18 @@
    "concept": "Efecto contagio de un chokepoint"
   },
   {
-   "id": 42002, "level": "warn",
+   "id": 42002,
+   "level": "warn",
    "title": "Ataque a la red energética de Járkov y fin del pacto térmico de invierno",
-   "date": "13 Octubre 2026", "timeframe": "7d",
-   "countries": ["Ucrania", "Rusia", "Alemania", "Polonia", "UE"],
+   "date": "13 Octubre 2026",
+   "timeframe": "7d",
+   "countries": [
+    "Ucrania",
+    "Rusia",
+    "Alemania",
+    "Polonia",
+    "UE"
+   ],
    "importance": 4,
    "what": "Las Fuerzas Armadas de Rusia atacaron con misiles de crucero Kh-101 y drones Geran-3 la infraestructura eléctrica de la región de Járkov y nodos de interconexión con la red europea. Destruyeron la generación local y provocaron cortes en cadena en el este y centro de Ucrania.",
    "why": "Moscú busca degradar la capacidad logística industrial y militar de Ucrania antes del invierno y desgastar la cohesión de la UE elevando el coste de sostener energéticamente al Estado ucraniano.",
@@ -183,42 +282,56 @@
  ],
  "actors": [
   {
-   "name": "Estados Unidos y G7 🇺🇸", "block": "EE.UU.",
+   "name": "Estados Unidos y G7 🇺🇸",
+   "block": "EE.UU.",
    "wants": "Contener la inflación a toda costa antes de que fuerce una recesión con tipos altos, y proteger la seguridad marítima.",
    "fears": "Una escalada simultánea en Oriente Medio y un nuevo repunte de los precios de la energía.",
-   "canDo": "Liberar reservas estratégicas (EE. UU. aporta 45M de barriles) y patrullar Bab el-Mandeb junto al Reino Unido.",
+   "canDo": "Liberar reservas estratégicas (EE. UU. aporta 45M de barriles), patrullar Bab el-Mandeb junto al Reino Unido y ampliar los controles de exportación de cómputo de IA.",
    "limits": "Reservas de la AIE en mínimos de 40 años e inventarios de munición avanzada agotados por los interceptores."
   },
   {
-   "name": "Rusia 🇷🇺", "block": "Rusia",
+   "name": "Big Tech (hyperscalers) 🏢",
+   "block": "EE.UU.",
+   "wants": "Desplegar infraestructura de IA sin quedar frenados por la red eléctrica.",
+   "fears": "Retrasos de los centros de datos por falta de energía y por el veto cruzado de silicio.",
+   "canDo": "Comprar la producción íntegra de centrales nucleares y financiar SMR junto a los clústeres de supercomputación.",
+   "limits": "Redes de alta tensión incapaces de absorber más de 50 GW adicionales hasta 2028 y licencias de exportación de chips."
+  },
+  {
+   "name": "Rusia 🇷🇺",
+   "block": "Rusia",
    "wants": "Doblegar la moral civil e industrial ucraniana y sobrecargar la economía europea con necesidades de ayuda.",
    "fears": "Perder peso en el comercio euroasiático por el Corredor Transcaspiano sin participación rusa.",
    "canDo": "Atacar la red eléctrica ucraniana con misiles hipersónicos y drones, y consolidar su control del uranio en el Sahel.",
    "limits": "Pierde el monopolio del tránsito euroasiático y afronta sanciones sobre su red ferroviaria."
   },
   {
-   "name": "Arabia Saudí 🇸🇦", "block": "Oriente Medio",
+   "name": "Arabia Saudí 🇸🇦",
+   "block": "Oriente Medio",
    "wants": "Evitar una guerra abierta que destruya Vision 2030 y mantener sus ingresos fiscales.",
    "fears": "Nuevos ataques a refinerías y puntos de acopio de la costa del Mar Rojo, ya alcanzados en Rabigh.",
    "canDo": "Responder militarmente a los hutíes y negociar con Sanaa.",
    "limits": "Infraestructura de almacenamiento vulnerable y negociaciones de paz con Sanaa en riesgo de congelarse."
   },
   {
-   "name": "Hutíes e Irán 🇾🇪", "block": "Oriente Medio",
+   "name": "Hutíes e Irán 🇾🇪",
+   "block": "Oriente Medio",
    "wants": "Demostrar que pueden paralizar la economía energética mundial sin recibir un contraataque terrestre masivo.",
    "fears": "Una respuesta militar directa saudí o de la coalición en su territorio.",
    "canDo": "Lanzar drones de largo alcance y vehículos marítimos no tripulados a bajo coste contra refinerías y buques.",
    "limits": "Dependen de tecnología iraní y de inteligencia de señal aportada por terceros."
   },
   {
-   "name": "China 🇨🇳", "block": "China",
+   "name": "China 🇨🇳",
+   "block": "China",
    "wants": "Diversificar sus corredores hacia Europa y asegurar sus exportaciones sin depender de chokepoints dominados por la US Navy.",
    "fears": "Interrupciones en Malaca y Bab el-Mandeb y nuevas restricciones tecnológicas y arancelarias de EE. UU.",
    "canDo": "Restringir licencias de galio, germanio y antimonio, que controla en gran parte, y financiar corredores terrestres.",
    "limits": "Necesita acceso a GPUs de IA y litografía occidentales, y el Corredor Transcaspiano depende de Kazajistán, Azerbaiyán y Georgia."
   },
   {
-   "name": "Unión Europea 🇪🇺", "block": "UE",
+   "name": "Unión Europea 🇪🇺",
+   "block": "UE",
    "wants": "Evitar un nuevo colapso energético invernal y sostener a Ucrania.",
    "fears": "Racionamiento eléctrico en países limítrofes y una crisis fiscal francesa que fragmente el bono soberano.",
    "canDo": "Suministrar electricidad de emergencia a Ucrania y organizar compras conjuntas de GNL spot.",
@@ -250,96 +363,253 @@
   {
    "name": "Reserva Federal (FED)",
    "d": "Tipo de referencia: 5,00% – 5,25% | Pausa indefinida de la flexibilización; el mercado descarta recortes en lo que resta de 2026",
-   "badge": "Higher for longer", "tone": "warn"
+   "badge": "Higher for longer",
+   "tone": "warn"
   },
   {
    "name": "Banco Central Europeo (BCE)",
    "d": "Facilidad de depósito: 3,25% | Previsión de bajada de diciembre interrumpida por el IPP (+1,4% mensual)",
-   "badge": "Riesgo inflación importada", "tone": "warn"
+   "badge": "Riesgo inflación importada",
+   "tone": "warn"
   },
   {
    "name": "Renta fija soberana",
    "d": "Treasury 10Y: 4,62% | Bund 10Y: 2,68% | Ventas masivas por miedo inflacionario",
-   "badge": "Condiciones más duras", "tone": "crit"
+   "badge": "Condiciones más duras",
+   "tone": "crit"
   }
  ],
  "assets": [
-  { "name": "S&P 500", "level": "-1,8% semanal", "trend": "Bajista", "cat": "Tipos altos por más tiempo y shock energético", "cons": "Caídas en aviación, logística y consumo no discrecional" },
-  { "name": "Stoxx 600", "level": "-2,4% semanal", "trend": "Bajista", "cat": "Gas TTF al alza y crisis política francesa", "cons": "Presión sobre las utilities expuestas al gas spot" },
-  { "name": "CAC 40", "level": "-2,1%", "trend": "Bajista", "cat": "Huelgas logísticas y recortes por decreto", "cons": "Riesgo de ampliación del spread OAT-Bund" },
-  { "name": "Nikkei", "level": "-0,9% semanal", "trend": "Bajista moderado", "cat": "Dependencia de la energía importada", "cons": "Encarecimiento de la factura energética" },
-  { "name": "Bono US 10Y", "level": "4,62%", "trend": "Alcista en rendimientos", "cat": "Pausa de la FED y miedo inflacionario", "cons": "Endurece el coste de financiación global" },
-  { "name": "Bund 10Y", "level": "2,68%", "trend": "Alcista en rendimientos", "cat": "Pausa del BCE e inflación importada", "cons": "Contracción del crédito corporativo en la eurozona" },
-  { "name": "EUR/USD", "level": "1,072", "trend": "Bajista para el euro", "cat": "Demanda de dólar como refugio", "cons": "Más caras las importaciones energéticas europeas" },
-  { "name": "Petróleo Brent", "level": "89,40 $/b (+3,8%)", "trend": "Volátil", "cat": "Tocó 98 $ y cerró bajo el anuncio de la AIE", "cons": "Prima geopolítica estructural" },
-  { "name": "Gas Natural TTF", "level": "44,50 €/MWh (+14%)", "trend": "Alcista", "cat": "Ataque a Járkov y demanda térmica invernal", "cons": "Sobrecoste en la electricidad europea" },
-  { "name": "Oro", "level": "2.680 $/oz (+2,1%)", "trend": "Alcista refugio", "cat": "Inflación e inestabilidad geopolítica simultáneas", "cons": "Cotiza cerca de sus máximos históricos" }
+  {
+   "name": "S&P 500",
+   "level": "-1,8% semanal",
+   "trend": "Bajista",
+   "cat": "Tipos altos por más tiempo y shock energético",
+   "cons": "Caídas en aviación, logística y consumo no discrecional"
+  },
+  {
+   "name": "Stoxx 600",
+   "level": "-2,4% semanal",
+   "trend": "Bajista",
+   "cat": "Gas TTF al alza y crisis política francesa",
+   "cons": "Presión sobre las utilities expuestas al gas spot"
+  },
+  {
+   "name": "CAC 40",
+   "level": "-2,1%",
+   "trend": "Bajista",
+   "cat": "Huelgas logísticas y recortes por decreto",
+   "cons": "Riesgo de ampliación del spread OAT-Bund"
+  },
+  {
+   "name": "Nikkei",
+   "level": "-0,9% semanal",
+   "trend": "Bajista moderado",
+   "cat": "Dependencia de la energía importada",
+   "cons": "Encarecimiento de la factura energética"
+  },
+  {
+   "name": "Bono US 10Y",
+   "level": "4,62%",
+   "trend": "Alcista en rendimientos",
+   "cat": "Pausa de la FED y miedo inflacionario",
+   "cons": "Endurece el coste de financiación global"
+  },
+  {
+   "name": "Bund 10Y",
+   "level": "2,68%",
+   "trend": "Alcista en rendimientos",
+   "cat": "Pausa del BCE e inflación importada",
+   "cons": "Contracción del crédito corporativo en la eurozona"
+  },
+  {
+   "name": "EUR/USD",
+   "level": "1,072",
+   "trend": "Bajista para el euro",
+   "cat": "Demanda de dólar como refugio",
+   "cons": "Más caras las importaciones energéticas europeas"
+  },
+  {
+   "name": "Petróleo Brent",
+   "level": "89,40 $/b (+3,8%)",
+   "trend": "Volátil",
+   "cat": "Tocó 98 $ y cerró bajo el anuncio de la AIE",
+   "cons": "Prima geopolítica estructural"
+  },
+  {
+   "name": "Gas Natural TTF",
+   "level": "44,50 €/MWh (+14%)",
+   "trend": "Alcista",
+   "cat": "Ataque a Járkov y demanda térmica invernal",
+   "cons": "Sobrecoste en la electricidad europea"
+  },
+  {
+   "name": "Oro",
+   "level": "2.680 $/oz (+2,1%)",
+   "trend": "Alcista refugio",
+   "cat": "Inflación e inestabilidad geopolítica simultáneas",
+   "cons": "Cotiza cerca de sus máximos históricos"
+  }
  ],
  "charts": {
   "markets": [
-   { "key": "brent", "label": "Brent", "unit": "$/b", "value": 89.4, "tone": "warn" },
-   { "key": "ttf", "label": "Gas TTF", "unit": "€/MWh", "value": 44.5, "tone": "warn" },
-   { "key": "us10y", "label": "Tesoro US 10Y", "unit": "%", "value": 4.62, "tone": "info" },
-   { "key": "bund10y", "label": "Bund 10Y", "unit": "%", "value": 2.68, "tone": "ok" }
+   {
+    "key": "brent",
+    "label": "Brent",
+    "unit": "$/b",
+    "value": 89.4,
+    "tone": "warn"
+   },
+   {
+    "key": "ttf",
+    "label": "Gas TTF",
+    "unit": "€/MWh",
+    "value": 44.5,
+    "tone": "warn"
+   },
+   {
+    "key": "us10y",
+    "label": "Tesoro US 10Y",
+    "unit": "%",
+    "value": 4.62,
+    "tone": "info"
+   },
+   {
+    "key": "bund10y",
+    "label": "Bund 10Y",
+    "unit": "%",
+    "value": 2.68,
+    "tone": "ok"
+   }
   ],
   "hormuz": {
-   "labels": ["Antes de la crisis", "Esta semana"],
+   "labels": [
+    "Antes de la crisis",
+    "Esta semana"
+   ],
    "series": [
-    { "key": "traffic", "label": "Tráfico de petroleros (base 100)", "axis": "y", "tone": "info", "data": [100, 65] },
-    { "key": "vlcc", "label": "Flete VLCC (base 100)", "axis": "y1", "tone": "crit", "data": [100, 320], "dash": true }
+    {
+     "key": "traffic",
+     "label": "Tráfico de petroleros (base 100)",
+     "axis": "y",
+     "tone": "info",
+     "data": [
+      100,
+      65
+     ]
+    },
+    {
+     "key": "vlcc",
+     "label": "Flete VLCC (base 100)",
+     "axis": "y1",
+     "tone": "crit",
+     "data": [
+      100,
+      320
+     ],
+     "dash": true
+    }
    ]
   }
  },
  "energyIntro": "Ormuz severamente alterado, Bab el-Mandeb en bloqueo parcial y desvíos de 12–14 días por el Cabo de Buena Esperanza tras los ataques hutíes y la liberación de 100M de barriles del G7.",
  "chokepoints": [
   {
-   "name": "Estrecho de Ormuz", "icon": "skull-crossbones", "status": "SEVERAMENTE ALTERADO", "tone": "crit", "pulse": true,
+   "name": "Estrecho de Ormuz",
+   "icon": "skull-crossbones",
+   "status": "SEVERAMENTE ALTERADO",
+   "tone": "crit",
+   "pulse": true,
    "d": "Ataques asimétricos y riesgo de minado. El tráfico de petroleros cayó un 35%, el flete VLCC sube un 220% y los capitanes cobran 100.000 $ por viaje. No hay ruta de desvío directa: los oleoductos saudíes son limitados."
   },
   {
-   "name": "Bab el-Mandeb / Mar Rojo", "icon": "ship", "status": "BLOQUEO PARCIAL", "tone": "crit", "pulse": true,
+   "name": "Bab el-Mandeb / Mar Rojo",
+   "icon": "ship",
+   "status": "BLOQUEO PARCIAL",
+   "tone": "crit",
+   "pulse": true,
    "d": "Drones y misiles hutíes. Los fletes de contenedores suben un 180% y el desvío por el Cabo de Buena Esperanza suma 12–14 días."
   },
   {
-   "name": "Canal de Suez", "icon": "anchor", "status": "TRÁNSITO MÍNIMO", "tone": "warn",
+   "name": "Canal de Suez",
+   "icon": "anchor",
+   "status": "TRÁNSITO MÍNIMO",
+   "tone": "warn",
    "d": "Caída de los ingresos por peaje y pérdida de divisas para Egipto; el tráfico se desvía por el Cabo de Buena Esperanza."
   },
   {
-   "name": "Canal de Panamá", "icon": "water", "status": "OPERATIVO RESTRINGIDO", "tone": "info",
+   "name": "Canal de Panamá",
+   "icon": "water",
+   "status": "OPERATIVO RESTRINGIDO",
+   "tone": "info",
    "d": "Limitado por los niveles hídricos de los lagos. Fletes estables a moderados; alternativa intermodal por EE. UU. o por Magallanes."
   },
   {
-   "name": "Paso del Noroeste (Ártico)", "icon": "snowflake", "status": "ESTACIONAL / BAJO USO", "tone": "info",
+   "name": "Paso del Noroeste (Ártico)",
+   "icon": "snowflake",
+   "status": "ESTACIONAL / BAJO USO",
+   "tone": "info",
    "d": "Tensiones OTAN-Rusia; sin impacto relevante en fletes esta semana."
   }
  ],
  "risks": [
   {
-   "risk": "Cierre total del Estrecho de Ormuz", "probL": "MEDIA", "impL": "MUY ALTO", "p": 45, "i": 95,
+   "risk": "Cierre total del Estrecho de Ormuz",
+   "probL": "MEDIA",
+   "impL": "MUY ALTO",
+   "p": 45,
+   "i": 95,
    "cat": "Hundimiento de un superpetrolero por un ataque no reclamado: crudo a 130 $/b y parálisis del transporte mundial",
    "exposed": "Logística, aviación y química; Brent, oro y bonos soberanos",
    "signal": "Primas de seguro de guerra superiores al 3%"
   },
   {
-   "risk": "Colapso de la red eléctrica ucraniana", "probL": "ALTA", "impL": "ALTO", "p": 70, "i": 75,
+   "risk": "Corte de red a datacenters por saturación eléctrica",
+   "probL": "ALTA",
+   "impL": "ALTO",
+   "p": 70,
+   "i": 75,
+   "cat": "Ola de calor o frío que obligue a racionar energía industrial: congelación del despliegue de modelos de IA",
+   "exposed": "Tecnología, telecomunicaciones y banca; Nasdaq, Nvidia y utilities",
+   "signal": "Precio spot del MWh industrial"
+  },
+  {
+   "risk": "Colapso de la red eléctrica ucraniana",
+   "probL": "ALTA",
+   "impL": "ALTO",
+   "p": 70,
+   "i": 75,
    "cat": "Ataque invernal sostenido con misiles hipersónicos: crisis de refugiados en Europa central",
    "exposed": "Utilities e infraestructuras; gas TTF y euro",
    "signal": "Niveles de almacenamiento de gas de la UE"
   },
   {
-   "risk": "Degradación fiscal severa en Francia", "probL": "MEDIA", "impL": "ALTO", "p": 45, "i": 75,
+   "risk": "Degradación fiscal severa en Francia",
+   "probL": "MEDIA",
+   "impL": "ALTO",
+   "p": 45,
+   "i": 75,
    "cat": "Moción de censura victoriosa y dimisión del Ejecutivo: fragmentación del bono soberano europeo",
    "exposed": "Banca y renta fija; CAC 40, OAT y spread OAT-Bund",
    "signal": "Rendimiento del bono francés a 10 años"
   },
   {
-   "risk": "Restricción total de tierras raras por China", "probL": "MEDIA", "impL": "MUY ALTO", "p": 45, "i": 95,
+   "risk": "Restricción total de tierras raras por China",
+   "probL": "MEDIA",
+   "impL": "MUY ALTO",
+   "p": 45,
+   "i": 95,
    "cat": "Nuevos aranceles de EE. UU. a vehículos eléctricos: parálisis de la cadena de montaje de componentes de defensa",
    "exposed": "Automoción, defensa y chips; acciones tecnológicas y cobre",
    "signal": "Comunicaciones del MOFCOM chino"
   },
   {
-   "risk": "Ataque a una gran plataforma del Golfo Pérsico", "probL": "BAJA (15%)", "impL": "MUY ALTO", "p": 15, "i": 90, "derived": true,
+   "risk": "Ataque a una gran plataforma del Golfo Pérsico",
+   "probL": "BAJA (15%)",
+   "impL": "MUY ALTO",
+   "p": 15,
+   "i": 90,
+   "derived": true,
    "cat": "Escenario negativo de la crisis de Ormuz: crudo por encima de 120 $ y estanflación en las economías avanzadas",
    "exposed": "Brent, economías importadoras de energía",
    "signal": "Tránsito diario de VLCC por Ormuz (datos AIS)"
@@ -347,34 +617,108 @@
  ],
  "hidden": [
   {
-   "title": "Inversiones ocultas en cables submarinos del Índico", "timeframe": "7d",
+   "title": "Inversiones ocultas en cables submarinos del Índico",
+   "timeframe": "7d",
    "desc": "Registros societarios filtrados en Mauricio revelan que fondos opacos vinculados a empresas estatales chinas tienen participaciones minoritarias con derecho de veto en tres consorcios de cables de fibra óptica en Maldivas y Sri Lanka. Podría permitir interceptar metadatos financieros e inteligencia naval entre el Golfo de Bengala y Diego García."
   },
   {
-   "title": "Chips de doble uso triangulados hacia Rusia", "timeframe": "7d",
+   "title": "Chips de doble uso triangulados hacia Rusia",
+   "timeframe": "7d",
    "desc": "Una investigación de OCCRP identificó más de 120 empresas en Kirguistán y Emiratos Árabes Unidos que importaron microchips de doble uso fabricados en la UE por 340 millones de dólares, con destino final no declarado en Rusia."
   },
   {
-   "title": "Litio de Bolivia para consorcios no occidentales", "timeframe": "7d",
+   "title": "Compra exclusiva de energía de reactores SMR por firmas de IA",
+   "timeframe": "7d",
+   "desc": "Riesgo de desplazamiento del suministro eléctrico industrial hacia supercomputación."
+  },
+  {
+   "title": "Litio de Bolivia para consorcios no occidentales",
+   "timeframe": "7d",
    "desc": "Firma de contratos de exploración con consorcios no occidentales. Riesgo de monopolio sobre el triángulo del litio antes de 2028."
   },
   {
-   "title": "Fondos del Golfo compran tierra agrícola en Rumanía y Bulgaria", "timeframe": "7d",
+   "title": "Fondos del Golfo compran tierra agrícola en Rumanía",
+   "timeframe": "7d",
    "desc": "Adquisición masiva de terrenos por fondos soberanos para asegurar cadenas de suministro alimentario ante posibles sequías."
   },
   {
-   "title": "Base naval china en Guinea Ecuatorial", "timeframe": "7d",
+   "title": "Base naval china en Guinea Ecuatorial",
+   "timeframe": "7d",
    "desc": "Acuerdo de bases entre China y Guinea Ecuatorial: primera presencia militar permanente china con acceso directo al Atlántico."
   },
   {
-   "title": "Reactores modulares surcoreanos para el Sudeste Asiático", "timeframe": "7d",
-   "desc": "Corea del Sur desarrolla pequeños reactores modulares (SMR) para exportación, un cambio de matriz energética regional que no depende de la red occidental."
+   "title": "Software de drones Edge AI de código abierto en África Subsahariana",
+   "timeframe": "7d",
+   "desc": "Estandarización de software de aviación no tripulada de código abierto utilizado por milicias."
+  },
+  {
+   "title": "Crisis de liquidez en aseguradoras de ciberriesgos en Europa",
+   "timeframe": "7d",
+   "desc": "Tensión de liquidez en aseguradoras de propiedad intelectual y ciberriesgos."
+  }
+ ],
+ "ai": [
+  {
+   "tag": "Energía y datacenters",
+   "level": "crit",
+   "timeframe": "7d",
+   "title": "El cuello de botella de la IA pasa del software a la energía y al silicio",
+   "summary": "La transición a modelos fundacionales y agentes autónomos ha desplazado el límite desde el software hacia la infraestructura física: energía y litografía avanzada. Los hyperscalers sufren retrasos por restricciones de red eléctrica.",
+   "why": "Se proyectan más de 50 GW adicionales de demanda continua para 2028 que las redes de EE. UU. y Europa no pueden suministrar."
+  },
+  {
+   "tag": "Energía y datacenters",
+   "level": "warn",
+   "timeframe": "3d",
+   "title": "Reactores nucleares dedicados a cómputo",
+   "summary": "Un consorcio de IA norteamericano firmó un acuerdo marco con una firma energética para reacondicionar tres reactores en parada técnica y dedicar su generación exclusivamente a cómputo de modelos de lenguaje. Los hyperscalers compran además la producción íntegra de centrales en funcionamiento y financian SMR junto a los clústeres.",
+   "why": "Desplaza suministro eléctrico industrial hacia supercomputación y convierte los SMR y las líneas HVDC en activos de seguridad nacional."
+  },
+  {
+   "tag": "Chips y control de exportaciones",
+   "level": "warn",
+   "timeframe": "hoy",
+   "title": "EE. UU. amplía los controles sobre clústeres de IA en Oriente Medio",
+   "summary": "Una orden ejecutiva extiende los controles de exportación a clústeres de IA que superen los 10²⁶ FLOPs de capacidad de entrenamiento distribuida en jurisdicciones de Oriente Medio. Comercio ya exige licencias por país no solo para chips avanzados (clase H100/B200), también para ancho de banda y cómputo en la nube; Emiratos y Arabia Saudí aceptan inspecciones en sus centros de datos.",
+   "why": "Inferencia del briefing: busca evitar que intermediarios revendan potencia de cómputo en la nube a empresas chinas sancionadas."
+  },
+  {
+   "tag": "Chips y control de exportaciones",
+   "level": "warn",
+   "timeframe": "7d",
+   "title": "EE. UU. restringe GPUs de IA y litografía UV; China responde con metales críticos",
+   "summary": "Washington endureció la venta de GPUs de IA de última generación y de equipos de litografía UV a fábricas chinas. Beijing replicó restringiendo las licencias de galio, germanio y antimonio, también esenciales para la cadena de suministro de IA.",
+   "why": "El galio sube un 38% interanual y se estrangula la cadena de suministro de defensa y optoelectrónica."
+  },
+  {
+   "tag": "IA militar",
+   "level": "warn",
+   "timeframe": "7d",
+   "title": "Enjambres autónomos con IA local (Edge AI) en el Mar Rojo y Ucrania",
+   "summary": "La guerra de drones ha pasado del control remoto a enjambres autónomos con IA local, que calculan trayectorias evasivas y seleccionan objetivos sin enlaces satelitales, lo que neutraliza el jamming GPS/RF.",
+   "why": "Hace ineficaces los sistemas tradicionales de guerra electrónica y refuerza la asimetría de costes frente a los interceptores."
+  },
+  {
+   "tag": "IA militar",
+   "level": "info",
+   "timeframe": "7d",
+   "title": "Modelos soberanos de defensa en la UE y la OTAN",
+   "summary": "La UE y la OTAN aceleran sistemas de IA entrenados en entornos cerrados y clasificados para interpretar imágenes satelitales en tiempo real, hacer ciberdefensa reactiva y gestionar defensa aérea de energía dirigida.",
+   "why": "Busca soberanía digital militar frente a la dependencia de proveedores externos."
+  },
+  {
+   "tag": "Chips y sanciones",
+   "level": "warn",
+   "timeframe": "7d",
+   "title": "Microchips de la UE triangulados hacia Rusia vía Kirguistán y Emiratos",
+   "summary": "Una investigación de OCCRP identificó más de 120 empresas en Kirguistán y Emiratos Árabes Unidos que importaron microchips de doble uso fabricados en la UE por 340 millones de dólares, con destino final no declarado en Rusia.",
+   "why": "Pone a prueba la eficacia de los controles de exportación de semiconductores."
   }
  ],
  "concepts": [
   {
    "name": "Efecto contagio de un chokepoint",
-   "def": "Un chokepoint es un angostamiento geográfico en una ruta de transporte estratégica, marítima o terrestre.",
+   "def": "Un chokepoint es un angostamiento geográfico en una ruta de transporte estratégica.",
    "whyExists": "Una parte desproporcionada del comercio y la energía mundial pasa por pocos estrechos; por Ormuz circula el 18% del suministro mundial de petróleo marítimo.",
    "howWorks": "Su bloqueo no solo frena el volumen físico: dispara en cascada seguro marítimo, flete, combustible, logística, IPC subyacente y, al final, una política monetaria restrictiva.",
    "example": "Ormuz y Bab el-Mandeb esta semana: primas de guerra récord, fletes VLCC +220% y bancos centrales que congelan los recortes.",
@@ -389,12 +733,12 @@
    "matters": "Agota los inventarios occidentales de munición avanzada y acelera la reconversión hacia armas de energía dirigida."
   },
   {
-   "name": "Agotamiento de las reservas estratégicas (SPR)",
-   "def": "Uso deliberado de los colchones públicos de materias primas, creados para emergencias extremas, para amortiguar picos de precios.",
-   "whyExists": "Los gobiernos las crean como seguro ante cortes de suministro físico.",
-   "howWorks": "Se liberan de forma coordinada para contener temporalmente el precio spot, pero los barriles no se recuperan de inmediato.",
-   "example": "La liberación coordinada de 100M de barriles por la AIE.",
-   "matters": "Reduce la capacidad de respuesta del G7 ante un eventual corte masivo y sostenido en el futuro."
+   "name": "Cuello de botella energético de la IA",
+   "whyExists": "Las redes de EE. UU. y Europa no pueden suministrar más de 50 GW adicionales de demanda continua proyectada para 2028.",
+   "howWorks": "Los hyperscalers compran la producción íntegra de centrales nucleares existentes y financian SMR junto a sus clústeres de supercomputación.",
+   "example": "Acuerdos PPA directos entre hyperscalers y centrales nucleares que derivan la energía a supercomputadores en lugar de a la red pública.",
+   "matters": "Un shock eléctrico puede congelar el despliegue de modelos de IA y desplaza suministro industrial hacia el cómputo.",
+   "def": "Límite físico en el que el escalado de modelos deja de depender del diseño de algoritmos o de la fabricación de transistores y pasa a depender de la capacidad de la red eléctrica para entregar gigavatios continuos de energía base libre de emisiones."
   }
  ]
 }
