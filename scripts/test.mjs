@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'intel-'));
 process.env.DATA_DIR = tmp;
-fs.cpSync(path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data'), tmp, { recursive: true });
+fs.mkdirSync(path.join(tmp, 'weeks')); // fixture propia: las pruebas no dependen de los datos publicados
+fs.copyFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', '2026-W42.json'), path.join(tmp, 'weeks', '2026-W42.json'));
 
 const L = await import('./lib.mjs');
 const R = await import('./run.mjs');
