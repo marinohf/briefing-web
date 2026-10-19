@@ -1,5 +1,5 @@
 // Uso: node scripts/run.mjs [auto|daily|weekly|periods]
-//   auto    = diario siempre; semanal los lunes; resúmenes de periodo el día 1 de mes/trimestre/año
+//   auto    = diario siempre; semanal si falta la última semana completa; resúmenes de periodo el día 1 de mes/trimestre/año
 //   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe
 import path from 'node:path';
 import fs from 'node:fs';
@@ -44,8 +44,8 @@ export async function weekly(date) {
     `Eres analista senior de inteligencia geopolítica y macroeconómica. Redacta en español el briefing de la semana ${w.key} (${w.start} a ${w.end}).\n` +
     `Devuelve UN objeto JSON con EXACTAMENTE las mismas claves y estructura que la PLANTILLA (la semana anterior), con contenido nuevo basado SOLO en las NOTICIAS de esta semana.\n` +
     `Reglas: top10 con 10 claves ordenadas por impacto (id 1..10); stories entre 4 y 8 con análisis causal completo y ids únicos que empiecen por ${w.week}00; ` +
-    `los valores level/tone solo pueden ser crit|warn|ok|info; risks con p (probabilidad %) e i (impacto 0-100) numéricos; ` +
-    `añade "ai": lista de 0 a 6 elementos {"tag","title","summary","why","level","sources"} con las noticias de IA más relevantes del campo ai de NOTICIAS ([] si no hay); las cifras numéricas deben salir de las noticias o de CIERRES; si no hay dato nuevo conserva el de la plantilla; ` +
+    `los valores level/tone solo pueden ser crit|warn|ok|info; timeframe solo puede ser hoy|3d|7d; risks con p (probabilidad %) e i (impacto 0-100) numéricos; ` +
+    `añade "ai": lista de 0 a 6 elementos {"tag","title","summary","why","level","timeframe","sources"} con las noticias de IA más relevantes del campo ai de NOTICIAS ([] si no hay); las cifras numéricas deben salir de las noticias o de CIERRES; si no hay dato nuevo conserva el de la plantilla; ` +
     `no inventes citas, cifras ni hechos. Añade "sources":[{"title","url"}] a cada elemento de top10 y de stories usando SOLO URLs de la lista FUENTES.\n\n` +
     `PLANTILLA:\n${JSON.stringify(template)}\n\nNOTICIAS:\n${JSON.stringify(days.map(d => ({ date: d.date, items: d.items, ai: d.ai })))}\n\n` +
     `CIERRES (último día con datos): ${JSON.stringify(lastMarkets)}\n\nFUENTES:\n${JSON.stringify([...allowed.values()])}`,
@@ -86,7 +86,7 @@ if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1])))
   const mode = process.argv[2] || 'auto';
   try {
     if (mode === 'auto' || mode === 'daily') await daily(today);
-    if (mode === 'weekly' || (mode === 'auto' && today.getUTCDay() === 1)) await weekly(today);
+    if (mode === 'weekly' || mode === 'auto') await weekly(today); // idempotente: cualquier día reintenta la última semana completa si falta
     if (mode === 'periods' || mode === 'auto') await periods(today);
     build();
   } catch (e) { console.error('[intel] ERROR:', e.message); process.exit(1); }
