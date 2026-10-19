@@ -1,42 +1,32 @@
-name: intel
-
+name: Actualizar inteligencia
 on:
   schedule:
     - cron: '30 5 * * *'
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Modo de ejecución'
-        required: false
-        default: 'daily'
-
+        description: 'auto, daily, weekly o periods'
+        default: auto
+        type: choice
+        options: [auto, daily, weekly, periods]
+permissions:
+  contents: write
+concurrency:
+  group: intel
+  cancel-in-progress: false
 jobs:
-  run-intel:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout del código
-        uses: actions/checkout@v4
-
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
-      - name: Ejecutar script de actualización
+          node-version: 22
+      - name: Pruebas
+        run: node scripts/test.mjs
+      - name: Generar contenido
+        run: node scripts/run.mjs ${{ inputs.mode || 'auto' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/run.mjs
-
-      - name: Guardar y publicar cambios en la base de datos
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/
-          git diff --staged --quiet || (git commit -m "auto: actualización de datos [skip ci]" && git push)
-- name: Ejecutar script de actualización
-  env:
-    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-    GEMINI_MODEL: gemini-3.8-flash
-  run: node scripts/run.mjs
+      - name: Publicar
+        run: git config user.name intel-bot && git config user.email intel-bot@users.noreply.github.com && git add data && (git diff --cached --quiet || (git commit -m "Actualizacion automatica" && git push))
