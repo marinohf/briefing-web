@@ -1,9 +1,11 @@
-// Uso: node scripts/run.mjs [auto|daily|weekly|periods]
+// Uso: node scripts/run.mjs [auto|daily|weekly|sunday|periods]
 //   auto    = diario siempre; semanal si falta la última semana completa; resúmenes de periodo el día 1 de mes/trimestre/año
+//   sunday  = cierra la semana ISO que termina el domingo en curso (o la última completa si hoy no es domingo)
 //   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe
 import path from 'node:path';
 import fs from 'node:fs';
 import { DATA, api, parseJSON, readJSON, writeJSON, listJSON, iso, addDays, parse, isoWeek, weekLabel, validateDay, validateWeek, validateEditorial, build } from './lib.mjs';
+import { exportMd } from './export-md.mjs';
 
 const FORCE = !!process.env.FORCE;
 const today = process.env.RUN_DATE ? parse(process.env.RUN_DATE) : parse(iso(new Date()));
@@ -87,7 +89,8 @@ if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1])))
   try {
     if (mode === 'auto' || mode === 'daily') await daily(today);
     if (mode === 'weekly' || mode === 'auto') await weekly(today); // idempotente: cualquier día reintenta la última semana completa si falta
+    if (mode === 'sunday') await weekly(addDays(today, 7 - today.getUTCDay())); // weekly() resume la semana de (fecha - 7): el domingo apunta a la actual; otro día, nunca a una semana incompleta
     if (mode === 'periods' || mode === 'auto') await periods(today);
-    build();
+    build(); exportMd();
   } catch (e) { console.error('[intel] ERROR:', e.message); process.exit(1); }
 }

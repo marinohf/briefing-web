@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'intel-'));
 process.env.DATA_DIR = tmp;
+process.env.CONTENT_DIR = path.join(tmp, 'content'); // el export de Markdown también va a la carpeta temporal
 fs.mkdirSync(path.join(tmp, 'weeks')); // fixture propia: las pruebas no dependen de los datos publicados
 fs.copyFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', '2026-W42.json'), path.join(tmp, 'weeks', '2026-W42.json'));
 
@@ -61,4 +62,16 @@ const dbText = fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'); L.build();
 assert.equal(fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'), dbText, 'build sin cambios no reescribe db.json');
 const db = L.readJSON(path.join(tmp, 'db.json'));
 assert.ok(db.weeks['2026-W42'] && db.weeks['2026-W43']); assert.equal(Object.keys(db.days).length, 7);
+// Exportación a Markdown
+const { exportMd } = await import('./export-md.mjs');
+exportMd();
+const idx = L.readJSON(path.join(tmp, 'content', 'index.json'));
+assert.equal(idx.diarios.length, 7); assert.equal(idx.diarios[0].date, '2026-10-25', 'diarios: el más reciente primero');
+assert.deepEqual(idx.semanales.map(s => s.slug), ['semana-43-2026', 'semana-42-2026']);
+const mdDay = fs.readFileSync(path.join(tmp, 'content', 'diarios', '2026-10-19.md'), 'utf8');
+assert.match(mdDay, /^---\ntipo: diario\nfecha: 2026-10-19\nsemana: 2026-W43\nnoticias: 1\n---\n/);
+assert.match(mdDay, /## Inteligencia artificial/); assert.match(mdDay, /\| Brent \| 99\.5 \|/);
+assert.match(fs.readFileSync(path.join(tmp, 'content', 'semanales', 'semana-43-2026.md'), 'utf8'), /^---\ntipo: semanal\nsemana: 2026-W43\n/);
+const stamp = fs.statSync(path.join(tmp, 'content', 'index.json')).mtimeMs; exportMd();
+assert.equal(fs.statSync(path.join(tmp, 'content', 'index.json')).mtimeMs, stamp, 'export sin cambios no reescribe nada');
 console.log('OK: todas las pruebas pasan');
