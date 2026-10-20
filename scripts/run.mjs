@@ -11,6 +11,9 @@ const FORCE = !!process.env.FORCE;
 const today = process.env.RUN_DATE ? parse(process.env.RUN_DATE) : parse(iso(new Date()));
 const log = (...a) => console.log('[intel]', ...a);
 
+// La IA a veces devuelve una noticia sin resumen: se descarta esa noticia en vez de tirar el día entero
+export const cleanAi = l => (Array.isArray(l) ? l : []).filter(a => [a?.title, a?.summary].every(s => typeof s === 'string' && s.trim()));
+
 /* ---------- 1. Diario: noticias de las últimas 24 h + cierres de mercado ---------- */
 export async function daily(date) {
   const f = path.join(DATA, 'days', iso(date) + '.json');
@@ -24,7 +27,8 @@ export async function daily(date) {
     `Convierte este texto en JSON con exactamente esta forma: {"items":[{"title":"","summary":"","region":"","importance":1,"source":""}],"ai":[{"tag":"","title":"","summary":"","why":""}],"markets":{"brent":null,"wti":null,"ttf":null,"us10y":null}}. ` +
     `importance es un entero de 1 a 5; los mercados son números o null si el texto no los da. Usa sólo lo que dice el texto, en español.\n\nTEXTO:\n${found.text}`,
     { json: true });
-  const day = validateDay(parseJSON(structured.text));
+  const raw = parseJSON(structured.text); raw.ai = cleanAi(raw.ai);
+  const day = validateDay(raw);
   const sources = [...new Map(found.sources.map(s => [s.url, s])).values()].slice(0, 30);
   writeJSON(f, { date: iso(date), generatedAt: new Date().toISOString(), items: day.items, ai: day.ai || [], markets: day.markets || {}, sources });
   log('día escrito', iso(date), day.items.length, 'noticias');
@@ -53,6 +57,7 @@ export async function weekly(date) {
     `CIERRES (último día con datos): ${JSON.stringify(lastMarkets)}\n\nFUENTES:\n${JSON.stringify([...allowed.values()])}`,
     { json: true });
   const wk = parseJSON(out.text);
+  wk.ai = cleanAi(wk.ai);
   wk.start = w.start; wk.label = weekLabel(w); // estos dos los fija el código, no el modelo
   const clean = list => (list || []).filter(s => allowed.has(s.url)); // se descartan URLs que el modelo no recibió
   [...(wk.top10 || []), ...(wk.stories || []), ...(wk.ai || [])].forEach(x => { x.sources = clean(x.sources); });

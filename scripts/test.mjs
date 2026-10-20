@@ -28,6 +28,10 @@ assert.throws(() => L.validateWeek(bad), /p\/\.i/);
 assert.throws(() => L.validateDay({ items: [{ title: 'x', summary: 'y', source: 'z', importance: 3 }], ai: [{ title: 'sin resumen' }] }), /ai/);
 assert.throws(() => L.validateDay({ items: [{ title: 'x', summary: 'y', source: 'z', importance: 9 }] }), /importance/);
 
+// Una noticia de IA sin resumen se descarta; las demás se conservan
+assert.deepEqual(R.cleanAi([{ title: 'a', summary: '' }, { title: 'b', summary: 'ok' }, null, { title: 'c' }]), [{ title: 'b', summary: 'ok' }]);
+assert.deepEqual(R.cleanAi(undefined), []);
+
 // Gemini simulado
 let calls = 0;
 L.api.call = async (prompt, opt) => {
