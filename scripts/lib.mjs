@@ -103,5 +103,7 @@ export function build() {
   listJSON(path.join(DATA, 'weeks')).forEach(f => { weeks[f.replace('.json', '')] = readJSON(path.join(DATA, 'weeks', f)); });
   listJSON(path.join(DATA, 'days')).slice(-21).forEach(f => { days[f.replace('.json', '')] = readJSON(path.join(DATA, 'days', f)); }); // shortcut: sólo los 21 días más recientes; el histórico queda en data/days
   const ef = path.join(DATA, 'editorial.json');
-  writeJSON(path.join(DATA, 'db.json'), { updated: new Date().toISOString(), weeks, days, editorial: fs.existsSync(ef) ? readJSON(ef) : { month: {}, quarter: {}, year: {} } });
+  const db = { weeks, days, editorial: fs.existsSync(ef) ? readJSON(ef) : { month: {}, quarter: {}, year: {} } }, out = path.join(DATA, 'db.json');
+  const { updated, ...old } = fs.existsSync(out) ? readJSON(out) : {};
+  if (JSON.stringify(old) !== JSON.stringify(db)) writeJSON(out, { updated: new Date().toISOString(), ...db }); // sin cambios de contenido no se reescribe: evita un commit diario vacío
 }
