@@ -46,26 +46,39 @@ La plataforma opera como un sistema vivo de inteligencia que actualiza semanalme
 
 ## 🛠️ Arquitectura Técnica
 
-La plataforma está construida bajo una filosofía de **cero dependencias pesadas de servidor (*Zero-Build / Lightweight Stack*)**, priorizando velocidad, rendimiento extremo y facilidad de despliegue:
+Zero-build: HTML + JavaScript vanilla, Tailwind (CDN) y Chart.js. La web es una SPA de un solo archivo (`index.html`) que lee datos estáticos.
 
-* **Frontend Structure**: HTML5 semántico + JavaScript Vanilla (ES6+) modular.
-* **Estilos & Layout**: [Tailwind CSS CDN](https://tailwindcss.com/) con configuraciones personalizadas de color y efectos *Glassmorphism*.
-* **Data Visualization**: [Chart.js](https://www.chartjs.org/) para gráficos interactivos de commodities, deuda y tráfico marítimo.
-* **Iconografía**: [FontAwesome 6](https://fontawesome.com/).
-* **Data Architecture**: Despliegue guiado por objetos de datos JSON desbalagados (`window.INTEL_DATABASE`), lo que permite añadir nuevas semanas/meses actualizando únicamente el archivo de datos sin tocar el código fuente de la interfaz.
+* **Fuente de verdad: JSON.** `data/days/AAAA-MM-DD.json` (diario) y `data/weeks/AAAA-Wnn.json` (semanal) conservan la estructura que necesitan los gráficos y los radares. `scripts/lib.mjs` los consolida en `data/db.json`.
+* **Vista legible: Markdown.** `scripts/export-md.mjs` genera `content/diarios/AAAA-MM-DD.md`, `content/semanales/semana-WW-AAAA.md` y `content/index.json` (la lista de días que consulta la web). Son una copia en texto del contenido: no se editan a mano y se regeneran. Cada diario enlaza a su `.md` desde la pestaña Fuentes. El archivo `.nojekyll` de la raíz evita que GitHub Pages los convierta en HTML.
+* **Dos modos** (selector Diario / Semanal en el raíl izquierdo):
+  * **Diario** (landing): el día más reciente, dibujado desde `data/days/AAAA-MM-DD.json`. Pestañas: Resumen del día (noticia principal, titulares por importancia, cierres de mercado con variación, IA), Noticias (filtros por importancia y región), Mercados, Inteligencia artificial, Fuentes e Histórico (filtro por fechas). Flechas y selector de fecha para moverse entre días.
+  * **Semanal**: el dashboard completo de la semana, con mes, trimestre y año consolidados.
+* **Rutas por hash:** `#/` (último diario), `#/diario/AAAA-MM-DD[/noticias|mercados|ia|fuentes|historico]`, `#/semanal[/pestaña]`.
 
----
+## 🤖 Automatización
+
+| Workflow | Cuándo | Qué hace |
+| --- | --- | --- |
+| `intel.yml` | Cada día, 05:30 UTC | Diario con Gemini, semana anterior si falta, resúmenes mensual/trimestral/anual el día 1; exporta Markdown |
+| `resumen-semanal.yml` | Domingos, 12:00 UTC | Sintetiza la semana ISO que termina ese domingo y exporta Markdown |
+
+Ambos comparten `concurrency: intel`, usan el secret `GEMINI_API_KEY` y publican con commit y push (`data/` y `content/`).
+
+```bash
+node scripts/test.mjs                    # pruebas sin red ni clave
+node scripts/export-md.mjs               # regenera content/ desde data/
+GEMINI_API_KEY=... RUN_DATE=2026-10-25 FORCE=1 node scripts/run.mjs sunday   # semana real
+npx serve .                              # web en local: http://localhost:3000
+gh workflow run resumen-semanal.yml -f force=true                            # en GitHub
+```
 
 ## 📂 Estructura del Repositorio
 
 ```bash
 .
-├── index.html               # Aplicación web completa y dashboard ejecutable
-├── assets/
-│   ├── js/
-│   │   ├── app.js           # Lógica de renderizado, modales, pestañas y filtros
-│   │   └── data-week-X.js   # Base de datos JSON de cada briefing semanal
-│   └── css/
-│       └── custom.css       # Transiciones, scrollbars y estilos personalizados
-├── docs/                    # Plantillas de informes y metodología analítica
-└── README.md                # Documentación del proyecto
+├── index.html                     # SPA: dashboard, Diarios y Semanales
+├── data/                          # fuente de verdad (JSON) y db.json consolidado
+├── content/                       # vista Markdown generada + index.json
+├── scripts/                       # run.mjs, lib.mjs, export-md.mjs, test.mjs
+└── .github/workflows/             # intel.yml, resumen-semanal.yml
+```
