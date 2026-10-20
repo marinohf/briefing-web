@@ -48,6 +48,7 @@ assert.deepEqual(w43.ai[0].sources.map(s => s.url), ['https://example.com/a'], '
 assert.equal(L.readJSON(path.join(tmp, 'days', '2026-10-19.json')).ai.length, 1);
 assert.deepEqual(w43.top10[0].sources.map(s => s.url), ['https://example.com/a'], 'descarta URLs que el modelo no recibió');
 
+const n2 = calls; await R.weekly(L.parse('2026-10-27')); assert.equal(calls, n2, 'weekly en martes: la semana ya existe, no llama a Gemini');
 await R.weekly(L.parse('2026-11-09')); // semana sin datos diarios: no se genera nada
 assert.ok(!fs.existsSync(path.join(tmp, 'weeks', '2026-W45.json')));
 
@@ -56,6 +57,8 @@ const ed = L.readJSON(path.join(tmp, 'editorial.json'));
 assert.ok(ed.month['2026-10'] && ed.quarter['2026-Q4'] && ed.year['2026']);
 
 L.build();
+const dbText = fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'); L.build();
+assert.equal(fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'), dbText, 'build sin cambios no reescribe db.json');
 const db = L.readJSON(path.join(tmp, 'db.json'));
 assert.ok(db.weeks['2026-W42'] && db.weeks['2026-W43']); assert.equal(Object.keys(db.days).length, 7);
 console.log('OK: todas las pruebas pasan');
