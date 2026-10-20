@@ -1,0 +1,32 @@
+name: Actualizar inteligencia
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'auto, daily, weekly o periods'
+        default: auto
+        type: choice
+        options: [auto, daily, weekly, periods]
+permissions:
+  contents: write
+concurrency:
+  group: intel
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pruebas
+        run: node scripts/test.mjs
+      - name: Generar contenido
+        run: node scripts/run.mjs ${{ inputs.mode || 'auto' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Publicar
+        run: git config user.name intel-bot && git config user.email intel-bot@users.noreply.github.com && git add data content &&(git diff --cached --quiet || (git commit -m "Actualizacion automatica" && git push))
