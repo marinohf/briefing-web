@@ -1,0 +1,37 @@
+name: Resumen semanal
+on:
+  schedule:
+    - cron: '0 12 * * 0' # domingos 12:00 UTC
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Regenerar aunque la semana ya exista'
+        type: boolean
+        default: false
+      fecha:
+        description: 'Simular otra fecha (AAAA-MM-DD, opcional)'
+        type: string
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: intel # el mismo grupo que intel.yml: nunca corren a la vez
+  cancel-in-progress: false
+jobs:
+  semanal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pruebas
+        run: node scripts/test.mjs
+      - name: Sintetizar la semana y exportar Markdown
+        run: node scripts/run.mjs sunday
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FORCE: ${{ inputs.force && '1' || '' }}
+          RUN_DATE: ${{ inputs.fecha }}
+      - name: Publicar
+        run: git config user.name intel-bot && git config user.email intel-bot@users.noreply.github.com && git add data content && (git diff --cached --quiet || (git commit -m "Resumen semanal" && git pull --rebase && git push))
