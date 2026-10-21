@@ -70,6 +70,12 @@ h1,h2,h3{text-wrap:balance}
 .md a{text-decoration:underline}.md em{color:rgb(var(--muted))}.md blockquote{border-left:3px solid rgb(var(--line)/.4);padding-left:1rem;color:rgb(var(--muted))}
 .md table{width:100%;font-size:.875rem;border-collapse:collapse}.md th,.md td{text-align:left;padding:.5rem .75rem;border-bottom:1px solid rgb(var(--line)/.2)}
 
+/* Inicio = pantalla limpia: sin raíl ni buscador, sólo la portada y sus botones */
+body[data-mode=inicio] #rail,body[data-mode=inicio] #searchWrap{display:none}
+body[data-mode=inicio] #shell{display:block}
+#splash.out{opacity:0;pointer-events:none}
+#splash[hidden]{display:none}
+
 /* Hover sólo en dispositivos con puntero preciso */
 @media (hover:hover) and (pointer:fine){
   .lift:hover{transform:translateY(-2px);border-color:rgb(var(--glow,var(--line))/.65)}
@@ -87,6 +93,9 @@ h1,h2,h3{text-wrap:balance}
   .row,.navbtn,.pillbtn{transition:background-color .15s ease,color .15s ease,box-shadow .15s ease}
   .press:active{transform:scale(.97);transition:transform .1s ease-out}
   .view{animation:fade .18s ease-out}
+  #splash{transition:opacity .7s var(--out)}
+  #splash h1,#splash p{animation:rise .8s var(--out) both}
+  #splash p{animation-delay:.25s}
   @keyframes fade{from{opacity:0}}
   .dot-live::after{animation:live 1.8s var(--out) infinite}
   @keyframes live{70%,100%{transform:scale(2.6);opacity:0}}
@@ -102,16 +111,22 @@ h1,h2,h3{text-wrap:balance}
 }
 </style>
 </head>
-<body class="boot min-h-screen">
+<body class="boot min-h-screen" data-mode="inicio">
+
+<div id="splash" class="fixed inset-0 z-[60] bg-bg flex flex-col items-center justify-center text-center px-6 cursor-pointer" role="presentation" hidden>
+  <h1 class="serif text-7xl md:text-9xl font-semibold tracking-tight leading-none">Intel</h1>
+  <p class="text-muted mt-5 text-lg md:text-xl">Briefing geopolítico y macroeconómico</p>
+  <p id="splashDate" class="text-muted/70 mt-10 text-sm"></p>
+</div>
 
 <div class="ticker border-b border-line/20 bg-surface/90 h-9 flex items-center text-xs" role="region" aria-label="Ticker de mercados y chokepoints">
   <div class="ticker-track" id="tickerTrack"></div>
 </div>
 
-<div class="lg:grid lg:grid-cols-[17.5rem_minmax(0,1fr)]">
+<div id="shell" class="lg:grid lg:grid-cols-[17.5rem_minmax(0,1fr)]">
 
   <!-- RAÍL: marca, periodo, secciones -->
-  <aside class="lg:sticky lg:top-0 lg:h-[calc(100vh-2.25rem)] lg:self-start lg:overflow-y-auto border-b lg:border-b-0 lg:border-r border-line/20 bg-surface/60 flex flex-col">
+  <aside id="rail" class="lg:sticky lg:top-0 lg:h-[calc(100vh-2.25rem)] lg:self-start lg:overflow-y-auto border-b lg:border-b-0 lg:border-r border-line/20 bg-surface/60 flex flex-col">
     <div class="px-5 pt-6 pb-4">
       <h1 class="serif text-4xl font-semibold tracking-tight leading-none">Intel</h1>
       <p class="text-xs text-muted mt-2 max-w-[18ch]">Briefing geopolítico y macroeconómico</p>
@@ -130,7 +145,7 @@ h1,h2,h3{text-wrap:balance}
   <div class="min-w-0 flex flex-col min-h-[calc(100vh-2.25rem)]">
     <!-- BARRA DE COMANDO -->
     <div class="lg:sticky lg:top-0 z-30 glass border-b border-line/20 px-4 sm:px-6 lg:px-10 py-3 flex flex-wrap items-center gap-3 text-sm">
-      <div class="relative flex-1 min-w-[12rem] max-w-md">
+      <div id="searchWrap" class="relative flex-1 min-w-[12rem] max-w-md">
         <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted text-xs" aria-hidden="true"></i>
         <input id="search" type="search" placeholder="Buscar país, activo o evento" aria-label="Buscar" class="w-full bg-surface2/80 text-ink placeholder:text-muted border border-line/20 rounded-md pl-8 pr-3 py-2">
       </div>
@@ -269,6 +284,7 @@ function boot(DB, IDX) {
     const D = S.mode === 'diario', I = S.mode === 'inicio', W = S.tab.startsWith('w-'), tk = D || I ? dTicker() : v.ticker;
     const items = tk.map(t => { const tone = t.tone || 'info'; return `<span class="inline-flex items-center gap-2 px-5 whitespace-nowrap"><span class="text-muted">${E(t.k)}</span><span class="font-semibold ${t.tone ? TXT[tone] : 'text-ink'}">${E(sc(t.v))}</span>${t.pulse ? dot(tone, true) : ''}</span>`; }).join('');
     $('tickerTrack').innerHTML = items + `<span class="contents" aria-hidden="true">${items}</span>`;
+    document.body.dataset.mode = S.mode;
     $('modeBtns').innerHTML = [['inicio', 'Inicio'], ['diario', 'Diario'], ['semanal', 'Semanal']].map(([k, l]) => `<button data-act="mode" data-v="${k}" aria-pressed="${S.mode === k}" class="pillbtn press py-2 rounded ${S.mode === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
     $('weekCtl').hidden = D || I || W; $('dayCtl').hidden = !D; $('tfBtns').style.display = D || I || W ? 'none' : ''; // el horizonte sólo tiene sentido en el semanal
     if (D) {
@@ -549,6 +565,7 @@ function boot(DB, IDX) {
   const dt = d => new Date(d + 'T00:00:00Z');
   const wday = d => cap(dt(d).toLocaleDateString('es', { weekday: 'long', timeZone: 'UTC' }));
   const ldate = d => dt(d).toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const iso0 = () => new Date().toISOString().slice(0, 10);
   const fmtD = d => `${wday(d)}, ${ldate(d)}`;
   // El índice manda; sin content/index.json se usan los días que trae db.json
   const DATES = (IDX.diarios.length ? IDX.diarios.map(x => x.date) : Object.keys(DB.days || {})).sort().reverse();
@@ -697,7 +714,7 @@ function boot(DB, IDX) {
     }
     const days = INI.days, seen = new Set(), items = byImp(days.flatMap(d => d.items.map(i => ({ ...i, _d: d.date })))).filter(i => !seen.has(i.title) && seen.add(i.title)),
       sai = new Set(), ai = days.flatMap(d => d.ai || []).filter(a => !sai.has(a.title) && sai.add(a.title)),
-      list = items.filter(hit), lead = list[0], rest = list.slice(1, 7), crit = items.filter(i => tierOf(i.importance) === 0).length, d0 = days[0];
+      list = items, lead = list[0], rest = list.slice(1, 7), crit = items.filter(i => tierOf(i.importance) === 0).length, d0 = days[0];
     const multi = days.length > 1, row = i => newsRow(i).replace('<span class="text-xs text-muted">', `<span class="text-xs text-muted">${multi ? E(shortD(i._d)) + ' · ' : ''}`);
     const sub = INI.fresh ? `${items.length} noticias nuevas en ${days.length} ${days.length === 1 ? 'briefing' : 'briefings'} desde tu última visita (${ldate(PREV)}).` : PREV ? 'No hay novedades desde tu última visita: te dejamos el último briefing.' : 'Este es el último briefing. La próxima vez verás aquí lo que haya cambiado desde que entraste.';
     const figs = MK.map(([k, l, u, dec]) => { const v = d0.markets?.[k]; return fig(l, v != null ? nf(v, dec) : '—', v != null ? [u, delta(k, dec)].filter(Boolean).join(' · ') : 'No disponible'); }).join('');
@@ -798,6 +815,12 @@ function boot(DB, IDX) {
   });
   if (DB.updated) $('stamp').textContent = 'Actualizado ' + new Date(DB.updated).toLocaleString('es', { dateStyle: 'medium', timeStyle: 'short' });
   route(); // pinta según el hash (también enlaces directos a un diario)
+  // Pantalla de bienvenida: sale cada vez que se abre la web, se funde sola a los 2,6 s (o al tocarla)
+  const sp = $('splash');
+  $('splashDate').textContent = fmtD(DATES[0] || iso0());
+  sp.hidden = false;
+  const done = () => { if (sp.hidden) return; sp.classList.add('out'); setTimeout(() => { sp.hidden = true; }, 750); };
+  sp.addEventListener('click', done); document.addEventListener('keydown', done, { once: true }); setTimeout(done, 2600);
   setTimeout(() => document.body.classList.remove('boot'), 1200); // la secuencia de entrada sólo corre una vez
 }
 const getJSON = u => fetch(u, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
