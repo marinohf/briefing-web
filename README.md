@@ -49,34 +49,41 @@ La plataforma opera como un sistema vivo de inteligencia que actualiza semanalme
 Zero-build: HTML + JavaScript vanilla, Tailwind (CDN) y Chart.js. La web es una SPA de un solo archivo (`index.html`) que lee datos estáticos.
 
 * **Fuente de verdad: JSON.** `data/days/AAAA-MM-DD.json` (diario) y `data/weeks/AAAA-Wnn.json` (semanal) conservan la estructura que necesitan los gráficos y los radares. `scripts/lib.mjs` los consolida en `data/db.json`.
-* **Vista legible: Markdown.** `scripts/export-md.mjs` genera `content/diarios/AAAA-MM-DD.md`, `content/semanales/semana-WW-AAAA.md` y `content/index.json` (la lista de días que consulta la web). Son una copia en texto del contenido: no se editan a mano y se regeneran. Cada diario enlaza a su `.md` desde la pestaña Fuentes. El archivo `.nojekyll` de la raíz evita que GitHub Pages los convierta en HTML.
+* **Vista legible: Markdown.** `scripts/export-md.mjs` genera `content/diarios/AAAA-MM-DD.md` y `content/index.json` (la lista de días y de semanales que consulta la web). Los diarios son una copia en texto: no se editan a mano y se regeneran. Los semanales (`content/semanales/semana-WW-AAAA.md`) los sube el autor a mano: el script sólo los indexa, nunca los toca. Cada diario enlaza a su `.md` desde la pestaña Fuentes. El archivo `.nojekyll` de la raíz evita que GitHub Pages los convierta en HTML.
 * **Dos modos** (selector Diario / Semanal en el raíl izquierdo):
   * **Diario** (landing): el día más reciente, dibujado desde `data/days/AAAA-MM-DD.json`. Pestañas: Resumen del día (noticia principal, titulares por importancia, cierres de mercado con variación, IA), Noticias (filtros por importancia y región), Mercados, Inteligencia artificial, Fuentes e Histórico (filtro por fechas). Flechas y selector de fecha para moverse entre días.
-  * **Semanal**: el dashboard completo de la semana, con mes, trimestre y año consolidados.
-* **Rutas por hash:** `#/` (último diario), `#/diario/AAAA-MM-DD[/noticias|mercados|ia|fuentes|historico]`, `#/semanal[/pestaña]`.
+  * **Semanal**: «Briefing semanal» (el `.md` que subes, con selector de semana anterior/siguiente), «Histórico semanal» y, debajo, el panel de datos de siempre (resumen ejecutivo, matriz geopolítica, mercados… con mes, trimestre y año). El panel sólo se actualiza si se genera a mano `node scripts/run.mjs weekly`.
+* **Rutas por hash:** `#/` (último diario), `#/diario/AAAA-MM-DD[/noticias|mercados|ia|fuentes|historico]`, `#/semanal` (último semanal subido), `#/semanal/informe/semana-WW-AAAA`, `#/semanal/historico`, `#/semanal/exec|stories|…` (panel de datos).
 
 ## 🤖 Automatización
 
 | Workflow | Cuándo | Qué hace |
 | --- | --- | --- |
-| `intel.yml` | Cada día, 05:30 UTC | Diario con Gemini, semana anterior si falta, resúmenes mensual/trimestral/anual el día 1; exporta Markdown |
-| `resumen-semanal.yml` | Domingos, 12:00 UTC | Sintetiza la semana ISO que termina ese domingo y exporta Markdown |
+| `intel.yml` | Cada día, 05:30 UTC | Diario con Gemini, resúmenes mensual/trimestral/anual el día 1 (si hay semanas en `data/weeks`); exporta Markdown |
+| `resumen-semanal.yml` | Al subir algo a `content/semanales/` | Actualiza `content/index.json` para que la web muestre el nuevo semanal. No usa Gemini |
 
-Ambos comparten `concurrency: intel`, usan el secret `GEMINI_API_KEY` y publican con commit y push (`data/` y `content/`).
+Ambos comparten `concurrency: intel` y publican con commit y push.
+
+### Subir el semanal (cada domingo)
+
+1. Escribe el briefing en Markdown (hay una plantilla en `plantilla-semanal.md`).
+2. Nómbralo `semana-WW-AAAA.md` (semana ISO, dos cifras: `semana-43-2026.md`).
+3. En GitHub: carpeta `content/semanales` → *Add file → Upload files* → *Commit changes*.
+4. En 1-2 minutos la web lo muestra (y aparece en «Histórico semanal»). Subir otro con el mismo nombre lo sustituye.
 
 ```bash
 node scripts/test.mjs                    # pruebas sin red ni clave
 node scripts/export-md.mjs               # regenera content/ desde data/
-GEMINI_API_KEY=... RUN_DATE=2026-10-25 FORCE=1 node scripts/run.mjs sunday   # semana real
+GEMINI_API_KEY=... node scripts/run.mjs weekly   # opcional: panel de datos semanal con Gemini
 npx serve .                              # web en local: http://localhost:3000
-gh workflow run resumen-semanal.yml -f force=true                            # en GitHub
+gh workflow run resumen-semanal.yml                                          # reindexar semanales en GitHub
 ```
 
 ## 📂 Estructura del Repositorio
 
 ```bash
 .
-├── index.html                     # SPA: dashboard, Diarios y Semanales
+├── index.html                     # SPA: modo Diario y modo Semanal
 ├── data/                          # fuente de verdad (JSON) y db.json consolidado
 ├── content/                       # vista Markdown generada + index.json
 ├── scripts/                       # run.mjs, lib.mjs, export-md.mjs, test.mjs

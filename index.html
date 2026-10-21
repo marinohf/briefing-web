@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <script src="https://cdn.tailwindcss.com/3.4.1"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 <script>
 tailwind.config = {
   theme: { extend: {
@@ -59,6 +61,14 @@ h1,h2,h3{text-wrap:balance}
 ::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:rgb(var(--muted)/.35);border-radius:4px}
 :focus-visible{outline:2px solid rgb(var(--amber));outline-offset:2px}
 .ticker{overflow-x:auto;scrollbar-width:none}
+
+/* Markdown del semanal (Tailwind no trae estilos tipográficos) */
+.md h1{font:600 1.875rem/1.1 Newsreader,Georgia,serif;margin-bottom:1rem}
+.md h2{font:500 1.5rem/1.2 Newsreader,Georgia,serif;margin:2rem 0 .75rem;padding-top:1rem;border-top:1px solid rgb(var(--line)/.25)}
+.md h3{font-weight:600;margin:1.25rem 0 .25rem}
+.md p,.md li{line-height:1.65;margin:.5rem 0}.md ul{list-style:disc;padding-left:1.25rem}.md ol{list-style:decimal;padding-left:1.25rem}
+.md a{text-decoration:underline}.md em{color:rgb(var(--muted))}.md blockquote{border-left:3px solid rgb(var(--line)/.4);padding-left:1rem;color:rgb(var(--muted))}
+.md table{width:100%;font-size:.875rem;border-collapse:collapse}.md th,.md td{text-align:left;padding:.5rem .75rem;border-bottom:1px solid rgb(var(--line)/.2)}
 
 /* Hover sólo en dispositivos con puntero preciso */
 @media (hover:hover) and (pointer:fine){
@@ -138,6 +148,8 @@ h1,h2,h3{text-wrap:balance}
       <section id="view-ai" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-master" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-archive" role="tabpanel" class="view space-y-8" hidden></section>
+      <section id="view-w-md" role="tabpanel" class="view space-y-8" hidden></section>
+      <section id="view-w-hist" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-d-resumen" role="tabpanel" class="view space-y-12" hidden></section>
       <section id="view-d-noticias" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-d-mercados" role="tabpanel" class="view space-y-8" hidden></section>
@@ -198,6 +210,7 @@ function boot(DB, IDX) {
     ['markets', 'chart-line', 'Macro y mercados'], ['energy', 'gas-pump', 'Energía y chokepoints'], ['intel', 'user-secret', 'Inteligencia y riesgos'],
     ['ai', 'microchip', 'Inteligencia artificial'], ['master', 'graduation-cap', 'Masterclass'], ['archive', 'calendar-days', 'Archivo e informes']
   ];
+  const WTABS = [['w-md', 'file-lines', 'Briefing semanal'], ['w-hist', 'calendar-days', 'Histórico semanal']];
   const DTABS = [
     ['d-resumen', 'bolt', 'Resumen del día'], ['d-noticias', 'newspaper', 'Noticias'], ['d-mercados', 'chart-line', 'Mercados'],
     ['d-ia', 'microchip', 'Inteligencia artificial'], ['d-fuentes', 'link', 'Fuentes'], ['d-historico', 'calendar-days', 'Histórico']
@@ -205,7 +218,7 @@ function boot(DB, IDX) {
   const LEVELS = [['week', 'Semana'], ['month', 'Mes'], ['quarter', 'Trim.'], ['year', 'Año']];
   const TFS = [['all', 'Todo'], ['hoy', 'Hoy'], ['3d', '3 días'], ['7d', '7 días']];
 
-  const S = { mode: 'diario', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'd-resumen', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
+  const S = { wk: null, mode: 'diario', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'd-resumen', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
 
   /* ---------- Modelo temporal ---------- */
   const WEEKS = Object.entries(DB.weeks).map(([k, w]) => ({ k, ...w })).sort((a, b) => b.start.localeCompare(a.start) || b.k.localeCompare(a.k));
@@ -241,6 +254,7 @@ function boot(DB, IDX) {
   function render() {
     const a = document.activeElement, d = a && a.dataset, sel = d && d.act ? `[data-act="${d.act}"]` + (d.v != null ? `[data-v="${CSS.escape(d.v)}"]` : '') : null; // el foco sobrevive al repintado
     if (S.mode === 'diario') { renderChrome(); renderDaily(); }
+    else if (S.tab.startsWith('w-')) { renderChrome(viewOf()); renderWeekly(); }
     else {
       const v = viewOf();
       renderChrome(v); renderExec(v); renderStories(v); renderActors(v); renderMarkets(v);
@@ -250,11 +264,11 @@ function boot(DB, IDX) {
   }
 
   function renderChrome(v) {
-    const D = S.mode === 'diario', tk = D ? dTicker() : v.ticker;
+    const D = S.mode === 'diario', W = S.tab.startsWith('w-'), tk = D ? dTicker() : v.ticker;
     const items = tk.map(t => { const tone = t.tone || 'info'; return `<span class="inline-flex items-center gap-2 px-5 whitespace-nowrap"><span class="text-muted">${E(t.k)}</span><span class="font-semibold ${t.tone ? TXT[tone] : 'text-ink'}">${E(sc(t.v))}</span>${t.pulse ? dot(tone, true) : ''}</span>`; }).join('');
     $('tickerTrack').innerHTML = items + `<span class="contents" aria-hidden="true">${items}</span>`;
     $('modeBtns').innerHTML = [['diario', 'Diario'], ['semanal', 'Semanal']].map(([k, l]) => `<button data-act="mode" data-v="${k}" aria-pressed="${S.mode === k}" class="pillbtn press py-2 rounded ${S.mode === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
-    $('weekCtl').hidden = D; $('dayCtl').hidden = !D; $('tfBtns').style.display = D ? 'none' : ''; // el horizonte sólo tiene sentido en el semanal
+    $('weekCtl').hidden = D || W; $('dayCtl').hidden = !D; $('tfBtns').style.display = D || W ? 'none' : ''; // el horizonte sólo tiene sentido en el semanal
     if (D) {
       const i = DATES.indexOf(S.date), arrow = (v, ic, label, off) => `<button data-act="dnav" data-v="${v}" aria-label="${label}" ${off ? 'disabled' : ''} class="press w-9 h-9 shrink-0 rounded-md bg-surface2/80 border border-line/20 disabled:opacity-40"><i class="fa-solid fa-chevron-${ic}" aria-hidden="true"></i></button>`;
       $('dayCtl').innerHTML = `<div class="flex items-center gap-1.5">${arrow('prev', 'left', 'Día anterior', !DATES.length || i === DATES.length - 1)}<input type="date" id="dateSel" aria-label="Día" value="${E(S.date || '')}" ${DATES.length ? `min="${DATES.at(-1)}" max="${DATES[0]}"` : ''} class="flex-1 min-w-0 bg-surface2/80 text-ink border border-line/20 rounded-md px-2 py-2 text-sm">${arrow('next', 'right', 'Día siguiente', i === 0)}</div>`;
@@ -263,8 +277,8 @@ function boot(DB, IDX) {
       $('periodSel').innerHTML = periods(S.level).map(p => `<option value="${E(p.key)}" ${p.key === S.key ? 'selected' : ''}>${E(p.label)}</option>`).join('');
       $('tfBtns').innerHTML = TFS.map(([k, l]) => `<button data-act="tf" data-v="${k}" aria-pressed="${S.tf === k}" class="pillbtn press px-3 py-1.5 rounded ${S.tf === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
     }
-    $('tabs').innerHTML = (D ? DTABS : TABS).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${S.tab === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
-    [...TABS, ...DTABS].forEach(([id]) => { $('view-' + id).hidden = S.tab !== id; });
+    $('tabs').innerHTML = (D ? DTABS : [...WTABS, ...TABS]).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${S.tab === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
+    [...TABS, ...WTABS, ...DTABS].forEach(([id]) => { $('view-' + id).hidden = S.tab !== id; });
     $('themeIcon').className = 'fa-solid fa-' + (document.documentElement.dataset.theme === 'light' ? 'moon' : 'sun');
   }
 
@@ -631,6 +645,28 @@ function boot(DB, IDX) {
       <div class="border-t border-line/25">${list.length ? list.map(x => `<a href="#/diario/${E(x)}" class="row sev flex items-center justify-between gap-4 py-4 pl-4 border-b border-line/25" data-lvl="${x === S.date ? 'warn' : 'info'}"><span class="serif text-xl">${E(fmtD(x))}</span><span class="text-sm text-muted whitespace-nowrap">${COUNT[x] != null ? COUNT[x] + ' noticias' : ''}</span></a>`).join('') : empty('Sin resultados.')}</div>`;
   }
 
+  /* ---------- Modo semanal: los briefings los sube el autor como content/semanales/semana-WW-AAAA.md ---------- */
+  const SEM = IDX.semanales || [], WMD = {};
+  if (window.DOMPurify) DOMPurify.addHook('afterSanitizeAttributes', n => { if (n.tagName === 'A') { n.setAttribute('target', '_blank'); n.setAttribute('rel', 'noopener noreferrer'); } });
+  const loadWeek = f => WMD[f] ? Promise.resolve(WMD[f]) : fetch(f, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }).then(t => {
+    if (!window.marked || !window.DOMPurify) throw new Error('no se cargó el visor de Markdown');
+    return (WMD[f] = DOMPurify.sanitize(marked.parse(t.replace(/^---\n[\s\S]*?\n---\n/, ''))));
+  });
+  function renderWeekly() {
+    if (S.tab === 'w-hist') {
+      $('view-w-hist').innerHTML = pageHead('Histórico semanal', 'Todos los briefings semanales subidos.') + (SEM.length
+        ? `<div class="border-t border-line/25">${SEM.map(x => `<a href="#/semanal/informe/${E(x.slug)}" class="row sev flex items-center justify-between gap-4 py-4 pl-4 border-b border-line/25" data-lvl="info"><span class="serif text-xl">${E(x.label)}</span><span class="text-sm text-muted text-right">${E(x.title)}</span></a>`).join('')}</div>`
+        : empty('Aún no hay semanales subidos.'));
+      return;
+    }
+    const i = Math.max(0, SEM.findIndex(x => x.slug === S.wk)), w = SEM[i], el = $('view-w-md');
+    if (!w) { el.innerHTML = pageHead('Briefing semanal', 'Aún no hay ningún semanal subido.') + empty('Sube <code>content/semanales/semana-WW-AAAA.md</code> y aparecerá aquí en un par de minutos. Mientras tanto puedes ver el <a class="underline" href="#/semanal/exec">panel de datos</a>.'); return; }
+    const nav = (x, l) => x ? `<a class="underline hover:text-ink" href="#/semanal/informe/${E(x.slug)}">${l}</a>` : '';
+    el.innerHTML = pageHead(E(w.label), w.title ? E(w.title) : '') + `<nav class="flex gap-6 text-sm text-muted" aria-label="Semanas">${nav(SEM[i + 1], '← Semana anterior')}${nav(SEM[i - 1], 'Semana siguiente →')}<a class="underline hover:text-ink ml-auto" href="#/semanal/historico">Ver todas</a></nav><article id="wmdBody" class="md max-w-3xl">${empty('Cargando…')}</article>`;
+    loadWeek(w.file).then(h => { if (SEM[i] === w && S.tab === 'w-md' && $('wmdBody')) $('wmdBody').innerHTML = h; })
+      .catch(e => { if ($('wmdBody')) $('wmdBody').innerHTML = empty(`No se pudo cargar ${E(w.label)} (${E(e.message)}).`); });
+  }
+
   function renderDaily() {
     const d = S.day, R = { 'd-resumen': dResumen, 'd-noticias': dNoticias, 'd-mercados': dMercados, 'd-ia': dIA, 'd-fuentes': dFuentes };
     const msg = !S.date ? empty('Aún no hay diarios: se generan solos cada día. Mientras tanto puedes ver el <a class="underline" href="#/semanal">briefing semanal</a>.')
@@ -643,7 +679,13 @@ function boot(DB, IDX) {
   function route() {
     const [m, a, b] = location.hash.replace(/^#\/?/, '').split('/');
     S.animCharts = true;
-    if (m === 'semanal') { S.mode = 'semanal'; S.tab = TABS.some(x => x[0] === a) ? a : 'exec'; render(); }
+    if (m === 'semanal') {
+      S.mode = 'semanal';
+      if (a === 'historico') S.tab = 'w-hist';
+      else if (TABS.some(x => x[0] === a)) S.tab = a;
+      else { S.tab = 'w-md'; S.wk = /^semana-\d{2}-\d{4}$/.test(b || '') ? b : null; }
+      render();
+    }
     else {
       S.mode = 'diario';
       const rest = [a, b].filter(Boolean);
@@ -655,7 +697,7 @@ function boot(DB, IDX) {
     }
     window.scrollTo({ top: 0 });
   }
-  const hashFor = id => id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'exec' ? '#/semanal' : '#/semanal/' + id);
+  const hashFor = id => id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'w-md' ? '#/semanal/informe' + (S.wk ? '/' + S.wk : '') : id === 'w-hist' ? '#/semanal/historico' : '#/semanal/' + id);
   function setTab(id) { const h = hashFor(id); location.hash === h ? route() : (location.hash = h); }
   const goDay = d => { location.hash = `#/diario/${d}/${S.tab.startsWith('d-') ? S.tab.slice(2) : 'resumen'}`; };
 
@@ -671,7 +713,7 @@ function boot(DB, IDX) {
     open: v => openDrawer(+v),
     close: closeDrawer, prev: () => step(-1), next: () => step(1),
     clear: () => { S.from = S.to = ''; render(); },
-    mode: v => setTab(v === 'diario' ? 'd-resumen' : 'exec'),
+    mode: v => setTab(v === 'diario' ? 'd-resumen' : 'w-md'),
     dnav: v => { const n = DATES[DATES.indexOf(S.date) + (v === 'prev' ? 1 : -1)]; if (n) goDay(n); },
     dreg: v => { S.dreg = v; render(); },
     theme: () => {
