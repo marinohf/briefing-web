@@ -67,25 +67,38 @@ export async function weekly(date) {
 
 /* ---------- 3. Resúmenes mensual, trimestral y anual (texto editorial) ---------- */
 const quarterOf = d => `${d.getUTCFullYear()}-Q${Math.ceil((d.getUTCMonth() + 1) / 3)}`;
-async function editorial(level, key, weeks) {
+const CONTENT = process.env.CONTENT_DIR || path.join(DATA, '..', 'content');
+const isoMonday = (y, w) => { const j4 = new Date(Date.UTC(y, 0, 4)); return addDays(j4, -((j4.getUTCDay() + 6) % 7) + (w - 1) * 7); };
+// Material del periodo: 1) semanales .md subidos a mano, 2) semanas JSON, 3) diarios. Devuelve texto ya recortado.
+export function material(inPeriod) {
+  const dir = path.join(CONTENT, 'semanales');
+  const md = (fs.existsSync(dir) ? fs.readdirSync(dir) : []).map(f => ({ f, m: f.match(/^semana-(\d\d)-(\d{4})\.md$/) })).filter(x => x.m)
+    .map(x => ({ f: x.f, d: isoMonday(+x.m[2], +x.m[1]) })).filter(x => inPeriod(x.d)).sort((p, q) => p.d - q.d)
+    .map(x => fs.readFileSync(path.join(dir, x.f), 'utf8').slice(0, 6000)); // shortcut: 6000 caracteres por semanal, subir si se queda corto
+  if (md.length) return md;
+  const weeks = listJSON(path.join(DATA, 'weeks')).map(f => readJSON(path.join(DATA, 'weeks', f))).filter(w => inPeriod(parse(w.start)));
+  if (weeks.length) return weeks.map(w => JSON.stringify({ semana: w.label, tension: w.tension.label, idea: w.bigIdea.title, historias: w.stories.map(s => ({ t: s.title, gp: s.winnersLosers })), riesgos: w.risks.map(r => ({ r: r.risk, p: r.p, i: r.i })) }));
+  return listJSON(path.join(DATA, 'days')).map(f => readJSON(path.join(DATA, 'days', f))).filter(d => inPeriod(parse(d.date)))
+    .map(d => d.date + ': ' + [...d.items].sort((p, q) => q.importance - p.importance).slice(0, 3).map(i => `${i.title} — ${i.summary}`).join(' | '));
+}
+async function editorial(level, key, inPeriod) {
   const ef = path.join(DATA, 'editorial.json'), ed = fs.existsSync(ef) ? readJSON(ef) : { month: {}, quarter: {}, year: {} };
   if (ed[level][key] && !FORCE) return log('editorial ya existe', level, key);
-  if (!weeks.length) return log('sin semanas para', level, key);
-  const digest = weeks.map(w => ({ semana: w.label, tension: w.tension.label, idea: w.bigIdea.title, historias: w.stories.map(s => ({ t: s.title, gp: s.winnersLosers })), riesgos: w.risks.map(r => ({ r: r.risk, p: r.p, i: r.i })) }));
+  const mat = material(inPeriod);
+  if (!mat.length) return log('sin material para', level, key);
   const out = await api.call(
-    `Redacta en español el resumen editorial ${level === 'month' ? 'mensual' : level === 'quarter' ? 'trimestral' : 'anual'} (${key}) a partir de estos briefings semanales. ` +
-    `Devuelve JSON {"thesis":"","winners":"","losers":"","outlook":""}: tesis del periodo, ganadores, perdedores y proyección del siguiente periodo, 2-3 frases cada campo. Usa solo lo que consta en los briefings.\n\n${JSON.stringify(digest)}`,
+    `Redacta en español el resumen editorial ${level === 'month' ? 'mensual' : level === 'quarter' ? 'trimestral' : 'anual'} (${key}) a partir de estos briefings. ` +
+    `Devuelve JSON {"thesis":"","winners":"","losers":"","outlook":""}: tesis del periodo, ganadores, perdedores y proyección del siguiente periodo, 2-3 frases cada campo. Usa solo lo que consta en los briefings.\n\n${mat.join('\n\n---\n\n')}`,
     { json: true });
   ed[level][key] = validateEditorial(parseJSON(out.text));
   writeJSON(ef, ed);
   log('editorial escrito', level, key);
 }
 export async function periods(date) {
-  const y = addDays(date, -1), allWeeks = listJSON(path.join(DATA, 'weeks')).map(f => readJSON(path.join(DATA, 'weeks', f)));
-  const inPeriod = fn => allWeeks.filter(w => fn(parse(w.start)));
-  if (date.getUTCDate() === 1) await editorial('month', iso(y).slice(0, 7), inPeriod(d => iso(d).slice(0, 7) === iso(y).slice(0, 7)));
-  if (date.getUTCDate() === 1 && date.getUTCMonth() % 3 === 0) await editorial('quarter', quarterOf(y), inPeriod(d => quarterOf(d) === quarterOf(y)));
-  if (date.getUTCDate() === 1 && date.getUTCMonth() === 0) await editorial('year', String(y.getUTCFullYear()), inPeriod(d => d.getUTCFullYear() === y.getUTCFullYear()));
+  const y = addDays(date, -1);
+  if (date.getUTCDate() === 1) await editorial('month', iso(y).slice(0, 7), d => iso(d).slice(0, 7) === iso(y).slice(0, 7));
+  if (date.getUTCDate() === 1 && date.getUTCMonth() % 3 === 0) await editorial('quarter', quarterOf(y), d => quarterOf(d) === quarterOf(y));
+  if (date.getUTCDate() === 1 && date.getUTCMonth() === 0) await editorial('year', String(y.getUTCFullYear()), d => d.getUTCFullYear() === y.getUTCFullYear());
 }
 
 /* ---------- Orquestación ---------- */

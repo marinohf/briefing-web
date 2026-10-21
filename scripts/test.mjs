@@ -61,6 +61,14 @@ await R.periods(L.parse('2026-11-01')); await R.periods(L.parse('2027-01-01'));
 const ed = L.readJSON(path.join(tmp, 'editorial.json'));
 assert.ok(ed.month['2026-10'] && ed.quarter['2026-Q4'] && ed.year['2026']);
 
+// material: semanal .md > semanas JSON > diarios
+fs.mkdirSync(path.join(tmp, 'content', 'semanales'), { recursive: true });
+fs.writeFileSync(path.join(tmp, 'content', 'semanales', 'semana-43-2026.md'), '# Semana 43\nTEXTO-MD');
+assert.ok(R.material(d => L.iso(d).slice(0, 7) === '2026-10').join('').includes('TEXTO-MD'), 'material: usa el .md subido');
+assert.equal(R.material(d => L.iso(d).slice(0, 7) === '2026-11').length, 0, 'material: sin datos, vacío');
+fs.rmSync(path.join(tmp, 'content', 'semanales'), { recursive: true });
+assert.ok(R.material(d => L.iso(d).slice(0, 7) === '2026-10').length > 0, 'material: sin .md usa semanas/diarios');
+
 L.build();
 const dbText = fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'); L.build();
 assert.equal(fs.readFileSync(path.join(tmp, 'db.json'), 'utf8'), dbText, 'build sin cambios no reescribe db.json');
