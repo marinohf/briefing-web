@@ -1,6 +1,6 @@
-// Uso: node scripts/run.mjs [auto|daily|weekly|sunday|periods]
-//   auto    = diario siempre; semanal si falta la última semana completa; resúmenes de periodo el día 1 de mes/trimestre/año
-//   sunday  = cierra la semana ISO que termina el domingo en curso (o la última completa si hoy no es domingo)
+// Uso: node scripts/run.mjs [auto|daily|weekly|periods]
+//   auto    = diario siempre + resúmenes de periodo el día 1 de mes/trimestre/año (el semanal ya no es automático: se sube a mano como Markdown)
+//   weekly  = genera con Gemini el semanal en JSON (sólo a mano, para el panel de datos)
 //   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe
 import path from 'node:path';
 import fs from 'node:fs';
@@ -93,8 +93,7 @@ if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1])))
   const mode = process.argv[2] || 'auto';
   try {
     if (mode === 'auto' || mode === 'daily') await daily(today);
-    if (mode === 'weekly' || mode === 'auto') await weekly(today); // idempotente: cualquier día reintenta la última semana completa si falta
-    if (mode === 'sunday') await weekly(addDays(today, 7 - today.getUTCDay())); // weekly() resume la semana de (fecha - 7): el domingo apunta a la actual; otro día, nunca a una semana incompleta
+    if (mode === 'weekly') await weekly(today); // el semanal ya no es automático: lo sube el usuario como Markdown; este modo queda sólo para lanzarlo a mano
     if (mode === 'periods' || mode === 'auto') await periods(today);
     build(); exportMd();
   } catch (e) { console.error('[intel] ERROR:', e.message); process.exit(1); }

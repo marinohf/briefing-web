@@ -1,14 +1,14 @@
-// Vista legible de los datos: data/ (JSON, fuente de verdad) -> content/diarios/*.md, content/semanales/*.md y content/index.json.
+// Vista legible de los datos: data/days (JSON, fuente de verdad) -> content/diarios/*.md, y content/index.json.
+// Los semanales los sube el usuario a mano a content/semanales/semana-WW-AAAA.md: aquí sólo se INDEXAN, nunca se escriben.
 // Uso: node scripts/export-md.mjs   (run.mjs lo llama solo tras build()). Idempotente: sólo reescribe lo que cambia.
 import fs from 'node:fs';
 import path from 'node:path';
-import { DATA, readJSON, listJSON, isoWeek, parse } from './lib.mjs';
+import { DATA, readJSON, listJSON, isoWeek, parse, iso, addDays, weekLabel } from './lib.mjs';
 
 const CONTENT = process.env.CONTENT_DIR || path.join(DATA, '..', 'content');
 
 /* ---------- Utilidades de texto ---------- */
 const one = s => String(s ?? '').replace(/\s+/g, ' ').trim();
-const cell = s => one(s).replace(/\|/g, '\\|');
 const fecha = d => parse(d).toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const fm = o => '---\n' + Object.entries(o).filter(([, v]) => v != null && v !== '').map(([k, v]) => `${k}: ${one(v)}`).join('\n') + '\n---\n\n';
 // Sólo enlaces http(s); los paréntesis y espacios de la URL se escapan para no romper el Markdown
@@ -36,36 +36,26 @@ const dayMd = d => {
     srcList(d.sources) + '\n';
 };
 
-const weekMd = (w, key) => {
-  const mk = w.charts?.markets || [];
-  return fm({ tipo: 'semanal', semana: key, inicio: w.start, tension: w.tension.label }) +
-    `# ${one(w.label)}\n\n**Tensión de suministro:** ${one(w.tension.label)}\n\n## ${one(w.bigIdea.title)}\n\n${one(w.bigIdea.text)}\n\n` +
-    w.bigIdea.points.map(p => `- **${one(p.b)}** ${one(p.t)}`).join('\n') +
-    '\n\n## Claves de la semana\n\n' +
-    w.top10.map(t => `### ${t.id}. ${one(t.title)}\n\n*${one(t.badge)}*\n\n**Qué:** ${one(t.what)}\n\n**Por qué:** ${one(t.why)}\n\n**Quién:** ${one(t.who)}\n\n**Consecuencia:** ${one(t.impact)}\n\n**Vigilar:** ${one(t.watch)}${srcInline(t.sources)}`).join('\n\n') +
-    aiMd(w.ai) +
-    '\n\n## Riesgos' + table(['Riesgo', 'Probabilidad', 'Impacto', 'Catalizador'], w.risks.map(r => [cell(r.risk), cell(r.probL), cell(r.impL), cell(r.cat)])) +
-    '\n\n## Hipótesis para la próxima semana\n\n' + w.hypotheses.map(h => `- **${one(h.t)}** ${one(h.d)}`).join('\n') +
-    (mk.length ? '\n\n## Cifras' + table(['Activo', 'Valor', 'Unidad'], mk.map(m => [cell(m.label), m.value, cell(m.unit)])) : '') + '\n';
-};
+// Lunes de la semana ISO `week` del año `year` (el 4 de enero siempre cae en la semana 1)
+const mondayOf = (year, week) => { const j4 = new Date(Date.UTC(year, 0, 4)); return addDays(j4, -((j4.getUTCDay() + 6) % 7) + (week - 1) * 7); };
 
 /* ---------- Exportación ---------- */
 export function exportMd() {
-  const idx = { diarios: [], semanales: [] }, bySlug = new Map();
+  const idx = { diarios: [], semanales: [] };
   for (const f of listJSON(path.join(DATA, 'days'))) {
     const d = readJSON(path.join(DATA, 'days', f));
     writeIfChanged(path.join(CONTENT, 'diarios', d.date + '.md'), dayMd(d));
     idx.diarios.push({ date: d.date, label: fecha(d.date), week: isoWeek(parse(d.date)).key, items: d.items.length, file: `content/diarios/${d.date}.md` });
   }
-  for (const f of listJSON(path.join(DATA, 'weeks'))) {
-    const key = f.replace('.json', ''), m = /^(\d{4})-W(\d{2})/.exec(key); // acepta variantes como 2026-W42b
-    if (!m) continue;
-    const w = readJSON(path.join(DATA, 'weeks', f)), slug = `semana-${m[2]}-${m[1]}`;
-    writeIfChanged(path.join(CONTENT, 'semanales', slug + '.md'), weekMd(w, key));
-    bySlug.set(slug, { slug, key, label: w.label, start: w.start, tension: w.tension.label, tone: w.tension.tone, file: `content/semanales/${slug}.md` }); // shortcut: si dos claves dan el mismo slug (W42 y W42b) gana la última; unificar si se repite
+  const wdir = path.join(CONTENT, 'semanales');
+  for (const f of fs.existsSync(wdir) ? fs.readdirSync(wdir) : []) {
+    const m = /^semana-(\d{2})-(\d{4})\.md$/.exec(f); // cualquier otro nombre se ignora
+    if (!m || +m[1] < 1 || +m[1] > 53) continue;
+    const week = +m[1], start = mondayOf(+m[2], week), title = /^#\s+(.+)$/m.exec(fs.readFileSync(path.join(wdir, f), 'utf8'))?.[1];
+    idx.semanales.push({ slug: f.slice(0, -3), week, year: +m[2], label: weekLabel({ week, start: iso(start), end: iso(addDays(start, 6)) }), start: iso(start), title: one(title), file: `content/semanales/${f}` });
   }
   idx.diarios.sort((a, b) => b.date.localeCompare(a.date));
-  idx.semanales = [...bySlug.values()].sort((a, b) => b.start.localeCompare(a.start) || b.key.localeCompare(a.key));
+  idx.semanales.sort((a, b) => b.start.localeCompare(a.start));
   writeIfChanged(path.join(CONTENT, 'index.json'), JSON.stringify(idx, null, 1) + '\n'); // sin fecha de generación: así no hay commits vacíos
 }
 
