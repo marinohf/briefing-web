@@ -116,7 +116,7 @@ h1,h2,h3{text-wrap:balance}
       <h1 class="serif text-4xl font-semibold tracking-tight leading-none">Intel</h1>
       <p class="text-xs text-muted mt-2 max-w-[18ch]">Briefing geopolítico y macroeconómico</p>
     </div>
-    <div class="px-5 pb-3"><div class="grid grid-cols-2 gap-0.5 p-0.5 rounded-md bg-surface2/80 border border-line/20 text-sm" role="group" aria-label="Modo" id="modeBtns"></div></div>
+    <div class="px-5 pb-3"><div class="grid grid-cols-3 gap-0.5 p-0.5 rounded-md bg-surface2/80 border border-line/20 text-sm" role="group" aria-label="Modo" id="modeBtns"></div></div>
     <div class="px-5 pb-4 space-y-2" id="weekCtl">
       <div class="grid grid-cols-4 gap-0.5 p-0.5 rounded-md bg-surface2/80 border border-line/20 text-xs" role="group" aria-label="Nivel temporal" id="levelBtns"></div>
       <select id="periodSel" aria-label="Periodo" class="w-full bg-surface2/80 text-ink border border-line/20 rounded-md px-2.5 py-2 text-sm"></select>
@@ -148,6 +148,7 @@ h1,h2,h3{text-wrap:balance}
       <section id="view-ai" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-master" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-archive" role="tabpanel" class="view space-y-8" hidden></section>
+      <section id="view-inicio" role="tabpanel" class="view space-y-12" hidden></section>
       <section id="view-w-md" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-w-hist" role="tabpanel" class="view space-y-8" hidden></section>
       <section id="view-d-resumen" role="tabpanel" class="view space-y-12" hidden></section>
@@ -218,7 +219,7 @@ function boot(DB, IDX) {
   const LEVELS = [['week', 'Semana'], ['month', 'Mes'], ['quarter', 'Trim.'], ['year', 'Año']];
   const TFS = [['all', 'Todo'], ['hoy', 'Hoy'], ['3d', '3 días'], ['7d', '7 días']];
 
-  const S = { wk: null, mode: 'diario', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'd-resumen', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
+  const S = { wk: null, mode: 'inicio', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'inicio', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
 
   /* ---------- Modelo temporal ---------- */
   const WEEKS = Object.entries(DB.weeks).map(([k, w]) => ({ k, ...w })).sort((a, b) => b.start.localeCompare(a.start) || b.k.localeCompare(a.k));
@@ -253,7 +254,8 @@ function boot(DB, IDX) {
   /* ---------- Render ---------- */
   function render() {
     const a = document.activeElement, d = a && a.dataset, sel = d && d.act ? `[data-act="${d.act}"]` + (d.v != null ? `[data-v="${CSS.escape(d.v)}"]` : '') : null; // el foco sobrevive al repintado
-    if (S.mode === 'diario') { renderChrome(); renderDaily(); }
+    if (S.mode === 'inicio') { renderChrome(); renderInicio(); }
+    else if (S.mode === 'diario') { renderChrome(); renderDaily(); }
     else if (S.tab.startsWith('w-')) { renderChrome(viewOf()); renderWeekly(); }
     else {
       const v = viewOf();
@@ -264,11 +266,11 @@ function boot(DB, IDX) {
   }
 
   function renderChrome(v) {
-    const D = S.mode === 'diario', W = S.tab.startsWith('w-'), tk = D ? dTicker() : v.ticker;
+    const D = S.mode === 'diario', I = S.mode === 'inicio', W = S.tab.startsWith('w-'), tk = D || I ? dTicker() : v.ticker;
     const items = tk.map(t => { const tone = t.tone || 'info'; return `<span class="inline-flex items-center gap-2 px-5 whitespace-nowrap"><span class="text-muted">${E(t.k)}</span><span class="font-semibold ${t.tone ? TXT[tone] : 'text-ink'}">${E(sc(t.v))}</span>${t.pulse ? dot(tone, true) : ''}</span>`; }).join('');
     $('tickerTrack').innerHTML = items + `<span class="contents" aria-hidden="true">${items}</span>`;
-    $('modeBtns').innerHTML = [['diario', 'Diario'], ['semanal', 'Semanal']].map(([k, l]) => `<button data-act="mode" data-v="${k}" aria-pressed="${S.mode === k}" class="pillbtn press py-2 rounded ${S.mode === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
-    $('weekCtl').hidden = D || W; $('dayCtl').hidden = !D; $('tfBtns').style.display = D || W ? 'none' : ''; // el horizonte sólo tiene sentido en el semanal
+    $('modeBtns').innerHTML = [['inicio', 'Inicio'], ['diario', 'Diario'], ['semanal', 'Semanal']].map(([k, l]) => `<button data-act="mode" data-v="${k}" aria-pressed="${S.mode === k}" class="pillbtn press py-2 rounded ${S.mode === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
+    $('weekCtl').hidden = D || I || W; $('dayCtl').hidden = !D; $('tfBtns').style.display = D || I || W ? 'none' : ''; // el horizonte sólo tiene sentido en el semanal
     if (D) {
       const i = DATES.indexOf(S.date), arrow = (v, ic, label, off) => `<button data-act="dnav" data-v="${v}" aria-label="${label}" ${off ? 'disabled' : ''} class="press w-9 h-9 shrink-0 rounded-md bg-surface2/80 border border-line/20 disabled:opacity-40"><i class="fa-solid fa-chevron-${ic}" aria-hidden="true"></i></button>`;
       $('dayCtl').innerHTML = `<div class="flex items-center gap-1.5">${arrow('prev', 'left', 'Día anterior', !DATES.length || i === DATES.length - 1)}<input type="date" id="dateSel" aria-label="Día" value="${E(S.date || '')}" ${DATES.length ? `min="${DATES.at(-1)}" max="${DATES[0]}"` : ''} class="flex-1 min-w-0 bg-surface2/80 text-ink border border-line/20 rounded-md px-2 py-2 text-sm">${arrow('next', 'right', 'Día siguiente', i === 0)}</div>`;
@@ -277,8 +279,8 @@ function boot(DB, IDX) {
       $('periodSel').innerHTML = periods(S.level).map(p => `<option value="${E(p.key)}" ${p.key === S.key ? 'selected' : ''}>${E(p.label)}</option>`).join('');
       $('tfBtns').innerHTML = TFS.map(([k, l]) => `<button data-act="tf" data-v="${k}" aria-pressed="${S.tf === k}" class="pillbtn press px-3 py-1.5 rounded ${S.tf === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
     }
-    $('tabs').innerHTML = (D ? DTABS : [...WTABS, ...TABS]).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${S.tab === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
-    [...TABS, ...WTABS, ...DTABS].forEach(([id]) => { $('view-' + id).hidden = S.tab !== id; });
+    $('tabs').innerHTML = (I ? [] : D ? DTABS : [...WTABS, ...TABS]).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${S.tab === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
+    [...TABS, ...WTABS, ...DTABS, ['inicio']].forEach(([id]) => { $('view-' + id).hidden = S.tab !== id; });
     $('themeIcon').className = 'fa-solid fa-' + (document.documentElement.dataset.theme === 'light' ? 'moon' : 'sun');
   }
 
@@ -675,11 +677,57 @@ function boot(DB, IDX) {
     DTABS.forEach(([id]) => { $('view-' + id).innerHTML = id === 'd-historico' ? dHistorico() : msg || R[id](d); });
   }
 
-  /* ---------- Rutas por hash: #/ (último diario), #/diario/AAAA-MM-DD[/pestaña], #/semanal[/pestaña] ---------- */
+  /* ---------- Inicio: lo nuevo desde tu última visita + puerta al semanal ---------- */
+  let PREV = null, INI = null;
+  try { PREV = localStorage.getItem('intel-seen'); } catch (e) {}
+  const shortD = d => dt(d).toLocaleDateString('es', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+  function renderInicio() {
+    const el = $('view-inicio');
+    if (!DATES.length) { el.innerHTML = pageHead('Bienvenido', 'Aún no hay briefings diarios: se generan solos cada día.') + empty('Mientras tanto puedes ver el <a class="underline" href="#/semanal">briefing semanal</a>.'); return; }
+    const fresh = !!PREV && PREV < DATES[0];
+    if (!INI) {
+      el.innerHTML = empty('Cargando las novedades…');
+      const want = fresh ? DATES.filter(d => d > PREV).slice(0, 7) : [DATES[0]];
+      Promise.all(want.map(getDay)).then(days => {
+        INI = { days, fresh }; S.date = DATES[0]; S.day = days[0];
+        try { localStorage.setItem('intel-seen', DATES[0]); } catch (e) {}
+        if (S.mode === 'inicio') render();
+      }).catch(e => { el.innerHTML = empty(`No se pudieron cargar las novedades (${E(e.message)}). <a class="underline" href="#/diario">Ir al último diario</a>`); });
+      return;
+    }
+    const days = INI.days, seen = new Set(), items = byImp(days.flatMap(d => d.items.map(i => ({ ...i, _d: d.date })))).filter(i => !seen.has(i.title) && seen.add(i.title)),
+      sai = new Set(), ai = days.flatMap(d => d.ai || []).filter(a => !sai.has(a.title) && sai.add(a.title)),
+      list = items.filter(hit), lead = list[0], rest = list.slice(1, 7), crit = items.filter(i => tierOf(i.importance) === 0).length, d0 = days[0];
+    const multi = days.length > 1, row = i => newsRow(i).replace('<span class="text-xs text-muted">', `<span class="text-xs text-muted">${multi ? E(shortD(i._d)) + ' · ' : ''}`);
+    const sub = INI.fresh ? `${items.length} noticias nuevas en ${days.length} ${days.length === 1 ? 'briefing' : 'briefings'} desde tu última visita (${ldate(PREV)}).` : PREV ? 'No hay novedades desde tu última visita: te dejamos el último briefing.' : 'Este es el último briefing. La próxima vez verás aquí lo que haya cambiado desde que entraste.';
+    const figs = MK.map(([k, l, u, dec]) => { const v = d0.markets?.[k]; return fig(l, v != null ? nf(v, dec) : '—', v != null ? [u, delta(k, dec)].filter(Boolean).join(' · ') : 'No disponible'); }).join('');
+    const sw = SEM[0];
+    el.innerHTML = `
+      <header class="max-w-3xl"><p class="text-sm text-muted mb-2">${E(fmtD(d0.date))}</p>
+        <h2 class="serif text-5xl md:text-7xl font-medium tracking-tight leading-[.95]">${INI.fresh ? 'Lo que ha cambiado' : 'Bienvenido'}</h2>
+        <p class="text-lg text-muted mt-4 prose-w">${E(sub)}${crit ? ` <strong class="${TXT.crit}">${crit} ${crit === 1 ? 'crítica' : 'críticas'}.</strong>` : ''}</p></header>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-px bg-line/20 border border-line/20 rounded-md overflow-hidden" aria-label="Cierres de mercado">${figs}</div>
+      ${lead ? `<article class="lead glass sev rounded-2xl border border-line/20 p-6 md:p-10 relative overflow-hidden" data-lvl="${tone(lead)}">
+        <div class="absolute inset-0 pointer-events-none" style="background:radial-gradient(40rem 20rem at 100% 0%,rgb(var(--glow)/.16),transparent 70%)"></div>
+        <div class="relative"><div class="flex flex-wrap items-center gap-3 mb-5">${badge(TIERS[tierOf(lead.importance)][0], tone(lead))}${lvl(lead.importance)}<span class="text-sm text-muted">${INI.fresh ? 'Nuevo' : 'Noticia principal'}${multi ? ' · ' + E(shortD(lead._d)) : ''}</span></div>
+          <h3 class="serif text-3xl md:text-5xl font-medium leading-[1.05] tracking-tight max-w-[24ch]">${E(lead.title)}</h3>
+          <p class="text-[17px] leading-relaxed mt-6 prose-w">${E(lead.summary)}</p>
+          <p class="text-sm text-muted mt-5">${[lead.region, lead.source].filter(Boolean).map(E).join(' · ')}</p></div></article>` : empty('Ninguna noticia coincide con la búsqueda.')}
+      ${rest.length ? `<section aria-label="Otros titulares"><h3 class="serif text-2xl font-medium mb-4">Titulares</h3><div class="border-t border-line/25">${rest.map(row).join('')}</div>${items.length > 7 ? `<a href="#/diario/${E(d0.date)}/noticias" class="press mt-4 inline-block text-sm underline text-muted hover:text-ink">Ver todas las noticias del último día</a>` : ''}</section>` : ''}
+      ${ai.length ? `<section aria-label="Inteligencia artificial" class="pt-4 border-t-2 border-ink/80"><h3 class="serif text-2xl font-medium mb-5">Inteligencia artificial</h3><div class="grid md:grid-cols-2 gap-x-10 gap-y-8">${ai.slice(0, 2).map(aiCard).join('')}</div></section>` : ''}
+      <section aria-label="Siguiente paso" class="grid md:grid-cols-2 gap-4">
+        <a href="${sw ? '#/semanal' : '#/semanal/exec'}" class="lift press glass rounded-2xl border border-line/20 p-6 block"><p class="text-sm text-muted mb-2">Siguiente paso</p><h3 class="serif text-3xl font-medium leading-tight">Briefing semanal →</h3><p class="text-muted mt-3">${sw ? E(sw.label) + (sw.title ? ' · ' + E(sw.title) : '') : 'Panel de datos de la semana'}</p></a>
+        <a href="#/diario/${E(d0.date)}" class="lift press glass rounded-2xl border border-line/20 p-6 block"><p class="text-sm text-muted mb-2">Más detalle</p><h3 class="serif text-3xl font-medium leading-tight">Briefing diario completo →</h3><p class="text-muted mt-3">Noticias, mercados, IA y fuentes de ${E(ldate(d0.date))}</p></a>
+      </section>`;
+  }
+
+  /* ---------- Rutas por hash: #/ (inicio: novedades), #/diario (último diario), #/diario/AAAA-MM-DD[/pestaña], #/semanal[/pestaña] ---------- */
   function route() {
     const [m, a, b] = location.hash.replace(/^#\/?/, '').split('/');
     S.animCharts = true;
-    if (m === 'semanal') {
+    if (!m || m === 'inicio') {
+      S.mode = 'inicio'; S.tab = 'inicio'; S.date = DATES[0] || null; S.day = S.date ? INI?.days[0] || DAYS[S.date] || DB.days?.[S.date] || null : null; render();
+    } else if (m === 'semanal') {
       S.mode = 'semanal';
       if (a === 'historico') S.tab = 'w-hist';
       else if (TABS.some(x => x[0] === a)) S.tab = a;
@@ -697,7 +745,7 @@ function boot(DB, IDX) {
     }
     window.scrollTo({ top: 0 });
   }
-  const hashFor = id => id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'w-md' ? '#/semanal/informe' + (S.wk ? '/' + S.wk : '') : id === 'w-hist' ? '#/semanal/historico' : '#/semanal/' + id);
+  const hashFor = id => id === 'inicio' ? '#/' : id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'w-md' ? '#/semanal/informe' + (S.wk ? '/' + S.wk : '') : id === 'w-hist' ? '#/semanal/historico' : '#/semanal/' + id);
   function setTab(id) { const h = hashFor(id); location.hash === h ? route() : (location.hash = h); }
   const goDay = d => { location.hash = `#/diario/${d}/${S.tab.startsWith('d-') ? S.tab.slice(2) : 'resumen'}`; };
 
@@ -713,7 +761,7 @@ function boot(DB, IDX) {
     open: v => openDrawer(+v),
     close: closeDrawer, prev: () => step(-1), next: () => step(1),
     clear: () => { S.from = S.to = ''; render(); },
-    mode: v => setTab(v === 'diario' ? 'd-resumen' : 'w-md'),
+    mode: v => setTab(v === 'inicio' ? 'inicio' : v === 'diario' ? 'd-resumen' : 'w-md'),
     dnav: v => { const n = DATES[DATES.indexOf(S.date) + (v === 'prev' ? 1 : -1)]; if (n) goDay(n); },
     dreg: v => { S.dreg = v; render(); },
     theme: () => {
