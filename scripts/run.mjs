@@ -1,13 +1,13 @@
 // Uso: node scripts/run.mjs [auto|daily|weekly|periods]
 //   auto    = diario siempre + resúmenes de periodo el día 1 de mes/trimestre/año (el semanal ya no es automático: se sube a mano como Markdown)
 //   weekly  = genera con Gemini el semanal en JSON (sólo a mano, para el panel de datos)
-//   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe
+//   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe (el workflow lo activa solo en las ejecuciones manuales: la última ejecución del día sustituye a la anterior)
 import path from 'node:path';
 import fs from 'node:fs';
 import { DATA, api, parseJSON, readJSON, writeJSON, listJSON, iso, addDays, parse, isoWeek, weekLabel, validateDay, validateWeek, validateEditorial, build } from './lib.mjs';
 import { exportMd } from './export-md.mjs';
 
-const FORCE = !!process.env.FORCE;
+const FORCE = () => !!process.env.FORCE; // función: los tests lo activan y desactivan en caliente
 const today = process.env.RUN_DATE ? parse(process.env.RUN_DATE) : parse(iso(new Date()));
 const log = (...a) => console.log('[intel]', ...a);
 
@@ -17,7 +17,7 @@ export const cleanAi = l => (Array.isArray(l) ? l : []).filter(a => [a?.title, a
 /* ---------- 1. Diario: noticias de las últimas 24 h + cierres de mercado ---------- */
 export async function daily(date) {
   const f = path.join(DATA, 'days', iso(date) + '.json');
-  if (fs.existsSync(f) && !FORCE) return log('día ya generado, se omite', iso(date));
+  if (fs.existsSync(f) && !FORCE()) return log('día ya generado, se omite', iso(date));
   const found = await api.call(
     `Hoy es ${iso(date)}. Busca en la web las noticias de las últimas 24 horas más relevantes de geopolítica, energía, bancos centrales y mercados (máximo 8). ` +
     `Para cada una indica: titular, resumen de 2 frases con hechos verificables, región, importancia del 1 al 5 y el nombre del medio que la publica. ` +
@@ -38,7 +38,7 @@ export async function daily(date) {
 export async function weekly(date) {
   const w = isoWeek(addDays(date, -7)); // semana completa anterior a la fecha
   const f = path.join(DATA, 'weeks', w.key + '.json');
-  if (fs.existsSync(f) && !FORCE) return log('semana ya generada, se omite', w.key);
+  if (fs.existsSync(f) && !FORCE()) return log('semana ya generada, se omite', w.key);
   const days = listJSON(path.join(DATA, 'days')).map(x => readJSON(path.join(DATA, 'days', x))).filter(d => d.date >= w.start && d.date <= w.end);
   if (!days.length) return log('sin datos diarios para', w.key, '— no se genera (no se inventa)');
   const prev = listJSON(path.join(DATA, 'weeks')).map(x => x.replace('.json', '')).filter(k => k < w.key).pop();
@@ -83,7 +83,7 @@ export function material(inPeriod) {
 }
 async function editorial(level, key, inPeriod) {
   const ef = path.join(DATA, 'editorial.json'), ed = fs.existsSync(ef) ? readJSON(ef) : { month: {}, quarter: {}, year: {} };
-  if (ed[level][key] && !FORCE) return log('editorial ya existe', level, key);
+  if (ed[level][key] && !FORCE()) return log('editorial ya existe', level, key);
   const mat = material(inPeriod);
   if (!mat.length) return log('sin material para', level, key);
   const out = await api.call(

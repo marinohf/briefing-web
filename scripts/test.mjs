@@ -46,6 +46,14 @@ for (let d = 19; d <= 25; d++) await R.daily(L.parse(`2026-10-${d}`));
 assert.equal(L.listJSON(path.join(tmp, 'days')).length, 7);
 const n = calls; await R.daily(L.parse('2026-10-19')); assert.equal(calls, n, 'idempotente: no repite un día ya generado');
 
+// Misma fecha ejecutada otra vez a mano (FORCE): queda UN solo archivo y es el de la última ejecución
+const f19 = path.join(tmp, 'days', '2026-10-19.json'), mock = L.api.call;
+L.api.call = async (p, o) => { const r = await mock(p, o); return p.includes('Convierte este texto') ? { text: r.text.replace('Titular', 'Titular v2') } : r; };
+process.env.FORCE = '1'; await R.daily(L.parse('2026-10-19')); delete process.env.FORCE; L.api.call = mock;
+assert.equal(L.listJSON(path.join(tmp, 'days')).filter(x => x.startsWith('2026-10-19')).length, 1, 'un solo archivo por día');
+assert.equal(L.readJSON(f19).items[0].title, 'Titular v2', 'FORCE: la última ejecución sustituye a la anterior');
+await R.daily(L.parse('2026-10-19')); assert.equal(L.readJSON(f19).items[0].title, 'Titular v2', 'la ejecución automática posterior no pisa la manual');
+
 await R.weekly(L.parse('2026-10-26'));
 const w43 = L.readJSON(path.join(tmp, 'weeks', '2026-W43.json'));
 assert.equal(w43.start, '2026-10-19'); assert.equal(w43.label, 'Semana 43, 19–25 Oct 2026');
@@ -86,7 +94,7 @@ assert.deepEqual(idx.semanales.map(s => s.slug), ['semana-43-2026', 'semana-42-2
 assert.equal(idx.semanales[0].title, 'Mi semana 43'); assert.equal(idx.semanales[0].start, '2026-10-19'); assert.equal(idx.semanales[0].label, 'Semana 43, 19–25 Oct 2026');
 const mdDay = fs.readFileSync(path.join(tmp, 'content', 'diarios', '2026-10-19.md'), 'utf8');
 assert.match(mdDay, /^---\ntipo: diario\nfecha: 2026-10-19\nsemana: 2026-W43\nnoticias: 1\n---\n/);
-assert.match(mdDay, /## Inteligencia artificial/); assert.match(mdDay, /\| Brent \| 99\.5 \|/);
+assert.match(mdDay, /Titular v2/); assert.equal((mdDay.match(/### Titular v2/g) || []).length, 1, 'el día aparece una sola vez'); assert.match(mdDay, /## Inteligencia artificial/); assert.match(mdDay, /\| Brent \| 99\.5 \|/);
 assert.equal(fs.readFileSync(path.join(wdir, 'semana-43-2026.md'), 'utf8'), mine, 'el export nunca reescribe un semanal subido a mano');
 const stamp = fs.statSync(path.join(tmp, 'content', 'index.json')).mtimeMs; exportMd();
 assert.equal(fs.statSync(path.join(tmp, 'content', 'index.json')).mtimeMs, stamp, 'export sin cambios no reescribe nada');
