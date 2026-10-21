@@ -28,5 +28,7 @@ jobs:
         run: node scripts/run.mjs ${{ inputs.mode || 'auto' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Ejecución manual = regenera el día (queda el último); la automática lo omite si ya existe
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && (inputs.mode == 'daily' || inputs.mode == 'auto') && '1' || '' }}
       - name: Publicar
-        run: git config user.name intel-bot && git config user.email intel-bot@users.noreply.github.com && git add data content &&(git diff --cached --quiet || (git commit -m "Actualizacion automatica" && git push))
+        run: git config user.name intel-bot && git config user.email intel-bot@users.noreply.github.com && git add data content &&(git diff --cached --quiet || (git commit -m "Actualizacion automatica" && git pull --rebase && git push))
