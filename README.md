@@ -1,4 +1,4 @@
-# 🛡️ GeoMacro Intel Radar — Executive Intelligence Platform
+# 🛡️ ANALEMA — Executive Intelligence Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![UI/UX: Executive Slate](https://img.shields.io/badge/UI/UX-Executive%20Dark%2FLight-0f172a.svg)]()
@@ -11,7 +11,7 @@
 
 ## 🧭 Visión del Proyecto
 
-En un entorno global caracterizado por la fragmentación geopolítica, shocks de oferta y volatilidad en los mercados financieros, **GeoMacro Intel Radar** sintetiza la complejidad de los acontecimientos mundiales a través de un enfoque riguroso de **análisis causal, dinamismo de actores y prospectiva de escenarios**.
+En un entorno global caracterizado por la fragmentación geopolítica, shocks de oferta y volatilidad en los mercados financieros, **ANALEMA** sintetiza la complejidad de los acontecimientos mundiales a través de un enfoque riguroso de **análisis causal, dinamismo de actores y prospectiva de escenarios**.
 
 La plataforma opera como un sistema vivo de inteligencia que actualiza semanalmente sus vectores clave y los consolida dinámicamente en **informes mensuales, trimestrales (Q-Reports) y memorias anuales**.
 

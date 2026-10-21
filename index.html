@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>INTEL — Inteligencia Geopolítica y Macro</title>
+<title>ANALEMA — Análisis geopolítico y económico</title>
 <meta name="description" content="Briefing semanal de geopolítica y macroeconomía: análisis causal, matriz de actores, riesgos y escenarios, con resúmenes mensuales, trimestrales y anuales.">
-<meta property="og:type" content="website"><meta property="og:title" content="INTEL — Inteligencia Geopolítica y Macro"><meta property="og:description" content="Análisis causal, actores, riesgos y escenarios. Actualizado cada día.">
-<meta name="theme-color" content="#0a121a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a121a'/%3E%3Cpath d='M9 8h14M16 8v16M9 24h14' stroke='%23e9a940' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<meta property="og:type" content="website"><meta property="og:title" content="ANALEMA — Análisis geopolítico y económico"><meta property="og:description" content="Análisis causal, actores, riesgos y escenarios. Actualizado cada día.">
+<meta name="theme-color" content="#0B0F19">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B0F19'/%3E%3Ccircle cx='16' cy='16' r='11' fill='%2313233F' stroke='%2322D3EE' stroke-width='1.4'/%3E%3Cpath d='M16 16C19 14 20 9 16 8C12 9 13 14 16 16C19 18 20 23 16 24C12 23 13 18 16 16Z' fill='none' stroke='%23D4AF37' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='8' r='2' fill='%23D4AF37'/%3E%3C/svg%3E">
 <script>try{var t=localStorage.getItem('intel-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,6 +73,51 @@ h1,h2,h3{text-wrap:balance}
 /* Inicio = pantalla limpia: sin raíl ni buscador, sólo la portada y sus botones */
 body[data-mode=inicio] #rail,body[data-mode=inicio] #searchWrap{display:none}
 body[data-mode=inicio] #shell{display:block}
+
+/* ANALEMA: logo (ax-). Splash siempre oscuro; en el resto, isotipo compacto estático */
+.ax-logo{display:block;width:min(80vw,640px);height:auto;--ax-cyan:#22D3EE;--ax-gold:#D4AF37;--ax-ink:#E6EDF7;--ax-mute:#64748B}
+.ax-ring-outer{fill:none;stroke:#22D3EE;stroke-opacity:.55;stroke-width:1.2}
+.ax-ticks{fill:none;stroke:#22D3EE;stroke-opacity:.5;stroke-width:5;stroke-dasharray:1.2 38.9;transform-box:fill-box;transform-origin:center}
+.ax-globe-rim{fill:none;stroke:#22D3EE;stroke-width:1.4}
+.ax-par{fill:none;stroke:#3B82F6;stroke-opacity:.45;stroke-width:.8}
+.ax-eq{stroke:#22D3EE;stroke-opacity:.7}
+.ax-mer{fill:none;stroke:#3B82F6;stroke-opacity:.5;stroke-width:.8;transform-box:fill-box;transform-origin:center}
+.ax-sweep{opacity:.9}
+.ax-sweep-line{stroke:#22D3EE;stroke-opacity:.5;stroke-width:1}
+.ax-analemma-base{fill:none;stroke:#D4AF37;stroke-opacity:.35;stroke-width:1.6}
+.ax-analemma-flow{fill:none;stroke:#D4AF37;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:26 174}
+.ax-mark{fill:#0B0F19;stroke:#D4AF37;stroke-width:1.2}
+.ax-sun-core{fill:#F5D77A}.ax-sun-halo{fill:#D4AF37;fill-opacity:.35}
+.ax-word{font:700 50px/1 Inter,system-ui,sans-serif;fill:#E6EDF7}
+.ax-tag{font:500 10px/1 Inter,system-ui,sans-serif;fill:#64748B}
+.ax-live{font:600 9px/1 Inter,system-ui,sans-serif;fill:#22D3EE}
+.ax-live-dot{fill:#22D3EE}.ax-rule{stroke:#D4AF37;stroke-width:1.5}
+@supports (offset-path:path("M0 0")){.ax-sun{offset-path:path("M0 0 C18 -14 20 -44 0 -48 C-20 -44 -18 -14 0 0 C22 14 26 48 0 52 C-26 48 -22 14 0 0 Z");offset-rotate:0deg}}
+.ax-brand{display:inline-flex;align-items:center;gap:.65rem;text-decoration:none;color:inherit}
+.ax-iso{width:40px;height:40px;flex:none;border-radius:10px;background:#0B0F19;border:1px solid rgb(var(--line)/.35)}
+.ax-name{font:700 1.45rem/1 Inter,system-ui,sans-serif;letter-spacing:.14em}
+.ax-sub{display:block}
+@media (max-width:640px){.ax-sub{display:none}}
+#splash{background:#0B0F19;color:#E6EDF7}
+#splash p{color:#64748B}
+@media (prefers-reduced-motion:no-preference){
+  #splash .ax-logo{animation:ax-in .9s var(--out) both}
+  @keyframes ax-in{from{opacity:0;transform:scale(.94)}}
+  @keyframes ax-spin{to{transform:rotate(-360deg)}}
+  @keyframes ax-trace{to{stroke-dashoffset:-200}}
+  @keyframes ax-travel{to{offset-distance:100%}}
+  @keyframes ax-pulse{50%{opacity:.35}}
+  @keyframes ax-blink{50%{opacity:.3}}
+  @keyframes ax-rotate-mer{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+  @keyframes ax-sweepr{to{transform:rotate(360deg)}}
+  .ax-ticks{animation:ax-spin 80s linear infinite}
+  .ax-mer{animation:ax-rotate-mer 18s linear infinite}
+  .ax-m2{animation-delay:-1.5s}.ax-m3{animation-delay:-3s}.ax-m4{animation-delay:-4.5s}.ax-m5{animation-delay:-6s}.ax-m6{animation-delay:-7.5s}
+  .ax-sweep{animation:ax-sweepr 8s linear infinite}
+  .ax-analemma-flow{animation:ax-trace 8s linear infinite;filter:drop-shadow(0 0 3px rgba(212,175,55,.8))}
+  .ax-sun{animation:ax-travel 8s linear infinite}
+  .ax-sun-halo,.ax-live-dot{animation:ax-pulse 2s ease-in-out infinite}
+}
 #splash.out{opacity:0;pointer-events:none}
 #splash[hidden]{display:none}
 
@@ -112,11 +157,12 @@ body[data-mode=inicio] #shell{display:block}
 </style>
 </head>
 <body class="boot min-h-screen" data-mode="inicio">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><radialGradient id="ax-globeFill"><stop offset="0" stop-color="#13233F"/><stop offset="1" stop-color="#0B0F19"/></radialGradient><radialGradient id="ax-halo"><stop offset=".6" stop-color="#22D3EE" stop-opacity=".13"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient><linearGradient id="ax-sweepGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".35"/></linearGradient><clipPath id="ax-globeClip"><circle r="62"/></clipPath><symbol id="ax-iso" viewBox="0 0 200 200"><g transform="translate(100,100) scale(1.05)"><circle r="88" fill="url(#ax-halo)"/><circle class="ax-ring-outer" r="80"/><circle r="62" fill="url(#ax-globeFill)"/><g clip-path="url(#ax-globeClip)"><g transform="rotate(-18)"><ellipse class="ax-par ax-eq" cx="0" cy="0" rx="62" ry="19"/><ellipse class="ax-par" cx="0" cy="29.5" rx="53.7" ry="16.6"/><ellipse class="ax-par" cx="0" cy="-29.5" rx="53.7" ry="16.6"/><ellipse class="ax-par" cx="0" cy="51" rx="31" ry="9.6"/><ellipse class="ax-par" cx="0" cy="-51" rx="31" ry="9.6"/><ellipse class="ax-par" cx="0" cy="0" rx="62" ry="62" /><ellipse class="ax-par" cx="0" cy="0" rx="52" ry="62" /><ellipse class="ax-par" cx="0" cy="0" rx="42" ry="62" /><ellipse class="ax-par" cx="0" cy="0" rx="32" ry="62" /><ellipse class="ax-par" cx="0" cy="0" rx="22" ry="62" /><ellipse class="ax-par" cx="0" cy="0" rx="12" ry="62" /></g></g><circle class="ax-globe-rim" r="62"/><path d="M0 0 C18 -14 20 -44 0 -48 C-20 -44 -18 -14 0 0 C22 14 26 48 0 52 C-26 48 -22 14 0 0 Z" fill="none" stroke="#D4AF37" stroke-width="4" stroke-opacity=".9"/><circle cx="0" cy="-48" r="6" fill="#F5D77A"/></g></symbol></defs></svg>
 
-<div id="splash" class="fixed inset-0 z-[60] bg-bg flex flex-col items-center justify-center text-center px-6 cursor-pointer" role="presentation" hidden>
-  <h1 class="serif text-7xl md:text-9xl font-semibold tracking-tight leading-none">Intel</h1>
-  <p class="text-muted mt-5 text-lg md:text-xl">Briefing geopolítico y macroeconómico</p>
-  <p id="splashDate" class="text-muted/70 mt-10 text-sm"></p>
+<div id="splash" class="fixed inset-0 z-[60] flex flex-col items-center justify-center text-center px-6 cursor-pointer" role="presentation" hidden>
+  <svg class="ax-logo" viewBox="0 0 640 200" role="img" aria-label="ANALEMA – Análisis geopolítico y económico" xmlns="http://www.w3.org/2000/svg"><g transform="translate(100,100)"><circle r="88" fill="url(#ax-halo)"/><circle class="ax-ring-outer" r="80"/><circle class="ax-ticks" r="72"/><circle r="62" fill="url(#ax-globeFill)"/><g clip-path="url(#ax-globeClip)"><g transform="rotate(-18)"><ellipse class="ax-par ax-eq" cx="0" cy="0" rx="62" ry="19"/><ellipse class="ax-par" cx="0" cy="29.5" rx="53.7" ry="16.6"/><ellipse class="ax-par" cx="0" cy="-29.5" rx="53.7" ry="16.6"/><ellipse class="ax-par" cx="0" cy="51" rx="31" ry="9.6"/><ellipse class="ax-par" cx="0" cy="-51" rx="31" ry="9.6"/><ellipse class="ax-mer ax-m1" cx="0" cy="0" rx="62" ry="62"/><ellipse class="ax-mer ax-m2" cx="0" cy="0" rx="52" ry="62"/><ellipse class="ax-mer ax-m3" cx="0" cy="0" rx="42" ry="62"/><ellipse class="ax-mer ax-m4" cx="0" cy="0" rx="32" ry="62"/><ellipse class="ax-mer ax-m5" cx="0" cy="0" rx="22" ry="62"/><ellipse class="ax-mer ax-m6" cx="0" cy="0" rx="12" ry="62"/></g><g class="ax-sweep"><path d="M0 0 L0 -62 A62 62 0 0 1 44 -44 Z" fill="url(#ax-sweepGrad)"/><line class="ax-sweep-line" x1="0" y1="0" x2="44" y2="-44"/></g></g><circle class="ax-globe-rim" r="62"/><path class="ax-analemma-base" d="M0 0 C18 -14 20 -44 0 -48 C-20 -44 -18 -14 0 0 C22 14 26 48 0 52 C-26 48 -22 14 0 0 Z"/><path class="ax-analemma-flow" pathLength="200" d="M0 0 C18 -14 20 -44 0 -48 C-20 -44 -18 -14 0 0 C22 14 26 48 0 52 C-26 48 -22 14 0 0 Z"/><circle class="ax-mark" cx="0" cy="-48" r="2.6"/><circle class="ax-mark" cx="0" cy="52" r="2.6"/><circle class="ax-mark" cx="0" cy="0" r="2.6"/><g class="ax-sun"><circle class="ax-sun-halo" r="8"/><circle class="ax-sun-core" r="4"/></g></g><circle class="ax-live-dot" cx="214" cy="62" r="3"/><text class="ax-live" x="224" y="65.5" textLength="150">LIVE · SYSTEM ACTIVE</text><text class="ax-word" x="208" y="116" textLength="300">ANALEMA</text><line class="ax-rule" x1="212" y1="132" x2="272" y2="132"/><text class="ax-tag" x="210" y="153" textLength="372">GEOPOLÍTICA · MACRO · DEFENSA · MERCADOS</text></svg>
+  <p class="mt-4 text-base md:text-lg">Briefing geopolítico y macroeconómico</p>
+  <p id="splashDate" class="mt-8 text-sm opacity-80"></p>
 </div>
 
 <div class="ticker border-b border-line/20 bg-surface/90 h-9 flex items-center text-xs" role="region" aria-label="Ticker de mercados y chokepoints">
@@ -128,7 +174,7 @@ body[data-mode=inicio] #shell{display:block}
   <!-- RAÍL: marca, periodo, secciones -->
   <aside id="rail" class="lg:sticky lg:top-0 lg:h-[calc(100vh-2.25rem)] lg:self-start lg:overflow-y-auto border-b lg:border-b-0 lg:border-r border-line/20 bg-surface/60 flex flex-col">
     <div class="px-5 pt-6 pb-4">
-      <h1 class="serif text-4xl font-semibold tracking-tight leading-none">Intel</h1>
+      <h1 class="m-0"><a class="ax-brand" href="#/" aria-label="ANALEMA – inicio"><svg class="ax-iso" viewBox="0 0 200 200" aria-hidden="true"><use href="#ax-iso"/></svg><span class="ax-name">ANALEMA</span></a></h1>
       <p class="text-xs text-muted mt-2 max-w-[18ch]">Briefing geopolítico y macroeconómico</p>
     </div>
     <div class="px-5 pb-3"><div class="grid grid-cols-3 gap-0.5 p-0.5 rounded-md bg-surface2/80 border border-line/20 text-sm" role="group" aria-label="Modo" id="modeBtns"></div></div>
@@ -231,6 +277,7 @@ function boot(DB, IDX) {
     ['d-resumen', 'bolt', 'Resumen del día'], ['d-noticias', 'newspaper', 'Noticias'], ['d-mercados', 'chart-line', 'Mercados'],
     ['d-ia', 'microchip', 'Inteligencia artificial'], ['d-fuentes', 'link', 'Fuentes'], ['d-historico', 'calendar-days', 'Histórico']
   ];
+  const HIDE = new Set(['archive', 'd-fuentes', 'w-md']); // siguen existiendo por enlace directo, pero sin pestaña
   const LEVELS = [['week', 'Semana'], ['month', 'Mes'], ['quarter', 'Trim.'], ['year', 'Año']];
   const TFS = [['all', 'Todo'], ['hoy', 'Hoy'], ['3d', '3 días'], ['7d', '7 días']];
 
@@ -295,7 +342,7 @@ function boot(DB, IDX) {
       $('periodSel').innerHTML = periods(S.level).map(p => `<option value="${E(p.key)}" ${p.key === S.key ? 'selected' : ''}>${E(p.label)}</option>`).join('');
       $('tfBtns').innerHTML = TFS.map(([k, l]) => `<button data-act="tf" data-v="${k}" aria-pressed="${S.tf === k}" class="pillbtn press px-3 py-1.5 rounded ${S.tf === k ? 'bg-ink text-bg font-semibold' : 'text-muted hover:text-ink'}">${l}</button>`).join('');
     }
-    $('tabs').innerHTML = (I ? [] : D ? DTABS : [...WTABS, ...TABS]).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${S.tab === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
+    $('tabs').innerHTML = (I ? [] : D ? DTABS : [...TABS, ...WTABS]).filter(t => !HIDE.has(t[0])).map(([id, ic, l]) => `<button role="tab" id="tab-${id}" data-act="tab" data-v="${id}" aria-selected="${(S.tab === 'w-md' ? 'w-hist' : S.tab) === id}" aria-controls="view-${id}" class="navbtn press shrink-0 rounded-md py-2.5 px-3 flex items-center gap-3 whitespace-nowrap text-left"><i class="fa-solid fa-${ic} w-4 text-center" aria-hidden="true"></i>${l}</button>`).join('');
     [...TABS, ...WTABS, ...DTABS, ['inicio']].forEach(([id]) => { $('view-' + id).hidden = S.tab !== id; });
     $('themeIcon').className = 'fa-solid fa-' + (document.documentElement.dataset.theme === 'light' ? 'moon' : 'sun');
   }
@@ -718,8 +765,7 @@ function boot(DB, IDX) {
     const multi = days.length > 1, row = i => newsRow(i).replace('<span class="text-xs text-muted">', `<span class="text-xs text-muted">${multi ? E(shortD(i._d)) + ' · ' : ''}`);
     const sub = INI.fresh ? `${items.length} noticias nuevas en ${days.length} ${days.length === 1 ? 'briefing' : 'briefings'} desde tu última visita (${ldate(PREV)}).` : PREV ? 'No hay novedades desde tu última visita: te dejamos el último briefing.' : 'Este es el último briefing. La próxima vez verás aquí lo que haya cambiado desde que entraste.';
     const figs = MK.map(([k, l, u, dec]) => { const v = d0.markets?.[k]; return fig(l, v != null ? nf(v, dec) : '—', v != null ? [u, delta(k, dec)].filter(Boolean).join(' · ') : 'No disponible'); }).join('');
-    const sw = SEM[0];
-    el.innerHTML = `
+        el.innerHTML = `
       <header class="max-w-3xl"><p class="text-sm text-muted mb-2">${E(fmtD(d0.date))}</p>
         <h2 class="serif text-5xl md:text-7xl font-medium tracking-tight leading-[.95]">${INI.fresh ? 'Lo que ha cambiado' : 'Bienvenido'}</h2>
         <p class="text-lg text-muted mt-4 prose-w">${E(sub)}${crit ? ` <strong class="${TXT.crit}">${crit} ${crit === 1 ? 'crítica' : 'críticas'}.</strong>` : ''}</p></header>
@@ -733,7 +779,7 @@ function boot(DB, IDX) {
       ${rest.length ? `<section aria-label="Otros titulares"><h3 class="serif text-2xl font-medium mb-4">Titulares</h3><div class="border-t border-line/25">${rest.map(row).join('')}</div>${items.length > 7 ? `<a href="#/diario/${E(d0.date)}/noticias" class="press mt-4 inline-block text-sm underline text-muted hover:text-ink">Ver todas las noticias del último día</a>` : ''}</section>` : ''}
       ${ai.length ? `<section aria-label="Inteligencia artificial" class="pt-4 border-t-2 border-ink/80"><h3 class="serif text-2xl font-medium mb-5">Inteligencia artificial</h3><div class="grid md:grid-cols-2 gap-x-10 gap-y-8">${ai.slice(0, 2).map(aiCard).join('')}</div></section>` : ''}
       <section aria-label="Siguiente paso" class="grid md:grid-cols-2 gap-4">
-        <a href="${sw ? '#/semanal' : '#/semanal/exec'}" class="lift press glass rounded-2xl border border-line/20 p-6 block"><p class="text-sm text-muted mb-2">Siguiente paso</p><h3 class="serif text-3xl font-medium leading-tight">Briefing semanal →</h3><p class="text-muted mt-3">${sw ? E(sw.label) + (sw.title ? ' · ' + E(sw.title) : '') : 'Panel de datos de la semana'}</p></a>
+        <a href="#/semanal" class="lift press glass rounded-2xl border border-line/20 p-6 block"><p class="text-sm text-muted mb-2">Siguiente paso</p><h3 class="serif text-3xl font-medium leading-tight">Briefing semanal →</h3><p class="text-muted mt-3">${E(WEEKS[0]?.label || 'Panel de la semana')}</p></a>
         <a href="#/diario/${E(d0.date)}" class="lift press glass rounded-2xl border border-line/20 p-6 block"><p class="text-sm text-muted mb-2">Más detalle</p><h3 class="serif text-3xl font-medium leading-tight">Briefing diario completo →</h3><p class="text-muted mt-3">Noticias, mercados, IA y fuentes de ${E(ldate(d0.date))}</p></a>
       </section>`;
   }
@@ -747,8 +793,8 @@ function boot(DB, IDX) {
     } else if (m === 'semanal') {
       S.mode = 'semanal';
       if (a === 'historico') S.tab = 'w-hist';
-      else if (TABS.some(x => x[0] === a)) S.tab = a;
-      else { S.tab = 'w-md'; S.wk = /^semana-\d{2}-\d{4}$/.test(b || '') ? b : null; }
+      else if (a === 'informe') { S.tab = 'w-md'; S.wk = /^semana-\d{2}-\d{4}$/.test(b || '') ? b : null; }
+      else S.tab = TABS.some(x => x[0] === a) ? a : 'exec';
       render();
     }
     else {
@@ -762,7 +808,7 @@ function boot(DB, IDX) {
     }
     window.scrollTo({ top: 0 });
   }
-  const hashFor = id => id === 'inicio' ? '#/' : id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'w-md' ? '#/semanal/informe' + (S.wk ? '/' + S.wk : '') : id === 'w-hist' ? '#/semanal/historico' : '#/semanal/' + id);
+  const hashFor = id => id === 'inicio' ? '#/' : id.startsWith('d-') ? `#/diario/${S.date || ''}/${id.slice(2)}` : (id === 'w-md' ? '#/semanal/informe' + (S.wk ? '/' + S.wk : '') : id === 'w-hist' ? '#/semanal/historico' : id === 'exec' ? '#/semanal' : '#/semanal/' + id);
   function setTab(id) { const h = hashFor(id); location.hash === h ? route() : (location.hash = h); }
   const goDay = d => { location.hash = `#/diario/${d}/${S.tab.startsWith('d-') ? S.tab.slice(2) : 'resumen'}`; };
 
@@ -778,7 +824,7 @@ function boot(DB, IDX) {
     open: v => openDrawer(+v),
     close: closeDrawer, prev: () => step(-1), next: () => step(1),
     clear: () => { S.from = S.to = ''; render(); },
-    mode: v => setTab(v === 'inicio' ? 'inicio' : v === 'diario' ? 'd-resumen' : 'w-md'),
+    mode: v => setTab(v === 'inicio' ? 'inicio' : v === 'diario' ? 'd-resumen' : 'exec'),
     dnav: v => { const n = DATES[DATES.indexOf(S.date) + (v === 'prev' ? 1 : -1)]; if (n) goDay(n); },
     dreg: v => { S.dreg = v; render(); },
     theme: () => {
@@ -819,7 +865,7 @@ function boot(DB, IDX) {
   const sp = $('splash');
   $('splashDate').textContent = fmtD(DATES[0] || iso0());
   sp.hidden = false;
-  const done = () => { if (sp.hidden) return; sp.classList.add('out'); setTimeout(() => { sp.hidden = true; }, 750); };
+  const done = () => { if (sp.hidden) return; sp.classList.add('out'); setTimeout(() => { sp.hidden = true; sp.querySelector('.ax-logo')?.remove(); }, 750); };
   sp.addEventListener('click', done); document.addEventListener('keydown', done, { once: true }); setTimeout(done, 2600);
   setTimeout(() => document.body.classList.remove('boot'), 1200); // la secuencia de entrada sólo corre una vez
 }
