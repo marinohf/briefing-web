@@ -792,12 +792,12 @@ function boot(DB, IDX) {
           <h3 class="serif text-3xl md:text-5xl font-medium leading-[1.05] tracking-tight max-w-[24ch]">${E(lead.title)}</h3>
           <p class="text-[17px] leading-relaxed mt-6 prose-w">${E(lead.summary)}</p>
           <p class="text-sm text-muted mt-5">${[lead.region, lead.source].filter(Boolean).map(E).join(' · ')}</p></div></article>` : empty('Ninguna noticia coincide con la búsqueda.')}
-      ${rest.length ? `<section aria-label="Otros titulares"><h3 class="serif text-2xl font-medium mb-4">Titulares</h3><div class="border-t border-line/25">${rest.map(row).join('')}</div>${items.length > 7 ? `<a href="#/diario/${E(d0.date)}/noticias" class="press mt-4 inline-block text-sm underline text-muted hover:text-ink">Ver todas las noticias del último día</a>` : ''}</section>` : ''}
-      ${ai.length ? `<section aria-label="Inteligencia artificial" class="pt-4 border-t-2 border-ink/80"><h3 class="serif text-2xl font-medium mb-5">Inteligencia artificial</h3><div class="grid md:grid-cols-2 gap-x-10 gap-y-8">${ai.slice(0, 2).map(aiCard).join('')}</div></section>` : ''}
       <section aria-label="Siguiente paso" class="grid md:grid-cols-2 gap-4">
         <a href="#/semanal" class="lift press cta rounded-2xl p-6 justify-between gap-4 text-left"><span><span class="block text-sm opacity-75 mb-2">Siguiente paso</span><span class="serif block text-3xl font-medium leading-tight">Briefing semanal</span><span class="block opacity-80 mt-3 font-normal">${E(WEEKS[0]?.label || 'Panel de la semana')}</span></span><span class="arr serif text-5xl" aria-hidden="true">→</span></a>
         <a href="#/diario/${E(d0.date)}" class="lift press group flex items-center justify-between gap-4 rounded-2xl border border-amber/60 bg-amber/10 p-6 text-left"><span><span class="block text-sm text-muted mb-2">Más detalle</span><span class="serif block text-3xl font-medium leading-tight">Briefing diario completo</span><span class="block text-muted mt-3">Noticias, mercados, IA y fuentes de ${E(ldate(d0.date))}</span></span><span class="serif text-5xl text-amber transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></a>
-      </section>`;
+      </section>
+      ${rest.length ? `<section aria-label="Otros titulares"><h3 class="serif text-2xl font-medium mb-4">Titulares</h3><div class="border-t border-line/25">${rest.map(row).join('')}</div>${items.length > 7 ? `<a href="#/diario/${E(d0.date)}/noticias" class="press mt-4 inline-block text-sm underline text-muted hover:text-ink">Ver todas las noticias del último día</a>` : ''}</section>` : ''}
+      ${ai.length ? `<section aria-label="Inteligencia artificial" class="pt-4 border-t-2 border-ink/80"><h3 class="serif text-2xl font-medium mb-5">Inteligencia artificial</h3><div class="grid md:grid-cols-2 gap-x-10 gap-y-8">${ai.slice(0, 2).map(aiCard).join('')}</div></section>` : ''}`;
   }
 
   /* ---------- Rutas por hash: #/ (inicio: novedades), #/diario (último diario), #/diario/AAAA-MM-DD[/pestaña], #/semanal[/pestaña] ---------- */
