@@ -27,9 +27,9 @@ tailwind.config = {
 </script>
 <style>
 /* Mesa de cartas: azul abisal + tinta hueso. Semántica: crimson crítico, amber intermedio, emerald oportunidad. */
-:root{--bg:10 18 26;--surface:17 28 39;--surface2:25 40 55;--ink:232 228 216;--muted:145 163 180;--line:145 163 180;--crimson:242 100 90;--amber:233 169 64;--emerald:72 192 146;
+:root{--bg:10 18 26;--surface:17 28 39;--surface2:25 40 55;--ink:232 228 216;--muted:145 163 180;--line:145 163 180;--crimson:242 100 90;--amber:233 169 64;--emerald:72 192 146;--orange:238 126 56;
   --out:cubic-bezier(.23,1,.32,1);color-scheme:dark}
-:root[data-theme=light]{--bg:238 241 243;--surface:252 253 253;--surface2:228 234 238;--ink:14 26 36;--muted:76 94 110;--line:14 26 36;--crimson:176 36 28;--amber:134 86 0;--emerald:10 104 74;color-scheme:light}
+:root[data-theme=light]{--bg:238 241 243;--surface:252 253 253;--surface2:228 234 238;--ink:14 26 36;--muted:76 94 110;--line:14 26 36;--crimson:176 36 28;--amber:134 86 0;--emerald:10 104 74;--orange:184 82 10;color-scheme:light}
 
 body{background:rgb(var(--bg));color:rgb(var(--ink));font-family:'Instrument Sans',system-ui,sans-serif;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased;
   background-image:linear-gradient(rgb(var(--line)/.05) 1px,transparent 1px),linear-gradient(90deg,rgb(var(--line)/.05) 1px,transparent 1px);background-size:56px 56px;background-attachment:fixed}
@@ -94,6 +94,35 @@ body[data-mode=inicio] #shell{display:block}
 .ax-live-dot{fill:#22D3EE}.ax-rule{stroke:#D4AF37;stroke-width:1.5}
 @supports (offset-path:path("M0 0")){.ax-sun{offset-path:path("M0 0 C18 -14 20 -44 0 -48 C-20 -44 -18 -14 0 0 C22 14 26 48 0 52 C-26 48 -22 14 0 0 Z");offset-rotate:0deg}}
 .ax-brand{display:inline-flex;align-items:center;gap:.65rem;text-decoration:none;color:inherit}
+/* Mapa de tensión mensual (tz-): torres 3D por día; color continuo por tensión; se gira e inclina arrastrando; a 0° queda plano (2D) */
+@property --g{syntax:'<number>';inherits:true;initial-value:1}
+.tz-wrap{--cell:clamp(24px,6.6vw,44px);overflow:hidden;padding:1rem}
+.tz-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:.5rem}
+.tz-reset{border:0;background:none;color:rgb(var(--muted));font:inherit;font-size:.8rem;text-decoration:underline;cursor:pointer}
+.tz-scene{--rx:55deg;--rz:45deg;--k:1;display:flex;justify-content:center;align-items:center;min-height:calc(var(--cell)*(8.6 + var(--k)));perspective:1600px;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.tz-scene.drag{cursor:grabbing}
+.tz-grid{display:grid;grid-template-columns:repeat(7,var(--cell));gap:calc(var(--cell)*.14);transform-style:preserve-3d;transform:rotateX(var(--rx)) rotateZ(var(--rz));transition:transform .6s var(--out)}
+.tz-scene.drag .tz-grid{transition:transform .15s ease-out}
+.tz-h{height:var(--cell);display:flex;align-items:center;justify-content:center;font-size:.7rem;color:rgb(var(--muted))}
+.tz-b{--c:var(--line);--g:1;--h:calc(var(--cell)*(.1 + var(--t,0)*1.5)*var(--k)*var(--g));position:relative;width:var(--cell);height:var(--cell);transform-style:preserve-3d;outline:none}
+.tz-f{position:absolute;box-sizing:border-box;background-color:rgb(var(--c))}
+.tz-top{inset:0;transform:translateZ(var(--h));border-radius:4px;border:1px solid rgb(255 255 255/.3);display:flex;align-items:center;justify-content:center;font-size:.72rem;color:rgb(var(--bg));font-weight:700;background-image:linear-gradient(135deg,rgb(255 255 255/.3),rgb(255 255 255/0) 65%)}
+.tz-b:not([data-has]) .tz-top{background-image:none}
+.tz-b:not([data-n]) .tz-top{background:rgb(var(--line)/.22);border-color:rgb(var(--line)/.3);color:rgb(var(--ink))}
+.tz-fr,.tz-nf{left:0;width:100%;height:var(--h);transform-origin:top;transform:rotateX(90deg);background-image:linear-gradient(to bottom,rgb(0 0 0/.55),rgb(0 0 0/.12))}
+.tz-fr{top:100%}.tz-nf{top:0}
+.tz-sd,.tz-wf{top:0;width:var(--h);height:100%;transform-origin:left;transform:rotateY(-90deg);background-image:linear-gradient(to right,rgb(0 0 0/.62),rgb(0 0 0/.2))}
+.tz-sd{left:100%}.tz-wf{left:0}
+.tz-b:not([data-n]) .tz-fr,.tz-b:not([data-n]) .tz-nf,.tz-b:not([data-n]) .tz-sd,.tz-b:not([data-n]) .tz-wf{background-color:rgb(var(--line)/.25)}
+.tz-b.tz-e .tz-top{background:none;border-color:rgb(var(--line)/.15);color:rgb(var(--muted));font-weight:400}
+.tz-b[data-has]{cursor:pointer}
+.tz-b[data-has]:hover .tz-top,.tz-b[data-has]:focus-visible .tz-top{filter:brightness(1.3)}
+.tz-b[aria-pressed=true] .tz-top{outline:2px solid rgb(var(--ink));outline-offset:1px}
+.tz-sw{display:inline-block;width:.9rem;height:.9rem;border-radius:3px;background:rgb(var(--line)/.3);vertical-align:-2px}
+.tz-leg{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.tz-ramp{flex:1;min-width:11rem;max-width:22rem}.tz-ramp i{display:block;height:.6rem;border-radius:3px;background:var(--ramp)}.tz-ramp div{display:flex;justify-content:space-between;margin-top:3px}
+@media (prefers-reduced-motion:no-preference){.tz-b{animation:tz-grow .7s var(--out) both;animation-delay:calc(var(--i)*14ms)}@keyframes tz-grow{from{--g:0}}}
+@media (prefers-reduced-motion:reduce){.tz-grid{transition:none}}
 .ax-iso{width:40px;height:40px;flex:none;border-radius:10px;background:#0B0F19;border:1px solid rgb(var(--line)/.35)}
 .ax-name{font:700 1.45rem/1 Inter,system-ui,sans-serif;letter-spacing:.14em}
 .ax-sub{display:block}
@@ -291,7 +320,7 @@ function boot(DB, IDX) {
   const LEVELS = [['week', 'Semana'], ['month', 'Mes'], ['quarter', 'Trim.'], ['year', 'Año']];
   const TFS = [['all', 'Todo'], ['hoy', 'Hoy'], ['3d', '3 días'], ['7d', '7 días']];
 
-  const S = { wk: null, mode: 'inicio', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'inicio', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
+  const S = { wk: null, mode: 'inicio', date: null, day: null, err: null, dimp: 'all', dreg: 'all', from: '', to: '', level: 'week', key: null, tab: 'inicio', tf: 'all', q: '', imp: 'all', actor: 'all', risk: 0, tzm: null, tzd: null, rx: 55, rz: 45, flat: false, list: [], i: 0, opener: null, animCharts: true, hide: { mk: new Set(), hz: new Set() } };
 
   /* ---------- Modelo temporal ---------- */
   const WEEKS = Object.entries(DB.weeks).map(([k, w]) => ({ k, ...w })).sort((a, b) => b.start.localeCompare(a.start) || b.k.localeCompare(a.k));
@@ -625,6 +654,44 @@ function boot(DB, IDX) {
   // El índice manda; sin content/index.json se usan los días que trae db.json
   const DATES = (IDX.diarios.length ? IDX.diarios.map(x => x.date) : Object.keys(DB.days || {})).sort().reverse();
   const COUNT = Object.fromEntries(IDX.diarios.map(x => [x.date, x.items]));
+  const TEN = Object.fromEntries(IDX.diarios.filter(x => Number.isFinite(x.tension)).map(x => [x.date, x.tension]));
+  // Etiquetas: 0 calma, 1-30 estable, 31-50 moderada, 51-75 alta, 76-100 crítica. El color, en cambio, es continuo.
+  const TLV = [[1, 'Estable', '1–30'], [2, 'Moderada', '31–50'], [3, 'Alta', '51–75'], [4, 'Crítica', '76–100']];
+  const tzLevel = t => (t >= 76 ? 4 : t >= 51 ? 3 : t >= 31 ? 2 : t >= 1 ? 1 : 0);
+  const MONTHS = [...new Set(DATES.map(d => d.slice(0, 7)))]; // más reciente primero
+  const tzInfo = d => !DATES.includes(d) ? '' : d in TEN
+    ? `<strong>${E(ldate(d))}</strong> · Tensión ${TEN[d]}/100 · ${tzLevel(TEN[d]) ? TLV[tzLevel(TEN[d]) - 1][1] : 'Calma'} <a class="underline ml-2" href="#/diario/${E(d)}">Abrir briefing →</a>`
+    : `<strong>${E(ldate(d))}</strong> · Sin índice de tensión <a class="underline ml-2" href="#/diario/${E(d)}">Abrir briefing →</a>`;
+  // Escala continua con la paleta de la web: esmeralda -> ámbar -> naranja -> carmesí (lee los tokens del tema activo)
+  const STOPS = [[0, '--emerald'], [35, '--amber'], [65, '--orange'], [100, '--crimson']];
+  const rgbOf = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim().split(/\s+/).map(Number);
+  const tzColor = t => {
+    const st = STOPS.map(([v, n]) => [v, rgbOf(n)]); t = Math.min(100, Math.max(0, t));
+    const j = Math.max(1, st.findIndex(x => x[0] >= t)), [v0, c0] = st[j - 1], [v1, c1] = st[j], f = (t - v0) / (v1 - v0);
+    return c0.map((x, i) => Math.round(x + (c1[i] - x) * f)).join(' ');
+  };
+  const rampCss = () => `linear-gradient(90deg,${STOPS.map(([v, n]) => `rgb(${rgbOf(n).join(' ')}) ${v}%`).join(',')})`;
+  const tzClamp = (x, a, b) => Math.min(b, Math.max(a, x));
+  const viewVars = () => `--rx:${S.rx}deg;--rz:${S.rz}deg;--k:${tzClamp(S.rx / 50, 0, 1).toFixed(3)}`; // a 0° de inclinación las torres miden 0: queda el calendario plano
+  function tzMap() {
+    if (!MONTHS.length) return '';
+    const m = MONTHS.includes(S.tzm) ? S.tzm : MONTHS[0], k = MONTHS.indexOf(m), [y, mo] = m.split('-').map(Number);
+    const lead = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7, n = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+    const cells = Array.from({ length: n }, (_, j) => {
+      const d = `${m}-${String(j + 1).padStart(2, '0')}`, has = DATES.includes(d), t = TEN[d], i = lead + j;
+      if (!has) return `<div class="tz-b tz-e" style="--i:${i}" aria-hidden="true"><span class="tz-f tz-top">${j + 1}</span></div>`;
+      const lv = t == null ? 0 : tzLevel(t), lab = t == null ? 'sin índice de tensión' : `tensión ${t} de 100, ${lv ? TLV[lv - 1][1] : 'calma'}`;
+      return `<div class="tz-b" role="button" tabindex="0" data-tz="${d}" data-has ${lv ? `data-n="${lv}"` : ''} aria-pressed="${S.tzd === d}" aria-label="${E(ldate(d))}: ${lab}" style="--i:${i};--t:${t == null ? 0 : t / 100}${lv ? `;--c:${tzColor(t)}` : ''}"><span class="tz-f tz-fr"></span><span class="tz-f tz-nf"></span><span class="tz-f tz-sd"></span><span class="tz-f tz-wf"></span><span class="tz-f tz-top">${j + 1}</span></div>`;
+    });
+    const arrow = (v, ic, label, off) => `<button data-act="tzm" data-v="${v}" aria-label="${label}" ${off ? 'disabled' : ''} class="press w-9 h-9 shrink-0 rounded-md disabled:opacity-40 bg-surface2/80 border border-line/20"><i class="fa-solid fa-chevron-${ic}" aria-hidden="true"></i></button>`;
+    return `<section aria-label="Mapa de tensión mensual" class="space-y-4">
+      <div class="flex items-center justify-between gap-3"><h3 class="serif text-2xl font-medium">Mapa de tensión</h3>
+        <div class="flex items-center gap-2">${arrow('prev', 'left', 'Mes anterior', k === MONTHS.length - 1)}<span class="serif text-lg min-w-[9rem] text-center capitalize">${E(dt(m + '-01').toLocaleDateString('es', { month: 'long', year: 'numeric', timeZone: 'UTC' }))}</span>${arrow('next', 'right', 'Mes siguiente', k === 0)}</div></div>
+      <div class="panel tz-wrap"><div class="tz-bar"><span class="text-sm text-muted">Arrastra para girar e inclinar · en plano (2D) se bloquea; tira hacia arriba para salir</span><button type="button" class="tz-reset" data-reset>Restablecer vista</button></div>
+        <div class="tz-scene" style="${viewVars()}"><div class="tz-grid">${['L', 'M', 'X', 'J', 'V', 'S', 'D'].map(x => `<span class="tz-h" aria-hidden="true">${x}</span>`).join('')}${'<span aria-hidden="true"></span>'.repeat(lead)}${cells.join('')}</div></div></div>
+      <p id="tzInfo" class="text-sm min-h-[1.5rem]" aria-live="polite">${S.tzd ? tzInfo(S.tzd) : '<span class="text-muted">Pasa el cursor o toca un día para ver su tensión.</span>'}</p>
+      <div class="text-xs text-muted tz-leg"><span><i class="tz-sw"></i> Sin índice</span><div class="tz-ramp" style="--ramp:${rampCss()}"><i></i><div><span>0 Estable</span><span>50</span><span>Crítica 100</span></div></div></div></section>`;
+  }
   const DAYS = {};
   const getDay = d => DAYS[d] ? Promise.resolve(DAYS[d]) : DB.days?.[d] ? Promise.resolve(DAYS[d] = DB.days[d]) : getJSON(`data/days/${d}.json`).then(x => DAYS[d] = x);
 
@@ -792,6 +859,7 @@ function boot(DB, IDX) {
           <h3 class="serif text-3xl md:text-5xl font-medium leading-[1.05] tracking-tight max-w-[24ch]">${E(lead.title)}</h3>
           <p class="text-[17px] leading-relaxed mt-6 prose-w">${E(lead.summary)}</p>
           <p class="text-sm text-muted mt-5">${[lead.region, lead.source].filter(Boolean).map(E).join(' · ')}</p></div></article>` : empty('Ninguna noticia coincide con la búsqueda.')}
+      ${tzMap()}
       <section aria-label="Siguiente paso" class="grid md:grid-cols-2 gap-4">
         <a href="#/semanal" class="lift press cta rounded-2xl p-6 justify-between gap-4 text-left"><span><span class="block text-sm opacity-75 mb-2">Siguiente paso</span><span class="serif block text-3xl font-medium leading-tight">Briefing semanal</span><span class="block opacity-80 mt-3 font-normal">${E(WEEKS[0]?.label || 'Panel de la semana')}</span></span><span class="arr serif text-5xl" aria-hidden="true">→</span></a>
         <a href="#/diario/${E(d0.date)}" class="lift press group flex items-center justify-between gap-4 rounded-2xl border border-amber/60 bg-amber/10 p-6 text-left"><span><span class="block text-sm text-muted mb-2">Más detalle</span><span class="serif block text-3xl font-medium leading-tight">Briefing diario completo</span><span class="block text-muted mt-3">Noticias, mercados, IA y fuentes de ${E(ldate(d0.date))}</span></span><span class="serif text-5xl text-amber transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></a>
@@ -841,6 +909,7 @@ function boot(DB, IDX) {
     open: v => openDrawer(+v),
     close: closeDrawer, prev: () => step(-1), next: () => step(1),
     clear: () => { S.from = S.to = ''; render(); },
+    tzm: v => { const k = MONTHS.indexOf(MONTHS.includes(S.tzm) ? S.tzm : MONTHS[0]) + (v === 'prev' ? 1 : -1); if (MONTHS[k]) { S.tzm = MONTHS[k]; S.tzd = null; render(); } },
     mode: v => setTab(v === 'inicio' ? 'inicio' : v === 'diario' ? 'd-resumen' : 'exec'),
     dnav: v => { const n = DATES[DATES.indexOf(S.date) + (v === 'prev' ? 1 : -1)]; if (n) goDay(n); },
     dreg: v => { S.dreg = v; render(); },
@@ -863,6 +932,44 @@ function boot(DB, IDX) {
     if (e.target.id === 'dateSel' && e.target.value) goDay(e.target.value);
     if (e.target.dataset.act === 'date' && ['from', 'to'].includes(e.target.dataset.v)) { S[e.target.dataset.v] = e.target.value; render(); }
   });
+  const tzShow = e => { const c = e.target.closest?.('[data-tz]'), p = $('tzInfo'); if (c && p) p.innerHTML = tzInfo(c.dataset.tz); };
+  document.addEventListener('mouseover', tzShow); document.addEventListener('focusin', tzShow);
+  // Arrastre: ratón = giro + inclinación; táctil = sólo giro (el scroll vertical sigue siendo de la página)
+  let tzDrag = null, tzMoved = false;
+  const SENS = { rz: .18, rx: .2 }, LOCK = 10; // grados por píxel; por debajo de LOCK° de inclinación se engancha al plano
+  const applyView = () => document.querySelector('.tz-scene')?.setAttribute('style', viewVars());
+  document.addEventListener('pointerdown', e => {
+    const sc = e.target.closest('.tz-scene'); if (!sc || e.button) return;
+    S.flat = S.rx < 1;
+    tzDrag = { x: e.clientX, y: e.clientY, rx: S.rx, rz: S.rz, touch: e.pointerType === 'touch', sc }; tzMoved = false;
+  });
+  window.addEventListener('pointermove', e => {
+    if (!tzDrag) return;
+    const dx = e.clientX - tzDrag.x, dy = e.clientY - tzDrag.y;
+    if (!tzMoved && Math.hypot(dx, dy) < 5) return;
+    if (!tzMoved) { tzMoved = true; tzDrag.sc.classList.add('drag'); }
+    if (!tzDrag.touch) {
+      const raw = tzDrag.rx - dy * SENS.rx;
+      if (raw < LOCK) { // 2D bloqueado: sin giro ni inclinación hasta tirar hacia arriba pasado el umbral
+        if (!S.flat) { S.flat = true; S.rz = Math.round(S.rz / 360) * 360; } // se queda derecho, con los números legibles
+        S.rx = 0; applyView(); return;
+      }
+      if (S.flat) { S.flat = false; tzDrag.x = e.clientX; tzDrag.rz = S.rz; } // al salir se reancla el giro: sin saltos
+      S.rx = tzClamp(raw, LOCK, 75);
+    }
+    if (!S.flat) S.rz = tzDrag.rz + (e.clientX - tzDrag.x) * SENS.rz;
+    applyView();
+  });
+  const endDrag = () => { if (tzDrag) { tzDrag.sc.classList.remove('drag'); tzDrag = null; } };
+  window.addEventListener('pointerup', endDrag); window.addEventListener('pointercancel', endDrag);
+  const resetView = () => { S.rx = 55; S.rz = 45; S.flat = false; applyView(); };
+  document.addEventListener('dblclick', e => { if (e.target.closest('.tz-scene')) resetView(); });
+  document.addEventListener('click', e => {
+    if (tzMoved) { tzMoved = false; return; } // el clic que cierra un arrastre no selecciona día
+    if (e.target.closest('[data-reset]')) { resetView(); return; }
+    const c = e.target.closest('[data-tz]'); if (c) { S.tzd = c.dataset.tz; render(); }
+  });
+  document.addEventListener('keydown', e => { const c = e.target.closest?.('[data-tz]'); if (c && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); S.tzd = c.dataset.tz; render(); document.querySelector(`[data-tz="${S.tzd}"]`)?.focus(); } });
   window.addEventListener('hashchange', route);
   $('search').addEventListener('input', e => { S.q = e.target.value.trim(); render(); });
   document.addEventListener('keydown', e => {
