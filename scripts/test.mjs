@@ -37,6 +37,7 @@ let calls = 0;
 L.api.call = async (prompt, opt) => {
   calls++;
   if (prompt.includes('Convierte este texto')) return { text: JSON.stringify({ items: [{ title: 'Titular', summary: 'Resumen.', region: 'Mundo', importance: 4, source: 'Medio' }], tension: 62.4, ai: [{ tag: 'Chips', title: 'Titular IA', summary: 'Resumen IA.', why: 'Importa.' }], markets: { brent: 99.5, wti: null, ttf: 47, us10y: 5.1 } }) };
+  if (prompt.includes('titular geopolítico')) return prompt.includes('2026-10-18') ? { text: 'no sé' } : { text: 'Aquí: {"titular":"X","tension":"70"}', sources: [{ title: 'M', url: 'https://example.com/q' }] };
   if (opt.search) return { text: 'noticias…', sources: [{ title: 'Medio', url: 'https://example.com/a' }] };
   if (prompt.includes('briefing de la semana')) { const w = structuredClone(seed); w.start = 'MAL'; w.label = 'MAL'; w.ai = [{ tag: 'Chips', title: 'IA', summary: 'S.', why: 'W.', sources: [{ title: 'ok', url: 'https://example.com/a' }, { title: 'x', url: 'https://inventada.test/y' }] }]; w.top10[0].sources = [{ title: 'ok', url: 'https://example.com/a' }, { title: 'inventada', url: 'https://inventada.test/x' }]; return { text: '```json\n' + JSON.stringify(w) + '\n```' }; }
   return { text: JSON.stringify({ thesis: 'T', winners: 'G', losers: 'P', outlook: 'O' }) };
@@ -55,6 +56,17 @@ process.env.FORCE = '1'; await R.daily(L.parse('2026-10-19')); delete process.en
 assert.equal(L.listJSON(path.join(tmp, 'days')).filter(x => x.startsWith('2026-10-19')).length, 1, 'un solo archivo por día');
 assert.equal(L.readJSON(f19).items[0].title, 'Titular v2', 'FORCE: la última ejecución sustituye a la anterior');
 await R.daily(L.parse('2026-10-19')); assert.equal(L.readJSON(f19).items[0].title, 'Titular v2', 'la ejecución automática posterior no pisa la manual');
+
+// Clasificación rápida: rellena sólo los días sin diario, una vez, y lo ilegible queda en null
+process.env.QUICK_FROM = '2026-10-16'; const q0 = calls;
+await R.quick(L.parse('2026-10-22'));
+const rap = L.readJSON(path.join(tmp, 'rapida.json'));
+assert.deepEqual(Object.keys(rap), ['2026-10-16', '2026-10-17', '2026-10-18'], 'los días con diario no se consultan');
+assert.deepEqual(rap['2026-10-16'], { tension: 70, titular: 'X', fuente: 'https://example.com/q' });
+assert.deepEqual(rap['2026-10-18'], { tension: null }, 'respuesta ilegible: null');
+assert.equal(calls - q0, 3); await R.quick(L.parse('2026-10-22')); assert.equal(calls - q0, 3, 'idempotente: no repite');
+fs.unlinkSync(path.join(tmp, 'rapida.json')); await R.quick(L.parse('2026-10-22'), 2); assert.equal(Object.keys(L.readJSON(path.join(tmp, 'rapida.json'))).length, 2, 'tope por ejecución');
+delete process.env.QUICK_FROM;
 
 await R.weekly(L.parse('2026-10-26'));
 const w43 = L.readJSON(path.join(tmp, 'weeks', '2026-W43.json'));
@@ -93,6 +105,7 @@ exportMd();
 const idx = L.readJSON(path.join(tmp, 'content', 'index.json'));
 assert.equal(idx.diarios.length, 7); assert.equal(idx.diarios[0].date, '2026-10-25', 'diarios: el más reciente primero');
 assert.equal(idx.diarios.find(d => d.date === '2026-10-19').tension, 62, 'el índice de contenido lleva la tensión del día');
+assert.deepEqual(idx.rapidos.map(x => [x.date, x.tension]), [['2026-10-17', 70], ['2026-10-16', 70]], 'rápidos: sólo con tensión numérica y sin diario');
 assert.deepEqual(idx.semanales.map(s => s.slug), ['semana-43-2026', 'semana-42-2026'], 'semanales subidos a mano: indexados, y los nombres raros se ignoran');
 assert.equal(idx.semanales[0].title, 'Mi semana 43'); assert.equal(idx.semanales[0].start, '2026-10-19'); assert.equal(idx.semanales[0].label, 'Semana 43, 19–25 Oct 2026');
 const mdDay = fs.readFileSync(path.join(tmp, 'content', 'diarios', '2026-10-19.md'), 'utf8');

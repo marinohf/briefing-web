@@ -41,7 +41,10 @@ const mondayOf = (year, week) => { const j4 = new Date(Date.UTC(year, 0, 4)); re
 
 /* ---------- Exportación ---------- */
 export function exportMd() {
-  const idx = { diarios: [], semanales: [] };
+  const idx = { diarios: [], semanales: [], rapidos: [] };
+  const rf = path.join(DATA, 'rapida.json'), rp = fs.existsSync(rf) ? readJSON(rf) : {}, hecho = new Set(listJSON(path.join(DATA, 'days')).map(x => x.slice(0, 10)));
+  for (const [date, v] of Object.entries(rp)) if (Number.isFinite(v?.tension) && !hecho.has(date)) idx.rapidos.push({ date, tension: v.tension, titular: v.titular });
+  idx.rapidos.sort((a, b) => b.date.localeCompare(a.date));
   for (const f of listJSON(path.join(DATA, 'days'))) {
     const d = readJSON(path.join(DATA, 'days', f));
     writeIfChanged(path.join(CONTENT, 'diarios', d.date + '.md'), dayMd(d));

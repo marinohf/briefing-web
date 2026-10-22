@@ -1,4 +1,4 @@
-// Uso: node scripts/run.mjs [auto|daily|weekly|periods]
+// Uso: node scripts/run.mjs [auto|daily|quick|weekly|periods]
 //   auto    = diario siempre + resúmenes de periodo el día 1 de mes/trimestre/año (el semanal ya no es automático: se sube a mano como Markdown)
 //   weekly  = genera con Gemini el semanal en JSON (sólo a mano, para el panel de datos)
 //   RUN_DATE=AAAA-MM-DD simula otra fecha; FORCE=1 regenera lo que ya existe (el workflow lo activa solo en las ejecuciones manuales: la última ejecución del día sustituye a la anterior)
@@ -15,6 +15,25 @@ const log = (...a) => console.log('[intel]', ...a);
 // shortcut: un índice fuera de 0–100 o no numérico se descarta (null), no tumba el día; se pinta en gris
 export const cleanTension = t => { const n = typeof t === 'string' && t.trim() ? Number(t) : t; return Number.isFinite(n) && Math.round(n) >= 0 && Math.round(n) <= 100 ? Math.round(n) : null; };
 export const cleanAi = l => (Array.isArray(l) ? l : []).filter(a => [a?.title, a?.summary].every(s => typeof s === 'string' && s.trim()));
+
+/* ---------- 0. Clasificación rápida: días sin briefing, sólo con el titular principal (una llamada corta por día) ---------- */
+// shortcut: puntuación aproximada de un solo titular; null = sin datos fiables y no se reintenta. Tope por ejecución para no gastar cuota.
+export async function quick(date, max = 25) {
+  const f = path.join(DATA, 'rapida.json'), r = fs.existsSync(f) ? readJSON(f) : {}, from = process.env.QUICK_FROM || iso(date).slice(0, 8) + '01';
+  const have = new Set(listJSON(path.join(DATA, 'days')).map(x => x.slice(0, 10)));
+  let n = 0;
+  for (let d = parse(from); iso(d) < iso(date) && n < max; d = addDays(d, 1)) {
+    const k = iso(d); if (have.has(k) || k in r) continue;
+    n++;
+    try {
+      const o = await api.call(`Busca en la web cuál fue el titular geopolítico o macroeconómico más importante del ${k} y puntúa la tensión global de ese día de 0 a 100 (1-30 estable, 31-50 moderada, 51-75 alta, 76-100 crítica). Responde SOLO con JSON: {"titular":"","tension":0}. Si no encuentras nada fiable de ese día, responde {"titular":"","tension":null}.`, { search: true });
+      const j = JSON.parse(o.text.match(/\{[\s\S]*\}/)?.[0] ?? '{}'), t = cleanTension(j.tension);
+      r[k] = t === null || typeof j.titular !== 'string' || !j.titular.trim() ? { tension: null } : { tension: t, titular: j.titular.trim(), fuente: o.sources?.[0]?.url };
+    } catch (e) { log('rápida: fallo', k, e.message); }
+  }
+  if (n) writeJSON(f, r);
+  log('clasificación rápida:', n, 'días consultados');
+}
 
 /* ---------- 1. Diario: noticias de las últimas 24 h + cierres de mercado ---------- */
 export async function daily(date) {
@@ -108,6 +127,7 @@ if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1])))
   const mode = process.argv[2] || 'auto';
   try {
     if (mode === 'auto' || mode === 'daily') await daily(today);
+    if (mode === 'auto' || mode === 'quick') await quick(today);
     if (mode === 'weekly') await weekly(today); // el semanal ya no es automático: lo sube el usuario como Markdown; este modo queda sólo para lanzarlo a mano
     if (mode === 'periods' || mode === 'auto') await periods(today);
     build(); exportMd();
