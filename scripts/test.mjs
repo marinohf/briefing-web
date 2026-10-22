@@ -45,7 +45,7 @@ L.api.call = async (prompt, opt) => {
 for (let d = 19; d <= 25; d++) await R.daily(L.parse(`2026-10-${d}`));
 assert.equal(L.listJSON(path.join(tmp, 'days')).length, 7);
 assert.equal(L.readJSON(path.join(tmp, 'days', '2026-10-19.json')).tension, 62, 'la tensión se redondea y se guarda');
-assert.deepEqual([R.cleanTension(0), R.cleanTension(100), R.cleanTension(101), R.cleanTension(-1), R.cleanTension('x'), R.cleanTension(null)], [0, 100, null, null, null, null]);
+assert.deepEqual([R.cleanTension(0), R.cleanTension(100), R.cleanTension(101), R.cleanTension(-1), R.cleanTension('x'), R.cleanTension(null), R.cleanTension('62'), R.cleanTension(''), R.cleanTension(undefined)], [0, 100, null, null, null, null, 62, null, null]);
 const n = calls; await R.daily(L.parse('2026-10-19')); assert.equal(calls, n, 'idempotente: no repite un día ya generado');
 
 // Misma fecha ejecutada otra vez a mano (FORCE): queda UN solo archivo y es el de la última ejecución
@@ -92,6 +92,7 @@ fs.writeFileSync(path.join(wdir, 'semana-42-2026.md'), '---\ntipo: semanal\n---\
 exportMd();
 const idx = L.readJSON(path.join(tmp, 'content', 'index.json'));
 assert.equal(idx.diarios.length, 7); assert.equal(idx.diarios[0].date, '2026-10-25', 'diarios: el más reciente primero');
+assert.equal(idx.diarios.find(d => d.date === '2026-10-19').tension, 62, 'el índice de contenido lleva la tensión del día');
 assert.deepEqual(idx.semanales.map(s => s.slug), ['semana-43-2026', 'semana-42-2026'], 'semanales subidos a mano: indexados, y los nombres raros se ignoran');
 assert.equal(idx.semanales[0].title, 'Mi semana 43'); assert.equal(idx.semanales[0].start, '2026-10-19'); assert.equal(idx.semanales[0].label, 'Semana 43, 19–25 Oct 2026');
 const mdDay = fs.readFileSync(path.join(tmp, 'content', 'diarios', '2026-10-19.md'), 'utf8');

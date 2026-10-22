@@ -13,7 +13,7 @@ const log = (...a) => console.log('[intel]', ...a);
 
 // La IA a veces devuelve una noticia sin resumen: se descarta esa noticia en vez de tirar el día entero
 // shortcut: un índice fuera de 0–100 o no numérico se descarta (null), no tumba el día; se pinta en gris
-export const cleanTension = t => (Number.isFinite(t) && Math.round(t) >= 0 && Math.round(t) <= 100 ? Math.round(t) : null);
+export const cleanTension = t => { const n = typeof t === 'string' && t.trim() ? Number(t) : t; return Number.isFinite(n) && Math.round(n) >= 0 && Math.round(n) <= 100 ? Math.round(n) : null; };
 export const cleanAi = l => (Array.isArray(l) ? l : []).filter(a => [a?.title, a?.summary].every(s => typeof s === 'string' && s.trim()));
 
 /* ---------- 1. Diario: noticias de las últimas 24 h + cierres de mercado ---------- */
