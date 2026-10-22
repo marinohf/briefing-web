@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-22",
+ "generatedAt": "2026-10-22T10:30:59.899Z",
+ "items": [
+  {
+   "title": "EE. UU. ordena la evacuación parcial de personal diplomático en el Golfo ante la intensificación de ataques contra instalaciones petroleras",
+   "summary": "El Departamento de Estado de EE. UU. ordenó la salida de empleados gubernamentales no esenciales y sus familias en Arabia Saudita y otras delegaciones del Golfo Pérsico tras registrarse ataques con drones contra el campo de extracción Shaybah de Saudi Aramco e incidentes en el Estrecho de Ormuz. La medida se produce en un contexto de planes militares coordinados con Israel ante el riesgo inminente de una escalada bélica regional.",
+   "region": "Oriente Medio / América del Norte",
+   "importance": 5,
+   "source": "Newsquawk / Trading Economics"
+  },
+  {
+   "title": "La flota fantasma de petroleros iraníes agota sus reservas de crudo en el mar tras meses de bloqueo estadounidense",
+   "summary": "Las reservas flotantes de crudo que Irán acumulaba en buques cisterna en aguas del sudeste asiático se han agotado por completo tras prolongadas medidas de interdicción y bloqueo naval por parte de Washington. Este agotamiento corta una de las principales fuentes de ingresos y divisas de emergencia de Teherán mientras los flujos energéticos regionales operan bajo extrema fragilidad.",
+   "region": "Oriente Medio / Asia",
+   "importance": 4,
+   "source": "Dow Jones Newswires / Morningstar"
+  },
+  {
+   "title": "El Banco de Corea frena su ciclo de subidas y mantiene los tipos en el 3,00%",
+   "summary": "La junta de gobierno del Banco de Corea (BoK) votó de manera unánime el 22 de octubre mantener la tasa de referencia en el 3,00%, pausando el ajuste tras dos aumentos consecutivos aplicados a lo largo del año. El gobernador Hyun Song Shin subrayó una postura restrictiva de cautela, señalando que la persistencia de la inflación y las presiones externas no permiten considerar recortes a corto plazo.",
+   "region": "Asia-Pacífico (Corea del Sur)",
+   "importance": 3,
+   "source": "Central Banking"
+  },
+  {
+   "title": "El Banco de Israel congela los tipos en el 3,25% a días de las elecciones generales y exige contención fiscal",
+   "summary": "El Banco de Israel decidió mantener el tipo de interés en el 3,25% tras haber ejecutado rebajas progresivas en trimestres anteriores. El gobernador Amir Yaron advirtió al próximo gobierno resultante de los comicios del 27 de octubre de la necesidad de recortar déficit y controlar el creciente gasto de defensa para no erosionar la resiliencia fiscal.",
+   "region": "Oriente Medio (Israel)",
+   "importance": 3,
+   "source": "The Times of Israel"
+  },
+  {
+   "title": "El BCE defiende el refuerzo de sus líneas internacionales de liquidez frente a la fragmentación geopolítica",
+   "summary": "En una intervención en Shanghái, Philip Lane (miembro del Comité Ejecutivo del BCE) remarcó que las líneas de swap y facilidades repo internacionales son cruciales para neutralizar tensiones transfronterizas de demanda de euros. Argumentó que los choques energéticos y las disrupciones estructurales globales obligan a consolidar mecanismos de liquidez de última instancia para asegurar la transmisión de la política monetaria.",
+   "region": "Europa / Global",
+   "importance": 4,
+   "source": "Bank for International Settlements (BIS)"
+  },
+  {
+   "title": "El rendimiento del Tesoro estadounidense a 10 años escala sobre el 5,14% impulsado por el temor inflacionario de la energía",
+   "summary": "El bono de referencia a 10 años de Estados Unidos repuntó hasta el 5,145% al cierre de la sesión, acumulando tres jornadas al alza ante el riesgo de que el repunte del crudo contamine las expectativas de precios al consumidor. Los inversores continúan descontando un escenario restrictivo prolongado para la Reserva Federal, con una probabilidad cercana al 75% de un endurecimiento adicional antes de fin de año.",
+   "region": "América del Norte (EE. UU.)",
+   "importance": 4,
+   "source": "Morningstar / Dow Jones Newswires"
+  },
+  {
+   "title": "El gas europeo TTF supera los 89 EUR/MWh empujado por la cercanía invernal y riesgos en el transporte marítimo",
+   "summary": "El contrato de referencia holandés Dutch TTF avanzó por encima de los 89 EUR/MWh, registrando una revalorización de más del 24% durante el último mes. La subida refleja la prima de riesgo por las interrupciones en rutas marítimas globales de GNL y el consecuente encarecimiento proyectado de la calefacción industrial y doméstica en Europa.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "Contactos diplomáticos para una cita trilateral sobre Ucrania contienen momentáneamente la aversión al riesgo en los mercados",
+   "summary": "Fuentes diplomáticas informaron de que Moscú ha mostrado disposición a participar en conversaciones trilaterales con Washington y Ucrania, generando un respiro intradiario transitorio en las bolsas internacionales. Sin embargo, la posterior confirmación de ataques a infraestructuras energéticas en Oriente Medio devolvió la volatilidad a los activos financieros hacia el cierre.",
+   "region": "Europa / Estados Unidos",
+   "importance": 4,
+   "source": "Newsquawk / Barchart"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 110.02,
+  "wti": 97.27,
+  "ttf": 87.01,
+  "us10y": 5.145
+ },
+ "sources": [
+  {
+   "title": "ft.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kgfBKoeUy4xaLuzlUOF5q1jn82xypuYHd3loNH0fgJG52rmL_D61fSE5u1WlOP8AkmfzXoyuJrp0P_nIGtBeSXtvv9c1n6l2XG_vd6HzcaMtHk4bqN5vffVc3qooB5zVJ0gC1XtoCHxtA0mS"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDj1GSxG12imOLv3YGacWJPWyLoTyCWTEtCcEe4VMKIMM_gfwt9zquKICwxMDCA_DtAGuTEipOE2BvhpR4ev7NCVxztO6lg5-Y-RbQOFKggOXR_QpOToGCKU10fI6SY2FugcWjoUOoYNa7O9U="
+  },
+  {
+   "title": "newsquawk.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5U3mohHOAkO3ididexfJ2tfA85xcLfrExmbNDNkK99f6yduESaKWuWqyJsS0PibI-q8EVNorM6Ptl4CX1bEzai3VwXzsug2rseSubUH5K8lTv1NRNdDHT-_CfzNV-uII0JZ4U5OGVZnFwr3ZVkrWbDc3BF1Kj0DexIjkr32WKkykxb76zXZJZungViw9LH7A51Ys="
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9xdN7owezvRG13iwl_w51Zgz4rBtmgwxN_SJMSw6XGIw93y8ag-30d-KuK2R6fSMlUnWDT3g5Ha0rI_hnNxirtH2INSXGO0TUakgamIDUietjvlNb94IHVai_kpgXHH-DnG8SZlDMVPr5MJER1GlT0DVh3ehznWQmVlMEVMM5ZqgA6vQ5PbrTVoqicxU7V4ZY2KhwLFr3CdXukBOtAhq5S3CksF2ZlMvczE5i_zdN07G7BUX_SC2jLAhsQwROMcjZjXfkVYfU3UKheo90raHNzHnCZct2QWbkCZ0="
+  },
+  {
+   "title": "centralbanking.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMRkWjenkcm_h-QLIhYVWqtpUGA_V_MFeM3tOHDfsNVJCxokJ2U9mignlj75YonFftZJIDxzq7ccX3eQi1B3Bl1E8g4oJFMMnlmQQHjWww0GrDLYsMlM5TF71fAFLFzOFtfyJzKzezwpmHUFpeQ7-8jq83F-MoL0qSpHrXUbo-sFlNBQmfPLW1hXxxxAaHFuomxsq1EXSI9XP6tR5jzkYgOfOtUn-U9Y3LkSIQI44="
+  },
+  {
+   "title": "timesofisrael.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mTLgKfvMsmO1vwy0N0i16dbxvZN6ayqO-6P2jI7u7Rz_-PbvQEQuFt1Y1oX5JyO-z-XE5UVnPOvXUl_nQnqGmPfbh5wF1yY2uGllBO1yzB9I6FO5UPd6Sn2Ddcu1A6qDE66yD2vBIU-jRiwoFoo8-M1fbLSPbphOHvefLc8Aok-gONPgQu_QO3Ikz7lrwQqv1gZfSn-dhboEIudR6hWq8Wygf4pE43WUgg=="
+  },
+  {
+   "title": "bis.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5R8I7ht48ycIYCxS5wkDd8OoIvuC9yL_ofZFgTDsthqStdQoDCbt_Ll7odTQ51CpmsMmVZfWbPP7m4hqV-AfdVp1MrrhZhB7dWCHMCqdKt3N7YVqsY3sp0XLNfBy2rphxgOnwq90aWbJChNEcw9Cm_XINBkASJN9uqU2_23GRHWtalR96G1eXIO9gbPOr8k6WvA=="
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoynkhI0HGd-anaefXC5uf3fwjG8-qhT4FioAo05bNAlIXWJu-UxPsuD9cvPcBfu2g-v6him2KWsxdUm4EUqyjyGolXnw6o9Gl4FX0wTrW8rFMIU-78-A-TjaU5AeGrSNrfGS40MUlrUsBxKzAIVRy6C5caIBHbpEKy5qwoiPadVokGAlg88D8Cpa6IFYJP7byGEpHey3py5jCN9M="
+  },
+  {
+   "title": "247wallst.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8BcTEvP2xIXmibcRYol53ffcsBKHbGquT4gUDtp2nBDKOFDSla_Rsibtg5OWRR_g75lwdZDjM5mtqIt23X8gV22aQId7nhVHh0fPeJVhsWZJb_3SR00sal4yUmU8dDTZV2dUAtbVGlgrTKEdKg2tU0SBTR3lesALW0WtSBceu85apmA6iYU8yLNkWb1xSjXzmDhMkmqZgcDzqmS-ZeGWlJL-3yHvar3481511im8iC_x8kI3_"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2xzwkt58-zXl6G7E-ZlGea_cgPLTzgCcgbL3e8qvdCONKIA9KkddcghSPcu-WVanbiS8nA2gnf9hRyvG3tsD4eS-8Chdv2rz6FgwEMFeesXP-I7tpel_mzsjcaDhCZLAjzbnoVYAMCzmacXRW7CZr-wcbuzBS"
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9PMXG3oaWtn8wWYpTEhfgQwtuDwRXfbupH76ZOoKpFbvNRDjJ2sbwKm2DhL6DRG8eRXF9XmxVhldv8ddPGIzRuTxtGsv6g98m_wB2s6Tq-NiwOmyAEs6xenWyIg7stUcC6xS6VC2xSyA3"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEip9V0RA9YOoObQmNBItNs3nNO0UVeabUnkMWc_iyD6hAN0cauSaA6naN52EQUvQzwXl6MGvkIgOBtfQdQ_i8f2npjkK3YmNP4GVl70mFUfSWF5M_wxQgwE54vOO1gWOAdCsiuidRrgSin25v_"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDV628Bv9OArBJFM0DOZKMKKejU9yxDrpyEHWo_y9zWL0cuwOnj_rpVrZUTyseizKq6-dbL1FIfLAkZWlsRDnUTYh94H_J4YJlpFhZfP7ptNHJAGed_U5LbAQjPuZjHOsaa9LV-ZC5uoyHDg=="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLzAsoUfxJDiSgmq7Z6fQsZDauspURcS4QpEPnEBx8lhZvGoLJhp7VX_kk0OQY-8uyn_oskhHI-d9jdqdKhbU_lJ6oo_V21s-Z_G140rTHbMuC47c5hDea2BHCCz2vmuQgGg=="
+  },
+  {
+   "title": "truthout.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6r7L1WAbzUvCvNAnv5IpCxrVmEJYtxs3pHX9OTDrLwhcT2JkKXpiMySdf_OhmlScesFjiht6bMLfgYRlySjXyMS2uOw-1z5tPURNR3AlGqfgFIR4GqmXcRKyrQ2cL9n2HPsNKLMenDr6gJr4408ugQEmCLvsC3s_o44S2SAlhF5NCpYfYj1YUGYkk9UfcWzZf8EMGUhuvcttoCrAJ1ewewTP4"
+  },
+  {
+   "title": "shattered.io",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNt5Tf8Vl-MhiuxDWCUlWezv-wiVpiqQ-X9CAG03ITNmqm94WH9uvuDzwDAXD_xHZa1slackuEuqxpUv_p-jN_SGYmIET88f-ywwYOyrcIpJGZuBawej0EF7-GZtZSTZGzMR46GXxC39i6rZLksQ5_sXMEaQ=="
+  },
+  {
+   "title": "asiatimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq6OpthenP-6sMXAMUaRhryaHqB44mx35MuBggH_7wcSMR6umLzyHeQq5w90ymZMtd5PEk0eG75sCXC65o5O_dKI2yck5D67ELt62mSDB4Ao5dgKrQL7d5_kJL586BUmWGXMltDbre19mayYLG8n_1uJTeoAHPBDMokLXupzKwaK-rM4gPsx6j6T9hjk8-0Q=="
+  },
+  {
+   "title": "iaim.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnJmZiZFXxYMK35PO_mGuaeswHsHnFHuf2WUnuFYEvmXbDGqSdrBsI7yyFlaBYqJe4CCkceCTgJACa8zprbN8QAo6pRt9z5BsbuRbuVAzyBO4yt65wKj_0MK4n1M65HA_D30FU-P2I3ba-DSBJHPU="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkfsP0baKsVXv0TnvwAhXGRUvD-OOZ-BtZg6niGSIJFbJdqz0EQ2JKeV7O8Hcx7Erd5UnW38zBc-mKylgPyt8KlIH9eVU5rYnotzqbJ6nAn30amBvFNJL4km3yo4mq3h1l"
+  },
+  {
+   "title": "macrotrends.net",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJL7a_6qoKzZ6L54TM0vkKJ52-ciwrL9zjNMXJr54htXBxLgkCTyz78srqknLimAwCXw9tEw_MGryWH-8MLc57gAc9eW1sW4AyZwIITARmFh63entVWoqLMEfnDdyAQ2U_wYXxxqR2oH-24IqauFG-UJ_nmdml_Is8L8p1xL2Z"
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh34uUDXqpQTqOwP97brY_r4xgO7l_LhoCfxxgjAHjlzpyCI8zh0jbOLUF3hM2BzNO3FIX7HwNk14fjH9U19_7kZEBH9KlTtTFGO6_w9ZUhDb-oLjFrAVKCrr1fFLQHVuL1Ny_jVqKgqor93avbaBNM86mST1YNq8FwqUTNN8="
+  }
+ ]
+}

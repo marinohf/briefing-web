@@ -1,6 +1,13 @@
 {
  "diarios": [
   {
+   "date": "2026-10-22",
+   "label": "22 de octubre de 2026",
+   "week": "2026-W43",
+   "items": 8,
+   "file": "content/diarios/2026-10-22.md"
+  },
+  {
    "date": "2026-10-21",
    "label": "21 de octubre de 2026",
    "week": "2026-W43",
