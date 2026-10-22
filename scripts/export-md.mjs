@@ -28,7 +28,7 @@ function writeIfChanged(f, s) {
 const dayMd = d => {
   const items = [...d.items].sort((a, b) => b.importance - a.importance), m = d.markets || {};
   const mk = [['Brent', m.brent, 'USD/barril'], ['WTI', m.wti, 'USD/barril'], ['Gas TTF', m.ttf, 'EUR/MWh'], ['Bono EE. UU. 10 años', m.us10y, '%']].filter(x => x[1] != null);
-  return fm({ tipo: 'diario', fecha: d.date, semana: isoWeek(parse(d.date)).key, noticias: items.length }) +
+  return fm({ tipo: 'diario', fecha: d.date, semana: isoWeek(parse(d.date)).key, noticias: items.length, tension: d.tension }) +
     `# Briefing diario — ${fecha(d.date)}\n\n## Noticias clave\n\n` +
     items.map(i => `### ${one(i.title)}\n\nImportancia ${i.importance}/5 · ${one(i.source)}${i.region ? ' · ' + one(i.region) : ''}\n\n${one(i.summary)}`).join('\n\n') +
     aiMd(d.ai) +
@@ -45,7 +45,7 @@ export function exportMd() {
   for (const f of listJSON(path.join(DATA, 'days'))) {
     const d = readJSON(path.join(DATA, 'days', f));
     writeIfChanged(path.join(CONTENT, 'diarios', d.date + '.md'), dayMd(d));
-    idx.diarios.push({ date: d.date, label: fecha(d.date), week: isoWeek(parse(d.date)).key, items: d.items.length, file: `content/diarios/${d.date}.md` });
+    idx.diarios.push({ date: d.date, label: fecha(d.date), week: isoWeek(parse(d.date)).key, items: d.items.length, tension: d.tension ?? undefined, file: `content/diarios/${d.date}.md` });
   }
   const wdir = path.join(CONTENT, 'semanales');
   for (const f of fs.existsSync(wdir) ? fs.readdirSync(wdir) : []) {

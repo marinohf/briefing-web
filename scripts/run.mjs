@@ -12,6 +12,8 @@ const today = process.env.RUN_DATE ? parse(process.env.RUN_DATE) : parse(iso(new
 const log = (...a) => console.log('[intel]', ...a);
 
 // La IA a veces devuelve una noticia sin resumen: se descarta esa noticia en vez de tirar el día entero
+// shortcut: un índice fuera de 0–100 o no numérico se descarta (null), no tumba el día; se pinta en gris
+export const cleanTension = t => (Number.isFinite(t) && Math.round(t) >= 0 && Math.round(t) <= 100 ? Math.round(t) : null);
 export const cleanAi = l => (Array.isArray(l) ? l : []).filter(a => [a?.title, a?.summary].every(s => typeof s === 'string' && s.trim()));
 
 /* ---------- 1. Diario: noticias de las últimas 24 h + cierres de mercado ---------- */
@@ -21,16 +23,16 @@ export async function daily(date) {
   const found = await api.call(
     `Hoy es ${iso(date)}. Busca en la web las noticias de las últimas 24 horas más relevantes de geopolítica, energía, bancos centrales y mercados (máximo 8). ` +
     `Para cada una indica: titular, resumen de 2 frases con hechos verificables, región, importancia del 1 al 5 y el nombre del medio que la publica. ` +
-    `Además, hasta 4 noticias de inteligencia artificial con impacto económico o geopolítico (modelos, chips y semiconductores, regulación, inversión), indicando para cada una el medio y por qué importa. Al final da el último cierre conocido de Brent (USD/barril), WTI (USD/barril), gas TTF (EUR/MWh) y bono estadounidense a 10 años (%), indicando "no disponible" si no lo encuentras. No inventes datos.`,
+    `Además, hasta 4 noticias de inteligencia artificial con impacto económico o geopolítico (modelos, chips y semiconductores, regulación, inversión), indicando para cada una el medio y por qué importa. Al final da el último cierre conocido de Brent (USD/barril), WTI (USD/barril), gas TTF (EUR/MWh) y bono estadounidense a 10 años (%), indicando "no disponible" si no lo encuentras. No inventes datos. Por último, da el índice de tensión global del día, un entero de 0 a 100 según esta escala fija: 1-30 estable (sin crisis nuevas), 31-50 moderada (focos abiertos sin escalada), 51-75 alta (escalada, sanciones o estrés de mercados), 76-100 crítica (conflicto armado directo o shock energético/financiero). Justifícalo con las noticias de arriba, sin inventar.`,
     { search: true });
   const structured = await api.call(
-    `Convierte este texto en JSON con exactamente esta forma: {"items":[{"title":"","summary":"","region":"","importance":1,"source":""}],"ai":[{"tag":"","title":"","summary":"","why":""}],"markets":{"brent":null,"wti":null,"ttf":null,"us10y":null}}. ` +
-    `importance es un entero de 1 a 5; los mercados son números o null si el texto no los da. Usa sólo lo que dice el texto, en español.\n\nTEXTO:\n${found.text}`,
+    `Convierte este texto en JSON con exactamente esta forma: {"items":[{"title":"","summary":"","region":"","importance":1,"source":""}],"ai":[{"tag":"","title":"","summary":"","why":""}],"markets":{"brent":null,"wti":null,"ttf":null,"us10y":null},"tension":0}. ` +
+    `tension es un entero de 0 a 100 (null si el texto no lo da); importance es un entero de 1 a 5; los mercados son números o null si el texto no los da. Usa sólo lo que dice el texto, en español.\n\nTEXTO:\n${found.text}`,
     { json: true });
-  const raw = parseJSON(structured.text); raw.ai = cleanAi(raw.ai);
+  const raw = parseJSON(structured.text); raw.ai = cleanAi(raw.ai); raw.tension = cleanTension(raw.tension);
   const day = validateDay(raw);
   const sources = [...new Map(found.sources.map(s => [s.url, s])).values()].slice(0, 30);
-  writeJSON(f, { date: iso(date), generatedAt: new Date().toISOString(), items: day.items, ai: day.ai || [], markets: day.markets || {}, sources });
+  writeJSON(f, { date: iso(date), generatedAt: new Date().toISOString(), items: day.items, ai: day.ai || [], markets: day.markets || {}, tension: day.tension, sources });
   log('día escrito', iso(date), day.items.length, 'noticias');
 }
 

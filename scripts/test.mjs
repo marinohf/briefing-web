@@ -36,7 +36,7 @@ assert.deepEqual(R.cleanAi(undefined), []);
 let calls = 0;
 L.api.call = async (prompt, opt) => {
   calls++;
-  if (prompt.includes('Convierte este texto')) return { text: JSON.stringify({ items: [{ title: 'Titular', summary: 'Resumen.', region: 'Mundo', importance: 4, source: 'Medio' }], ai: [{ tag: 'Chips', title: 'Titular IA', summary: 'Resumen IA.', why: 'Importa.' }], markets: { brent: 99.5, wti: null, ttf: 47, us10y: 5.1 } }) };
+  if (prompt.includes('Convierte este texto')) return { text: JSON.stringify({ items: [{ title: 'Titular', summary: 'Resumen.', region: 'Mundo', importance: 4, source: 'Medio' }], tension: 62.4, ai: [{ tag: 'Chips', title: 'Titular IA', summary: 'Resumen IA.', why: 'Importa.' }], markets: { brent: 99.5, wti: null, ttf: 47, us10y: 5.1 } }) };
   if (opt.search) return { text: 'noticias…', sources: [{ title: 'Medio', url: 'https://example.com/a' }] };
   if (prompt.includes('briefing de la semana')) { const w = structuredClone(seed); w.start = 'MAL'; w.label = 'MAL'; w.ai = [{ tag: 'Chips', title: 'IA', summary: 'S.', why: 'W.', sources: [{ title: 'ok', url: 'https://example.com/a' }, { title: 'x', url: 'https://inventada.test/y' }] }]; w.top10[0].sources = [{ title: 'ok', url: 'https://example.com/a' }, { title: 'inventada', url: 'https://inventada.test/x' }]; return { text: '```json\n' + JSON.stringify(w) + '\n```' }; }
   return { text: JSON.stringify({ thesis: 'T', winners: 'G', losers: 'P', outlook: 'O' }) };
@@ -44,6 +44,8 @@ L.api.call = async (prompt, opt) => {
 
 for (let d = 19; d <= 25; d++) await R.daily(L.parse(`2026-10-${d}`));
 assert.equal(L.listJSON(path.join(tmp, 'days')).length, 7);
+assert.equal(L.readJSON(path.join(tmp, 'days', '2026-10-19.json')).tension, 62, 'la tensión se redondea y se guarda');
+assert.deepEqual([R.cleanTension(0), R.cleanTension(100), R.cleanTension(101), R.cleanTension(-1), R.cleanTension('x'), R.cleanTension(null)], [0, 100, null, null, null, null]);
 const n = calls; await R.daily(L.parse('2026-10-19')); assert.equal(calls, n, 'idempotente: no repite un día ya generado');
 
 // Misma fecha ejecutada otra vez a mano (FORCE): queda UN solo archivo y es el de la última ejecución
@@ -93,7 +95,7 @@ assert.equal(idx.diarios.length, 7); assert.equal(idx.diarios[0].date, '2026-10-
 assert.deepEqual(idx.semanales.map(s => s.slug), ['semana-43-2026', 'semana-42-2026'], 'semanales subidos a mano: indexados, y los nombres raros se ignoran');
 assert.equal(idx.semanales[0].title, 'Mi semana 43'); assert.equal(idx.semanales[0].start, '2026-10-19'); assert.equal(idx.semanales[0].label, 'Semana 43, 19–25 Oct 2026');
 const mdDay = fs.readFileSync(path.join(tmp, 'content', 'diarios', '2026-10-19.md'), 'utf8');
-assert.match(mdDay, /^---\ntipo: diario\nfecha: 2026-10-19\nsemana: 2026-W43\nnoticias: 1\n---\n/);
+assert.match(mdDay, /^---\ntipo: diario\nfecha: 2026-10-19\nsemana: 2026-W43\nnoticias: 1\ntension: 62\n---\n/);
 assert.match(mdDay, /Titular v2/); assert.equal((mdDay.match(/### Titular v2/g) || []).length, 1, 'el día aparece una sola vez'); assert.match(mdDay, /## Inteligencia artificial/); assert.match(mdDay, /\| Brent \| 99\.5 \|/);
 assert.equal(fs.readFileSync(path.join(wdir, 'semana-43-2026.md'), 'utf8'), mine, 'el export nunca reescribe un semanal subido a mano');
 const stamp = fs.statSync(path.join(tmp, 'content', 'index.json')).mtimeMs; exportMd();
