@@ -5,6 +5,7 @@
    "label": "22 de octubre de 2026",
    "week": "2026-W43",
    "items": 8,
+   "tension": 82,
    "file": "content/diarios/2026-10-22.md"
   },
   {
@@ -12,6 +13,7 @@
    "label": "21 de octubre de 2026",
    "week": "2026-W43",
    "items": 8,
+   "tension": 58,
    "file": "content/diarios/2026-10-21.md"
   },
   {
@@ -19,6 +21,7 @@
    "label": "20 de octubre de 2026",
    "week": "2026-W43",
    "items": 8,
+   "tension": 62,
    "file": "content/diarios/2026-10-20.md"
   }
  ],
