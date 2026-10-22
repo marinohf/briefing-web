@@ -620,7 +620,7 @@ function boot(DB, IDX) {
   const dt = d => new Date(d + 'T00:00:00Z');
   const wday = d => cap(dt(d).toLocaleDateString('es', { weekday: 'long', timeZone: 'UTC' }));
   const ldate = d => dt(d).toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
-  const iso0 = () => new Date().toISOString().slice(0, 10);
+  const iso0 = () => { const n = new Date(); return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`; }; // fecha de hoy en la zona del lector
   const fmtD = d => `${wday(d)}, ${ldate(d)}`;
   // El índice manda; sin content/index.json se usan los días que trae db.json
   const DATES = (IDX.diarios.length ? IDX.diarios.map(x => x.date) : Object.keys(DB.days || {})).sort().reverse();
@@ -782,7 +782,7 @@ function boot(DB, IDX) {
     const sub = INI.fresh ? `${items.length} noticias nuevas en ${days.length} ${days.length === 1 ? 'briefing' : 'briefings'} desde tu última visita (${ldate(PREV)}).` : PREV ? 'No hay novedades desde tu última visita: te dejamos el último briefing.' : 'Este es el último briefing. La próxima vez verás aquí lo que haya cambiado desde que entraste.';
     const figs = MK.map(([k, l, u, dec]) => { const v = d0.markets?.[k]; return fig(l, v != null ? nf(v, dec) : '—', v != null ? [u, delta(k, dec)].filter(Boolean).join(' · ') : 'No disponible'); }).join('');
         el.innerHTML = `
-      <header class="max-w-3xl"><p class="text-sm text-muted mb-2">${E(fmtD(d0.date))}</p>
+      <header class="max-w-3xl"><p class="text-sm text-muted mb-2">${E(fmtD(iso0()))}${d0.date !== iso0() ? ` · último briefing: ${E(shortD(d0.date))}` : ''}</p>
         <h2 class="serif text-5xl md:text-7xl font-medium tracking-tight leading-[.95]">${INI.fresh ? 'Lo que ha cambiado' : 'Bienvenido'}</h2>
         <p class="text-lg text-muted mt-4 prose-w">${E(sub)}${crit ? ` <strong class="${TXT.crit}">${crit} ${crit === 1 ? 'crítica' : 'críticas'}.</strong>` : ''}</p></header>
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-px bg-line/20 border border-line/20 rounded-md overflow-hidden" aria-label="Cierres de mercado">${figs}</div>
@@ -880,7 +880,7 @@ function boot(DB, IDX) {
   route(); // pinta según el hash (también enlaces directos a un diario)
   // Pantalla de bienvenida: sale cada vez que se abre la web, se funde sola a los 2,6 s (o al tocarla)
   const sp = $('splash');
-  $('splashDate').textContent = fmtD(DATES[0] || iso0());
+  $('splashDate').textContent = fmtD(iso0());
   sp.hidden = false;
   const done = () => { if (sp.hidden) return; sp.classList.add('out'); setTimeout(() => { sp.hidden = true; sp.querySelector('.ax-logo')?.remove(); }, 750); };
   sp.addEventListener('click', done); document.addEventListener('keydown', done, { once: true }); setTimeout(done, 2600);
