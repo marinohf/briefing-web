@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T22:53:19.830Z",
+ "updated": "2026-10-23T10:26:30.653Z",
  "weeks": {
   "2026-W42b": {
    "start": "2026-10-12",
@@ -1208,6 +1208,158 @@
     {
      "title": "jpost.com",
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYmS7BhZOQiRcBgBFV6zM1zesu1BjPT9ATdJQcy8Y6TmOaFBpL92BJ_HUw_Q7x9_p62Vuk9otfi0T1d9w7ACl16Ngm_VrHLFgeKnIhRJyYrHbRPT9HI41NiegZFb0Sm9yvRGhF9wjgqA=="
+    }
+   ]
+  },
+  "2026-10-23": {
+   "date": "2026-10-23",
+   "generatedAt": "2026-10-23T10:26:30.650Z",
+   "items": [
+    {
+     "title": "Ataques hutíes obligan a evacuar la sede de Saudi Aramco y disparan el riesgo de suministro",
+     "summary": "Saudi Aramco ordenó la evacuación de su sede principal en Dhahran, en la costa del golfo Pérsico, tras una nueva ola de ataques con misiles y drones lanzados por la milicia hutí contra infraestructura saudí. El incidente reavivó los temores de disrupción física en los flujos globales de crudo y elevó de inmediato la prima de riesgo geopolítico en los mercados energéticos.",
+     "region": "Oriente Medio",
+     "importance": 5,
+     "source": "Reuters"
+    },
+    {
+     "title": "EE. UU. e Israel diseñan planes para nuevos ataques contra Irán tras las elecciones de noviembre",
+     "summary": "Informes de inteligencia revelaron que los mandos militares de Estados Unidos e Israel prepararon planes operativos para retomar ataques aéreos contra objetivos en Irán. En paralelo, Washington reforzó su presencia en la región mediante el despliegue de un segundo portaaviones y ordenó la evacuación preventiva de personal de embajadas y bases militares.",
+     "region": "Oriente Medio / América del Norte",
+     "importance": 5,
+     "source": "The New York Times (citado por Charles Schwab / Barchart)"
+    },
+    {
+     "title": "Irán rechaza dialogar con Washington y exige el levantamiento del bloqueo antes de negociar",
+     "summary": "Teherán comunicó formalmente al jefe militar de Pakistán que no mantendrá conversaciones diplomáticas con Estados Unidos mientras persista el bloqueo económico e insistió en que mantendrá su inventario de uranio enriquecido. El endurecimiento diplomático frustra las iniciativas de mediación impulsadas por terceros países en el Golfo.",
+     "region": "Oriente Medio / Asia",
+     "importance": 4,
+     "source": "Reuters / Benzinga"
+    },
+    {
+     "title": "El regulador CFTC investiga transacciones sospechosas en el mercado petrolero ligadas al conflicto",
+     "summary": "La Comisión de Negociación de Futuros de Productos Básicos de EE. UU. (CFTC) confirmó el inicio de pesquisas formales sobre operaciones inusuales en contratos de futuros de petróleo coincidiendo con la escalada bélica. Las autoridades buscan determinar si hubo uso de información privilegiada sobre incidentes militares en Oriente Medio previa a las fuertes alzas de precios.",
+     "region": "Estados Unidos / Mercados Globales",
+     "importance": 3,
+     "source": "Benzinga"
+    },
+    {
+     "title": "El shock energético frena las bolsas y arrastra al sector tecnológico",
+     "summary": "El repunte de los precios del crudo y las dudas sobre la rentabilidad del elevado gasto de capital de las tecnológicas provocaron caídas en los parqués internacionales, con el índice Nasdaq perdiendo más de un 2,5%. Los inversores aceleraron una rotación defensiva ante el temor a que la inflación persistente postergue los alivios monetarios.",
+     "region": "Global",
+     "importance": 4,
+     "source": "The Guardian / Economy Middle East"
+    },
+    {
+     "title": "Bancos centrales bajo alerta: los costes energéticos amenazan con prolongar tipos altos",
+     "summary": "Entidades y analistas advirtieron de que la escalada del barril sobre los 100-110 dólares amplifica las presiones sobre el IPC general, alejando la meta del 2% y forzando a la Reserva Federal y al BCE a mantener una postura monetaria restrictiva. Esta dinámica mantuvo los rendimientos de la deuda soberana a largo plazo en cotas elevadas.",
+     "region": "Global / Estados Unidos / Eurozona",
+     "importance": 4,
+     "source": "ING Commodities Feed / CaixaBank Research"
+    },
+    {
+     "title": "Europa inicia la retirada de gas con almacenes por debajo de la media invernal",
+     "summary": "La Unión Europea comenzó las extracciones netas de gas subterráneo antes de lo habitual, en un contexto de inventarios limitados y menores llegadas de gas natural licuado (GNL) desde Oriente Medio. La tensión en el equilibrio estacional impulsó la cotización del gas holandés por encima de los 90 €/MWh.",
+     "region": "Europa",
+     "importance": 4,
+     "source": "ING / Trading Economics"
+    },
+    {
+     "title": "La actividad económica británica repunta a máximos pero el comercio minorista sufre",
+     "summary": "La economía de Reino Unido registró en octubre su mayor aceleración del sector empresarial privado desde febrero, impulsada por los servicios. Sin embargo, las ventas minoristas reflejaron una caída debido a la contención del gasto familiar frente a las facturas energéticas y los costes de financiación.",
+     "region": "Reino Unido",
+     "importance": 3,
+     "source": "The Guardian"
+    }
+   ],
+   "ai": [],
+   "markets": {
+    "brent": 113.17,
+    "wti": 99.3,
+    "ttf": 90.95,
+    "us10y": 5.03
+   },
+   "tension": 83,
+   "sources": [
+    {
+     "title": "kfgo.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLvR0ujw-AH3V3w_xZM4ZEiExwVfA-CyxCVAaYiTpNqFnPR9RNib-MFI22mUyWRiVAyHpkvKM3cyhVG06HjsFTXYDCtayTC9RHh9Wek24E2S_CkGGHtSn_fYbQD2Tj-9kEUJGRfO00m5QZHLu1uUg4ZM1hqZQ3qnBKmhwxnQWltT-L47wnYHUMZiz07gnH9ouTsszY6kv6EoIa5MW2nT3_oRk="
+    },
+    {
+     "title": "hellenicshippingnews.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiAi1vkzAEUmU2rLAoBqs8n1XzBCwCqRxkelsiD1UiCUe4bhBWIHOr3cyt8VIbEy7cMuWXAIjzEATQrMTo0kXijZVYNvk6QlUdID7FuOTUnmqNfKyHhx2bZVeGRwklrep5apbZfiwy5hLHAjCeYu_bbMmHxNmV9g7J9rRmtl2QIUQ3EO_YdNnOSTTL6PhPmETo-xKtvjITcUMc-nPkdsgXrhso_g=="
+    },
+    {
+     "title": "schwab.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWPfm3Bq5Ih2Iv9pE_hS5IsP1iXnPx8MlWaFr3dbZoxSceGPJtX3kHvMrdcgOdX8a0yAuglk8z48Ijjfpq6SUpafyIVHfh_R4wR8ZjdBLpzYVnc-tnWpo32AfLIiSam_pCWMADJ6zYcz8iknuagmmD"
+    },
+    {
+     "title": "barchart.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm--Ulmoq3X87Pt-lyShi4OIqahfeybB3bbi9KXBK9vzLm70gLZ8fATrzAlxCn7-gutkHcHZSGIP2MqvSkaBkuEaW9ptQd2Wva5Je0D-MSrElRP_J9RaaQTlOSRMh7NTolyg=="
+    },
+    {
+     "title": "benzinga.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9vzCotyh5_6muOOkb19Es8bN0LXJ5CrQS-XflD0-w9sc5SyFJPqN0KsNoPlkvtdEsaasv5v6nDh1KwlFXC5Pu7Ut91gBkEv2h4P8BGb9NXepHKsnz5lTEp0jZyx2hp-B8WZ4q4aZ2dvarep5QzvhCEP3oaUnQm6xtvxFtxhZBsKPCfrQDDCGoHEZnnLP8nsAX2WdL3QvnSjOZd2UJHW8qnI0dJ1btv1rF"
+    },
+    {
+     "title": "newsquawk.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDZeyau8R9xYOFp4k7L4Po8YeqCyTuxHiAhZ3b6ccels6n3_qitsVVyCts94-5FnjE6ik5O72McakfJoJNXFbjPJyk7LLhmInHDNMzg17Nsk22tgSQmK7oKBWX_7KbE42ZV0_kQ8yeO9WXhLn6_sBW4G-VX5kvizSP9YpLzYvnprTUDmnui7_1T4-Y27EESwEwQA9Ao-nDJH6QJaJyxzd2OEdTa_0TeEQsqY0ftbnaVbjpC2ehVt74tOVmyZH7j3lB"
+    },
+    {
+     "title": "instagram.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG8hxKurF885PjmKaWN4HUR2VpX_uVhPt6qLdkBtcrhLxcda0hEVyfi_wonvMWqV5N2G7-0vJV4xChIT3lKwqATAetKTQScWl4KafCxt3nRDwax-lRXjzVEot5r5M="
+    },
+    {
+     "title": "theguardian.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ4bmv9n0R4px8jz_Z3uRdScixlhy-iYWse4KhRbqESxKoM7ZT00jT8J6Re6FuRVOx5hSp1cNsg1kJvTUDnFR6heazLISCGgb_VYKF04psDUDjSo8EYQNP6SKaMLZ2-uW-n3Xk_AXM5RV6aLuqVygntBlyYTh6ZJ_FdOeYt2x3oy66MMJwKrO6dJHE5e1ZNQpNeKyGNThD9TPYuZ0Py_jRKlZZfGN-t7gFOm_CWemjQ-ub-AJmgv_2BQFN_lHOfRU="
+    },
+    {
+     "title": "caixabankresearch.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Cb1h4_KmjTuN92jWKetOsogotEhBIEn0HJ0WOJt_GBsMnn_XKBXM56q2paZy0ZFX284lcrCAcsP0ZOANr4DTzyEuAo0YprucbMD_-VggVIUNLfz3Tw_4lDOvJmLDGH0yEKdgy_Rn3uZgrNq1icWg1sfolqApwpgWvcn3aeUi-OeF2FG2Mz-UPrEJ8AdtM7cvZW9K91B26Xn6TOPqRfkvO7mXyGwR6-Mf4SqZTEzWf4ydBg=="
+    },
+    {
+     "title": "investinglive.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHajkus9CY6E3FHM4ctogZ1C-66kkwULwxj5LBUt1WOhJPiACl52DMVfDxuQeIkL0zfdWoPQas5lin04uB5IOF2Ch7G9d82mxcK1T12VkekldRNLs6btMZSBlZuvUmTT-r96NJ1f6x6X4Asxe8VsRKhmSlUnk7Lxu_dRSPdpExnslsWZEoAUha7wya2VrG6wlmx2WR0E7AxFmnS43dvO9lUZ-9TUGn49yJgm7pbEyudfRfFc80Iqo8="
+    },
+    {
+     "title": "tradingeconomics.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1nJj0iS69uWD16xBFW09u4h0Iqb6EuxR6_D1kUF8YvmvCW3dVqkP2nqgXCyIaVOu_SGQPBIkUXUXhwTNRVhmMAigJeiG0XWrM0f0pouxI2t-WVmOlIlYc__WFrrTP-56vuuzlW6DFPnk2"
+    },
+    {
+     "title": "substack.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdGWGI9PXVd9uj_A7RwVDtVg00HsgRHxZ_F08IYWfG6PBKvl3t7Bh3_gnYKrGBGakacYZSlF4nYeE4c82tXdgu-aiWAzyPv5hXwLAZX50_NilsXfyRrpCyhHA43xe2J_UIiUdMob9jZGVC594dpQM5erJd2W9fzgKzpA=="
+    },
+    {
+     "title": "thenextweb.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1dJNMcvBav8Na2HKx7FNUOZ4OsOtVb2Vzk8ftcNr4DKQZws8AL1sCmB_j7BJobjxy2S6f_adsr30TtJb6EoMGf2U6ZmPTamEWYYvEPP5CgWaRY5VxILNPqiwiVi2X8EmY0DhWRiAAeAIbgWdf2l4="
+    },
+    {
+     "title": "technode.global",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAFCQySH9tCxpP1B9aUKEN-IQ9xzdBbPhowcAp2AVltQKHZ4UxFPH5_OXHxlNKbAZz1dkD8dZRUv7e_7cVD75dletpNBL75Y384J-wGGPTjIIUMJP7Jz0rovEx1BqkGHRwpHkshqShjfNFb74XlWbwHFh2KWN01U2OzewLQySdXOM="
+    },
+    {
+     "title": "startupfortune.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUX3fL3RMOECPOQ6D9NTodfXEuZ8YbXPfOuxOC5rUDH2cWHNojcYoaNhSbuOxWdcof493jxfqpTQNeEXye7HO1vTu601C4sCJnaNvVD-rIUc0_PpZTNUZPDZyyxwGYf11rKFThlY8vJ9sOitZn3h_UAM-w1Q-vgdU2cJF-4YiurWtRRWFT6yq6ZKnxinW1c-jpab4="
+    },
+    {
+     "title": "medium.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGqXGe-tSascGffY0KpAzNJte94So_4XAOAPxR0cP9UQ08UGnQv54xWSP9UnXdPuQWyBJwmGKjAStQJDK9Lh3p2fjep8lYQS3W0UvcyjbKMJXTnaTAQXdFlt2vEfIKqC7_4YeWX5s8B7--rCmRVQvAoRE8PZm1EZjnSDEv_L21Bjn9z8fPNZ5HUYPehVNo96esfpi5hYdsWyI5aoyRJgFZXbqvg_jSqJvrJZr1DWo-kkiCOVU5O2IxNnMpkgUOZRQ="
+    },
+    {
+     "title": "shattered.io",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEap92lVVhKOK2Kvl8IWfLxbyuy9erDMKckoS9fL69L7dfgu3kOBO-cTStHnDprRJM322O23bwBS2JcyKzW2uhbm5aN1HWCnKkcbuG2ZXMZTBzfb6lATZHSYo4m4IN7Dsa4hkVMkyqsEXlliEAOTv4AkIyJyq8f5Jlewo5AVns="
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDF-GHlqaimM6XIy8V3NMiKFwAxwPpAYs9Y9cjoEqtpli4sXKjhjCP1SEk3GGEV14SNPjpGq9MzRO-ROkGrqM8sgJ5Zj7MprWaG-2EGUgu494XCaP5VkaV4pr_ql-P7aIGx5kFbQ=="
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk-W2n1JqoTZmtveBFMrKUbCKowJYWbwETHEAv0Ms0T77VAOTyOBw8AFMzjtYFA4-EK3j08Q1BMuOVuFeeQ7q5JaPcd1LROZUMdsgu4qSdXVRIjsrwjzDihS36sejTFxAgL6Hi4eaOagaR8fGAiMNzMi88m0d8-bHrNfngnvZ7dESWq0HgXkXT87pnJv3YWHjEEQhmxI_R4eix1ByJ2YUYWMvmGtguvqRGhej6Etj3Z2FHyH8eoQpBJgD0V-ht"
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMoZbZkVzc_32Jul3_jI1eyiaWxj3Hg7lmrFY3G4QLKg4-Pek5l1m-gZvlI16wox_X3e5s9U5PTqtFEW6Ltb6zasFPEB1aGOR4bIg9QUkHC2B0IKsM8riVHisc_YeS0Azmf6khLArcLiZiWe9D4HMjUgVOXE9vDJaLBbcuu53v4rCNDjvFeA=="
     }
    ]
   }
