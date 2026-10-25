@@ -1,0 +1,172 @@
+{
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T10:04:15.070Z",
+ "items": [
+  {
+   "title": "Ataques hutíes a infraestructuras en Arabia Saudí y tensión con Irán disparan el crudo",
+   "summary": "Una serie de ataques con proyectiles de las fuerzas hutíes contra instalaciones vinculadas a Saudi Aramco en el golfo Pérsico ha incrementado la prima de riesgo bélico y cortado rutas logísticas. Funcionarios estadounidenses y analistas de mercado advierten de que las hostilidades abiertas en torno a Irán se extenderán previsiblemente durante meses, manteniendo bajo presión los suministros mundiales.",
+   "region": "Oriente Medio / Global",
+   "importance": 5,
+   "source": "RecessionAlert"
+  },
+  {
+   "title": "Ataques ucranianos con drones colapsan la red eléctrica en Crimea y zonas ocupadas",
+   "summary": "El ejército ucraniano ejecutó una oleada de ataques nocturnos contra la subestación clave de Taman y varios nodos energéticos en el krai de Krasnodar y Crimea. El Ministerio de Energía de Rusia confirmó apagones a gran escala que afectaron tanto a la península de Crimea como a sectores ocupados de Zaporiyia, Donetsk y Lugansk.",
+   "region": "Europa del Este (Rusia / Ucrania)",
+   "importance": 4,
+   "source": "Institute for the Study of War (ISW)"
+  },
+  {
+   "title": "Bancos centrales congelan el ciclo de recortes ante el rebrote inflacionario del petróleo",
+   "summary": "El repunte de los costes energéticos ha obligado a la Reserva Federal, al Banco Central Europeo y al Banco de Inglaterra a adoptar una postura restrictiva de tipos altos durante más tiempo. Los mercados de futuros descuentan con más de un 90% de probabilidad un incremento adicional de un cuarto de punto por parte del Banco de Inglaterra en noviembre.",
+   "region": "Global (EE. UU. / Europa)",
+   "importance": 5,
+   "source": "The Fintech Times"
+  },
+  {
+   "title": "El rendimiento del bono del Tesoro de EE. UU. a 10 años roza el 5% por tensión fiscal e inflación",
+   "summary": "La rentabilidad del bono soberano estadounidense a 10 años consolidó niveles cercanos al 4,95%–4,98%, impulsada por las expectativas de inflación a un año que alcanzaron el 4,7%. La firmeza de los rendimientos de la deuda soberana ha desencadenado ventas en las bolsas internacionales y penalizado las cotizaciones de las materias primas como el oro.",
+   "region": "Estados Unidos / Global",
+   "importance": 4,
+   "source": "Barchart"
+  },
+  {
+   "title": "El gas natural europeo TTF alcanza máximos por tensiones en el golfo Pérsico y cuellos de botella de GNL",
+   "summary": "Los contratos de referencia holandeses TTF escalaron por encima de los 87–90 €/MWh ante la prolongación de la fuerza mayor en centros de licuefacción clave y el riesgo de paso en el estrecho de Ormuz. La industria europea afronta nuevamente costes energéticos marcadamente superiores de cara a la temporada invernal.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Center for American Progress"
+  },
+  {
+   "title": "Bancos centrales emergentes intensifican la acumulación de reservas de oro para desdolarizar balances",
+   "summary": "El Banco Popular de China (PBOC) y entidades de mercados emergentes sumaron decenas de toneladas a sus reservas de oro físico en su intento de reducir la exposición al dólar estadounidense y a potenciales sanciones. Los cálculos de flujos comerciales sugieren que las compras soberanas efectivas continúan superando los volúmenes oficiales divulgados.",
+   "region": "Asia / Mercados Emergentes",
+   "importance": 4,
+   "source": "MINING.COM"
+  },
+  {
+   "title": "Huelga del sindicato USW reduce la producción en la mina de cobre Highland Valley",
+   "summary": "Teck Resources confirmó el cese de tareas por parte de la sección sindical 7619 de United Steelworkers en sus operaciones mineras de la Columbia Británica. El complejo ha comenzado a operar a capacidad reducida, añadiendo presión a la oferta mundial de metales estratégicos para la electrificación y la transición energética.",
+   "region": "Norteamérica (Canadá)",
+   "importance": 3,
+   "source": "Teck Resources Limited"
+  },
+  {
+   "title": "Ucrania restablece plenamente el servicio de comunicaciones Starlink y Starshield tras restricciones",
+   "summary": "Mandos del Ministerio de Defensa de Ucrania y el presidente Zelenski reportaron la normalización de la conectividad satelital de alta velocidad en operaciones terrestres y de defensa aérea. La reactivación sigue a negociaciones para resolver limitaciones de servicio comunicadas previamente en la zona del frente.",
+   "region": "Europa del Este / Ucrania",
+   "importance": 3,
+   "source": "CTV News"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 116.62,
+  "wti": 103.14,
+  "ttf": 90.96,
+  "us10y": 4.95
+ },
+ "tension": 82,
+ "sources": [
+  {
+   "title": "ogj.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHuaWuZbWGMKgDNQpUN3biHS1-JUDCihEmlxX_5hEHtR6161yPWLCvpzOklcV15V8Xs_vGyoOxH6YPEAZEumYDMyH_WnonptPHIuq8ysszwR0Zu8QO-yL0wYoSht_IU1x7kEaQYVxLjwEr-Oh9vZxsS03H4LrVFpED5-VGHjkLi1KsmDqN4D7tomMiAodwvi6mtYZPZKS5YZnr5WxP-wzCHMOHgGDLTUI3Ydmo8Q=="
+  },
+  {
+   "title": "biggo.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD82oDChGZcCTYjEHnNGBiuuz85_9MOFkylF_DOy9xj6Q0netWR2pVXclwh5hN6876GBEC4QX0OvyshtLrNyzICEI0AcAMoArCKofwm5JioPt-3u1tF9BUMFD6PPink2ub3t2tqZgVHBjPYMYmwov5sgB6l3jV8tc="
+  },
+  {
+   "title": "recessionalert.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgrEWWi9bhW8te7iCTsBC3AG7dEwD211yiNQujnFmnXtozRyXzpUz3VM--YqfCWoaOjn-ZeCudF5T_9jXccX3CQcnDAJ-hx57UOnE2N-pf1Tqvf6IlXLDolwblG8JqoAZyrk1akdDkmXvIq3mAJYvAcrBe7kT5q4mO_vC-uqpQp-KejdfVjYooVQvmYTaGNwFwZvLdII1Lw31IcJJCB5DHBkOQQbst2AVbU5TDnlTt8RBCNLuf19EQiDKQmgKSVnO8S5hPQRmdkNGbdkqEVaP_tE1L9UPuhGe0Ja42V5AwnkCzc_MiEGglv_eAlBNiJXLkGfgr5QViQqA-LtuG7eeJWL4sispakpx8"
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg6T8398nJlOYnGYQDpvBmjjr0Sh5ibgXhxs-QKvtfUhLGMQARYx1cD0dqZJuevgEaJKWhL3PYlfgIbVqavBzYDOrRMFhh6ktcdbYzkYDuPuOWyH8g4X2ocqdCmZCY2e2PbMfz4TNyGBIhYd39l8QTxn5EdJy0KEOvzEuWzjic0e4W8HwZKqG7CSSfFQtjHKLn7-KG5W8xFxQi9jnuWgFK6K3L5KzKgDO6asp1v0hpBqAvUfVz2rvCjkXUzckdfchlp8OSObx3"
+  },
+  {
+   "title": "understandingwar.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5kIhPwZ44SxhBsKmhYiC6iC_glfWyNnJwCsgkE0Yr3YFrIaMfaY0J1MbB9jX_GJIYlVv2qHxUq0ulwiJuhA5aLWKWNW463yiAeUIZgRG2h26rA3lpaPbrb7dpXPux0y8SEjjgtzgA2qqLcNBmro-Rvdcm3jE5P2r1KZla0BlSv9wYREODE8e5-nxII-xma57OntctIjTL4jtcFXKvBWE8"
+  },
+  {
+   "title": "militarnyi.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESOkvaXL96m4P-GqEKFrQLNHIQXgkWSkKA9p0AdfPS8UblPTS7_4Yf654yL53vRMc0EX569FhxnHcqSO0W4lNpOGbodZ83tV8pakGun9CpWA4XjYayMmwOx7Yy2txPhNbXng1MsbQk6ROu7TWCe_Ge-qdKZ3Qj7hYgbZEMSvA="
+  },
+  {
+   "title": "jpmorgan.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjyoqp40xl_4rk9uGCRZTXFYdDn6p8OYQHjDzWHYD2tanqRJjKGwA5O3IY8Alhp5mGd4vEkGWginU2FgM1FXtCV0pVIyN63ho5KcEjlD8iZuUmVaPLSp04zLJCdgFKbtub0s5nBVxNDeqQMX6T4Ghe_ynZqESZSxTtwE0_PpMswgq-g0Y3JLC5_Motmo04nsEcIMvqKBCCbQPyw_PQQ1sy2SjM2w9Yg=="
+  },
+  {
+   "title": "bobsguide.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELIKLp4tqDrmrx0ySqeqykgBkHWFYIqInm1v_U7tVSqk1yausEOxIFupqtkyEpgmMxb6F0B_McLlWLQ3pOtAv9jKWcM9LsvbESfFNJwkAnaP9p52pVot6TORSg7gmixNEGbxu6WM30eMh3zImm1xf_FzqOCp15MZvrlvhT3zAV_YcjA0zI4MhPLpPeqqyuzhcNmtx58B9ERw=="
+  },
+  {
+   "title": "capital.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs1Nh_xFX5DJ9Ct1N9TFpgVXjeX3iNPjzablVHAJi6ASg9J-S3M6HWSw6PknQjVwJTraVEd1flIcNQmtQjgZRSPoxE3spMvanCJWCXyl33eMDa-0Eix1bKIVxoMmHx1EQ6W8SIH8dDz2dxH5eiODyVqBm-c2JVaUDRSSrdNGagbFrvBtVdqiyrWUpgsZoAPSglK8AhOcBGWTcvpUj5hVV8YvDLCkc4xDdHuw=="
+  },
+  {
+   "title": "thefintechtimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8hQ9Ko8hcy6wg6Jnb5yHEbspdNPh0n7m2o6k7sT02TcuFmS6X0KtIOHoApttgt9xPmQI0TZOWhhltWuKCQ6QOZSITQOWhfHwBFck6TlfHWa8bGhq3IAlPXvF5PBH-jOMJu51G5bLHxyVi0-yM_EXl7Zs9Hm2pDedxLRkqC6_9ndBKNY3Kgn3KyH4lL7An_Gvpkg=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG0dOYge0v9K318Y5OFtmjVbj1HNSTgErhSusBEJCjuGYIZiHGXExYLu7B_48tlvllU3K_tk2Y1biX1b6-OuG9Nl3J4PDKFrP-FBHZAt6L_jV_on4vXgnD_FmK9AIBAEhpoaqrm2FyE2GP3vhNrfYLa7rh"
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVxnoIMMaJjVVayiM4XvRwBisnizyHMar8svjUeSE4Iig1Mpk5p2deq2SYrfVV7gB55Qus_53n4moN2SIs_Srqztsbxt8-d_dQvYAn8Je0bbW7S8CzDPwZDoV8c4UmfFeU"
+  },
+  {
+   "title": "ing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUDHHOmaia59Oaxiu1EIAyonbWMDVb9zVdFToDDXhFRPOZzoALrZRaqqpdWfHws50rdRach0bHrEUl4c65LE-6_bhwn-9cS0fVcLa3Pblz2p8pUlJ81kHTYxWCoH5pfN7_CEttCQ8jWcMNggJTD-ChqsLcI93swce27YbhrGUPwkhlSgP1-skvY-6vTjhwaiiwR-q5VNI8fYtKA1_fl6Ic"
+  },
+  {
+   "title": "substack.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC3A4Z-BnMNGn4n61mfQiDKh4nK7eRM6tt0V3VH-BbYhfTd55bSLLvIkfafQnwamZrGHgXwZn9Onz6JZOO9Py_pSssLEPLF9dvdQ2svvnAM9MsFkZ2GxhDYqa7T72wb1I-74H6t-xg5cuFwAwjUP-JIzjvesHLowFAMZUWhA=="
+  },
+  {
+   "title": "americanprogress.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF_mvkxn5E6f3k6IK-pfEP7vXJOdVbalX2rxSL4A86P12B7N7hpQPlxumt9q-KOOYaYeME6Zp2aeIYMdwYDBTa10ZHGi4THrdj4SFxo9KIgm1LEHrdWSQ4-EpvUdFEhPZ32oTCZhb8JiQ1sWu8MMfvHZsKUZzMVV--hodKuSdr"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Hqshpn-WzMNmH9LcMvhmD8lYrnuiQjhk14QDI8Q8d45nqelNQ18bz2J4r_vt6a4GR0uirTz42T3Psi55j-LIoAMZnNIHnXMva0a5oioPZDopuTimypRsr2YOVvbaTJbcQf9y9RuyRDLrhRvRHNJpAPYLzwZpxbepAzWdkQ4bwHSOIt2PPF_60cqokpcj4ejJcR4mZp9vA-gHTb0yNa02jMl9FHnAq51uOzoRxeMIu0hMJXdZOfVeVGgMeK09gTvxzA=="
+  },
+  {
+   "title": "mining.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1thLZ1mf6t-sCQPFm_28pkRIcoDK1qYGOJO1iRK_KxB1LcODuqjYOa8eWiL_eSX1R1bXOIIs7gbFvLecZJqDcsl0o1F-3AyjJKPDjynRuKbia8GuEiGNbvNqf2opSL9T6Ya2NoEo3o8HWFSi08j6S1Eu4iVlnjgIkcWGNOZT0KleeXcggNw=="
+  },
+  {
+   "title": "teck.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnr4t8M6-o16Uu9ZU0lLJm2AWn18YpJHeQbHPSmj563mK5Hobw3uY3JlAW30PnH8ZF_hyrZAeiBjR7yH8yTjFqTI5DyW3vohZ7XfFXe5Sn8nGTJFxwnrQDNETCVqf-_G5Jx5EQAt_47IQuyApvWqbz8cEwSUgNGQXtLQ9Aem9ycFHdvaW-fHcdVlzH-8nhjORbw6keUpO40pOl9Q=="
+  },
+  {
+   "title": "ctvnews.ca",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET4OwuJ-ZdIX1wYQTOR_cA1XqA_NQEpmkJ9sTlO7IahimVHRuZ2LXeiDG00ivNr8hrGv4KUURbLTvTRWaibJwECk_VT6MAdZwrHZ7ZFek6Z3LsD-aHXMP2Zqah78YHI5iGjtA5u5cLTxF_PROIOxLyZB7mvKdALGVtsLdhHSzOl0WUzzUq-w5-2_8D14ov1Sgjo4BIRglnKjj8oIOsvEiQTZovMRB6MrfzZxTvbtnKaYk4SFbBG1fUSgtclgrwyMI="
+  },
+  {
+   "title": "bpi.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSPMdyQaLA0PiaGhF9EU6wwzLYt1KLJCLX24ta8gYtEh1FryRC6fSmdYsuCnoIru8UZkEQakYRcegMjzhHF-nIMA9NuHJSv_82P7O3tXtru9uq4CUCyo_oJK30n1rGb8Q="
+  },
+  {
+   "title": "magzter.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxdai0W7gny4DGXzO_tggvK74f546v2y43djvtKw10h3mUo6oLjvo_JqUDW7hvFWpbBxZdfCPqoVMa3J6wpH4wACSI67WdrSQiKyM9oIKQL6lJ64cXm11j-variHkXBaTrMatz_jd-z6VhbFtVpsRL_U71hr1LijIy2mQaJ_d09Y27A0JIASqBcNquEG1SJt-BkxuSIqAtP2haaIswRlJMBdFzZfrYIJVxAnj_nvnjo94NcRtO_B8="
+  },
+  {
+   "title": "magzter.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3bekmy6pg8aMvyOTF_i1z2E4dfTRv8T9snXk3aJr2CdTbdX5ORSIBgkci7FgrQPV4Yh_HtqG2dEGztmODPVZjZz5S3Dxjs_Bnu_QVPV93mBND4L78tPZJK7A7-_Zov88aN3WgYlM-dYB03exQU-VTuTUlbBrA2K0Opyla_21_1PBwVDYCl7HQQf43z_XhkEB64CmoNj0pbcq1ZwsVrf0qvjQ8BoaQpu6uEyYwWZGtzX9OUxVN_Hr05WM0aT8Si6koSA=="
+  },
+  {
+   "title": "openclassactions.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLUg4RW0z2KK5UOBlg_sv5IMuKL_uYMpEH1e62vA4s9O5A-BOrXB36uuqAD6GOCjRxUjfij0-TdzX6JWRtuVTqm5cAHgziaEFd3iFCLFmIFag0Ml8qC0zWN3HxdxNUjflrJ9uKw6Zro2hOISxJ22jQweaD7EP741HoYfpu95iymkJ2cg=="
+  },
+  {
+   "title": "gaana.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqN-S0afCfe5I4I-dHapPzxuQIRNuHQlO4_NaEunxkic84747pSnoZmWzSUywBQcKOeftyic_16QpJxD5kcTKcmEVIpIslygWitseQGkNLZ1pC91TBFHlUAWvI-jd1sAdC7qz-3kEP-sO2LCmHO2nYDawxVztb6j4KLorL5UWjkHfnePkOFjKHvfJ6ipi3OD0DjIIhkfJI_QtZOiGAp_1Irb8="
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpp6yA6rBkQlVG-W6n7j_jaxufOfQoQz6lvNhOV1gU56jdSxz2Fu9vmaf7-MuLu13Pj7dvSCzO6r3zlSun34fdQFyuWp0nrYvQThUerFDd6D2-9_XTqpww-AHHfauP3sWsKXG9wrTDIHfVZx2BIg=="
+  }
+ ]
+}
