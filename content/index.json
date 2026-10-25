@@ -51,6 +51,15 @@
  ],
  "semanales": [
   {
+   "slug": "semana-43-2026",
+   "week": 43,
+   "year": 2026,
+   "label": "Semana 43, 19–25 Oct 2026",
+   "start": "2026-10-19",
+   "title": "Semana 43: Fragmentación tecnológica global y consolidación del shock energético en Ormuz",
+   "file": "content/semanales/semana-43-2026.md"
+  },
+  {
    "slug": "semana-42-2026",
    "week": 42,
    "year": 2026,
