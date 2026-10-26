@@ -1,0 +1,149 @@
+{
+ "date": "2026-10-26",
+ "generatedAt": "2026-10-26T11:27:01.272Z",
+ "items": [
+  {
+   "title": "El petróleo Brent cede hacia los 115 USD en medio de gestiones diplomáticas entre Catar e Irán",
+   "summary": "El crudo Brent moderó su precio hacia el rango de 114,7–115 dólares por barril tras haberse situado en 116,79 dólares por el recrudecimiento de la crisis militar en Oriente Medio. Pese a los acercamientos diplomáticos reportados desde Doha y Teherán, la tensión en el transporte marítimo del estrecho de Ormuz continúa manteniendo una elevada prima de riesgo en los mercados.",
+   "region": "Oriente Medio / Global",
+   "importance": 5,
+   "source": "FXCM Australia"
+  },
+  {
+   "title": "El Tesoro de EE. UU. amplía las restricciones de capital a chips, biotecnología e IA en China y Rusia",
+   "summary": "El Departamento del Tesoro estadounidense emitió un borrador normativo derivado de la ley COINS que prohíbe o sujeta a notificación obligatoria las inversiones en países considerados adversarios estratégicos. Las restricciones endurecen el cerco sobre semiconductores avanzados, sistemas de supercomputación y biotecnología, incluyendo formalmente a Rusia e Irán en el marco de seguridad de inversiones salientes.",
+   "region": "Estados Unidos / Internacional",
+   "importance": 5,
+   "source": "The Next Web (TNW)"
+  },
+  {
+   "title": "El Banco Central Europeo se prepara para mantener las tasas en el 2,5% vigilando el shock energético",
+   "summary": "Las proyecciones de analistas apuntan a que el Consejo de Gobierno del BCE dejará sin cambios los tipos directores en su cita de octubre al no registrarse aún un contagio desmedido en salarios. Sin embargo, la inflación general europea ha repuntado al 3,8% como consecuencia directa de la crisis energética en Oriente Medio, lo que mantiene en pie una posible subida restrictiva para diciembre.",
+   "region": "Europa (Eurozona)",
+   "importance": 4,
+   "source": "RSM (The Real Economy Blog)"
+  },
+  {
+   "title": "La Reserva Federal prevé pausar tipos en el 3,75%–4,00% ante el dilema de estanflación",
+   "summary": "Los mercados dan por descontado que el banco central estadounidense mantendrá el rango objetivo sin cambios en su reunión de mediados de semana. La atención se concentra en si la entidad endurecerá su tono de cara a diciembre ante la persistencia de presiones de precios causadas por el coste del crudo y el endurecimiento de las condiciones financieras.",
+   "region": "Estados Unidos",
+   "importance": 4,
+   "source": "FXCM Australia"
+  },
+  {
+   "title": "Irán advierte sobre el impacto global del cierre del estrecho de Ormuz en los suministros de gas",
+   "summary": "El canciller iraní Abbas Araghchi señaló en un comunicado que las acciones y amenazas militares en el Golfo han provocado disrupciones severas en el tránsito de buques gasistas hacia Europa y Asia. Asimismo, subrayó que los inventarios europeos de gas afrontan el invierno con niveles más frágiles que el año pasado, lo que acelera la inflación.",
+   "region": "Oriente Medio / Europa / Asia",
+   "importance": 5,
+   "source": "AzerNEWS"
+  },
+  {
+   "title": "Ataques a infraestructura energética del Golfo activan planes de emergencia en Saudi Aramco",
+   "summary": "Nuevas ofensivas con proyectiles y drones hacia activos energéticos en la península arábiga forzaron la evacuación preventiva de áreas operativas y de oficinas corporativas en Dhahran. Los mercados de destilados y combustibles para calefacción reaccionaron con alzas abruptas ante el riesgo de una paralización prolongada en nodos clave de refinación.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "SunSirs"
+  },
+  {
+   "title": "El rendimiento de los bonos del Tesoro de EE. UU. a 10 años resiste en la barrera del 5%",
+   "summary": "La rentabilidad soberana estadounidense a 10 años cotiza en el 4,99%–5,00%, reflejando el pulso entre la aversión al riesgo y las expectativas de tipos elevados por la crisis petrolera. La volatilidad bursátil y el gasto intensivo del sector tecnológico han llevado a los inversores a exigir mayor rentabilidad frente al riesgo fiscal.",
+   "region": "Estados Unidos / Global",
+   "importance": 4,
+   "source": "Trading Economics"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 114.72,
+  "wti": 107.89,
+  "ttf": 93.85,
+  "us10y": 5
+ },
+ "tension": 82,
+ "sources": [
+  {
+   "title": "fxcm.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKKMd58LEGGkI_17FfCCS5T-RzznSKLPV1DSOWDigEk1fLB-ZjDRmJ33QsS-TYjb2tJKdK6OuRK6fZaWKDgICBqFBdUsJfY0FA5I-DHrMJc-83TR4t1liiMqEXKNsWrLXbDz1ZuOYZS0ZqNWurA8Sag4ITZLZlV2tn2tZxrdrGY7tAXlHkW4lI"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5CtiLlc0LPm7ne9c1_DAV_bZFATgeKBnx-9uHZLz-7sD8cJVnzU7_JeHtMLKPY0iXAwvzKDbntScH-tc-Gjj2WNF7hygufnJP_HW43G3m0dWAB-Pk2JCtOzDH-N3deQ8qhq3UkxwHC9aHwg=="
+  },
+  {
+   "title": "caixabankresearch.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxATbNVKhnR4B-itKNrRwlPYPvH_mHJQERKuZiQYnfq9od24BbgT4YsTdhN8-fCOHKY90FxrxESH2yv_fia5mnm2GRz74qnENU2tUemUHDS5R6SajEAYj8CeCptH2Pah7TrrvCb3lHYRAqTmrQDi7hzMasREsOmeajnw5s1ZzyzZgAkgjikUAoH1awzhHLKHJNlTWt3GYzhXQ37hYQrMUGvznXxRiRXEuIrC5MLfYf1nv4Dg=="
+  },
+  {
+   "title": "azernews.az",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4zlqSqNWfe-z8obR5pz-4r8beXocDMAx31Xqr9h6MKohtR6RWKkXwBLp0MzlTnQ6G2GwgS2oITDmbIqBfHnebCGZi8ryAyBM5y3O4SpJN9bSIMZNCfpA--69_A5kYw=="
+  },
+  {
+   "title": "thenextweb.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFfD5uBNxkXtX38hrQRyfI97d2uzvgw0GPpC7vrMJ4DNoObsFXuo_gNkFXZ3gNsmTS1X4Vh9IRW8N82EquOxYGVmE_kUxvV9xuiBO-fYYwc-cS8VrdK9IjO822frPQLwf-NjHge3reazKp4-e0wpax0Q1WWEIJ5ktmglLQn_ZuPMIOePVeRD4="
+  },
+  {
+   "title": "explainx.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-lv7gT0nmFS9IpxUnPrifKrZxdZG0yWkevW5ElwJnHVv_TVTKBqDakhkTKIr_VLf04aNR8dce66UWEFla--8Sv8dv-wFMH9RRmJ0xiNcDQZAIaAwD57r0sefxTCK5pkOVcRJf2GiioXWp4wb-k_EuddOb-es0YF1pDZSUa0xXcjxLUDG9iiEzsHGOOpiAymZziMh_2WwT"
+  },
+  {
+   "title": "thebusinessjournal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx1hpw2H87H3JZdLUYlOSRsL8DhTIebQoPH9OhSlliwxf4h38asA7YDFQ11wn8QkNmTqqOI4nQ0twu7lilzVCpS9Zx00nixr4vdmkFimy8_2WGMZEG5FNxY1MM7dATkoJi7BUY_YHcTI_RwFkn7EQUaEgr-7j4A8eXAZrMwwCw0O9IQqxqE_rV"
+  },
+  {
+   "title": "rsmus.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEniWxsv5iU4wXBKp2UwSJ94BJ8lAbLbbjCqqHNb8rPqs91O6eeL-T1JIHmeVow918qkMoSbKlXHZ6A3ACfXf-kWRrIxK52SJeciz_mNQT6n5SlXhFk38YOcQI8mpIWfnp9_mYBgAyXiy_83KT54iR9u3ceALeqR3sdKg01HQqxyz4QLSfyUkG0qg=="
+  },
+  {
+   "title": "sunsirs.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES8H1tNdUpNs3x7wN0VaURafg2BGYaHvylHwlFqceUFyqOOQB2BVS4scWx7HTc1gmVlMbjgjf3MB0Ib3Vf3UxdTNWGheGlFYP-I8MRfCp8jq1toEGxCqpULpaFzLlGFeCE13XtveiupKV_1x5G"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeIEEcS-zbyF4zm60EQg9SRVmY7T5zKEC4vw2L1rj5Ufy-ycPxzlj1qwk2I3B8yGM3tj6Sj6WG3NVUpbNvRmzNnmDIEXtWHOB_IpCK_I94A9tRYuHBPsk6VWvCOxVUbMNVbmeR4a30z7G8G8g9HUWkRbllD0jp"
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuq4VY7jFvtUY_HuouBT3qYlbY1KWFxuB4IeWvlJSaVY7Uy8KXxUMEVbTW59gqtteC3Zl-m8Gbpszky1GBm1Fy1GjGZEbiyXM8YHOBYWcCFm9KEAYXjb7vxJHDDOcvb9otjYDUCIcio1Ey"
+  },
+  {
+   "title": "gurufocus.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuVAMpiTPjACRWriYnfgsqBdhNYmdMY9m8S5uxZs8MQ2uxuAMzlZlPac779soDASssx52iZeE4KjRV0-OFYnbo2YbQxOjRhdPoFEQN3a5h5XALmo-NG52VU_2AWXQdedSacIL8A7EHddCoiUtX6v93QnvBVfHxfVT-GlnwTg=="
+  },
+  {
+   "title": "siliconangle.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVM7y1SOjCXm7aaP0XCqiqXAXukG4dtVWaEdWxCqI8wd2LnrVQ5a3yh9KPrqaBuJPZQjL2utJGBmRFKI6cnl5bnUS7Hff2HYjx7iIiUmoBjLsEgIbq0A6Mop2lbmLOwRrBp_bN9ffLZX9Vn8sGl4uSYTy6WwMpCG9b9jDpGrBY8E9XLiawOKZVJMxBKxhXaykmsP696L5wqERXfMSxgbqcc40gmsNgJw="
+  },
+  {
+   "title": "taipeitimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtneitvYwJUHM-mhQ8SZyo2ETJ9XRwkrnxNAwahrMG6KGPuVgGvh4eswyG3a-wxJ9URyKEe1GpnU39gKHvyxhuR1vyTE1eHwC7XNipXdIbDyB4KMpSPe1cfDS2YtVCqsIhAjRxzlGN0Ge6UtUzd1K1DxidgwbItV8V"
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbIK-62QgsciQBXYgjXO9DVIPy4up82TmHec3QckbnzyAKWDpvwp8xYxjE9e_ogCCj8nbYITZrhpZul6WVfYzivMbT28hcbIR2oF6ejPlAHzdch24lP7ynqu-UWKGfhXya"
+  },
+  {
+   "title": "thehackernews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7bpgq_KKv98qgvJFAAu0NafoBqaLLYGmMjDJEikfrkxCQ2ZWe3yK-Vxe9iGDOG3WBANvJrIzcyOXZzOVzsGMiWyLrlFMzGq6NrkZlEFYgYgLO89iWFaBsVZPlYAlwL47iyl1J29xs5q8YW2PjnqLWRQ8Q-JPfNNBTOoON8PDpdVat4g=="
+  },
+  {
+   "title": "medium.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZoqx8uhgnkyxSvwvQbaMxJxLfjTFSs7eDT2KL7aQ4n2nDPwJoutW0n91FIzv9jw2TaGoCv5yeBpFrKpz6yXQoXbiSHaEuNiTVI7hYf3oz9U2YIgMiJ9bBvIOeNhZuzww4vwzzUCpMqANrc-0YMcoFJxVrBmwlzXaZkktdHxf8XxMdy20TJEcV"
+  },
+  {
+   "title": "stonex.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9d7QNJzDgpyqWzbN7IhtjQqpLzJy6EfTUGDO1I1meMnSOsaGwIedBKzYzYQPQw8AdtoknbE0IVLfFqTw8iFQtIVnKFITS3F4i62MFACfqV4c96h2Q8iViRbpnkHqkz5z9liCrO0lnau7JG5AX6QVoHjdACLX8t7zR7rxxO6aPeks4_9an3upKVJRicCY1FxW5FDFCxJNDMFTjGmoMMiFeGGLAp23Y5J3L0vW6b7FGrBVeRQ=="
+  },
+  {
+   "title": "stlouisfed.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHveh85gmZ-dR0lh8gVu6-D9gTB-v6xcTwSq23Ix6uROTny_1HAF7V4eDHq0QL4JI09RmjoEnrnLKllBiXmhMHQZaK428n-pd56t5pUSoQGPUaNNv9vHo_xVE0cYn4JwFGD6w=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfA6X1rxsnSIEUYHWE06aykUozymXMcpzp0tvbJOSft60ryg5u6RiltYm2czRtQ5NI-OBCPzqlOqSrGMNq9zGfNt0vTlr99s_m3dGEBralltBBsBGNXmA2mHkXER2Hu2KbXgVjOs96p1KYZwQypbz31k1MR3BfcI85Mz8n3_5SnQlsUw=="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZJUkdqT9-qCpC-hqpcg0CwQtaQpr912ygGL0tJWrEAIs_KZXPWSXLfFBn3Hyx0Fsan9Vz0TqrrGxTLye7ryo4CHOgdUwwkSUH4Zhjcd7gHBmu9u0JPOCfoBdow8hbUa3"
+  }
+ ]
+}
