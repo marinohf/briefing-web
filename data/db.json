@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T11:27:01.278Z",
+ "updated": "2026-10-27T10:50:54.663Z",
  "weeks": {
   "2026-W42b": {
    "start": "2026-10-12",
@@ -2586,6 +2586,151 @@
     {
      "title": "barchart.com",
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZJUkdqT9-qCpC-hqpcg0CwQtaQpr912ygGL0tJWrEAIs_KZXPWSXLfFBn3Hyx0Fsan9Vz0TqrrGxTLye7ryo4CHOgdUwwkSUH4Zhjcd7gHBmu9u0JPOCfoBdow8hbUa3"
+    }
+   ]
+  },
+  "2026-10-27": {
+   "date": "2026-10-27",
+   "generatedAt": "2026-10-27T10:50:54.658Z",
+   "items": [
+    {
+     "title": "La AIE alerta sobre la concentración en las cadenas de suministro de energía limpia",
+     "summary": "El director ejecutivo de la Agencia Internacional de la Energía, Fatih Birol, advirtió durante la Semana Internacional de la Energía de Singapur sobre el riesgo que representa la alta dependencia de pocos países proveedores para las tecnologías renovables del Sudeste Asiático. Asimismo, remarcó que las tensiones geopolíticas y los conflictos en Oriente Medio están condicionando los patrones de consumo energético mundial como nunca antes.",
+     "region": "Asia-Pacífico / Global",
+     "importance": 4,
+     "source": "Reuters"
+    },
+    {
+     "title": "Contactos diplomáticos en Teherán para contener la escalada en Oriente Medio",
+     "summary": "Delegaciones de Catar, Arabia Saudita, Pakistán y Turquía abrieron conversaciones de seguridad con autoridades iraníes para intentar frenar una confrontación militar directa que involucre a EE. UU. e Israel. El acercamiento busca desactivar la crisis en el estrecho de Ormuz tras los recientes ataques con drones y misiles de los rebeldes hutíes contra el aeropuerto e instalaciones petroleras en territorio saudí.",
+     "region": "Oriente Medio",
+     "importance": 5,
+     "source": "Arab News / DTN Progressive Farmer"
+    },
+    {
+     "title": "Los principales bancos centrales preparan pausas restrictivas ante el repunte inflacionario",
+     "summary": "La Reserva Federal estadounidense, el Banco Central Europeo y el Banco de Japón se perfilan para mantener sin cambios sus tasas de referencia esta semana, adoptando un tono firme de cautela. Los responsables de política monetaria vigilan con preocupación cómo los precios del crudo por encima de los 100 dólares comienzan a trasladarse nuevamente a la inflación general.",
+     "region": "Global (Estados Unidos y Europa)",
+     "importance": 4,
+     "source": "Associated Press"
+    },
+    {
+     "title": "El gas holandés TTF se mantiene en máximos por inventarios reducidos y menor flujo de GNL",
+     "summary": "Los contratos de referencia en Europa se situaron en torno a los 95-97 €/MWh ante la previsión de un descenso térmico y un llenado de reservas comunitarias en el 74,6%, por debajo de los promedios estacionales. Las interrupciones en los envíos de gas natural licuado procedentes del Golfo Pérsico y la competencia con compradores asiáticos intensifican las presiones de suministro de cara al invierno.",
+     "region": "Europa",
+     "importance": 4,
+     "source": "Oil & Gas Journal"
+    },
+    {
+     "title": "El petróleo frena su avance semanal tras rozar máximos semestrales",
+     "summary": "Los futuros del crudo Brent retrocedieron hacia los 115 USD y el WTI hacia los 101 USD en tomas de beneficios ante las gestiones de mediación en Teherán. Sin embargo, la estructura del mercado se mantiene en un profundo backwardation, lo que refleja la persistente estrechez física de la oferta inmediata y la elevada prima de riesgo bélico.",
+     "region": "Global",
+     "importance": 4,
+     "source": "Saudi Press Agency (SPA)"
+    },
+    {
+     "title": "Tensión en la deuda soberana: el bono estadounidense a 10 años presiona la zona del 5%",
+     "summary": "La rentabilidad del bono del Tesoro estadounidense a 10 años marcó un cierre de 4,987% a 5,00%, consolidando el endurecimiento de las condiciones financieras en los mercados de capitales. La fortaleza de la actividad económica junto con las persistentes presiones en las materias primas continúa retrasando las expectativas de alivio crediticio.",
+     "region": "Estados Unidos",
+     "importance": 4,
+     "source": "Dow Jones Newswires (Morningstar)"
+    },
+    {
+     "title": "Incertidumbre electoral en Brasil genera volatilidad en los activos emergentes",
+     "summary": "El índice bursátil de referencia de Brasil y la divisa local registraron jornadas de notable oscilación tras disputarse la segunda vuelta presidencial y surgir cuestionamientos procesales sobre los horarios de votación. Los inversores evalúan la futura estabilidad fiscal del mayor exportador agrícola de la región ante un legislativo fragmentado.",
+     "region": "América Latina",
+     "importance": 3,
+     "source": "StoneX"
+    }
+   ],
+   "ai": [],
+   "markets": {
+    "brent": 115.81,
+    "wti": 101.76,
+    "ttf": 94.87,
+    "us10y": 4.987
+   },
+   "tension": 78,
+   "sources": [
+    {
+     "title": "wtvbam.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc_kuNuO6vOLaePOGtd5nBPX80qhaLU4eS-yxO_-iErQNWSF7pGYLdLLev5lWUwxREykRX_mPQ999msvti3oHQgV72P6_pmUk5CfbadZ_TATpV2w2HeqR2SoIwVtOK1coRSmI73vuOG4KeqmgjIXgyrRwvr2N0T4Q2y9P6KMNKUgiaUDRX2GtadlUaN25E-G9KukC5J_gk9IYihLZ_5WE3"
+    },
+    {
+     "title": "ogj.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9bFaBDbsKVXsgpS9K8zSrKpugcWFK-mFSJoJoZuRFmeu3xgNOqX_EV-gnDLKVTrSlgRqBvN3pkDtPdYe7BE3hTyHFV5PnuKCNjnOFB-VG9eF_mUEiSNZztF8bTL2L30ZNn8H_KH3W4RqvvcFKXtHRpz-SugUlPU9sLd9iHqPy9voeeGJWI0PnzKu3sN_txDBATPJq5qoUUYJMe1FzpUhzKHDKkYkCWuT59XFfoLn21rYBmg8zMhQ8NOQTfArPqwdrVT17uQ=="
+    },
+    {
+     "title": "dtnpf.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJdg7tzySINDP7L9A9YMszQeAFwu_xAmb7axMvyVutcU5jD_h7hR83qan0CQGz6iaA5Oly-ajqrqhmaFz8OGbTCLxRZtC3EkldK1SvRnc3NqFI18tPcY2McjsBTseOqp-uT3E26Vc-n5aDDz8eQcU34B1hXPdWuCbt1kt9yKwsbTuUDkjo1Ly4SIALPCCVT1JpwHhRfYd9bR_kVWSWpkJ162KzI5U="
+    },
+    {
+     "title": "ismworld.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbHNaN5aFaEdvh1BCyKUOWPo4J15MInGF57NAflmJ7CNNCpnL4RF9ZFj8X-7bG3Ztvng72pKvTIzlL6Gu2DrgmdLSi3in2OT8o0UPvyNeyutaUB6L9LPEWG3zUQhTQdEX2_bJAv0HJBlw0tM7u7gPoTVLxR8jdzdPx58p9G9wDTNwn6L8DdSgBmlKPPowLCQraSJzlXhZMbntPp_KX0_LIrp3KN-ir4qTidA9cZg9fXB8Ds29GYD6eHNJ9cRCOX4oiYYGjZuLn_kykIv3JyK0HPb2LZ4waGA7rMCt9_CDcV_r-5NAj1oMSDTUf_Vy8eYr5IiA9KApQTHU="
+    },
+    {
+     "title": "qz.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6BrehGZ9DxB784YgSeAxQ_jkX31hTdaWSscne0qzQx63S2V-Rl8WBDbwAUIInCmyaaYDNTHsN8jzIiBsVolhCXhSoCSilZiNTN96BMw7qhSklmoTR2-QmlgeKDxoFFqAaKJMp-UayJv24jYJJUwVEyiBm2wGtW8O-7v_M"
+    },
+    {
+     "title": "bbh.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXI_4FCHDOxS--xbuBIq_RpXDVYb3dKNOpIOvdILWEKiEWG-9oQxgiEPB2JIGQnF5H_QaFGP2EvN10pyT9XQhM35Yty-gblUsvgtTTQyLRyYEASfEgWtFEl7YFkYl4xjOnUFwMcHQ6zSeWxK7HjZJxqMI3LagIzRUijvyK9-vEN42F-vqHeodxPN5_-r_Id_sVqIkLfmDrubzuhWeROQ=="
+    },
+    {
+     "title": "fxpro.news",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFKqkImCKk6VcMYPIax2Jq5vggWA-THA-FoNV17XNqpyWSrbpagWoW7rnLoR8bnE-thqzUHHnY-fwnhA9pFx82UAQBUYUBZYmQw0SJUc9r4CApRqSYgxs0fkAo0BxgkRevwK8kCcIbAEql_r13RuhUbZVhjWvtkw=="
+    },
+    {
+     "title": "tickmill.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl-yn2gR0cg7pWOeveJEGP3zxiUnMhjKde6iMZIhUSOIOnnvXP4hgN3QfI2RksfbZs8woW2-B-e53U9PtrLi4tHfXtn364K06aI91AZy-EG9fjxth34WOkKM9Vp9Wq86bE921sQA2bakoF-XFyPe9WZdHBKj8Kwyw="
+    },
+    {
+     "title": "stonex.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSJhuLgtO1_vsJYZJKsgf1iTUwveHbuzHzw5Uy3m6486sxQxp3Uu1-qAXl7NpzT7EfzrcS62YVBbQXTdAf-Y4J73AF9IaxzOP1os-BHTUxLz0l3UpsfFdy1_qXADlxwXG0B5eRDt7-asrVWhJ6sRHHGwScIKwojFqG8x8OVgCaUJY6Ki2vptYQbgYnwI73G3bA"
+    },
+    {
+     "title": "kvue.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLKswHj4kOhu7Ep3XmSBIdJFvGQydINDfRKfNMNC-twPKg7sXSvpTHx1n6CbWCrxmdDAQL8E9owkeOUkgZbUSiyC_vviDLurX7n9oMHAkezFt5OdxE9RoVh_A8QS_fXxUS8hr6kvo7PFcU6UJg6Np_qOnG2kB7jONO41nN5QWlhzkkw2o2acpxgKhw2WzxB7MRVhIqBvZuIFuoAofvB3Q0m9efml4pXQ8zcSNJs-ZH67CY-jpdN0uI1DmL69mFc1AKAXrS0-SyhAZv_KaQNj24HQ=="
+    },
+    {
+     "title": "spa.gov.sa",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUyZcFZ1lyR-aG9mHd3yByrRjbvbzOl66VJNIxxee8nixXsAoeCd1JHHAz-e_kgLWv5lW9sfM43X2xXpF54nzZVQWqF97bpioKehMoqdlVRcz7PSsIWrE="
+    },
+    {
+     "title": "commodity-board.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3uqtTBdofWZUBKLugDCe9Wqw51LewPal0YcoYqMLCBfvW1iXSD3Q71l9R9XVL2x0RRPitAc_3fGkKt_lujyfr44IkLoZLy6o2JyEtP31uF_CggHWFD2Ari5DlYIUU5pmoL30-P-8wnZ2T8l_i1XRwb57OOkGpjlQZwckaIkzuVKIKmbA_8IlPgpRvBocRCqUWEQ=="
+    },
+    {
+     "title": "ycharts.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESSRgzcB0XH6SQmPWn-t_1O4cgFpSp24YAJDLXN_3eCeZV51hMMzqS6Bx9dZA_bw8VQgacHGGaKYy4Hw9L5C4eCFHp_tGn3BFJ9_zrosBhx7DnY3QCvKz9kQ4BdrSgdFSeH79Gl3_xZV7c"
+    },
+    {
+     "title": "morningstar.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5BzMw3aT5zw1I9Tti3qTCHzKojgVXPwXuwtzsDhtDUOzEPX4JH8dtDEmtXqzIKl2aBXSosjhqAyS2f-FLYg9lsIQFu-9ONA9HXrkz_VH5dISsHlcCX318ohoPSRAcQe5REQw3VihVirpbC3gIBLJCwXK4FnteSQMxdGmx147RIxNsW6GSW7rYx_IYdSlYalUhDOAks01Kiji0eqU="
+    },
+    {
+     "title": "substack.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQUuzexV8idHggBmwpqi45tk3LATk1NDtcaCyPdwkG2eEYkQNTNxtg5uSY-ZYRPA6f-F9VrvkATZCe9Kv7K3udAKzzXW5k4Wx5TpDG0tTh7Ngc2Fx1FRc6WUHUEZLk4k93F6Mt1LJ0Jhw1Ha7RHX3avcsRgArQyWUE"
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR9A34n-RNWk5dBXqBCiNvTYA_wQTwqRSf1nby4J86rZSqLKSpdQ-KswD11TScokbVOota5IVcWCwZOkiC2PqmcmPbECxR_3BsPMYKQi1DdMOeASgC5HiBNppI1COzcGbeW0r-9oxvltC9wRBXNcolhu_nnV-pHArvDq1fjg6NHowZJ2VMToRpcwRVP33Poo1TRgXl2n4D2fbl_GyY7UCYpSe"
+    },
+    {
+     "title": "chinadailyasia.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4r5hVVe3vuQEmn3h3olM6agesVS13dmV46BDyBPGt6UVymlLGld3FjCZkXfjlaqNC3fIfpO9Joitw0MXQjXMU7p1BcAf1DeTIdqgpogVa-_UPf79rSE5Ua7YaYblxoy-6FL0="
+    },
+    {
+     "title": "thebriefscript.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUmSowJ9672Wz1K7fqFx422dSaAsBX-r0b6ql4wT8axcDX79OJkMuflx3VutL-M3Us6dmiSDng4JK06eIOI9tjGiva-dQL-jJblOsptpI5iL3RkinNG4s5VDCtW3GOdUVs8xXySgqroo8Ardky9AoZCUbG1A=="
+    },
+    {
+     "title": "radiologybusiness.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6eDERyn_jzuaLSI9k-hsSwgLT9Ocvt86OX513mHOyU-bz4NYUhbOqjabM6G0kUrmzN5l9drl4fhb_fPiCIvZOSFHtn400cXets3u2gPAfMWFqWWeLZTRVFbWtRiyyaJFpx_lKy8bwHAvTGWBIokrLEfcMBT9t0KWzVyWNhxdEdYtCpKvL6LI3BxEhirZS_zzGCCO8c0RCKoqLqY7SZxhxGLrABuXZU9XcZe0UdK9BjtQ-Zgg="
+    },
+    {
+     "title": "tradingeconomics.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3kwk6me-VxSjXyu8XUZNWHf4HCmBQI9hh3Y1shsbW2FOOt9nFfbALN8qwb3pcYvKYuV_rLattvxUthX9wn1PM27MdWhxipmrxQDsQPrkHefo3hxJKYq9i9mBGx2nm7cGbgAXIlHCSrRuA_w=="
     }
    ]
   }
