@@ -1,6 +1,14 @@
 {
  "diarios": [
   {
+   "date": "2026-10-30",
+   "label": "30 de octubre de 2026",
+   "week": "2026-W44",
+   "items": 8,
+   "tension": 81,
+   "file": "content/diarios/2026-10-30.md"
+  },
+  {
    "date": "2026-10-29",
    "label": "29 de octubre de 2026",
    "week": "2026-W44",

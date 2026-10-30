@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:42:36.665Z",
+ "updated": "2026-10-30T11:33:20.295Z",
  "weeks": {
   "2026-W42b": {
    "start": "2026-10-12",
@@ -3083,6 +3083,158 @@
     {
      "title": "247wallst.com",
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVxp2P_60hafgsu2Yfx3lMhHUX6b1mvUd452tpp4q__2Vhn6tLXIUpgw_XN3acA9OQrAp0_zQo29zJNd6eAqp9sULmRqRl5Ct5hadKChMplYFwxsIRhWAGh5j1z-WraHiKbka-qVuumG9VfFnaowRkKd7K843DI4O5mNgMoQ879IUjHF-tkQ31-5cAQid3Nap5pM9vsYsmFYBo7r_z8qFmuhJuwYItujrMkRL05Oogwqvg6pqmz18="
+    }
+   ]
+  },
+  "2026-10-30": {
+   "date": "2026-10-30",
+   "generatedAt": "2026-10-30T11:33:20.290Z",
+   "items": [
+    {
+     "title": "El Pentágono presenta opciones militares contra Irán mientras se estancan las gestiones diplomáticas",
+     "summary": "Altos mandos militares estadounidenses presentaron al presidente de EE. UU. posibles cursos de acción operativa aérea contra instalaciones iraníes previstas para las próximas fechas. En paralelo, autoridades iraníes calificaron de inaceptable la última propuesta de cese de hostilidades trasladada por mediadores cataríes.",
+     "region": "Oriente Medio / Norteamérica",
+     "importance": 5,
+     "source": "The Wall Street Journal / Nation Thailand"
+    },
+    {
+     "title": "La Guardia Revolucionaria intercepta petroleros en Ormuz y se registran ataques sobre territorio saudí",
+     "summary": "La Marina del CGRI de Irán informó de la retención de dos buques petroleros en aguas del estrecho de Ormuz bajo el argumento de navegar por rutas no autorizadas en medio del bloqueo. Por su parte, la defensa antiaérea saudí interceptó drones y misiles lanzados hacia las regiones de Riad y La Meca.",
+     "region": "Oriente Medio",
+     "importance": 5,
+     "source": "Al Jazeera / CBS News"
+    },
+    {
+     "title": "La Fed y el BCE mantienen tipos pero advierten de nuevas alzas por el choque de costes",
+     "summary": "La Reserva Federal mantuvo su tipo rector en el 3,75%-4,00% y el Banco Central Europeo pausó movimientos, pero ambos avisaron de que la inflación por la energía obligará a mantener el sesgo restrictivo. En contraste, el Banco de Canadá rompió la pauta global al ejecutar una subida de 25 puntos básicos situando su tasa en el 2,50%.",
+     "region": "Global (Estados Unidos y Europa)",
+     "importance": 4,
+     "source": "Reuters / Dow Jones - Morningstar"
+    },
+    {
+     "title": "El gas TTF europeo consolida niveles en torno a los 100 €/MWh ante la amenaza invernal",
+     "summary": "Los futuros del gas en Países Bajos se mantuvieron cerca de la cota de los 100 €/MWh debido a la alteración del tráfico marítimo de GNL y a niveles de reserva en la UE del 75%, lejos de los objetivos estacionales. Organismos internacionales y analistas anticipan tensiones prolongadas en los precios mayoristas de la electricidad en Europa.",
+     "region": "Europa",
+     "importance": 4,
+     "source": "Trading Economics / Marine Link"
+    },
+    {
+     "title": "El crudo WTI repunta sobre los 102 dólares por el recrudecimiento de la prima de riesgo bélica",
+     "summary": "El crudo ligero estadounidense (WTI) subió en las sesiones recientes por encima de 102,80 USD/barril tras haber cerrado el 29 de octubre en 102,00 USD. El mercado petrolero continúa descontando interrupciones de suministro en los principales nudos logísticos del Golfo Pérsico.",
+     "region": "Global",
+     "importance": 4,
+     "source": "Nation Thailand"
+    },
+    {
+     "title": "Rotación hacia activos defensivos en Wall Street tras los balances de gasto en IA",
+     "summary": "Las cotizaciones de gigantes tecnológicos como Amazon y Alphabet experimentaron ventas de entre un 6% y un 7% ante el fuerte volumen de endeudamiento y gasto de capital destinado a infraestructura de IA. Los flujos de inversión se desplazaron con fuerza hacia posiciones tradicionales de salud, energía y bienes de consumo de primera necesidad.",
+     "region": "Norteamérica",
+     "importance": 3,
+     "source": "moomoo Community (Cardinal Bridge)"
+    },
+    {
+     "title": "El Banco Mundial eleva sus previsiones de costes energéticos globales",
+     "summary": "El Banco Mundial actualizó al alza su previsión para los precios de la energía proyectando una contracción en el suministro mundial de petróleo superior al 5% por la coyuntura en Oriente Medio. La entidad alertó asimismo del contagio de estos costes hacia los precios de los alimentos y la cadena logística internacional.",
+     "region": "Global",
+     "importance": 4,
+     "source": "Serbian News Media (SNM Servis)"
+    },
+    {
+     "title": "La actividad industrial de China muestra señales de estancamiento en octubre",
+     "summary": "El PMI manufacturero oficial de China se perfila alrededor del umbral neutro de los 50 puntos según los consensos de mercado, reflejando una marcha dispar entre los sectores tradicionales y de alta tecnología. La debilidad en el consumo interno sigue dificultando la recuperación integral de la producción en el país.",
+     "region": "Asia-Pacífico",
+     "importance": 3,
+     "source": "Reuters"
+    }
+   ],
+   "ai": [],
+   "markets": {
+    "brent": 114.88,
+    "wti": 102,
+    "ttf": 98.55,
+    "us10y": 4.93
+   },
+   "tension": 81,
+   "sources": [
+    {
+     "title": "nationthailand.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL13b8hWNalLW9oC9l7UUy-MkfgVa69eeH5Xu7a-v873uXdflXANTt5kn545cXxJdG4H1F_yoK_BrgxII1eP1oueLMbUpHnsP0U96kDJmB6Xe4AfiBiY0Bj8GlMeqXeXY0lePkYayjZw=="
+    },
+    {
+     "title": "cbsnews.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfp-maYilrQ3vHwKQ6gicQ3Sfc8Vx-9los1KDI3yX-IHCP7ZZk39SBOz9fOg0z_VBWGih9wmumia3ue6N333hGiLThIvLdLxV-qdtrMVAJFTFRzVx6_9WUBubZtuuACoB9GW9s51WSSGYiRfeMMaBOWRpWxkopg0F6dLXPrTet_ckHuKqqEF8gThNaxpUgvzxRuLnYRaU="
+    },
+    {
+     "title": "aljazeera.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN_0bFsym_qgA6mUUIR63OYiYGbQCoLQt9FokY1r8XymPNMEmPf08tXzGAWvi1Tv-dyr_NfYyoVkHOAbhc6otoPusOZHzcgi2dp9a-Vy53jHtlz2iGvsFwZ6lRRgaCzwU0yZ2NGvtxQ9w36BIqox71ZOPeb_G-kfmK8Qef2_ByQ1_DgUsFAhfUwiUAVuj5VX-pIGNb10Rl6A9QHZBOV7a8vl7gzpJQhW7EcGYJZQ4="
+    },
+    {
+     "title": "morningstar.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSTkXNgNefHbpj-WBxEfh0caBY0px7BGc1k7WREoLQhizoSFV-dbdvsy4L65TcWG0oGEGCL-hy7G2l-MJqqnBe74-ophQZwrbjU37K42Mu4Yb5GAbDt6E3KIr-8G9VdoQPJ2CSciRTz7KNr0iLHfQHFfvD4rl4yxemzjiL3hau9D8inyQ_oFDONR8F3H1yNlM2t_Q9l7C_84kVWt9Hpm3lXA11WS8y9ZOMejUkZxEu"
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfoOkUPw8arSzWI4C1cbmhcHW1YeNpPUA2wB0vTe66YEu0Bt3w9gpZWG8iRbJ5o4mJIEYcGRMHe5NdTlZKLBhy7cBdmJZW_TbYw-ScmyTD9XE8Nwbb6fbSoG_xCuZkicyo2udIGD4kHI1UGxr2W8lVVivhvWtyyvzOY8ypBpONNwYO-C9xrLthLWPhoYLYDqfFHxgNzIoYRgKJPaCKiOe8pxJla7c="
+    },
+    {
+     "title": "scotiawealthmanagement.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLt5PqSspq0HHfieTt6eq-ERyR9kfnxspKt5fDyFomEyoFalqvbo8N8DisO25mC0tnJ5jox9OJzFCWT3FnzVq4RYyVJApgk7gDvRi9BhKVoKswiN7OsQEfwOPEfuq9pdqLrcI9gdDoHHaehtUf-Wec_k6MvQ4jzifJ44sxs3vnm-sVPyYCM84EBqQUOgs6_g=="
+    },
+    {
+     "title": "energynewsbeat.co",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhtiqzSJBd4_8y4L1l6nnotfd9WutDjSObd1Q3nYT1Yzyz7AUTmgyLv1SkN2187rcAvLF86Nh3mHWMidQkf0sN49peW6KaFLtS7uKYmZCYIjMQD0cN8S6ynOFHFcpSe7bMqbh8Kqah2VYkVV5OqFJnM_r5kOGqn7B_nxpT9Xr8UWR-zkKOFCcgp5lHe-HKVV1UkQ=="
+    },
+    {
+     "title": "sbs.co.kr",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvEvCng2tbm_3lQlUGb3B8Jxr-9SCYaKcXKLEyQ8LuSwxM2INi1RzliEcbs-jGJ-6IUQ58EgJYg2HsiAxswR32-CmS62Tto6exeR9EifDssjnUq9x_moPt2Al4P5bCNf_rHZZWBc1KXkOhAjIlEZjVt0J-"
+    },
+    {
+     "title": "diplomatist.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK_tZCSpmofL1BAscTHwgAX_t7LFfgHTCnGe2mFF3wTJ9q8jMrcLve-QYQGey4TGAE4pRsOWn00V9l-kJYTG3yH4dgCD6HOci6NYMT61TxjH1khMe2HWv-5O8q7qt0Aem6ehIH22cB0T4BOYar5cp-RVTBHc-Y2zET03khwFlqlJW53MI="
+    },
+    {
+     "title": "gmk.center",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaGVnRtzJmhgLhDVU80OaNTMlvdUaEEeBfEPwAaOt_4UeJFadyKiIpdZwjcRrqK0MMrI8RkxX0xqm-z0wPRC8NjKYzNEy6WSjL4ag5D2CVCs8jci7vfXuTa6AA1qunw1jNl97SFdc80ScWm0kt_8zhDTn_OOsSLFArTsMfOvZbMkYctfeJA0lWeDIY1ezfgAnsNy9axVR3H3eAM5JUiVNk_nQgCCJe"
+    },
+    {
+     "title": "tradingeconomics.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGpLIkKYtgdncCI9Z9QJHTEW0Ue60SMlVJE7-gQ2S3zf0hlEeU9MpQdAtfUgt9JmrlBgsOVrRR7IS_ZO3jxleWKkIhB2yR4vaELrx5sFU1R3vvN9lw0GIJRB8csrLxFZeX8BO4RS8r-Vs72w=="
+    },
+    {
+     "title": "marinelink.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdU7D5_-Xy6qkSMfUTYQ6_vy8znLvDyywWMYAVE1_hG05PEqi7nnRoyuXRGzrWPIu6lwznH2oQT4oWYKXsg_PnwZObKvH64o4h1RynsqXfoe5XGLLaIDsZQtqQCv3A_URhCFqZzIwvP81tLgYvOdHe20MR0QjTQuhGKVdLZDnbuVSMaTo="
+    },
+    {
+     "title": "moomoo.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE23u8Py-XtRmiJiDc1Z5NeW8kdlh81N5SUvYZ53bmA87ZYBvPnbv4-GGumZeo8EtTvsFdxHfA812tk4wnwpXLaPwn--8jDTpyF5K833mvmy5v8eGWNIOPyU2v3Lce3eaFvjRSyP6_a7hVIX3yMsWcgQd9z-vpTeBqOldVsS0bZyoUmmdBLwBHJiFjDiUB_SC2a4fVcIqG8T-ccddkWJ624Q6_fKg=="
+    },
+    {
+     "title": "snm.rs",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZlaPfYZ3lGVX9sSN78uMbxwOjnWtRNniqWxwxZZZiCde9yZRXCbBnsIXqlAuVkYubrsfBdTnrUiiiRlIe2FqDPC782o2XrpgUelGS5my5D_B33NQHgyVodabkMK7GUJ8sEdIr4YEaDlbc7v_0Z_QpZ9CnN86_olq6vcmQWw=="
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH_6TIhFu8mCdmdMZbydkXsDsrW005yoTCkMnoRsvQNvH7_W35lNiOv1tUCotB2bBoyjq3OiiUpQXoAihoohGRjOIpmERsC1ni6M8d6eoQuHS5L2I297zPPwOdUTrRVqi6mN0IWj54FlI571yCBpBZCPCI-LFmLh7ubwytICSJ3qB45l1lsI1VlxAQwhA_7GBFsuOiMrGwt90X-3G5fPLJXrI7HVCgh9Vhg=="
+    },
+    {
+     "title": "lawfaremedia.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxYe7lKe4PbCW9fxiK1InDan-AuQF7c9auok4BSrtLW9mSmnlt9Wg7kNQ7h5Lk8ta-jvUkH69pBPOp77PtM-eluObYRbM2Qavfxy-h8TcH2CftCWPjVEQGbkS-UcH8mEuMxKCiWS1Wo3vg208FL6wsyFiJ-BMf8Plb95eg4XOjw6r6kFwtMZGuxkYo-UwhMdH6EHPCnXzH"
+    },
+    {
+     "title": "cybersecuritydive.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbjkJL4lbqhii0-VIHJERBACyBFCbFSpq4eF5UEsF55mE-8I4EcMC976NBC1lsZRpy97WVVJG3MSeLIObyg4p-Fy1lfHpsnAOVPPE1obfjYEaHGDjBf1qS6Lz50Hgk4AMD9cpdYrm9pQezico-oZPDcAARXEuh5aoxeTqN1s_V5ndgW7o5Tlj5MLE="
+    },
+    {
+     "title": "consumerfinancemonitor.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRlywJEJhDYMh4p_PczLgWcmKtH-104tfQfYRQpLt0ykW6bOgm8WYSjrvxqCQotQnPC81RfWgNGnYKe6YeUto4FhkZ7xAqeL5PO4FS0tdx4kVv-dLcPXXgEsxgR8fOBAQIbmSjJ3dPsOah_fHJ8xbG2T11a1-lm4DinkSQeAveaS0ce1eLSuDUA9dDNt37-hChUjdQQ3IxF_TSY9roQ43hgqSxCvxy2bqTp4mfQ4dGluyCzd8M36WJvojoVNZ-sR1Ll4Z_5ZYDrt2d9MZMpjsg96dkMGT9SxEvRWbLJ10urm34DN1iqMRMTiJ-jbR1lHqZ70FpCnaRxW3BJTk="
+    },
+    {
+     "title": "investing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS-Hlooq_S1GXTDbD-ssrtpD39EA58-pafqA4AgzBky66Pf41FJ7En-vajZsfrd4VoJD8jVz_f9ee6E4UP6m5hPK-c3G1daTO7235rE3PJhjKyEJN3TBcynNpkM03rE3lsqGPm7LDtzjBxhqJo41fTnHAi3WcuFEHbDh1HjTqJlKgN50E-oqQG"
+    },
+    {
+     "title": "jpmorgan.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvInMEpY5uPVh6gmf2i687gD4Tw2QzN5B42nK6FCNr0WAPUpCRet4sfyCArGX2egeIBWKUp7Ye9sSL7DwE1LXdixqg6VFY187Kqb2Yjh_px76TKtl9nxWGS_NvrSW-WQclYE3-oRrPoxGiknURBlQMhaxzFg2gy16PjWsqTfM3jz-bHP9DFEpjc9YxP2Ga6X6LpBmSBkGoQ6318EoXLafm90ka-ExljoR8SpHw0n6ZNTl4uAqCtVHA-i-y"
     }
    ]
   }
