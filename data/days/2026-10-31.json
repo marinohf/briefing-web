@@ -1,0 +1,172 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T11:07:24.365Z",
+ "items": [
+  {
+   "title": "Mandos militares de EE. UU. presentan al presidente Trump opciones operativas ante la crisis con Irán",
+   "summary": "El almirante Brad Cooper, comandante del Mando Central de EE. UU. (CENTCOM), presentó en persona planes militares detallados ante el presidente estadounidense en una reunión con el secretario de Defensa y el jefe del Estado Mayor Conjunto. La sesión abordó el reforzamiento del bloqueo naval en la región y las alternativas tácticas ante las perturbaciones a la navegación en el estrecho de Ormuz.",
+   "region": "Oriente Medio / América del Norte",
+   "importance": 5,
+   "source": "The Wall Street Journal (vía Just Security)"
+  },
+  {
+   "title": "Christine Lagarde anuncia su dimisión anticipada del BCE tras mantener los tipos de interés en el 2,5%",
+   "summary": "La presidenta del Banco Central Europeo anunció su decisión de dejar el cargo el 7 de febrero de 2027, nueve meses antes de la expiración oficial de su mandato. La comunicación se produjo inmediatamente después de que el Consejo de Gobierno congelara la facilidad de depósito en el 2,5% ante los riesgos inflacionarios derivados del encarecimiento de la energía.",
+   "region": "Europa (Zona Euro)",
+   "importance": 4,
+   "source": "Confluence Investment Management / Atlantic Council"
+  },
+  {
+   "title": "El gas natural TTF en Europa supera los 103 €/MWh ante inventarios estacionales en mínimos de más de una década",
+   "summary": "El contrato de futuros del gas TTF holandés para entrega en diciembre repuntó más de un 5%, rebasando los 103 €/MWh en la sesión del 30 de octubre. La cotización refleja la inquietud por niveles de almacenamiento europeo situados en torno al 75% —los más bajos para esta época del año desde 2011— junto con las restricciones de envíos de GNL desde el Golfo Pérsico.",
+   "region": "Europa",
+   "importance": 5,
+   "source": "GuruFocus / ICE"
+  },
+  {
+   "title": "El crudo Brent afianza su cotización por encima de los 112 dólares el barril por el cerco naval en Oriente Medio",
+   "summary": "El barril de referencia internacional Brent cerró el 30 de octubre en torno a los 112,33 USD, acumulando un avance mensual cercano al 10%. El mercado sigue descontando las primas de riesgo asociadas a la inseguridad en los corredores marítimos y a los ataques esporádicos contra infraestructuras energéticas.",
+   "region": "Global / Oriente Medio",
+   "importance": 5,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "El Partido Comunista de China culmina su Quinto Pleno ratificando la purga de 33 altos mandos militares y políticos",
+   "summary": "El Comité Central del PCCh concluyó su sesión plenaria ratificando la expulsión de 33 altos cargos, entre ellos mandos de peso del Ejército Popular de Liberación (EPL), en una campaña de control y anticorrupción. Informes analíticos destacan que esta reestructuración en la cúspide castrense aminora a corto plazo el riesgo de un choque militar directo en el estrecho de Taiwán.",
+   "region": "Asia-Pacífico",
+   "importance": 4,
+   "source": "Institute for the Study of War (ISW)"
+  },
+  {
+   "title": "Defensa aérea de Irán intercepta una aeronave militar cerca de la isla de Qeshm",
+   "summary": "Medios oficiales informaron que fuerzas de la Guardia Revolucionaria repelieron un caza extranjero considerado hostil en las inmediaciones de la estratégica isla de Qeshm, en el Golfo Pérsico. El hecho ocurre de forma paralela a nuevas presiones del Tesoro de EE. UU. orientadas a bloquear las fuentes de financiamiento del ejército iraní.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "Jerusalem Post (vía Foundation for Defense of Democracies - FDD)"
+  },
+  {
+   "title": "Ventas masivas en Wall Street golpean a los valores tecnológicos por dudas sobre el retorno de la IA",
+   "summary": "Las bolsas estadounidenses vivieron una jornada de pérdidas acusadas en el sector tecnológico, encabezadas por desplomes de dos dígitos en firmas como Alphabet tras un elevado gasto de capital que tensionó sus márgenes. La corrección arrastró al índice Nasdaq y aceleró un trasvase de capital hacia activos refugio.",
+   "region": "América del Norte",
+   "importance": 4,
+   "source": "European Business Magazine"
+  },
+  {
+   "title": "El rendimiento del bono del Tesoro estadounidense a 10 años desciende al 4,93% por demanda de refugio",
+   "summary": "La rentabilidad del bono soberano estadounidense a 10 años bajó hasta el 4,93% al cierre del viernes 30 de octubre. El retroceso responde a compras de cobertura por parte de inversores temerosos de una desaceleración económica, combinadas con la absorción de la reciente pausa en las subidas de tipos de la Reserva Federal.",
+   "region": "América del Norte",
+   "importance": 3,
+   "source": "Trading Economics / FactIQ"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 112.33,
+  "wti": 103.3,
+  "ttf": 103.51,
+  "us10y": 4.93
+ },
+ "tension": 81,
+ "sources": [
+  {
+   "title": "justsecurity.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjxYHsPQJeNg4W-Oo1vhC8y_RH8yuhe0ZpDqCbmGoj_vnPR89aF2tCUdN58enTuyvboWwOX6ta-aYreGox_R_w7JNACISm13Pe0oYVIXfgvChN-6OIiPf7Dl3ZE4n9RO2xxbIuuIM5rIiBZ0jyHms6ONhwEs2ly00="
+  },
+  {
+   "title": "ismworld.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxVpigxPamjGula6VhdR4reMWnn6kmx9WOq8LnIEeT0SDrdN3lpueJtYEGEivB3y_IZNvMvpx70WIX2rFh5BdDiUMsxrAn8Y9AS-oTamsJ8cyzJG5viD8GA6n7zN0NU_OEWN5-BUwZXCGCYvIIgSAmCM_ReyTahJVs94w1jnjLYbx7bOZan5YPBD6SadnvCJubdTJLNZIbYDFRwG7VKzts9B5OxI2MbgUPssx7gjxhjPnSWKI6BFFh8r0HK_QDfq1SgtuJeKyaaEM3Qk8VwDJ4j4IvkRISAY5_c5iq7-JN4kci6EFejHYHt4hABK0HWNhoAf5p7FTN8Ag="
+  },
+  {
+   "title": "fdd.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRGvV80na9v7fL_WdeG9inR59fAmBZryM1t79imRLq2t-_fFfjUk7jbaDpdqqZTuAYDl4igTgwkhOkVSCfTQayAlO-MYCOICJfHzLvsl7NKch8Rx1UL5_ONrIWksikjSS4RnjWyHC_zhvm"
+  },
+  {
+   "title": "confluenceinvestment.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetnPhuVnYImyndS73Q_X4CIt7erlh5jrS8n8rjPGEK0l1Ks9FW96PncxCH5gFOrM8q2tRIInZehoWqh6S-PMfyRJqszgN1U6MJn3Rbtx1qJoDzm2SmXCtz82j9r-syNs7Am7y7edlWwPLnhlijuZU38J7OLw="
+  },
+  {
+   "title": "atlanticcouncil.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_jp-HWzeDMYVRohGAaMnEJqbm8N4sKKiF2MQEegfvJDBvRiEXc5zbyTopeK4oFprhjwq9GpbsTqy2lu9jvbFsXV-PSc6DNymLPKS78sSjnFuD1sWjwXss8O-oRpuc1lxIJxpwekYPlgtAN5FHcJSGyEVYFersFEs6UBJYrt3dBSwJKRwfo1IHYYs0bwk00eJ193xFZ3iddYsnFt0VH2YkbQco-2g3pyrwVmkRw-SN5PBX8UyZfOYvBSXOt4BfgdTqB5mso9GfAKCN"
+  },
+  {
+   "title": "tmgm.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3dWKPhELw9YAuFlE6-MQ-O2tXVFkfz_iH6lJBGSuC-dyx7cF7j51TlGq1jJc-jh_qIKhDND7tVXo4wjCnWkocLOPof48kctf3oNfpkkCQXKBafr2KxhVMCecVclfzpG7rcFbvcWT7fB5qg2g7eUsZ-spxOH5BRi5x2Oa1aQ4="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7koCSuFHkJVL7dXivfhZFNlojSbrDDTAjVkHnGFCnO3VI5fqgXjYtYNAhBx8Ps6tASSDCoArov2KhrfMtZ199sQ0htdNJn8HREz24zVOZFJGAsTtTRSdhHUp-sW5CYVNnzYr49a0YF44ioQ=="
+  },
+  {
+   "title": "gurufocus.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQzjHM1LvvE4g3A62tM-Wyu2Gg19KFOv6n05_RCVNDka3K5W1UpZICApniP4k0T-yisafwFjVpx_7kVeNa7eO1EnCrRLYzqy-LNP2ISueffYIXNncFA1AhFxWoQPp5pb3ERM7KIgIaBMqykV4iP3VnJe6pui9ogBGk0R6Ia0KYzn3ArxV1Biq6BMAv64X3"
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9xZ7IwaLvttM_77tpsxou6GJhYz-VCzvZ2MJBymOPm648nOu4VKnrIInIyf65geBC4RnuPp9ujrCT56KI6xyZvpX5jhcPmCoRHLzrxSKWUl0iqkR9YhzsrdPW7FW8VLapEsHs5grWonuWcX0MoHdd56IP3oupweJeV7u08xo27UBKMIhWS1k3_BBbIiHIgQ=="
+  },
+  {
+   "title": "understandingwar.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMWsvYUEIvbqyA3LdwHo7-IYJkmlQdWN7GJ6X2aEifTNEJL6_SwvC0toIH-Pocpn68DN4weTBog1xWCL88nUZ37stqacciq5ztbaD4ODe4lmGS6JmBmfCLoPUAI1SGRReF_8Ihzwxzax3mHr4yNhAog3PS9tQvK7IpU1oj4GmQHc3H35z-z6XPqWzSTo="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnMRT4TwVp3efD0OSAMPb41SuNkaX5k8Q3gu4XNYdHNLW05qBVkYi1mGT1I4t2ue-QX6F9eB6jLiW8F0fjnJlaU6ZCZeMof9XBZHAQaXCedv331TThfijZ0Olzc5vZgzIFdbdLluMqrhxeVf4="
+  },
+  {
+   "title": "economictimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0lterN62LJphsPM44AxlMJVgCUwOdtP8pZ0UNR2AVxplMiEjP5hvp2AOCxoofl2DqvnTYwq1aKd4VpWZqNXDqynumgw-6nlUMHxMe9wKx4PMbOjZHXFmJDDzc4qW6qpv-cirwdPVg6hIi7gUXqnQe-SLYrhM7bbV5Kfp1B8TxlETA1qQ-euBGogeuTmil7xhWSf5esJOa56VTCXWQNFdFz-u55H3Q23MEdFj4G4H8LXnz_b1Eka8cxz4BNPVOYzkrFAa7ZRMWHo1xAMqymGD5cMP3HhRJY9PnAG5VDLJ-0-FXm6cCMiDA-jHarH2ZXQosZaCadowjPDS6Q=="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX3O3S11ZLF5R1XLnwJBo7UYtE2GLZbuBUODtPiOrZU2j4lpk8XSNgkxgj88-PPCHJtsEhBiXm2b-xe3jvv6xA_ptwR6L3d4EuJsPRRiVs0ZpI1bwvGRBWT8RcCG_RcTC8"
+  },
+  {
+   "title": "europeanbusinessmagazine.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcwrk6LnCvPn_nX1L0NMd2di19vyxUiVatTQGU0VIFI2HV4yqQ4furyjOOoTjU6tRyctHHdEscoge9H6FJJFYr2QF9M-LuWyUMoxlbPWXFBsWOIjb_B4Ies_RsPbaPRtBcfi3Mh2wCzawzh0b1iJXngcvbq5RedOt6nxEKtA=="
+  },
+  {
+   "title": "rourtech.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBjDuePasS2UW_U5TBaP14ZEDSeblTauyEGnUyvIK-sEisO5AINz0LLkmyG6CqiDNboEZ3XaPDYf80-lpmneXFYTGXGU3E1vnBrCf4MFslVXKTR0XbDONo9QlyVmHbwRcxHzLPiO66hdOLj2akA_IRDqDT-Q0whaMBicUPJuySY0Zdp8HpSQ="
+  },
+  {
+   "title": "note.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJitd-2yOilTUPjCTQF2AcSr5-L9NRVA4FWkBY-n3DS-eMszJEaq3-bZ3aBieCfbOsA97wTJFGDWhSEDxKmwro9TNhtO-xseAtVWLrI6CbPv7vOJmdSGzkgHPNNvNkohnJsiAtXYLGAJs="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEw5X-tgGNgPFKtlYUEXB5aqsgz1VcfNMaF70HW1pDSd4_OUy53kdonu_0hiyATzP3s7tVVEdN6ZqsoeHkKrO5GIDFot56mq1pVOzgwSdggMyYrkgnV96JuGc5YtU0Qziw6BJ4"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeIK2WuQPgBGb1yX5Gr9avPbDY3zGT4MgHM_8V39f12gsIoHvgErJUaJhdihmFXz5H9AyYoB6lwQRJDJkM5KsToOhMffcmdHHk08cpbVxiKch4zoMrV2p1Rn4JXOp_6TRup0YbtZNPlq7jrlJmsUjj1TQXb782"
+  },
+  {
+   "title": "adalytica.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9q0SUbjENhsk97iDS56j22JL9V0ClEMJ4uD_pumw0rRKYP10GIB9ZuCvi4TIuvqGzbipFGScGza29bYeTevxYIwo5BOxkKY4AT71A3UFhwU5xLqGCzZdu2dzAhStRHxk_xdo67z4Syb4bUV5jAaF0HMy6ZPckpwaKRl2AvpI="
+  },
+  {
+   "title": "factiq.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx8gSYXjFh41xr2XzzrZuPy_yhbFSI9xOkdezx0TMPI3qqhq725MAnJi-vmL2zwUBllCZvcYWZsj8ErbPEsjLklkQCA2h9qYL1e3XZ_k_C52K2vfvI55CxOzfgbYqPcKK9GP-H0Wqhz_9npxh3nODb0QyKvTCyTrlw0WUbrNQnURPQjFPcPT3GxwFsWt-49c5tDYH6pBHAgRnEQBD0FU21LjJ5C0U="
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR7pG4onxh31eaczZv1R9TFfQeikG5X-kjutF-XQLwY7d-b4UfJ_lQeF3J3h3GAFu5eyDPjPQ90JEaat7EGUwV7-pvRz5vuBe6zno8bw0dndcNjr8SQQXAUlJVTfxh2wVikOqlqQTpe1NklltIDMrGSGW4sPzevZNUhP8a"
+  },
+  {
+   "title": "billionaires.africa",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejKPGRxgx3WDgvxM5aOsWHL__62-4FEb0--bOrXj3y93uAXdwupgAzhmRXDPqgQKXAE01gyDC0gLM9UkKNKMO9UnwPtRKTHoZyGMYkN1NwNQgJOeZBApDxaUd-xCL9mlNYeBbDmESEBU62ofX9GepEhkLD9-s4uePPMRSS_dRWY5t6nGu9S-XV1mqZoWflKnw-lzVRJ_QAGiWsHWwYNQ34ji7JTxnPDe_uQzE3cTR0vqL0UKcFZJ6MV639sjuSm9m"
+  },
+  {
+   "title": "bpi.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5hmfCipzXyUvf8E5xJY2q8s2rhH95ibcWXTP0-tVQWvzAZgyXsDUYyRWKvUTKhPrYBe5T09LOKH5bvXscokD_xxkCA_YnBjFimSd_HyilrP5cXAj6YxBrYq5Oy39qdS4Y"
+  },
+  {
+   "title": "otpbank.hu",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ38wkjQqWeNWc1Qaa0t9w9TbMPWy_hYFLeqp0Pp6KAi2cWJsB9fJ2PU_yQ6nLG_t3z9r4_Fum0hOHT4eXGrDjFr-Z6Kdev4Obm3jpjWqSoWVjRGlay44KkmbcND4wAVtPg6O0xTR3oxgCcka8CoK21-lwcTq5tmRxHUelWFWxHA=="
+  },
+  {
+   "title": "nbg.gr",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcXNEIwkPMrSdLK4DbT79eHh7AR0LB70r34p0UZ7jeFstGZqjjIweCkBMHx1TzjWlsvou9SvtT7o2Qdqgc3rP65Zam9CTsHiH1bA1WWOIYgBaiPsTDzLjvy9m1v8vFdJr20q4wqTetDdrO8E31TOi83wpd_nw8gh5CWQSLCmXA3QebdxdI3ROueexeFaZN9F6-yFKv7-UYOdXahSLGTerbCk1NkaipcqhMmEms8s2QkHUOwGrYxd4aHaG1LFgEX5EyrGCkxd5M0XoKYlPw19aj-1L6-WR5xxl5MIv5mEtgZUk0ihRLipn"
+  }
+ ]
+}
