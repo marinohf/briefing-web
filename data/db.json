@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:07:24.372Z",
+ "updated": "2026-11-01T12:00:04.209Z",
  "weeks": {
   "2026-W42b": {
    "start": "2026-10-12",
@@ -3409,10 +3409,194 @@
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcXNEIwkPMrSdLK4DbT79eHh7AR0LB70r34p0UZ7jeFstGZqjjIweCkBMHx1TzjWlsvou9SvtT7o2Qdqgc3rP65Zam9CTsHiH1bA1WWOIYgBaiPsTDzLjvy9m1v8vFdJr20q4wqTetDdrO8E31TOi83wpd_nw8gh5CWQSLCmXA3QebdxdI3ROueexeFaZN9F6-yFKv7-UYOdXahSLGTerbCk1NkaipcqhMmEms8s2QkHUOwGrYxd4aHaG1LFgEX5EyrGCkxd5M0XoKYlPw19aj-1L6-WR5xxl5MIv5mEtgZUk0ihRLipn"
     }
    ]
+  },
+  "2026-11-01": {
+   "date": "2026-11-01",
+   "generatedAt": "2026-11-01T11:59:44.167Z",
+   "items": [
+    {
+     "title": "Un metanero de GNL catarí resulta alcanzado por «objetos no identificados» en el Golfo Pérsico",
+     "summary": "La naviera estatal catarí Nakilat confirmó que el transporte de gas natural licuado Al Mayeda sufrió impactos de proyectiles no identificados el viernes en aguas del Golfo Pérsico sin que se produjeran víctimas mortales ni vertidos contaminantes. La agresión incrementa la alerta internacional sobre la seguridad del transporte marítimo y el tráfico por el Estrecho de Ormuz en el marco de las hostilidades regionales.",
+     "region": "Oriente Medio",
+     "importance": 5,
+     "source": "Al Jazeera / Qatar News Agency"
+    },
+    {
+     "title": "Contactos diplomáticos entre Washington y Teherán buscan aliviar la crisis en el Estrecho de Ormuz",
+     "summary": "Las autoridades de Irán confirmaron la recepción de una comunicación enviada a través de mediadores por el vicepresidente estadounidense JD Vance para evaluar posibles vías de diálogo sobre la libre navegación marítima. El presidente Donald Trump señaló que los contactos progresan de forma paulatina, mientras que la cancillería iraní condicionó la normalización del paso naval a la retirada de medidas de presión de EE. UU..",
+     "region": "Oriente Medio / Estados Unidos",
+     "importance": 4,
+     "source": "Rediff Money / The Free Press Journal"
+    },
+    {
+     "title": "El Banco Mundial proyecta un alza del 32% en los precios energéticos por los choques bélicos",
+     "summary": "En su informe Commodity Markets Outlook, el Banco Mundial advirtió que el crudo Brent podría registrar una media de 91 USD/barril durante 2026 impulsado por la merma sostenida de inventarios de reserva. El organismo añadió que un recrudecimiento del bloqueo y los daños a la red petrolera podrían encarecer el barril hasta los 105 USD y elevar el coste de las materias primas agrícolas un 18% acumulado entre 2026 y 2027.",
+     "region": "Global",
+     "importance": 4,
+     "source": "World Bank / Business Standard"
+    },
+    {
+     "title": "Reserva Federal, BCE y Banco de Japón pausan tipos pero advierten de riesgos de inflación persistente",
+     "summary": "Los bancos centrales de Estados Unidos (3,75%-4,00%), la eurozona (2,75%) y Japón (1,25%) acordaron conservar estables sus tipos de referencia, frente al Banco de Canadá que aprobó una subida al 2,50%. Las instituciones monetarias comunicaron que el encarecimiento de los combustibles fósiles obstaculiza una bajada de tipos de interés y no descarta medidas más contractivas antes de final de año.",
+     "region": "Global (Norteamérica, Europa, Asia)",
+     "importance": 4,
+     "source": "Bloomberg"
+    },
+    {
+     "title": "Ataque de drones provoca un incendio en la refinería rusa de Novokuibyshevsk",
+     "summary": "Un ataque perpetrado con aeronaves no tripuladas alcanzó las dependencias de refinado de Rosneft en la región de Samara, obligando al despliegue de los servicios de emergencia. Este complejo cuenta con una capacidad anual de procesamiento de 8,8 millones de toneladas métricas y resulta clave para el suministro de combustible de aviación.",
+     "region": "Europa del Este / Rusia",
+     "importance": 3,
+     "source": "RANE Worldview"
+    },
+    {
+     "title": "Christine Lagarde comunicó que dejará anticipadamente la presidencia del BCE en 2027",
+     "summary": "La presidenta del Banco Central Europeo formalizó sus planes de abandonar su puesto en febrero de 2027, unos nueve meses antes de completar su mandato regular de ocho años. La apertura de su sucesión situó al gobernador neerlandés Klaas Knot y al español Pablo Hernández de Cos como los candidatos mejor posicionados para liderar el organismo.",
+     "region": "Europa",
+     "importance": 3,
+     "source": "Reuters / Atlantic Council"
+    },
+    {
+     "title": "Las exportaciones de semiconductores de Corea del Sur alcanzan su mayor subida desde 1974",
+     "summary": "Los envíos al exterior surcoreanos duplicaron casi sus registros interanuales durante el mes de octubre impulsados por las compras globales de memoria y procesadores para inteligencia artificial. La aceleración del sector exportador permitió a Seúl compensar la ralentización de la demanda interna y el sector inmobiliario de China.",
+     "region": "Asia-Pacífico",
+     "importance": 3,
+     "source": "The Wall Street Journal / Reuters"
+    }
+   ],
+   "ai": [],
+   "markets": {
+    "brent": 117.64,
+    "wti": 104.12,
+    "ttf": 103.95,
+    "us10y": 4.94
+   },
+   "tension": 84,
+   "sources": [
+    {
+     "title": "lngprime.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJF6nvFfSSZY3HOc4vdr_GE1YRwlt-zIR5sDmvhUxgwNrt0JE2-IA0I61-Rv0MaC14mpEiGmjXGNQTAt7p_uwQQmO3zkEXdvlbX9bRqza2jwYHGlGmvJRCuBcHJ4-Ldgld8ZjrQAX5Z30L0GXz2Tc5klOwQm4M5y5ZAFX35IU_Q68MiHofJmhVmr7KYYJ8g=="
+    },
+    {
+     "title": "qna.org.qa",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDX8Qhh_4PMd1B38DWHKuNsDo07UjH-7qJ-dNRGdDG6GirxziWpeg7CASk_xBuy4XbL9UFdIAHDMX8GJTTr2B9EgZ6sdLzp_KaMp3RICzAaA=="
+    },
+    {
+     "title": "newscord.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoaiplcQRqVts-Bxmm9wdWfjezEgjkFjFifwRmYJn6kl-6MIYrgSjA91lf5QyqK3wz7WCytKGgp3ULMfxG9-WLbgHc_bCxuXWTF9and9FjcQMfbcdJK1TdPd_1Yt7hDy0Io3bWpAVoQNgFzE5thkwb15-R9Qe1hXphQXCwLFWsTd9yVtEcaKnQYQIRz_o03RwT8DHGE59solbbpCRkK6rtdtinEJvTl4znNw2gd5p-xlEk3e3F1TcfSfTbldKD1CmC7BXeJkFBz-tCZwFk0_9mYw=="
+    },
+    {
+     "title": "rediff.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnpnJTx_lA2Zq8mzcoe8x9v6-581CmZi34B1M2CLuOWTydecSZ9LxxSB73_BDVyS9X3vpPHbgbur5zIoy4qJxHra6JtWDJBiTr_QOkqqsfFUwMpz6kaNEhCAmRTdJYhrTNfJHn9QFedUxbqHaz28G2SzFEO5RYjMSIVYPZ7EHy7HGc5AobX5RZWSMOV44S5mN_xE6VNtYwblomdFmzxIzXDZd1MwoHQSaYK608u68cd8Y2H5PHXKIxdg=="
+    },
+    {
+     "title": "rediff.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhVjixrN_sIUpd1Q-4Nn3n78ri9d1zRfiQKUpJ9ai5poPBIomRDSNS1ppAZUnccKQnM-L84vPPEN2UjRXz0Imj8RILeGKZWd7KyyyZ3zxrcBoPZO7e4mZuhpg_XAYGuV8pUaLdBBKbKBNoSRUCyQKyVcpzyWrZtrlQg-MuWiP_8r61nITcAyIVDmjoqAjKQFKoS4-u0mKwsS-89_3F93eA"
+    },
+    {
+     "title": "freepressjournal.in",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXkFq0pxSkb-sL5X57CF4ZuunDA6ipaJ8jBFubJqoznYUvjZgwUqOd_NG1UCowTBbfTg8xGMvn6MqiaFbZZf3w0BAnSd0SVfwfr5fsAtsIFo15mP-pWdAZlxoaJ3Xta-Cy4gH1_4bHgn2O6S68Wn4Jy-kTgR5nQCP4W0kv6dFN1CmO1oEBBvq3YIIZQQs4yUVNSIbXtyBbBwUggJZo3VrDwaNn985gpWs5HYQRtmX5k_1lGcVErO4XNpoEYvQ-TJo02trwCis"
+    },
+    {
+     "title": "worldbank.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc6Lt4hjCMTIDzrBySL5QnDi8Jk9bFm8rRDA2xnOJcu2LqVZbaipoKurKFWKIfoHUC7jfGhT9kwvH6ydkJpwng0YI7ItJdDeEEkMgGn2Q7mvCOjJo7dH1eCwadv6GXZWVKNul9DY6IaMGOtpyoPQ-S2HYlJwinNn9oDmN3ZvXuXezd-Lxme1eVLa7Yxb7Mf_dffckNe8hJ"
+    },
+    {
+     "title": "business-standard.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvCoFcEiwztwe-X-WOBA_SwA7eChPWLqDAvEqR3DOC2M0UvAT_twL9LHPBprR3Vef25F3HEsjL2EXe8pRsoqNWWO4bgVkMzveqlrGHQ9cqykfDa_DWD9w819TSLs5NIKybS6o3j-oa6vp8pc8OKWibC426_8ki5Su1yR_bKJGfZdjPt_Rw03uyZEOOLbvNYfckjgxHjexEJZsa1p3w58AlCf9M4edcRnL9HbvOWmjU7Q2L5P7Y-PjdcobqUn_J"
+    },
+    {
+     "title": "substack.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc4E1hRf-vbjFQspaN207FPbe-_av51V1kv4vJseJF9soHkKZA8HnqrxKVN-YnS9YEuI8Sk3v74nJKlcuFcYGv4188t1H0Tvuy6Rfy5WKzJnGKRBtmi1Ru7Trqb3o4am0uj2lSbA1HSEpd2QFvOds99yI="
+    },
+    {
+     "title": "marketpulse.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4YED36F-md-5eA1tsgsoMveLmo2KwlriL1YMKHNuhY0nCjSzEgN2PxJhgGaXCtC2UcTaSrfW6ZOyZPg9i0Q70C5YxV7UFF_6oWxJ_1N19xMbddoAI9lS_YapCzvRM8H390SP1HsEp2cANJ5Oo-VWsWLIoJ1Xcrfi-Dvyk_7irERPV_k1oQ1R23d6QqNQtioz1G0NlwIjyX3crPLg-lI3W"
+    },
+    {
+     "title": "jpmorgan.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN_28Ke7fn7JGvN171vGWAPfYmRc0dsv-P7mLR-ZSko6AzKdthGLdxDUcf6USPMVvmlaqfe1ld3ZK759Zcp98CB6Atm-v5OHuUXW5yZnh19krCgSC8v7ju8fzumMmRhLEg26juGJyl5xQwXqm4oLN62KUKV6JbTuaS_jPwbcnfkeLVqXOU5AAC1lpeCA6lp-HU3HHEOAX4b_ZjKhHmhZ_7snXuYbxJ6Q=="
+    },
+    {
+     "title": "ranenetwork.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEppKrbumIwkOetowTq6C4AwYESwpWndFaZEXlrmo6zYdCE36is6SU5lrfvmrlsTeHPWqku6-le72jM5NOK9uYkasWaB2v_s7H8d33nA2pKnP2tA_zRe8Fj"
+    },
+    {
+     "title": "atlanticcouncil.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8ejI3GJfKqqNlgfv677qMjcq0rhpm5ywONujXgdHo6Ak-Y1LBc72CZg5TYa_ct79xhqNntkZaGvOlyvzjyMCUNMUSPuF5vJ54vo4lk_f4Qx8DY_ZNyk3o-NL2DoXv_3dYkssz-oid5ZBLWQoU-_sAQT70i7IzAiAx-yX-iw5pAWaxcUonJKV7GYJLAVyLKv4Z6veCzjKh8FlzOE-Jd-wGXcWXOIk9ja9nvaIRFghjqN5eOA4N2T9RlrkKDnriraXOXogsMe3e0D_H"
+    },
+    {
+     "title": "tradingview.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRBabBMmIX7qAJRUnE4l8O-sK90EKUnXFqrXcrsp2O5pj3Mrl0fr7QoshxJ_bPx3mWk7F8PpDHeZOG-1zwm5Xv1DKxV2lCo3-Fy7O9GC2DPnsE8IE0Pv9VMimMfhCf9dA8ozBhvjCZmHNL2bvSEOfcNCp3CAz32VSHYwskOwdkYezly1i5Jic_ejiFI-7U7tDsMAGuCFrUHWRK1qbqU-46oL0XDVGRV8AR8AXTrBUtVD0-C-a0fOf50rqsWzIq"
+    },
+    {
+     "title": "wmbdradio.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1fgc_t1yZQfj4IhMFB1JJodQ06cIiz7i95n0goV2QdB5NiLwLZybFSHxenIWiEIVlEVaFYmi9sgXNPskXsW3gHwcw4QzMf3HXW9ZDdi30UoC-6Rip4enRbS59fnynQFR42VPF-wKBXQrvQ3WDY9cLQwuCUCgK9Z9WL9j0_ZF4J7o-MNSqZy0lsm4elkL0NilBipUo"
+    },
+    {
+     "title": "thenextweb.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOm8pY909ot7ycVGHauCl9p6xXE68-GZCTrkf1dPLA6aIUhyyl-fBcAmaBOXG0AxEOi2pM73nMpKmVlMf5gPUUPtxa2iCGumOdQgpRn79FHBXHa9w5kbKKZm9_CEJe1BKNnnSfuvcA8zQ="
+    },
+    {
+     "title": "techtarget.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXWfA8yKs-jpv-A8DGNGkbdYGzDdi7n5eMCkShzDGt0EecBk1cSiDbhbgi-iP6bzipsWRm6pwzI3jmWWNUnBpYkeC0muydPRwkFpLeM2NtGR4GZjOq3w2xzGmu0wDiiqNhtBeQ2x0sks0Fif71DfMoUwXe58Xh5y5MfVGGTBSCSiMLEKis_gEqqbsJ53Fa1GVsW0HUA-8="
+    },
+    {
+     "title": "techrepublic.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSOeDr7bt0bP_zqVHoi-amrQuq7LxatkP5hEMW4BAVTYfDgh58Ih13O8IB0I5BSfIl2uiNWmKKMyEAkJQlLXv1jzXEnQiCTV-7LbSkRyaZw5quYYiPvpAf42zV_Md_s8WwDV65t0h70XKjGtWXtf71pjVvXSv-mdwbLgVRSe4gkMN49Eaf-NHuR6jyHB0FP4-L9bN"
+    },
+    {
+     "title": "thenextweb.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb5SFqZlBPvOco5MZHkNzXMFQ7s87FP-knp38gmIcnAebK8DTU-r0F-RJIDZldc3M8pMbj00pU4lPuOV46coM9BUcTMYQ9a0un44XAZMpCZGzkIyGG3W1CEwK8R_S30bOSgxMz6T703sDmMHNZLTJLwHPUfHsyHTmqjS6t-qw973e0DqiVYhs="
+    },
+    {
+     "title": "cryptobriefing.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJrjZ311p-LJvQo8DqTNwq9I7RskBz_s34_TQRa8EtmJ1QTPfmjc3OR8GmglA-iB9gFQ_LX1Mc6iaRtYHPm8G42VnPRRvhMd-_ZFkJCxwsjLK8C8tp5vkNV1UonWu6AANYkHrqgYGA8p-PfcWeDTkYkS59Qaqluv9T5NcL7AWd0bOYX1quvgrE"
+    },
+    {
+     "title": "euronext.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiydg-Sj4up7djTp9nQ0rcP0x78M3m637lOF6tTqP-8NtooGaM41xDmOa1-g0tjKH8dbVv8oblRmrJbnx93_XGa44DU4I-wqPa1sJADKit3VzFLPh7-ibaLh-Z7ob5WMFjx_3onAJ5lOStPNtTOwaLPpN3JpgkDQ-PcOidNzhwc9xce3yt4Qm7aCDDgqAxqqlfiU9bRNg6wePsZsAsHjVBs8IX05ZbmA=="
+    },
+    {
+     "title": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFboU_rVFx6ALAzJdBRQH5nGpxfM4uP6DYTSTn_guDfO_Ib7c73KxeLAisCffUZOQLSsolaGsNssYy9F9uq3aRnmsgwMWStwTCN0tXgsIQwcsjcC9BWl3VqZM7a7ALng9vf"
+    },
+    {
+     "title": "rediff.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFStn2zMTj0rf4r_uYWfgFbdnuNOFz6yfSMJDG_2Th7RwlxaWaKHKwuzTMzTDVTZtzm2LBysrbRp8GfgBS86aY4kJ6uYumpWT4W9H_vEsyKxMh496JFWo1sPfKzyV6BWRTf46VCkre_Qtxg2FIDq1y0rv8wEW3hjxQ14T8SC5XCRzcKRq0tMYq-82zm7T7SLNsivRa1to_mEQbh5g4xb4JS"
+    },
+    {
+     "title": "tradingeconomics.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRSIqGMMqG6mjQ0O3dRGx-vS0azf9snRoQCc_IaYa2AWaUArPP_e5GwYSqbviZOYGEWnx6FsEOV3DSKO3X5xKc2Q4qdXPVURSMSndXLwjPYamkGrmWBmcwQddmmoz7n4GBah_tYvu65qwdcg=="
+    },
+    {
+     "title": "tradingview.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETPsS_4lfVq_V6u_4NNyQkJ2-Knqa882ittTf1JDX3j6iDYeGIWMIED4HFunCYBLWOfKk-Rl3FpUvTv7pyjUjCauk9uNs2XYVkDUdlSQjRShooABr3VzTzM7VqdPArlk9iLJRShBk="
+    },
+    {
+     "title": "ycharts.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7n6zUWDtKQV6nH-UcdMGbdeIz-4rdXZ_f0K9NilVyBj2AUiCyFHep_TcngehsuBMRfONPjRCB71KlEBRpXkioY7wI2eM9RhVjCHNaEsSHsMZSJ8mD9z9zvCm6lg2aoA2wyY3HZ2Jbilwb"
+    },
+    {
+     "title": "indrastra.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-fSeywhE6zfoPXJ501VNTScUu4RjnPqxCMHWxhFpsbCt0h33mJ3vfosXbOa49EgW4lhkDjI6lRlCPLiIUXJ1Vl6dkAdK_nUaK47OrPdqpXjx1qY1vLybSRnXnt5izxq5J2hwevZbA4VHSmVbvZIIyEq198PmQnFJNvXeFsZq8dbw="
+    },
+    {
+     "title": "atlanticcouncil.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnWWxrYehH5nGX3WYiHUcTZE9NxerSHzwjT8sUb13fBFIn1IKbex54EGPK58QqVBtmo-EdIvYLJ_ssXmxO757AeeT-c1EXofjXOL_jZQVGMTyOn4A2x80CvgH3E3dnvl2C_es5uRQwcf-cakvIO1SxBr79Ho3k4mQ="
+    }
+   ]
   }
  },
  "editorial": {
-  "month": {},
+  "month": {
+   "2026-10": {
+    "thesis": "Durante octubre de 2026, el sistema geoeconómico global enfrentó una tensión crítica tras el cierre de facto del estrecho de Ormuz y los ataques a infraestructuras energéticas en Oriente Medio y Ucrania. El crudo Brent alcanzó los 116,72 dólares pese a la liberación de 100 millones de barriles de reservas estratégicas, situando los colchones de seguridad de la AIE en mínimos de cuatro décadas. Esta presión inflacionaria forzó a la Reserva Federal y al BCE a paralizar los recortes y mantener subidas de tipos, mientras la carrera tecnológica chocaba con límites de red eléctrica y nuevos controles a la exportación de IA.",
+    "winners": "Irán y las fuerzas hutíes consolidaron una posición de fuerza sobre las rutas marítimas estratégicas, forzando desvíos masivos hacia el Cabo de Buena Esperanza y primas de seguro de guerra récord. Por su parte, los propietarios de capacidad energética nuclear e hídrica vieron revalorizados sus recursos ante la urgencia de los hyperscalers de alimentar sus centros de datos. Asimismo, los organismos reguladores chinos reforzaron su control sobre la cadena de valor tecnológica mediante nuevos borradores restrictivos y el control de materias primas procesadas para microchips.",
+    "losers": "La industria europea y las economías dependientes del suministro marítimo padecieron la escalada inflacionaria, fletes encarecidos y el retorno del racionamiento tras el ataque hipersónico a la red energética de Járkov. Las grandes tecnológicas e hyperscalers vieron demorado el despliegue de infraestructuras avanzadas por falta de capacidad en las redes de alta tensión y vetos a la exportación de clústeres. Por último, los mercados de deuda soberana y el crédito corporativo se deterioraron con la congelación de la flexibilización monetaria y el incremento en los rendimientos de los bonos.",
+    "outlook": "El siguiente periodo quedará definido por las decisiones de tipos de la Reserva Federal y el BCE a finales de mes, además de la reunión de la OPEP+ prevista para el 1 de noviembre. En el terreno geopolítico, la atención se centrará en el resultado de las elecciones legislativas estadounidenses del 3 de noviembre y el riesgo de ataques mayores contra Irán tras los comicios. Asimismo, se vigilará el tráfico físico residual en Ormuz y el cierre de la consulta pública china sobre las exportaciones de inteligencia artificial el 15 de noviembre."
+   }
+  },
   "quarter": {},
   "year": {}
  }

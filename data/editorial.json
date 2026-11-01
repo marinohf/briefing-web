@@ -1,5 +1,12 @@
 {
- "month": {},
+ "month": {
+  "2026-10": {
+   "thesis": "Durante octubre de 2026, el sistema geoeconómico global enfrentó una tensión crítica tras el cierre de facto del estrecho de Ormuz y los ataques a infraestructuras energéticas en Oriente Medio y Ucrania. El crudo Brent alcanzó los 116,72 dólares pese a la liberación de 100 millones de barriles de reservas estratégicas, situando los colchones de seguridad de la AIE en mínimos de cuatro décadas. Esta presión inflacionaria forzó a la Reserva Federal y al BCE a paralizar los recortes y mantener subidas de tipos, mientras la carrera tecnológica chocaba con límites de red eléctrica y nuevos controles a la exportación de IA.",
+   "winners": "Irán y las fuerzas hutíes consolidaron una posición de fuerza sobre las rutas marítimas estratégicas, forzando desvíos masivos hacia el Cabo de Buena Esperanza y primas de seguro de guerra récord. Por su parte, los propietarios de capacidad energética nuclear e hídrica vieron revalorizados sus recursos ante la urgencia de los hyperscalers de alimentar sus centros de datos. Asimismo, los organismos reguladores chinos reforzaron su control sobre la cadena de valor tecnológica mediante nuevos borradores restrictivos y el control de materias primas procesadas para microchips.",
+   "losers": "La industria europea y las economías dependientes del suministro marítimo padecieron la escalada inflacionaria, fletes encarecidos y el retorno del racionamiento tras el ataque hipersónico a la red energética de Járkov. Las grandes tecnológicas e hyperscalers vieron demorado el despliegue de infraestructuras avanzadas por falta de capacidad en las redes de alta tensión y vetos a la exportación de clústeres. Por último, los mercados de deuda soberana y el crédito corporativo se deterioraron con la congelación de la flexibilización monetaria y el incremento en los rendimientos de los bonos.",
+   "outlook": "El siguiente periodo quedará definido por las decisiones de tipos de la Reserva Federal y el BCE a finales de mes, además de la reunión de la OPEP+ prevista para el 1 de noviembre. En el terreno geopolítico, la atención se centrará en el resultado de las elecciones legislativas estadounidenses del 3 de noviembre y el riesgo de ataques mayores contra Irán tras los comicios. Asimismo, se vigilará el tráfico físico residual en Ormuz y el cierre de la consulta pública china sobre las exportaciones de inteligencia artificial el 15 de noviembre."
+  }
+ },
  "quarter": {},
  "year": {}
 }
