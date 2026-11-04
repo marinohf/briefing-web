@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-04",
+ "generatedAt": "2026-11-04T13:14:26.040Z",
+ "items": [
+  {
+   "title": "Los demócratas ganan el control de ambas cámaras del Congreso de EE. UU. en las elecciones de medio término",
+   "summary": "El Partido Demócrata arrebató a los republicanos la mayoría tanto en el Senado como en la Cámara de Representantes en las elecciones intermedias. Este equilibrio de poder anticipa un freno legislativo a las iniciativas de gasto fiscal, comercio exterior y desregulación de la administración Trump.",
+   "region": "Norteamérica (Estados Unidos)",
+   "importance": 5,
+   "source": "Morningstar / Dow Jones"
+  },
+  {
+   "title": "Catar intensifica la mediación diplomática entre EE. UU. e Irán con un borrador de acuerdo",
+   "summary": "El portavoz del Ministerio de Asuntos Exteriores catarí confirmó que Washington y Teherán evalúan nuevas propuestas de consenso tras avances en un borrador de memorando. Sin embargo, la cúpula de seguridad iraní declaró que la postura estadounidense aún no es del todo satisfactoria.",
+   "region": "Oriente Medio",
+   "importance": 5,
+   "source": "Trading Economics / Barchart"
+  },
+  {
+   "title": "El precio del gas natural europeo TTF retrocede con fuerza ante las expectativas de desescalada diplomática",
+   "summary": "Los contratos de gas natural Dutch TTF en Londres cayeron hasta un 9% en la sesión, situándose por debajo de los 90 €/MWh tras haber superado la barrera de 100 €/MWh en octubre. La relajación responde a las señales de negociación en Oriente Medio, aunque los inventarios reducidos continúan limitando el margen de seguridad de la UE de cara al invierno.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Báo Lao Động / ICE"
+  },
+  {
+   "title": "El BCE advierte de que el repunte energético renueva las presiones sobre la inflación en la eurozona",
+   "summary": "Christine Lagarde y miembros del consejo del Banco Central Europeo alertaron de que las perturbaciones energéticas vuelven a poner en riesgo la estabilidad de precios comunitarios. El aviso coincide con datos que situaron la inflación preliminar de la eurozona en el 4,0% en octubre, superando los pronósticos del consenso del mercado.",
+   "region": "Europa (Eurozona)",
+   "importance": 4,
+   "source": "Atlantic Council / The Wall Street Journal"
+  },
+  {
+   "title": "Los rendimientos de la deuda pública de EE. UU. caen tras el resultado de los comicios legislativos",
+   "summary": "El rendimiento de las notas del Tesoro estadounidense a 10 años cedió cerca de 3,5 puntos básicos hasta el entorno del 4,91%–4,94%. Los gestores de renta fija interpretan que un Congreso dividido limitará futuros planes de expansión fiscal y frenará nuevas emisiones masivas de deuda.",
+   "region": "Global / Norteamérica",
+   "importance": 4,
+   "source": "Morningstar"
+  },
+  {
+   "title": "Rusia lanza un masivo ataque nocturno con misiles y drones contra objetivos en Ucrania",
+   "summary": "El presidente Volodymyr Zelensky confirmó que las fuerzas rusas ejecutaron una ofensiva compleja y de gran alcance durante la madrugada sobre infraestructura territorial. La acción mantiene una elevada prima de riesgo bélico en Europa del Este y presiona los suministros de energía periféricos.",
+   "region": "Europa del Este (Ucrania / Rusia)",
+   "importance": 4,
+   "source": "Newsquawk"
+  },
+  {
+   "title": "El crudo Brent y el WTI encadenan tres sesiones a la baja por la distensión momentánea en el golfo Pérsico",
+   "summary": "Los futuros del petróleo Brent retrocedieron a niveles de 101,70–102,00 USD por barril y el WTI a los 95,98 USD por barril, su nivel más bajo en casi tres semanas. El mercado descuenta declaraciones oficiales de la Casa Blanca descartando ataques inmediatos contra territorio iraní.",
+   "region": "Global / Oriente Medio",
+   "importance": 4,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "China activa nuevas intervenciones estatales para contener la volatilidad de sus mercados bursátiles",
+   "summary": "Las autoridades reguladoras de Pekín pusieron en marcha una nueva ronda de medidas de soporte de liquidez dirigidas a estabilizar sus índices accionarios. La decisión responde al estancamiento de la demanda interna y a las fricciones arancelarias y tecnológicas con los países occidentales.",
+   "region": "Asia (China)",
+   "importance": 3,
+   "source": "Newsquawk"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 102.04,
+  "wti": 95.98,
+  "ttf": 92.07,
+  "us10y": 4.95
+ },
+ "tension": 78,
+ "sources": [
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoSmrql3kU6CbZasrsUmBmthUk8ehqM-xj2jIo5PsnFh3DX3cjo-iMAguXFnpmX3V3XTNvUInuj3vmep-QfnD_wjI371VEtGmSumvtb5W3pipIPXS9GpvdNfpMQMV3qg1DR2ffEdb9pCl6PIOrm5TNixVnze2tDcgSFbwmA_mfSikRjVh99a7NNk3Q1TXKB0eUpGeaBKB6756KuUx0Wv90DZKrLH-_ABjLUP_uT3WzOoSI2Z3zm8DFcwTqbJeHKI6z0WxAm9tQtTw="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH326TjCYFOD-yNPMLUa2_jTb39O4v47siSM3XEQJwuFlWlAcbK3bH16eysCxHaBpQGrh8d6QLgUn8UKizWePhv1eFPOpz2tpsM_Gjkegq6yDSQL10KkI0Arsus3e4MIBLlz5T2tlsPtYHzJu9N0KHJ78u_4nWPVgtpXzX8jPSSLTiyKuwqK04VUsKNjfxoFQIj2FKNmkaVpySh9_jhGE7Esqcu-9HjX0yg8UVBfGRKFXM="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8-dieJpIC5N5a22UcFGxh_7bLDvQObGvPdOEdvrHs6ChVtZtbwDuRybMjtp7_mFIt8cLDrauh6ab0_B8Q97Zp7Y2qbaPoLi1BlHFqt2u3E2E4K-nLrmnsiB1gOB828cGy_--FFtkhhiaHHd8="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQkYe9Y7kgv2er4mXrgy9zscdF8ZNNydeYy-KDqfPbORkQtVNUXCoSOWttL9JWr4syFCu1WTwvmN9bJPLda_JyeTfR7ki4xTKvaats8COowXRvZqcvT-6VsuqPQ2_ChCfirNE7rqqC4w_7hnM5t4l2xw=="
+  },
+  {
+   "title": "cmcmarkets.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNaN13VnC7JmQ7Lrf-9SZSo4x7aXulGgPQABeI4JQdrAM7VW3BIDvJCW9JMLY6YsMwtIOZC0WM67pKaQzXsWTUaKxX-QZ0rZNROAkI2kkRm1oNxau0oAW-TDzlesjXzKHNfHmfPstIjRUgts2hUYYeDLcy-Wss8NnaY7gg2BDvIAO3cfuhriK9tTmw5GnB0DKLf-t-cGnYk4mGu-7lcjkz56XkUBzwZIIYTJckm0kdAEQ="
+  },
+  {
+   "title": "laodong.vn",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6H8uclIjPXXUPWmTu_QtDCrWFekjkyScDFp-MR8ySX6h6MSPKMVNqDqlRyZqYqrY5z9mF7YZbcOFVoCOyUuASo9YFf5cPWBuxKyHDA1QKnVyNsl0_BVHqDXEtoKf_awH_Tzm2nbQoKWEKzgUJzldo-katdOvtqvafhrOtSnvYEOKwHCI02yJ6lVQK8rq_Xd0JR6I4aY8qgzihNS4bpw=="
+  },
+  {
+   "title": "atlanticcouncil.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD3AN5O5SvVZrbK2Z6IK9A5qQ90xwNItjqHj2JOh8lGlsxu-EkzbRs0yQxGG2z_EuSoqD8gauECLESWzloRpQBZD1qSeKyoCVcJQgGtCd5IzdUx3_6ByHSxAjtEEH-fYVn2XlJqC3hhk3GhSG8gQOi9SH6P5TZvVlR-KBtfE6TVomD3S3_AiHhswpbCWHP4BPkKBgw5zXqltY1NaxyduPCMzh-UsZlsJFht4MCVI7Yr51zVe48BGturhj8TuMGdqpyPhQvirAFjIlV"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErEf5Wa6VwdrIIaKfRow7Cc69eQBhrhxgmORNRQEDqEWmREoB5zPMo2GkoqKTPlp1QsCGM6yi02cyZsV104A9qy6O6KDHy2fdwCEPbga6nrBNFkNGJ1HyFaeoKxDEaMwBg767y834aW2YlCSpBfbh7RQn6Dv3z"
+  },
+  {
+   "title": "newsquawk.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERgDf3yXmOG9HKybUZkZVomlOk9ddOscOazNT8B5rtsFfmxzG8mZCNF9RdgWkIjwwgO_BndoE5W6Z0LLQxo_t2M6soamWlFhHY7AzOlWURdRDqmlnNC7AjkmJWT2bDCK6oRSCws5ydai9ZjKwFXjezcF2Pe-5P8MJyuDDb0c3LrGNaUKUlxo-1NwzoGmf_UlSN5UjRas7q3K5nUzlAdpefgHuGIzGMIJ5_6V9uzFglWe5nCoJr5MG_S5zKgLr5p6vim4hkpksA_g=="
+  },
+  {
+   "title": "tomshardware.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIRKINCfX9ZrZGvb8DLfd8UuRBSf-L2rjjZGyp-E4XU7gHhhvbTL4kriEsGeakg3BHbKYqGahf2Z3MVNFxXaEGKEPFMgL32WSRroBKjKi1B9cH_rRwfok9kvh-tuCw5HN90BqUk_RjSegTeREJQmCFSZqNe0cPoLpUGorFIOF7AEOGHgmZNkzeOkHxSQTJ_SvAkAqf3eZRsYkIDZwyhEUT29J3S1CFfcObzfI0Wdc8IOHz-tfTGDxOeCKTILxIGHbxz1HG-g6XxC6wEl3KNd4pq18Jij2aftZlnCXlheDVXnqhz-pLyARviHODsNkaAE2hW4HFMFnUEEuGJBfchog_1z3qYNAfa78RGvcvfMGsNaoRV7UsMsbKW6cJ7FsO8IiOOg=="
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvo7PD2qg8lYLxPChePUR5D76T7mypKjo0tRN6qo3YYZ9bkcF9xtb8CJbk3K7y6m-uWthohTZ6iyzLeeY3mpAjJES9QaYR0cKIl3KgQ1xBhhHBT0FNvqlDg0ZJ2zu6PIC-iUJNrnc1zTxOrBq9a1ba7p5-NcKO"
+  },
+  {
+   "title": "gurufocus.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA1lgQAyVYhQGbVe2s0OXuEre9_f0hzJWtuvkqYGd07enK6znPRdtsNDn0U_AWWGGKvKL4jHyXhHyBjFmW12QLZDw3ePHsIWAb216tYxAczrbrekaBtfRYhEjtwlUTMWg0n36bEb1R1HrzlVw36NkizRCLzxzu18mMGQb7Vi_8sqCoTreWGSgqYA6G_0wVup60vmEjKX2b1JpQAuSd1DYyt7liZYflhA=="
+  },
+  {
+   "title": "benzinga.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt4H1Yc9b3Mii-Ya2bJ7L_6yBVd_vuPtFmj7_pKxt4io5BU4nvwhMl9F2i1TS3xptZOvl8rLqR07zASb3IoEsmgTvFuwixori5Xt7tffkRgP4mPjr7x-53ZRpwr6meV7iaH7JHam42zzpY1kkfrNB94kx02sX-eMfOG47npyTogl-NzXAaTYqBV5adOS7_DxBXFiuC43Tm6Rm-4tIcb7vSSioQI4oVw23o33xW6MJJMDybmlpHpFXa49MVdyh1wM5_0SGDiYlTkD_esB963mjsKSsmXAt96Fx4MSliBuXnDokPZhpeXCX3tsbShFaBXgvK"
+  },
+  {
+   "title": "coinpaper.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrPHTt02vn9kQS1QI-rvzcTuBb49oPhbcPjWH14zDKauQECfc4Jmo59JnNjjr4l_92ATgkMVACdsr4yDZ7n1B5juIqB6oHKjAtd7sxICT792KJQchLk0EGaNXwI1kcGa6wk0JfjeM_JJ_1WGQeCDgsazdwh0vkJfkeUIjKiN-_VOi68Qs6HkGgubj8X-pJEKJtQ7q8ZwC9CAzdOQ=="
+  },
+  {
+   "title": "asiatimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZG6D1BU0H6dDLvKZTQC6JoaqiMtcC1Cp6jaSIyG2ZHKBe_snwFghppPNSp1YkH5vxmYWJCG34TzgK_5uaWCejBT7dqosYFcsj_PorqTjayS0RLUUsUK7vQ9RlSo33WKsZ1ZyBjTx7AkGJzzK18icXt9yLWnjPjUt6wocEk8zJC48zDsQNVHAgjN3GTw=="
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtjQJdyOtDBvdJgXgTHEMP2fhD3jNjalDcDSQDSWGussAZJf_B63FbRCEGm2Lz0637whfZXveztGOFjbP_GQMpXT6n5UpSWxpQsjqTU-FfusOycnGH1umurr_EKHIrZaYXcKF1dfw1fU80JTEOrf2roew4BRko51w="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8db_a7589hQ29omGYydfMRZQrvZcq28Yw24g2cihVhj4Ko31G4JoTuDLt0le7ItGZb_dsisvKRWn-uf3y1x8-RZjzlJWBVybhqDsQEwXX-Jcx2aajwbu_qs-REmARBZQ_fBg6hyuy4ABh2w=="
+  },
+  {
+   "title": "businessinsider.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdd4TR_UQeD2_Jjtmkhm3Y7tookPpcTXIH0fSiP5DY_5VZXjvqCBTIW5UCjGOUJD1llsxBnoXbkyyxdygZNI_DLuuqBxP12OgmtLFSdB7_3Dve-h5zDSzzpCnLUFysw8c3BCdRgBLgJ3y-mYVQzsc="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtJ4VpcJQrcAmXcPnjh99czbBW3iV8LTa1zlD3yizNJIBF5PF2WylsxqU4KXbi8GZrIvljEmp1pbRo2N7Lc6FGK_b6bMrv4DKLdiTijnMulXcS9FAhlLKMlC_IG5lO1ZHgdRPJwMBtZjBCL7lscb0vfc1ZIBWzCxuCFUBYPvR5pAfmWfA="
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB40ia7Uz3J4sxiDCImi2rfmnEfBcytHZK8ZDH-xPs2Wz7PCj8VQc2q6qdBn0R70uI-sv3PHKksK9QtZ3jIwkUv6QOAFt_CKcUg48Sx-5hLfe1eZf5Y6CU2nL2BaK9IBp9td9D5rS57RV3"
+  },
+  {
+   "title": "forbes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpW0L-2OdgPl6IfVhtaK7Y7NwaOP5oHu220LjIJ2e9t1NPez4U9QMBKHnPbZisG6u5Om0kp-IYqczC0oKHaPgacyXIdzPNVula-3gcSDeO_5QEYL4A2Ae3dEgiQI1hIcdnx1vFK9AT465Tr3vWow=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5HQLGyPByoprcMx12Hut52U69_ZiaEaxD-V2V-Pf4Mb8trXhwfHSGM3hSg2OohqryqLiI3nlDtXa7mW38XC-BPIBpNsa8bd7ZvNFypyAS_QCQyzkN3LUAprQsX_N5-rG8oZ9-VRto-U272GIkmD6KoYHB4RyDr6gtsErPqv3Qfo_fvA=="
+  },
+  {
+   "title": "jpmorgan.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GXrIAP2BcpKhAYX5XjAIpa1xmvZvj1odDD7MSDEl8Y6w39Spi-uVu5CCYbbjmlOgHEHRoI6yfpNmPlsBX85iKgnwlmqV62wMbAQ0SuDgnlrg-4qmYIRSfsA6_5WbqcOeqqtZVsqHX5Fsdloz3zNKEDsx9UFD3IjlVNiQyGhdKzFKp-U9GNNDob9yDvZw9mQv-vH5atOTIBdPVgVYAGA4u_WkUAUq2MYYBJYbPo9suw_ig5HRSgOOwFkk"
+  },
+  {
+   "title": "hellenicshippingnews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhsvkoFpKNm5oEUiw2GnkjjUG3UoIXX26jZx5ytbZqL3LEFIDYcLtIOfjClqGANIFoJPSj3iWfUdDn6_guRbjSBMYC1wwnlAyvvdoX-6iV5czWb4LFKrSlKVaNYfixYGJUNd-kn4FhiDSf1rJWPVJ103gKlMi8Mx1xWU3GlQs="
+  }
+ ]
+}
