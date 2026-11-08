@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T12:07:59.885Z",
+ "items": [
+  {
+   "title": "Ataques aéreos de la coalición en Saná dejan al menos 27 muertos y decenas de heridos",
+   "summary": "Bombardeos aéreos impactaron zonas residenciales e instalaciones en Bani Hushaish, en las inmediaciones de la capital yemení, causando la muerte de al menos 27 personas y heridas a otras 36. Las acciones militares se enmarcan en la reactivación de las hostilidades y los ataques cruzados que continúan amenazando las rutas marítimas en el mar Rojo y el golfo de Adén.",
+   "region": "Oriente Medio (Yemen / Arabia Saudí)",
+   "importance": 4,
+   "source": "Associated Press (AP)"
+  },
+  {
+   "title": "El ejército sudanés recupera la localidad de Iyal Bakhit y neutraliza un dron de las RSF",
+   "summary": "Las Fuerzas Armadas de Sudán (SAF) confirmaron la recaptura de la localidad estratégica de Iyal Bakhit, en el estado de Kordofán Occidental, tras combates directos contra las Fuerzas de Apoyo Rápido (RSF). De forma paralela, las unidades gubernamentales derribaron una aeronave no tripulada empleada por las fuerzas paramilitares para reconocimiento y ataque.",
+   "region": "África (Sudán)",
+   "importance": 3,
+   "source": "Sudan Tribune"
+  },
+  {
+   "title": "Un tiroteo en el centro histórico de Cracovia causa seis víctimas mortales y 15 heridos",
+   "summary": "Un individuo armado disparó desde un vehículo contra transeúntes en las inmediaciones de la plaza mayor de Cracovia, provocando la muerte de seis personas antes de ser neutralizado y detenido por las fuerzas de seguridad. La investigación policial constató que el autor había cometido con anterioridad el asesinato de varios familiares en Ostrowiec Świętokrzyski.",
+   "region": "Europa (Polonia)",
+   "importance": 3,
+   "source": "Reuters"
+  },
+  {
+   "title": "El parlamento serbio fija para el 17 de noviembre su sesión inaugural tras la derrota de Aleksandar Vucic",
+   "summary": "La presidencia saliente de la cámara convocó la primera sesión del legislativo tras proclamarse los resultados que otorgan a la coalición estudiantil 140 escaños frente a los 103 del Partido Progresista Serbio (SNS). La conformación de la nueva asamblea pone fin a más de una década de mandato hegemónico de Vucic y abre el plazo preceptivo para la designación de un nuevo ejecutivo.",
+   "region": "Europa (Serbia)",
+   "importance": 3,
+   "source": "The Washington Post / Associated Press"
+  },
+  {
+   "title": "El crudo modera su precio semanal tras señales diplomáticas en Oriente Medio y el desenlace electoral en EE. UU.",
+   "summary": "Las cotizaciones internacionales del petróleo registraron descensos acumulados en torno al 13% en la semana, con el WTI situándose cerca de los 91 USD y el Brent por debajo de 99 USD por barril. El mercado financiero reaccionó aliviando la prima bélica tras la victoria demócrata en el Congreso estadounidense y las primeras señales de disposición al diálogo entre Washington y Teherán.",
+   "region": "Global / Estados Unidos / Oriente Medio",
+   "importance": 4,
+   "source": "EnergyNow / Bloomberg"
+  },
+  {
+   "title": "El rendimiento de la deuda pública de EE. UU. a 10 años frena su avance y consolida el 4,87%",
+   "summary": "El bono del Tesoro estadounidense a 10 años cerró la última sesión en una tasa del 4,86%-4,87%, alejándose de los máximos cercanos al 5% registrados durante las jornadas anteriores. El repliegue de los precios de la energía redujo la presión inmediata sobre las expectativas de inflación a largo plazo y enfrió las apuestas por subidas adicionales de tipos de la Reserva Federal.",
+   "region": "Norteamérica (Estados Unidos)",
+   "importance": 4,
+   "source": "Trading Economics / Investing.com"
+  },
+  {
+   "title": "La Comisión Europea lanza la primera ronda de emparejamiento del Mecanismo de Biometano",
+   "summary": "El Ejecutivo comunitario abrió el proceso oficial que conecta a compradores y productores de biometano dentro de la Plataforma de Energía y Materias Primas de la Unión Europea para fortalecer el suministro renovable autóctono. La medida se acompaña de un cuadro regulatorio unificado que abarca a Estados miembros responsables de más del 90% de la producción del bloque.",
+   "region": "Europa (Unión Europea)",
+   "importance": 3,
+   "source": "Comisión Europea (Dirección General de Energía)"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 99.05,
+  "wti": 91,
+  "ttf": 89.51,
+  "us10y": 4.859
+ },
+ "tension": 62,
+ "sources": [
+  {
+   "title": "newrepublic.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy_ahhlvuy0_YDXa2z2BQrdkvi9RS_bbiw33uDXIyH8Fm8GvAUooTU_wm5EmJlBd09C3u0b4jw6HmVBUIrqGMeWJreLOPZFMulsWgjikmMBbqWMPOkDPlLz4m6T0yu14E="
+  },
+  {
+   "title": "washingtonpost.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPy3uhYMZ0i1XGLJBUUJAVHMlCN6GzM4vcggQEeEevcbst2qnAwvYnADt1N5EYHV_CVZfTa15IUxaxmCznqRB1hOF9vyMWhaTHnRakToLjUbV-FfAtEzs9pDEA9OW6C0uFV7uA3_py2q07MU2ZRVhtGaHloHC0UvrEeg4MIsMQIb-CwO0Sg05veciKkknb5UuCZyRaIQEwHUCCgkUJw7RBUmJ87qJcDYxKnDNodQrIneAf8p5uy9ykngqXgVmoumbWRtnCxHujWg=="
+  },
+  {
+   "title": "energynow.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw13VpfNu3mQejyxb32606Z_LpEux4IssKDmG6ThdTgw3jgClSgge7_6rALLBiq6ScTZAlCu3AAGcTE4OwZumrnUhP1Au4X0mu8FDjE-ZV1-AmvcSL-vMZtn0epQA3bG3yBemp3fUwzzJSDx5QcW7KNwrsxq327YIzAY1V9yts_3dAffECsloJU5SF37Pao6bI6SCU0EfpaFXZBdtSrKuOCvIqUhCMRGusx5T9cEdEH5Fn8FmKjBgpIe3KAkpMEYdDOu98oJMXM2U_7xwksm8u"
+  },
+  {
+   "title": "biggo.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHddw_hM8Ybh-FbcOhA7mI3lcNJVAqYZavSIx9iwC8aG0VBPRJMf77OlUIkbttLNVt_IdM33qRlrPCduL8vOZ5fx6pnaiqKT8Yy0fza6OY-RRvDcgJOoBQF2WBfMqqKNB24VignyW2ww8g8NjqaLt4ty6LxyfHui4Cr"
+  },
+  {
+   "title": "engie.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE410pnf-4hXI43SEbjPPZoRj57t2IbO-2Rn7jA3RX5QLV5TQU93snp_tqUwa5hxE0eZnT3B-aMVU4DdKBJsFcLGus1f-Wrw9unolwfi6lxqyr69HVvlvzuModZagQ-FRbsJbQhRrpAcotHucNOcY8KS-UVSYG5_WjCN_d_qNf1efeLMjjRUhma8-BYreYYBdk7LEun9EU="
+  },
+  {
+   "title": "bloomberg.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGZAGb3ZJBPMlR3zzvMr0PKUiEPN9TIVozTQvUitNTQCXxf_LDTaWOalUg0fw8Da0w_7BAFpT5I8lgwhXCWFift5UfDwOYXgfyLS_kf2_4E8rlL3Vrbq6COXCidJ7wQRJPYHZJMjekCwUR_lxzt6AdMILP00KMdjCXFhDhT62EYi-RmBWxY7C_nyFiVYoyOEEF_ArIwHJISl2JYtIjCjr0MI784Z4ui4PTuV0zB8Hg5s80r2j-go_NGAcYEFJL6tLnwUTxXisyZ-iuMdJF1aw7PXMbFoXnXobLDHAVkfAzpUJRTEKbPhL4p1BQrv2dBzE7VGyTDlS5fOtIyvVaG4iGRH0OicUU-WUZFuySzd9VAtjYulwFhAe5_hEA1AR7B2aHwAvszaK9-F3pJ_Xs48VaPT8aqQQCc32zhvD6Euk1u2l7IMr7E_GFNC47Kq9ddc7Q2j-Mq-EHStCLa2hjaRWx-cL4iR2-RQmqbYFhsuuYa4WFxsJDWWM_0yxJHOzj9mhndIc_S9VWIhI0eiW3TjuBCDw521MlRcwviHWBnw=="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHutFsw0EozsirUK28KqD46DFfuuqXqo9c8HFWIHDMhZKMO2i5EqVc88fivL5NI2tmPUDoT3i6qkFqotEbqH3-CVltMdRQdRLyKDpNHpc6cDU0F6oE062oPFcNozW2B7JSp7IMiXH7u2z9A9f03uCJJbULd_vVb"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTWQ11Qg9rd2G_1v3_1AWOMGjPUa6eVYUgijkpRQHoBJAmU6asOn7g8If7AXAs9z7BD-YQcxUJ0ZPZvVbLMvCQEHl2K74g1HNoHZ6KU7TlHunXfLnGhlJgkDpr9BParEIc0jkqHbJh6m2PRVzXcGaq-a5g9jpG7cdKKyAjHSduOKYmUw=="
+  },
+  {
+   "title": "haver.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfTerMw86jWdnYZZtdZZOfRV3wY12uLbA48rmPxEsdyJ2V_ypuw5qh5-S6DHCBHk_fZvAH5eltJoUGo2axgadHO1zP0c4tSuHiVsbQg7OlAr47js4LORb6ddkCYOTdu66QT0M4fa-NpPXQRwzLtaxDhteyxsp7w=="
+  },
+  {
+   "title": "europa.eu",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxrm-jpCKLnvPsZJ_9sxTCUn9LaZ302IoYJw0IFHFuzgiVupzb7kTJupmhFgVptzDgNnL7AU6V87C6dOait-xVuO4Pi5kWzHUtB84f8iP2DBk3G0LepewJVj-2M6_bVre_4i1kFAPvJqifX5s_fRSu_0hHMVtuR6pcWWctR8PRY8zICbNcrwRlyK1nNzcz_VrjZSiC-pf0vEGYy_PllnR4ZmNYf8mq-BsJjGg="
+  },
+  {
+   "title": "thedailystar.net",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuXa-_yc8t6n4Umo3pvADFjupShDjn-E87srUI0ngTXFiSC0v_G0m08N-ffHc-F_wdw-t9owpFsF3xOlf5rF7nGjBQjZws4zZGJ6slNjE92i8TvRoMhsjg02S-cCMOOuyprJVPsP_lEe0PI8jdZCR8h_Y5f4i3lEPIcszX4n3cvhdv0KRQdPNO-ZorIe6GutQWHGwCmv_oJTVZlCFVX14eQ92KXeg="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaozkyQws8j7VDV9pcpYFlPN4lnjNyIgxf8H4CbVx9pKJSCaMq37QcSH4cmblfpvN4t72r3PGCj0P9MJISy6fdYw4THEKYJhFeO0bZmbGFUXoZBJK8XVBqNLLApkR0w=="
+  },
+  {
+   "title": "economictimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYMkSEpd7kRmQaCT9vuPkY6wo4hb0TkACya8qJbO-TbPrXIDRsuP6rvSLQfqnVOmitJ_0zXBJBquN8TyEuAxCYAjBUT9BBYmp84d350x2aOq9IhpEKx7UFWKixba_DaTGGyaUfw3GnDksIns1s9VGuWigauU1RqbWsKlf_6Pk5aMOSSL8xyZxy_yJzUZfxSXNTWNL0YYX2mDy01PM7B2v6Le7TO55XLRy0zPG2PveZudIoGc3jtB0xJO11JjZKgFy_DmrOzFohpMg="
+  },
+  {
+   "title": "the-independent.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoviQXOTmeRmPYQRWaRHVDad7P3dKSKf4ED4wwXSrOZZDsMPm4LcmO4dBX5MLHwDtjRPGGiLVIdJogbrG5x-voa3lcJEG0acpscroQWUIxsH1Rm31uXg3WQjF3m27vDRNIJmSqvdQJCWilSdSwukdICexshzLp3A9hs-piQAo61IhuxW8uX9H5QoxDiwyIQ-wO4w=="
+  },
+  {
+   "title": "dealroom.co",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ-FGr1xrgjBO5YnPseM8tKShQJCmedqkWt9EIaye5hpwijWphPJXGcIexuhNBmyoUQCLJS9_HSoLQaXXnK7RQAFBZNrRELNKgnwjuhV6_mY_2fM-tStsUc1edaJ1FVkHL-DOTQV_DmiPKm27dn3H6tXhd673gqaL-nmr0B0pY301G-_-rPCi2f8kzTrXPxBWpcEk36TI="
+  },
+  {
+   "title": "cryptobriefing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKVwqdSvbhA_q07StgfnTgPizYEKDvtMazbg4oCYqLSPAYZLB5cYxgymDPBZnOpBBK7WNQqVnOHmOAiFtVK5X0vHFo1x41V5w6UItaMP_9h8hAO7KEiKXZ_0RSCdSjYj_OnpA6aeEj5jfHolM-W6cWeG4IQUJeE6327cSRKnstm8x43fhzqP8R7FRQGaD_i3OSjmcjIe6-aTm5jSY="
+  },
+  {
+   "title": "wikipedia.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLUoxX8Fctjv9uSlOG90X_zBnp_XW69O-1WebybsWW3GK3Xz-SLV_7RWiKrPueBA-bvB-qkAtUWHLqz_5R6IVgsDcxv21v4wssr39-4SVbHprXRSXGHBEHfjWjPO0FIyUiZWBPo3djTIym46RTd6uzPs_yUC7GLA=="
+  },
+  {
+   "title": "vestmind.in",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfxlO_AytaKwiUV8F2ZE31ZAVdBd3EvxHKCr5-A3nx3Ch-j9Z77m29oMLa6XR4z1Dg8LPhf19LxcI04FhPQICtGkqwrz911qjMUkt2fvKa3vSD0cyNxQ1fr82GclrbPBlI0zXs"
+  },
+  {
+   "title": "jamaica-gleaner.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBy9YUV8DZfWNzQsg51tC3zXMDfqhS1K8nxRXFcSZW8erMf-giZ5ojywmqkVP1PANKU-WD5xEn4aTBwSLavR6at7m_uKaDSsRrfBFRlOn8Tl1kbc1XlC4nF82sV6bWLW862kqalLO9rNROwwM1O6cl8zJDkexAnZxBcFrjp0uOYMvdvHcPM_Ykahr_PeCEHiyT2og_KP5-kxP0iSnIAu3kgd0iQF03fFeYV08cTuUa"
+  },
+  {
+   "title": "unite.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcZbjcOkSnublZu0ubCXVhQThNspRTdDB3tk8pXzP0UnvfNNY1j_8VqKk12YlZkfeowlEb4qjkrqcrFU-OTD09H0_nF1MXIOPPP-ugorrx8BPjwRWUyILAah95W93KqEMr5Uuo40Zyj85nKMuK-brYGk1Km-MdkxgvFcCVxppqq85_2gSnVwSEuFhowsA="
+  },
+  {
+   "title": "opensentiment.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGiSjJBvsvS5IF69wWkxOPGHm1u0HDGMVLOehuHZxMMzPtAecu3V7K4VEPW7s6Y2MseoWtt08w6ab3cla7z_r4QapvvkFQY0-NvkDRVM74c4JLVHckW9_iMWzsntNfSTa3BXaBLY2f1c2kvhnDjDyI4PazdmCCo-vago3p1bmWsH1XxaZQIA5f"
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSOKTk3UXK3ImK_B2rejzAdILOhuEkmf9nWtAA_xII3_Fxp7VBjhn0CqGI9_iz1uSlvsd2wsNK438v875AjfGZXi_3MB-LOFpfJzUaPMwwi7u3pHlkqbLDf5yFd68K4hjrOzViN8kDfGOFQShot5FCAtMWEUgtkpmJz1O3iIvt7-k9TQ8LZe2u3OVxHAb5fcx3wSPE3T8RZ9fx9don2xd2twTAkXQ8fjTF7cjr5umZwvDQQbo1fN9yZEDdwnbBoJj3i2Xd"
+  },
+  {
+   "title": "dailyhunt.in",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCyO-ALsJeSlrxRsmRDt_ckLZDcYaxnaBl5-HckpHnb9qadiy9PP8S5IMDQHRGfDR7-sMhRfXEbm4LLhX_WADCyPlCiaHCzAAcN5Jkz7UwKKuluXYky0nKB_7RfdDCns-2ZEb07_bEGPkJaaenEJ7Ae1fzEYPsTegq4etypD1MLQr-bZKh6eg3nRxJgRjn9_3J0z65hVSO-A2-lsJ6ZHvU2L--S3E_LOQpHHRxcNdacVK4cG08FFKnU5E0cMRegExZxhuIE2N7uIDMqC3g"
+  },
+  {
+   "title": "mod.gov.ua",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErPD9Moi3FIMr5azRMpIbQ-A_qZqLIawVLIbZaLnvCl7B9NAq-aMD2PuJX_g0p652fSG_VxjdWlGqIBZfKm_jjdtFUHanM0yJnpUmvzBg0sa2_Df4heI0Ckza8hpDVGe_RCQuhUYI2RKYbNIR_4CC72onYsHBzeW0H2KUQ3aVu_wP7-dnY0m8nodt8UC4="
+  },
+  {
+   "title": "troocost.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo0WhVn8fcsVr8Qr1GFdgXHUJBkp6YKQ7UyyUiGRiUblVlYSmJl_kbCO428BJw9YhZPTaksmym8l-wMW7wgFgxYiurft5hwgtEiOse020u1DB75yJy_aQTChUErVvFJKrb-b_1mtKHSZtC6dp2hSGClVPmCowd"
+  },
+  {
+   "title": "finchiefs.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ3Htebz5qSqz6FPZmxJWynEe8oGOfRgA9CNNHsfpLAJsf_qTlllcElT_KAeGg0wsRrAXImR_eXVJiuln0mu4pxNuR1UIWgr-pH0KZeYlXjkDPdJ6ftImtwFrJogM3k9EdOuoYTdOId01CsUoyq9ZDoOCnh3zETyxyJbkKvr6PbnHEEbnxKqXf"
+  }
+ ]
+}
