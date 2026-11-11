@@ -1,0 +1,184 @@
+{
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T12:55:13.794Z",
+ "items": [
+  {
+   "title": "La Fed debate una subida \"jumbo\" de 50 puntos básicos tras repunte de la inflación en octubre",
+   "summary": "El gobernador de la Reserva Federal, Christopher Waller, y la presidenta de la Fed de Dallas, Lorie Logan, señalaron que el organismo podría evaluar un alza de tasas de 50 puntos básicos en diciembre si el dato mensual subyacente se mantiene en el 0,3% o superior. La advertencia, combinada con un IPC intermensual que subió al 0,4%, desató ventas generalizadas en la renta fija y un repunte del dólar.",
+   "region": "Norteamérica (Estados Unidos).",
+   "importance": 5,
+   "source": "Reuters / Investing.com."
+  },
+  {
+   "title": "La Cámara de Representantes frena el proceso de juicio político contra Pete Hegseth por el conflicto con Irán",
+   "summary": "Los legisladores republicanos bloquearon la iniciativa demócrata orientada a abrir un impeachment al secretario de Defensa estadounidense, Pete Hegseth, en relación con las operaciones militares emprendidas en el Golfo. En respuesta, el presidente iraní, Masoud Pezeshkian, acusó a Washington de recurrir a la diplomacia de coerción y bombardeos directos.",
+   "region": "Estados Unidos / Oriente Medio.",
+   "importance": 4,
+   "source": "The Guardian / Al Jazeera."
+  },
+  {
+   "title": "Rusia y Ucrania mantienen contactos en Abu Dabi bajo mediación de EE. UU.",
+   "summary": "Delegaciones de Moscú y Kiev se reunieron en los Emiratos Árabes Unidos en un diálogo facilitado por la diplomacia estadounidense para abordar posibles corredores marítimos y vías de distensión. Pese a este acercamiento diplomático, prosiguen los intercambios de ataques en infraestructuras clave y en las inmediaciones del Mar Negro.",
+   "region": "Europa del Este / Oriente Medio.",
+   "importance": 4,
+   "source": "Reuters."
+  },
+  {
+   "title": "El rendimiento del bono del Tesoro de EE. UU. a 10 años roza el 5% tras una débil demanda en subasta",
+   "summary": "El rendimiento de referencia del bono estadounidense a 10 años trepó hasta el 4,98%–4,99% al registrarse la demanda más débil en una subasta del Tesoro desde junio. Los inversores exigieron mayor prima de riesgo ante el avance del déficit fiscal y la perspectiva de tipos de interés más altos por más tiempo.",
+   "region": "Estados Unidos / Global.",
+   "importance": 4,
+   "source": "Dow Jones Newswires / Saxo Bank."
+  },
+  {
+   "title": "El crudo rebota sobre los 92 USD ante nuevos incidentes navales en el Estrecho de Ormuz",
+   "summary": "Los contratos de crudo Brent repuntaron por encima de los 92 dólares y el WTI operó sobre los 86 dólares tras confirmarse nuevos ataques a buques de carga en rutas petroleras de Oriente Medio. Paralelamente, la Administración de Información Energética (EIA) advirtió de que los inventarios comerciales se sitúan en mínimos plurianuales para el inicio de la temporada invernal.",
+   "region": "Oriente Medio / Global.",
+   "importance": 4,
+   "source": "Reuters / EIA."
+  },
+  {
+   "title": "El gas europeo repunta a 85-86 €/MWh por el drenaje acelerado de reservas e interrupciones en Noruega",
+   "summary": "Los futuros del gas TTF en el mercado holandés ICE subieron más de un 1,7% debido a la bajada de temperaturas y a mantenimientos imprevistos en terminales gasísticas de Noruega. El nivel de llenado de almacenamiento en la Unión Europea cayó por debajo del 73%, marcando mínimos estacionales históricos frente a la media quinquenal.",
+   "region": "Europa.",
+   "importance": 4,
+   "source": "Trading Economics / ICE."
+  },
+  {
+   "title": "El superávit comercial de China sobrepasa el billón de dólares respaldado por insumos tecnológicos",
+   "summary": "Las cifras de aduanas de Pekín confirmaron un superávit comercial acumulado que superó la marca histórica de 1 billón de dólares, impulsado por exportaciones masivas de equipos de computación e infraestructura de telecomunicaciones. No obstante, el sector exportador enfrenta un endurecimiento inminente de aranceles tras los recientes cambios políticos en Washington.",
+   "region": "Asia / China.",
+   "importance": 3,
+   "source": "Reuters."
+  },
+  {
+   "title": "Thomson Reuters aprueba un plan de recompra de acciones por 500 millones de dólares",
+   "summary": "La compañía anunció un nuevo programa de oferta pública de recompra (NCIB) autorizado por la Bolsa de Toronto y el Nasdaq para adquirir hasta 7 millones de acciones entre noviembre de 2026 y noviembre de 2027. El capital recomprado será cancelado en su totalidad para reducir la base accionaria y devolver valor al accionista.",
+   "region": "Norteamérica (Canadá / EE. UU.).",
+   "importance": 3,
+   "source": "PR Newswire."
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 93.32,
+  "wti": 86.65,
+  "ttf": 84.95,
+  "us10y": 4.982
+ },
+ "tension": 74,
+ "sources": [
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfe9z9cZto-on_uF_T-gmM50bHYd-AVUMMGi_OWjDi016_cLYsZcRqVfnbFyXMH756oDg1Qh3PhcqSUTPxtXIiC4eBm2zSHv5iTpLQKC3Lr9qIRDSaBnYezmmwqMwwIc7aFOQ8v2PdJVH4AVaBMV90a6dP3CpL5CD3ZnSmkcd3tYiCpcLmgmgZHdixcCyNBDl70fQ="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQHjSUJQG-RzMk9YdF-I3VqmC1jYp8UWfR0OsNEZhR2nStpFXGVVIYGKcb8qLy0qWzRaNhUseT4JG4-og8h4b5BSQBr_g98cGB6sY1B5JLoebIVV6IUaKa04YS61HNmv38"
+  },
+  {
+   "title": "kucoin.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEppdJCEVhN7Vfz9NVJ_GsIvAWCwNzG4M8nx-Jz2v0ER1NgyyzMf187lUbvt9YvuJbd4o4VPZap2J6vYP8Y7xSGSnfcX8wPyDUpHeQZMW9r6Y_azpOvoX95sKsLB2cRl1UZoF5WBSL-zlWNqPQbqu71VNcNn-XkJOtH4QGuFVyavm8DYLohhQpusjhes5g2u95GrxTOGWfO-rtR4z48qHbC"
+  },
+  {
+   "title": "google.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHggLVjeFgNfG35iDAI7WwaAqpvJWMa0WW69YC1jicrjWeGYQEEkVqyzthjIGtXiByIihgMpHipro_BI0W1kjJbVHDi5HRUaN8CNPjaLyA="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9puEMtSJKcdxbyARk-eFUCTVi3Kxwuu3VRgR2ofIhcuf5GugtBAeQLUTgezafOBRwRUnOPDydy-gSg0D5QzygDX9PZbX75S4QRKorf_uK95SspAiB2AkXB8JPLbLzQ-yw"
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfxTSXb4cm1cnwUuzN5LTvsWdROHpW6Ba_nNu4voaEV9C6HPw_kbaE3RjhUXTTir7MMfH_qKNfpeMF9ErCC67xwJdWFzSWIUupEK-cZ7WDrDeHa-v6UHM6enLKu1g73sm2nth0LQLE4f1R6paTkRXDecJpMLVFNcKjXU5X998="
+  },
+  {
+   "title": "home.saxo",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO8vila5KRyYNve5VbPzBgOLa2iufPSU-iXNz8BXLNRl4AnvGBOPjb14_KkWqsSvAoin5a2oJHTOT1SM2b17WZGZDsrm16bM1sPOGTcUi1XNh7bpghSUvufsMWgkxtjufSQwoLl8HT9zh8XCJyviVrWl20g2-HRLOw6DjVJEBknneAm-sM5F89jweUbFcvVp31pmJZ-5MXqCw9CUL-23g6RS57x5w2SZUOt5DYQG3Z"
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjAYdKnwDckUOYtDHCT22cLm3JnzmNluARwB_Bq07Gu_cqGZ1KR_EQ8SSP6hDMmZUL4JmEM1gAoOT5rLQxMy3JlqNpjmBiJGg2ArslpE21cMmLVyBapmPVdPVZVxHbzsGZeqfWNT5jQga7zbVnTA8uH565OrtSXHFuBEmFn7VZHy0UbIW4VisC7jOTnFgQYFWPFOwcV2DbgRQevA=="
+  },
+  {
+   "title": "haver.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEThGOaV1PMQ4G7UD94r9B60jpJ8AHYMADPIBPRg6JnwLYAqJ8oqZn7QGc2Hygv7Qc1OdLX2dCZRaH7fKsW0aIicJ4ssoSfS-EzsnoVpwaRfL4L1A2_tpzx1lhXT0cf_0Pu6bQD05tUuH04XPkM19vDmXx6qEyHVw=="
+  },
+  {
+   "title": "exchangerates.org.uk",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCBiC_e4pGqF1UK_Fo5KFc0WlvjLyWdZ5XKwkAveGcUzNZ7C8bS50u_OV3sl0Ctkk5zaYeWOb1fH1mxZFntEIT1LmcHq4ufdEB3THgHPTzQIe-OXx7n2am5X0zmcA6ttWBNhQktTpNKMeoLjhef0Oqi6tyLQG14LCU48RZgNTTo2jQDQHtNUFAUOXeINdNWbBnzBljzLAauZxGNdm0FL-xzcBrI09uT2cQKDsgmFhdKSA8DukezmSvGGuXwR18Q=="
+  },
+  {
+   "title": "biggo.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxPCUM97iEDpiEu9QRTWNkBQgNjGXzMRCzbLzoBxyoVPJ_DMDFMIZ-LOD7Ds1Ki84eWdrv2AmhVph4l98GvKdjDIMSH0qQMbrh6E9hL--UD5pWL7CixUDbLk5FC6jp6B5WXLub1XPzjgJ-7Sk5UH22rL_3ilgrnP8="
+  },
+  {
+   "title": "substack.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrpVAs4QsLx4ByJF8KDc9xW2JxT6MyaOURUYPLzD4OzyRmtd8Y1KKY8hRDMzdPCBndZP2duxuCvv3TLBJp16Ay5kZF_Gq5h0NmTmXTvMRtI2BZFCWz7VfIxc3EGbYVNgAy3KlN9Nwn05pLohAexotgm6c6x33KAQ=="
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLat7r12PVxvgbquhmbdofeH-na5c0vSCCENHQDgr-v-mGO92cJBNvE-JJ1l80T8J4XvJEuxeNTx4B3BCo1W9tw6skD1T1Y1DEi3vWnvlUll6uBBCBskuDJqZHW40xNgVcWnSn-Clny1g42Fb2CnaBw-hWGHNXlmGGlacWtW532LjhUJuePnNtduPES7SxsogmLRohpw=="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnv5QnILpfIn8WsO60vqqKZhJisiZZaTbSEE27wE0Dn15F827jVmeKG_R9-1N1Q5SVXf2viEYznT5xHzoXDoAufBLeb8A4x2feZEubdNayWwe6OM95mn57uK3vaDPQP-cE7nHr2JETkCMi"
+  },
+  {
+   "title": "spglobal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYadsOgljHv64iQe-3llhp90eHNZxPIq72rkjxI74PyQVupM7i4pimOezu7uByQXw7nUK59hreKGCFfi8KQIUpENq36MyyeY22ldAYpPH1X3bUVpZexBxpXAx_s6jeW2ooBW7AdetsRFEBCtdsgm7K41rmnNnL5PpRedcuECa-WaMDQcOPonIm8zFvCJi-9GrbvetS3bAZud_CO6FRhMoB_cmwbKG9LyFJBd2DnTIHzg=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG66xSP5bTvD8h5cbrlHx3-ymKnRnjR2k2DiV5w0EyXvH6buOtDApeYVgpz1F8ZfKo5_b15_1Q9DMNihzC8dzRHcjkDXhkW_jiIXhS63tgJqXka3RAHj37Uduq0VMTbNK0XD-QokqQL-JGNmZ2QO0PZtBVmtwFw5NXNWrfdZzmqGP1PR6jBgawQIEOaYvoU-_q4GQAV-GY="
+  },
+  {
+   "title": "thomsonreuters.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6f4ZYMVJrZw-43FHffhZAw0-fKW7DOVGwRxl53gYbmXGSrrEl-o1CM-5-Jy8vjhcIaKYVTru_5SwMXqElX4ROCTDjvfEXsOMRL2hps8bXVmDqs33Rtkmmy1dn84NTqzM9cNBJ4E7nFxdw7jQsOGNSWAak0G6BcGrIlLPhwvhqu52eWVyQ-A1IF5qMZxPo9e-7aKYFH6iAd8pn32I9Dx-K13lqdYnNP1k3MyoxvXGKJN8JRbZXG5-VmUYZTm2yLHnNd0er80ObjEj98nldRdw33rSgn51xbmCm1Gae"
+  },
+  {
+   "title": "prnewswire.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr7MGBEkOTxCqjqs_Tw0CnJXl2dPYFlvWtR1WygzZgjBr0TUYixUik1D2--AMWUA4HAA-w0sgD7wpoE1t-og6CYG_74RSY0kvFcxo0LHxCJhXYxIbCf02I7o9cxicf2gMxeN1L_x6mgsUFT6tE2Wgz19WeS9mIvoUnGsFCO3FiK3iT3qH5KQWEdf5DQCSqcQv3ILh0tES47GzHg-C4yPWCWVTJZSLxjlOEu2cBPdC_W9KV5h7vPCZwgqWGlgkCGrcHt_N4vQ2TJdWgecaBZg=="
+  },
+  {
+   "title": "theguardian.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK22N5EG4SpfV1SgmLJkNA1Of3eDHU3hY8__whQWpLps7XPzK_Bi6nQp27BCU8_BElVrJFO-r3LYFPn8CC6A4LKnpQCWHEgs2PRFhKvwlgu1pgStZMtfe5qzv7VmSgbNDKHwsUjP-Sa189Nkm0ApxYjuf0rH3Foa60dHK8WFj3Re-sDT0ByLQiDKzODWrnTlUq7t375533IYBTTwnHicLN7qEJ-BEin8ppCXvl5X_QKrXZNaMHGoiGFJuffUZxYOyAaxHJxafuJy8T4rD3YaosFv0yQdYLwYEmUor06gQ="
+  },
+  {
+   "title": "foxnews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGINxdZfOATogdt_SeLUkgHVFM5uFdfFNbxxq8vouNVAgVCodIH4o3-pU3Vdy0yJSk3tvBmNM7a386xWItp28ixN_-gb1fCezQOF0nBBEevYY1fBOpRS98wxNFSsKOk8NvF1B0zzB83xcwHf7trfPiXdtiA"
+  },
+  {
+   "title": "economictimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkFHTa__LMrU5oJ-YRGocXPqxENXLdTOQE-sfUJ-Odul4_wFeQVQkl26wzvWQIwp_lWF3lZwrO_lgndkeQdhc7He6gnC0cKdqcUBREhEGX021r-w=="
+  },
+  {
+   "title": "reddit.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZFrEw41CRZSmt1V3Bhkb6BaR89WkF25u6d-N9nhwsMIs_fv68aiK_WRdzOy49mcikzDzJL4wCAYNHH0DN2t_JbEKXksZEsh0AJtaQ0DOgUZsJX5VAInM0rRU="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ1UeX5qdZmfev4eMEKpPUTp7n-odH9OoGSoP-g_exMBpgJTWZSrvFgiKztPCj8FoRYcisoRo8Oz11XJnNdJVj4CSUERpC9aB4APhbuuHcVOPYDzaU55lDO81C8PNZgheBbWaWmGrbK_SS1wo="
+  },
+  {
+   "title": "tankermap.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBNL06IuEqMd5CnuvjU6VsZUTSXdFi-ot9VZT3roXT_Nx3yA0QZqi2wGBr3tt1q3UkFbEiSpIXg84lXxJKuuxuwoUXAa-PX2rBrd9AxcWdBidNglxnCZgK76UQtA=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Ns0m_mRHfnVSRO8rGWuTikK8Fa_fRzqbquPmS-fHSqniHnHi9V2w1kzBcTwnQ03UcYIFYLjfKmI2hj6GmEA3ZU4bS6tI2NAx2hJiv0gayz7vZEvc9OxblOWzdq5qt7ZLQ9ECzcf0krpbLDhU"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRDg88FnusZcR1vHXxbd3-ZQEs4Nsh_1T-eT5hbgu_wTY9fZ5Sj3WHoREHl51GY-rSOhEqNwUhttJFgc5ejsUVdBvx2fTOFx40HanCjvxQcRhoxe82r5tuopoKZhZ-ZZbQu3yidtu-UPhnt8knZ173YsYHEana5vvfcoB82h3BpgY2tXvVZiHUXHBNTK_OxibNwkRX6zzc8bA="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXzasDZVEvTU7m2xq5y8r4xe6tOql9oz4v5kQVc3DkUyqcGHqQebKRswjjGkuAl0O9aunCbB7yLEqIia_CYRWzYjwYQ_Sl7azwpUfhEG2NnrHvZFklFLaHkcz8clljbIgHCzzGHkFar5fsygsgkrv_t7r_Gf7f7bx0VAe7DNAcMdf_tg=="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLsENpu9Iz45-omooMKbyBI0np8vKJG3UFkFbOoAkSFfSnlyziHZJdfI8nsgfzRmmESHEr6ZoT83u19JDi2IAU7NOmz7vGIl6fXOl1-VP9FzSWedW3v9KdNHcmR2t9Itydw2GQacOVbBt-14Ae4b7jZ5aveJE="
+  }
+ ]
+}
