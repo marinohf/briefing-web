@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T13:57:26.999Z",
+ "items": [
+  {
+   "title": "Expectativas de negociaciones de paz entre EE. UU.-Irán y Rusia-Ucrania alivian la presión en el mercado petrolero",
+   "summary": "Los precios del crudo cayeron más de un dólar por barril ante los avances diplomáticos preliminares y canjes de prisioneros negociados en Abu Dabi entre delegaciones rusas y ucranianas con mediación estadounidense. Al mismo tiempo, Washington e Irán mantienen contactos para frenar el conflicto bélico regional, aunque Teherán advirtió formalmente que no permitirá la salida de material nuclear enriquecido.",
+   "region": "Oriente Medio / Europa del Este / Global.",
+   "importance": 5,
+   "source": "The Economic Times / ICIS"
+  },
+  {
+   "title": "La OPEP+ eleva su producción en 2,04 millones de barriles diarios impulsada por la oferta saudí",
+   "summary": "La alianza OPEP+ incrementó su bombeo conjunto en octubre hasta los 41,23 millones de barriles por día, registrando su mayor recuperación mensual desde las caídas provocadas por el conflicto armado en el Golfo. Arabia Saudí lideró este avance reportando un salto del 26% en su extracción hasta los 10,56 millones de barriles diarios para compensar los problemas de tránsito en el estrecho de Ormuz.",
+   "region": "Oriente Medio / Global.",
+   "importance": 4,
+   "source": "House of Saud / Oil & Gas Middle East"
+  },
+  {
+   "title": "Gobernador de la Fed Christopher Waller abre la puerta a una subida de tipos de 50 puntos básicos en diciembre",
+   "summary": "En su última intervención, Christopher Waller señaló que la Reserva Federal debería evaluar un incremento de 50 puntos básicos en su reunión de diciembre si el IPC subyacente se mantiene en o por encima del 0,3% mensual. Los operadores en el mercado monetario descuentan ahora con total certeza un alza de tipos ante la reaceleración de la inflación en octubre.",
+   "region": "Estados Unidos.",
+   "importance": 5,
+   "source": "Bank for International Settlements (BIS) / Saxo Bank"
+  },
+  {
+   "title": "El BCE prepara un alza final de tipos al 2,75% en diciembre ante el repunte de la inflación al 4%",
+   "summary": "Un sondeo de Reuters a 71 analistas reveló consenso unánime sobre una subida de 25 puntos básicos de la tasa de depósito del BCE en diciembre para contrarrestar los efectos de segunda ronda provocados por los costes energéticos. Más de un tercio de los consultados advierte que podría requerirse un incremento adicional a principios de 2027 debido al bajo nivel de almacenamiento de gas previo al invierno.",
+   "region": "Europa (Zona Euro).",
+   "importance": 4,
+   "source": "Reuters"
+  },
+  {
+   "title": "Drones ucranianos dañan instalaciones en el puerto ruso de Ust-Luga en el mar Báltico",
+   "summary": "Fuerzas ucranianas ejecutaron un ataque con aeronaves no tripuladas sobre el complejo portuario y de almacenamiento de combustible de Ust-Luga, generando incendios en tanques estratégicos. Fuentes de la industria señalan que la reiteración de ofensivas contra refinerías y terminales ha disminuido en cerca de un 30% la capacidad de procesamiento de crudo ruso desde finales de octubre.",
+   "region": "Europa del Este / Rusia.",
+   "importance": 4,
+   "source": "Nation Thailand"
+  },
+  {
+   "title": "El Banco Central de Turquía eleva sus previsiones de inflación a 29,5% por los shocks en energía",
+   "summary": "El gobernador del CBRT, Fatih Karahan, anunció una revisión al alza en su informe trimestral, situando la expectativa de inflación para el cierre de 2026 en 29,5% (desde el 28%) y la de 2027 en 21%. La autoridad monetaria destacó que las perturbaciones en los mercados de petróleo y gas derivadas de los conflictos geopolíticos mantienen riesgos alcistas que demandan mantener una postura restrictiva.",
+   "region": "Europa / Oriente Medio (Turquía).",
+   "importance": 3,
+   "source": "Haberler.com"
+  },
+  {
+   "title": "El rendimiento del bono estadounidense a 10 años alcanza el 5,01% tras la sesión festiva de Veterans Day",
+   "summary": "La rentabilidad del bono del Tesoro estadounidense a 10 años repuntó hasta el 5,00%–5,01% en la reapertura bursátil, impulsada por las señales contractivas de miembros del FOMC tras el dato de IPC. El movimiento refleja el temor de los mercados a una política monetaria restrictiva más prolongada mientras se subastan nuevas emisiones de deuda soberana.",
+   "region": "Estados Unidos / Mercados Globales.",
+   "importance": 4,
+   "source": "Pluang / Trading Economics"
+  },
+  {
+   "title": "El oro rebota hacia los 4.057 dólares la onza tras una liquidación provocada por las apuestas de tipos de la Fed",
+   "summary": "El precio al contado del oro subió un 0,6% hasta los 4.057,33 USD por onza tras haber retrocedido cerca de un 3% en la sesión anterior debido a la apreciación del dólar y el repunte de los rendimientos de la deuda. Analistas del mercado atribuyen la recuperación a compras técnicas y cobertura contra la inestabilidad geopolítica antes de nuevas subastas del Tesoro.",
+   "region": "Global.",
+   "importance": 3,
+   "source": "Syrian Arab News Agency (SANA) / Reuters"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 92.76,
+  "wti": 86.53,
+  "ttf": 87.22,
+  "us10y": 4.98
+ },
+ "tension": 78,
+ "sources": [
+  {
+   "title": "economictimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7UTyTL6mNt1ECvb-K4d9fM5w0VmeeEutLXeo0bZMl5X_nGj2aNB-IHjWQI3kOkA0XVIMEN_UvBWCPIRNOV_XYmeOIldblBGgesiujTFVLelR2NFcS140mCvVaU56b6sguDPsLWw3wRs0cHm1nH4RrTIW59W8bNFwnNmOwpRP3lby9BsRtCUYBleXyISQjBrg652EoK-PEZhPgLNO92brMRIwIL2jF7OZKYkCRWZziaOkMMcje0mBVGL6R4hxmHOVjT96YCGpZ72SjDG8CUOG88U3ut40fG9ac88Zkmi8T0bRlq1Q1v0Z-ekMpWM5K"
+  },
+  {
+   "title": "nationthailand.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7ZEluGxIDkjerOS_iFv43pOpMcB0qkVbq2CVpBc6k6H8hEQDMOUM4KF_5r2V2OXBjobnZPz-JtoSH3v9Im8ekAJzcjXI1NYW5X8NMuObYhThcU_jSL-Ku-mQfdr_PINycMeZxvOV9GA=="
+  },
+  {
+   "title": "icis.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF68xY6dMztMtvnJzoiA92ywMSVrZ-SCytHNFBZhxN1VwUNTh1Te0zRSJbav9Jw-UlzliyA8pOhDE7fQpF9oXakFXcauQdoyuWNdUs0zS8hu-E-GcmKa0dSpUaO_CzPYLGvFgd06KDLdwfgVuwd8XV2UmuhNvpEVuEEZvja5KfKdBbzRXvyKnCWmGtC6oE_yEMorDQi6U0_jxCvuAxzlHsDi7xakXMlB25QFPGkYV2FZmZqDHaVgypeyD2M70rG"
+  },
+  {
+   "title": "houseofsaud.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBOdvA1u1raoRCI1as7u8B5kjLtHtMZ6F7rmUkoh_RW65wcJD8yqlsiUHpeWI7swhTND6_QEAcfdvKTP6A7hgV2tHC4TKUR-YR8C1r8OAW2LOYN00s8Uxh_b5L3qVHMbUKI4kg1kisB5QbsOrk2WhV-H-S"
+  },
+  {
+   "title": "oilandgasmiddleeast.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1V7U-mHN1IBqpMkL0Pzmsxebh0tILPtefFytsvI7PdqYdrooRZ5L_My8JhhljgvO2qYl5TBp4nzHpLGphS_L-yvsQLyYrfJJPTPQhpDQbsWMRqQqhIO9O-r3nTUXZ1bNSudJnQy03ioiSC-m61bqmnMqGlNqLWDUwA2-f"
+  },
+  {
+   "title": "bis.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuKCQqF1DbCgI8FtP0sRl-aLJ8rgrG8CW0RsZ7FsAg7mMZ7g4ovFFOQyyREfmYEsTkLFuL5h8W6y3ULss0PZrqSQ5-IkSeD6-hXZRu74mD3fc1x2y3TKSPz3ftmF4ooYDsiwTONCfz_keHAxSScGzO5ysi5GIs5gGrAWEUG0BAaQQttx6r2HtxPBVO1JA-4Vy50GPU"
+  },
+  {
+   "title": "sana.sy",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7dPpB-W2wr03uByFRm_YB50RQ1JZSmM3F0znXhvmaQUAFh9HbVB51Fx36kF-zmPCeLZ8eTllRxXObdayRI0xRnjsFe3u9QC5snxrDG1Z63DB4oNRJtqfWL10="
+  },
+  {
+   "title": "home.saxo",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCCyle5gxZFPPV62HLrfAkT3K4QYZCVZDIaSUTr6tGcEdGcoq4jqpXTMcDOxWFf6bB1NHl4PLMIyf3nKm5yDSU_1t6fDuJq_qqIGHT9yXTalGVd4B7BaZDPSbOxWjjBulXBhB57OKIFpO1SrMaqmBkvroJDK2yiyac6EPzuJ1c8tACow0BK0ZUMrQx-qb__VhfcvlzG3QhF31nHqkvc2bzirVl8lo1QMT3duKzt6YzvN4Xo8fs1lU="
+  },
+  {
+   "title": "wmbdradio.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3zjDdhK0qwQYtPYeXEf0BRedl6ML4opUooi3Tyon8LU3XT-SUymZcHI2hERwA4ppqKcizwLo7NzJThkiVY8kmJStJuS56l2XcR-yKSW2vrNDZdMsEg6tD2nlGBZQ4rz0TYH2uDdKsI0gzn9UFMc5-bxe0JAUzGzxT_dKghAidRm92fhE11_9N5eBTYWMyhsqrbHHFwL1nGXaTZ08JHlKGfmyKKf1VSY_l-7jnqBnHy-1p6w0j-tkMGAZVgQ=="
+  },
+  {
+   "title": "haberler.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahZ-6GOO9S6tZZFEAyhvJQfo-C6oyQ3C6Y6Lzdxy_3DChbLD8El-x8imrIdKXpLeydR8VWHiA6y_pBN3sp1GjFlU0VY5e2dQZaibiNcEDWkz7mOJYHL4Mb2Vh_5fTa55kHZ5DDuUe4jT-gr3RRQAa2f3gW3PVyJ1K49BdIQHYUFPYvSdN"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgaF6N6uQ33NPppBS6a6b2j-8b2NSupgiFE3byFDOFeZtwBqKYcqqLfUy2gEypcK7t_goDgsDHDxhJ-lvV8z0D14rVdBTr_aZ5w_pvKU94kG7KbG6LbXlQ2rq8PnkZHDQIio6MLFNx_x1L7UU2pOAFSyPZHJfv"
+  },
+  {
+   "title": "pluang.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG56tXRmcjiwZDUJkc1Gebc-fJP_iAO7hgGQGQCaA-rQ4VG0KoeydT95AU3a7BZNOwAIInwDPWCfNS-qYDMlQ3ZQTfzJmp17dhp4KnnVnE9h7Ldhs-4EcDsT3OFquGS9s9x7DpdzGJuLKhNs67EigbfNEhrzhXfJKh9iPf0pSM75GgFAwY5ovpe4PsdgjeD9Sm2t39C2H9tC0Si"
+  },
+  {
+   "title": "moomoo.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC_WWrukopAIFzOVb-lCW4twnfoZjtXaHO8tY-KDyYNOHvphwK6gLGWY0FNBaiWV1TJYdjciuPnbRRxD4j8CLDpULziLO6b7aKSA3RojFplXt4iwrYjGeU0-QaHAqA8VHb"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe6gadTM8TFTghqRZYTQuIJw-8t320D4USuOsEV8HOIt2t6DNl7V4c3BcZ7ZU4LcchkgHCxAPkwpumDpcDJvNvmnu2kbat8HajpSFF73f3M1JDpXEu-cPT7ddJqwz7h1xvQhnYExKSGrn1p_sEULvw8HhBLCFzF12Qo4S7jgnTTVR5qxxkQtnfqLkD9xCX0_IsveurcVpjD3OfftFjE0NwNLcFxIUdqoti8AE1kBy_KhHN2Nmjawwz"
+  },
+  {
+   "title": "explainx.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhRPLSIsjUBlr0FSlPz4K_-Qpc1W2H2N-soxQLL1eAeMA7oe0sXOd1Xuq62NkEhRkRC-gOluahanvcFA0XeskZ3dLthstcapiJeT0sc47hgpTIiICTH-gS4du488E8f8aNyPiwuXuX1tnXeOrRSJ3OJEqrZwyt3W8mhee6f4TJ6wMQzgMYBH-5JT-iWWgnDJfEf4s1Aw_1LFgpaKA="
+  },
+  {
+   "title": "forbes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlk6wR11I6vGP5kcwYDX0VT13KEFYBZejYikVQgSZW6_kh32Ya1LTZbG8QS9gdv53JngXjxh4FxfhpeIfh0lkRRG7f_bVOGd0QR0KYDfsxvkAwvTT2x9pX8iNjTvBdQghyYvKm67_OVl2aw2ME7MDwmeRB8eF5Bmbhr_VIYBpa-WURRrfoJwsjfFUSkCiF0FIFxmMmmJML7OjlO2Jllrsstp-eAyqw8mXdNdns_QWaJk_-QvWFEBY="
+  },
+  {
+   "title": "macrumors.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxwLjrWoiDmp38ctTwDx5Y4QMvdvZN4oVnQJU-5oYvo0p4TmG5EIyW03pI8PJlZaEQb3icZVe-CgUlZA-wY7pN1KT85oQ9AHNWpZiy8rF_-sNR3Fw3jT1CmAvX2xe5xtf54kiaKWvpUeJt2_2Cshs9DL1Be5FW4g=="
+  },
+  {
+   "title": "claimsjournal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqpTiHsU8O0bW4GqyFZlWCLfhPq4_tQ5CT2k7UlCU1-wRRi0ZZ28DCiZClSXV464-HlxQ_Thb2HT3kAu7eUKxJuq7GZ-lcGIaP50L1T7snCaSAbt6XNx0bAdcTM0QOyLYsH3X-GgUPzFH9Nr728-IOzvKkitjRjQ=="
+  },
+  {
+   "title": "businessday.ng",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3qdQ9NvFIpW8F-ey_iFrCXg3j5QNd8HV8T4xvpM8X0ehT6Cn6uFrXAdLxHhldGfeTUqTrd8tqfgsNcGg0c3bwcZnFaU96sHqbT98O8PsYEC3gZ0v7Oc45GPtsHFZLMnFwL4fWHVy5PVYtQ1mB5u3E7BlX5knqMOwYesqL1tbsnC9-BGY-GH9hcqX6JGBaGnF43uyVNKV4c6MlyRk="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa4cX8DKGWrM8AMV_0TezZHGAgQ18zfwBGj1RaXpacd2LbbwL5u_Zy_-lru-jwmnOQjQmc3fUhheioI9tL1lmifRp27KdJKkiAl3xacS2cNmUT_WaPF4--YiULGw1tbJxv8oUPx-ItrpIxHg=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGilG0RatmidbAfS_x0aBPGcWNaAdMcrnILxoYdSvCWFvG6fARnQa9lQRQHde29JX-zEhU2bBLegjKGEHgoC_MKcYqu0vJdXPDm8nTZWnwpazFOCnhAJN06qPCkgkrHdsR-dgvm2vsvliu5GWIXvNomjzCrLDOCr4erFapwwTb7cTny5ok="
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxgjSyfljdWwUTfvp73EdEU_YlvRWaRowittcIRniQ5S8jbBRi2D03cwypipY9DDrjxVbEodS9t-Mw4XvKQGM4MZjrzwk6j6kjnmDOruaZzCnp1jMRQPBbImN1Ho1IGrRqrqBv57236jnt"
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgsF9hdE3J6go3JB15Yg9ABvkifZgZMDjsFS2bE8B5lLVfJF8FPQJlst7YgL6tJOy5f6bQdvW350xZQiq80ndPzT76H3gg0IznIEfRj55-d0n-n_LZy-hSvsE0ml1FsPxyiQ=="
+  },
+  {
+   "title": "balkangreenenergynews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx_1LiECF9lE7st8CHX5Q0sY8fz1o5D9jDS1vwWc2Uz0cZUVkNK3mfkqAcUWOeyBlxZ4Ca05NzPhmMm2qJoqtCpryirBPBklIa5wZ0smIJNzDq2S165zvBo4wHFl2IvCDtc5O9P8LZlP1N6of2pZWZWF6ZpzH8x0LLf_1EZN3h1kInbwBrit3iiVtjwxct7kBdS_L--S1SG6NNO7S5pKNcaA=="
+  }
+ ]
+}
