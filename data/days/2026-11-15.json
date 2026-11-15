@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T12:56:20.251Z",
+ "items": [
+  {
+   "title": "Colapsan las expectativas de pacto entre Washington y Teherán sobre el tránsito en Ormuz",
+   "summary": "Declaraciones oficiales de la administración estadounidense indicando que no necesitan un acuerdo con Irán enfriaron las expectativas de distensión comercial en torno al estrecho de Ormuz. Esta situación mantiene paralizado el tránsito normal de buques tanque y reactivó la prima de riesgo geopolítico en los suministros globales de crudo y gas natural licuado.",
+   "region": "Oriente Medio / América del Norte",
+   "importance": 5,
+   "source": "Investing.com"
+  },
+  {
+   "title": "Los rebeldes hutíes lanzan salvas de misiles balísticos contra el sur de Yemen",
+   "summary": "El movimiento hutí ejecutó ataques con misiles balísticos dirigidos contra zonas de concentración militar y depósitos de armas de fuerzas afines al gobierno yemení en Lahij y Adén. La ofensiva busca quebrar las rutas logísticas terrestres en las proximidades del corredor marítimo del mar Rojo y el estrecho de Bab el-Mandeb.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "Institute for the Study of War (ISW)"
+  },
+  {
+   "title": "El OIEA advierte de la falta de supervisión sobre una nueva planta de enriquecimiento nuclear en Irán",
+   "summary": "El Organismo Internacional de Energía Atómica informó de que desconoce la ubicación exacta y si contiene material nuclear una nueva planta declarada por Teherán hace más de un año. La falta de inspección acrecienta la incertidumbre sobre el nivel de refinamiento de uranio y eleva la tensión militar preventiva regional.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "Reuters (difundido en reportes de Iran International)"
+  },
+  {
+   "title": "El rendimiento del bono del Tesoro estadounidense a 10 años escala al 5,15% ante el repunte inflacionario",
+   "summary": "La rentabilidad del bono del Tesoro de EE.UU. a 10 años cerró la semana en el 5,15%, su nivel más elevado desde mediados de octubre tras subir unos 30 puntos básicos en cinco sesiones. El movimiento se debió a un IPC de octubre peor de lo estimado en sus componentes subyacentes, consolidando expectativas de subidas o tipos restrictivos por parte de la Reserva Federal.",
+   "region": "América del Norte / Global",
+   "importance": 4,
+   "source": "Dow Jones Newswires / Morningstar"
+  },
+  {
+   "title": "El gas europeo TTF sube un 12% en la semana ante caídas del flujo noruego y el pronóstico de frío",
+   "summary": "Los contratos de gas natural TTF en Europa sellaron un repunte semanal superior al 12% hasta situarse en el entorno de los 91 €/MWh. Los cortes de suministro no planificados en el yacimiento noruego de Troll coincidieron con pronósticos de bajas temperaturas y almacenes europeos con niveles por debajo de su media histórica.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "Inauguración de la 49ª Cumbre de la ASEAN en Manila centrada en seguridad y comercio",
+   "summary": "Jefes de Estado y delegaciones gubernamentales dieron inicio a los encuentros de la 49ª Cumbre de la Asociación de Naciones del Sudeste Asiático en Filipinas. Las deliberaciones prioritarias abordan la protección de las cadenas de valor internacionales frente a la creciente fragmentación arancelaria y disputas de seguridad marítima.",
+   "region": "Asia-Pacífico",
+   "importance": 3,
+   "source": "Prime Minister of Canada Office / ASEAN Media"
+  },
+  {
+   "title": "Bancos centrales europeos y asiáticos aceleran la repatriación y relocalización de reservas de oro",
+   "summary": "Bancos centrales del Eurosistema —como el banco central neerlandés (DNB)— completaron repatriaciones físicas de lingotes desde cámaras extranjeras, al tiempo que un 25% de bancos centrales internacionales evalúa trasladar custodia a plazas asiáticas. El movimiento responde a medidas preventivas para preservar liquidez frente a riesgos crecientes de sanciones financieras y bloqueos de divisas soberanas.",
+   "region": "Europa / Asia",
+   "importance": 3,
+   "source": "Global Finance Magazine"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 95.84,
+  "wti": 88.56,
+  "ttf": 90.96,
+  "us10y": 5.15
+ },
+ "tension": 73,
+ "sources": [
+  {
+   "title": "monetamarkets.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC7DJXkToO9khIiTMpn_9xOz5QDT1wotwhNNBgdGbl0qzRjJTt_rFmY8AmgvNTwuS0ZB2ZG-TUG3JJvG1mHsxidZAZjhAGdFkrZjYwgrwH3Fi3NNfZDdogmR7KwviwrtWq7COviTgFZ0Bd2vHoam6o108EFk5KcYqX_xEr1gPnm_yj7KPYSua3NgYgHwyR4xLGQRliOkNfj5uKjwDoE_YsavH4DDXJgC7tHtfIagp_rGaUaSn-N4o="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXdFl01HKbXCtXloO9IkbpNLBWEBZFt9s6y3eAU5Ow4B3LeZJyejA6jhmORhdKNBC5Or5xTWpkQAAQgJ6vNcrp4OcVehMJN8HZFyJBPJgVcYwXx-vcKRCXZHbj2k63bgUh1w6oOBlWhHh9u8xvi3Mq5atzPSzR2E9tLYrIZoeKWzl-"
+  },
+  {
+   "title": "financefeeds.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFrdz0vprohirXjQ_86hX_t7L8Z5Grir7DXDvO41dhu7dpqwzy4rDpGst9GvLFamoTwQhK0Fs5j3tsQx41abJpvfJF8lfn--Nz8wkd7rsE8sbsQAEL725-htOYexNFyFEUJVWvxTPbm-7uXlM64qO40ArC4y2ikykydN_6BtjVNA3Chw3OOd8Ea5j-VgzLVWMMNLI9VxW1KR23-aPLNgfM_w=="
+  },
+  {
+   "title": "ethifinance.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyiod6D8jqxF-yem6ddppqWTbsheUWRDm6gpDlIWFkbEKaWVZQz6LDKu7V511UhmgiOTdU7IiT_fiZKcUco8EKayjJdGPfBorggFcMsHlkXa8hEjET3igBMyXeDSfP8bCTtAvU593sDKDcfE5E2gZNB-kZ0KMMfdtf"
+  },
+  {
+   "title": "understandingwar.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaV8_wpKVhrNemnc-Y-Q_sxNDUW4_6CQV9Y4TM5yOGkF2BGFFRVboQcQoalA_hEV09tvNaNqztN0RhMc1uheBRydWNZJB0f1p-wZ7veijgvxd9bPyEdhWoARJ8cu3x424dtBhjF3QY02LcA4NzJbe99rtvGDYAQOaqIhqKof2hyelkF-A="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8KPaedozlZc37cio6bnd1JTKAnb-N7BTjpCuKJ-84zWQbAUZU05LfAHQUHt26fJ__H_o254jXhN6-FQoYHttXUk7tdJh_66tpIOh1ZvmIczc2MNQujCqEgsqsh4yH_9c="
+  },
+  {
+   "title": "nasdaq.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_NAkRVk7avDJ_fXe1p-_r8i6mIkbYUoEtEI8Dqkf4QGSaASLtgOqHOho_guD50rEjIcUcN-HvkGPvLXuh_0lBnTmchGSyZCqoOypJPRNPTX7xDHIr4Ql-pp1vrOW1NStC-ZNF9NbP7Y2Q2vXMunqwmtl"
+  },
+  {
+   "title": "factiq.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQOqiP4wEs1-ELJvb4xeA-q9ayCB2V5YVNkqJd8OkIn17djb1Z7LIESFwrZCGdSxaBDAJyJzeS8Nre3Ej8PFRsAiosc41uyEjNcW8sGSNj-rrAqB_dcY-MpF4o9ikpyhDhCxTB652H35y7WwAtWQKv_9R5R79pvXC6kejDzhzOP80gkbpHjBCEvUn6VUEx_9-XGowTRyNU7FbO9s_VI4XquGSK9lxDxriA"
+  },
+  {
+   "title": "morningstar.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUThh3dGZ07MemGfvO3Me7j9tJJbq23e35GRPVl1VcPsgJSoVZzoqj2jB7L1XdTkqgHfaG4c2gth4EjkDiVT9C8rinUSgoaynAts31LF7ItanoHABFkL4dAhUcUd330ts5V2yzJR0liauvf2ffKiGstYpXSNl-GlU9_g2VrN8Qz9dkuiNwRZ1aOznk-OLTmbj1gbfYE4R2GLSNKCiVV_7Wyi0FtPz3"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXooLfmgMB5bsRvNlZdkn1pLwOqgH-jdAnhEMK3JQhMsja4KujCMa9WkrFT9cFeDaUYaH0t4T12kE1DiNV8NOEgz4ekyZxphI-eEH9LGi_AVKKxXg55kP6E84biJVOSdE0U_iFBWIDHSyK_w=="
+  },
+  {
+   "title": "fabrico.io",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm1BGDSZ1buhyEKbmFR8qqtGL-p2FeyJYZBQPFpMsyTj4WBI-8KeoAK8Tuwdq5LwKjVlbwKW6hlaNbvnlmBLi1dZ4K_GFmkgXxnMqTh8QEbJLUg-hbPHXqguyudNxuZQ7plvHYBWaxTNPxkohTjfV6UpC4LVik95ZgssAJ6ne10m8K"
+  },
+  {
+   "title": "pm.gc.ca",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWvsST2zD6-aw0NcSIpZyPpW0p5xrGGWae7SEXcHEc2xfzWdhKo-kAwj5ee5sWUP4pK5FRJ_LUdD8h4V9u-zDp_ZXq-22P6ZZy_SAeqi4tdqKB6JcR8_fUHOs2Ofij8FUfO7QwmobaeED-LyQS4y23Abag0Rriw58N6FTUg0Tb85RKQTNE"
+  },
+  {
+   "title": "kpmg.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiQ546UF2fuM-B7rzEg1WtkCkkcrUCpOW8ns9-sV6LSaz1ghhMNfXM-tQvuTnyWmGUMyrx1ETmNZQ7xpT-V4MyIklxADlv_GVPkXthxH0kziDjAINqmiW0BrZfQxfYKxMIs_1YDB03YDlVSrYhbdebnLgYBvx4NOQU2krUGm333WLVLTVzzHr4gWHu"
+  },
+  {
+   "title": "kitco.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzPKRlLUD8BnxdopBx0KYtXUlgNYEJTr2xlDq2sIGw-VKpyNZVWjbA5xVfw_CWWqU2CF5nhwNW9s-89RMi3LIvwv_79cyI1z1XqEbcKeXCyoDLsKLSyKRQ8pxUix5E1CHwm0eRSK1-wJuEPmDMXR66NHZ0HWqnYPajIp11JjwfUBF_JYPDHGcMJatknOU9amu0JGXx9kZ0SCGzOQRmO99VjnCwSq9FnZc="
+  },
+  {
+   "title": "gfmag.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrtM0n18jBu8zAAjtoW9KUtOGwVytYpHXXVK-vp7X-9irGvcnveqnsaycCUMvn2S13CockqhxSnrTO1l6cjDCH0U3SV9AI_5xUJpy-apKdV77teVEGHas8fhi6NXQiFoPgomDohRcoFOl9m2aR7nSr5qlPr3TMdAAMPv1HTplO"
+  },
+  {
+   "title": "federalreserve.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM78reqS0Fh8na-PiuDSTHbVA-rnYaeaKrbx_yfFhyVdYdmt17QbspJKAr4gKXwschbeNxvuST7hcGoz8qBtVQBR-LPSqnB2rCTn5yfadJysxEArzNW_pJmWwh9FOCH7ou58jLQhulb88vHLXPhnLrUd3UU5WRu02FCVg7SaCYusdM07qYRCSdjExOtMZkfDPUUT0Lb8_DojuNgnu19hteYgUlTmGOBbfKW7d4jzZS9HFxASd1c5YeMpLMYVBXaTB2qBBxyQ=="
+  },
+  {
+   "title": "theguardian.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBICyvjVPR1kkLCo3wUjNJXAUDMkoyKg4PbyW5RUFyaxXzSjhhY6dsCuIjqrSRb1sIIR93URKw5IPM4uTsBEA1gAuQkB-TFQTY3ztJgliXC9Ei5fEQDzm8sun0bq2KPN5Cw8O5ES2RkOkSR4cqdxOuiw9ctm_WcYAy_Y0LFWjpbfZcZwjp"
+  },
+  {
+   "title": "ai-expert.co.uk",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5k5bhqFVMfYWT3duGgSBOlbFhItq4ymtpTxZxhHM0ExHtt_uV20d1VbVIxCC-uEdAF93x5Va7Gd6pHExlNw9Q5tp_O_bzCF811jx6M3eULqvjxsTtX0R67xgq1sqRHpqWVkvKhAp2MSDLBzIp4J5IwMxvOCoM4XQiAZhqF0pFMbqlUbkMsebDWzPv"
+  },
+  {
+   "title": "fortune.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG62gr818sS--HcrDlqGsvSAhc_DKo75czKZBCnvES__ZK6xSBJumcOywIHQTITr5uvQNazIJNUeWjnnV1V-gEzDDIl1vnM3ooomtlKCuPugR1LIOkTEQrL658gNbAYN-715hCH4eriI5l0JlamjdFwXLQbVC30L4lxTk05JgBu1M6dZA3ZpscLBk-qHUXD0E-V6FGJITP3"
+  },
+  {
+   "title": "reuters.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLy934wwFRPkB50zms5n7nesM9J-5YeO21fmlIpQzlHZTXJePg5iWBUrNoiHiITIvQo5NefFj9740jEAU4OhfMvRbwoCtqX4WIvzE29rd0XWlyAsacV-Rrz7fF7L9ZBWYJXNeafY3vRrP2R3yz-vm1M30i3BTHCIXnaFUGoC_t312BYdpyMpo1R2WkKovb1C5fkyP8Lh56lq5WfatigUJxnsyJvT1t9VqEKiEpHGAbfrRh0OQo0sm2n7nnrg6fZzIqsS1V4iyZvfg9Lr0kq4yW9XfRBYsI7jJtKcl4toN66yZozRkyxpDhQfe9S_JapLxI9mHo0ChacxK8-_zLTA9AhsKqqKatZNWHYcjZKd9_MdLE8FZgXa2rtUnc0xN7uI64DA96olszMkULjusklyPIuMxK8ysxQMglRG4FlM-fMfTe0aA-Q9Vg-Oe3KnB1bJweGDfET-wFF8PfOIaXqcTkEL0yJZ-2P1NM9eWZ9_SndAanTPrGqzyt6A=="
+  },
+  {
+   "title": "theguardian.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5mFCioH-G7-ojpDjLTan7rnPpyyuwDWeuZqRNDNOuWzyFhV4etMHna1h3dpDQmeyNP_ANOFfNR-u7rqBbbeNEqYw-YTP3D81NHB4W3g0xm-xW4XTdwbtsw5p54STYOtQXb6zCyr1Qc4dFjL2m9X-Sr5RNpPUEDGukB9-esoFgr_Ylww=="
+  },
+  {
+   "title": "capacityglobal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW_uNutOcpMpCctCIA1Gd-UPkz45FUbIRyjzL_hrMg1fFzDrwKN8ly_RQwbkVwFcRZFcibqN26XATuKtm0N1Boewd_NKZvBJCKtld6eNzXOTKV_PHZVXy2hiY59lgvwaT8Ve-nm36URFBk5UYBjLa6-Qx_PZGxcD3UzPC3k0CTOK3ncJFpLxzpt4whCVbjqM_fksSVFf2PoJOD8tFySFhTlhVL6GPE59ccvx1Nyf_R"
+  },
+  {
+   "title": "aiweekly.co",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs-bRQrbuXTf8VGKrJySZweCn6eAsQmrpaw6lEUeOhgmV30Q2f59B32w5EhQsmkiCIlAg7gQbezk8VM5OmYzGZN8AJFWa8GGCbhPaIU0Tqsoc2aO6akQY="
+  },
+  {
+   "title": "casrai.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrgh18Fyrw0tgT8eerUwqf2HZX2SKKhaZkeIQLQzylnFtaYWgKNExQkhG0j7KFuPWRY6nR4Zsz743FrTJVSdVNsB3H8JFkIEsdMRF3WrFbfoTH5HQwG0RL9eqYHmxG5cBqxeG5X7Nl1wR9M44jGbDbVEkzQKQ6ZKZeZoL416Y2lQM2QA=="
+  },
+  {
+   "title": "bloomberg.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHipl52j75WQLwBMLvvFJIiOvgogf11VHlS0Zs7W0p-17txxGip3OJ7zzfURwrP2P5uakXCUQSUC4_tlhscLuaTF6K7A6-sJJkEtQGs2HzboZZYn7U5q6i1YRps_m_dEXuR9556WoIZ6INmuqaxo9PLv2_M7163O3rmdT84sdTVW-qKYs2gKBfz5b_Bm6kFAtgLb7kiZbJAsjLnjPU4t6MpqtYal09ldRB-RbU0"
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXtvNZOjm7TfFGjyt6EYfT09xBJPQJ1oQ_UZVov8LXdB99jCfjC7QSdE_aYReA0TFysPYu_xO_4ciIhMfBybInnVMuTCVtecYEvpoB1A42uBLABoB_p7LBJ9UoNjAwF6f7uZDL9ZvyxUgR"
+  }
+ ]
+}
