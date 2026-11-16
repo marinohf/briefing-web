@@ -1,0 +1,185 @@
+{
+ "date": "2026-11-16",
+ "generatedAt": "2026-11-16T13:56:31.425Z",
+ "items": [
+  {
+   "title": "Los líderes de la ASEAN inauguran su cumbre en Manila alertando sobre la seguridad marítima y la pugna geoestratégica",
+   "summary": "El presidente de Filipinas, Ferdinand Marcos Jr., abrió formalmente la cumbre regional advirtiendo que las crecientes disputas en el mar de China Meridional y las presiones geopolíticas externas exigen un compromiso de unidad urgente entre los países del bloque. El encuentro transcurre sin un acuerdo definitivo sobre el Código de Conducta marítimo vinculante con Pekín y en vísperas de sesiones paralelas entre socios del Quad y Estados Unidos.",
+   "region": "Asia-Pacífico / Sudeste Asiático",
+   "importance": 4,
+   "source": "PBS News / Reuters"
+  },
+  {
+   "title": "Baréin intercepta ataques aéreos tras la reivindicación de la Guardia Revolucionaria iraní de ofensivas contra instalaciones de radar",
+   "summary": "El Ministerio de Defensa bareiní confirmó la interceptación de proyectiles aéreos tras la admisión del Cuerpo de la Guardia Revolucionaria Islámica (IRGC) de haber bombardeado sistemas militares en una base del país en respuesta a maniobras previas de EE. UU. En paralelo, la fiscalía de Baréin dictó condenas de cadena perpetua contra decenas de nacionales procesados por acusaciones de colusión armada con Irán.",
+   "region": "Oriente Medio",
+   "importance": 5,
+   "source": "Just Security / The New York Times"
+  },
+  {
+   "title": "Fuerzas aliadas del Consejo de Transición del Sur repliegan posiciones en el mar Rojo para guarnecer Adén",
+   "summary": "Unidades de las Fuerzas Armadas del Sur comenzaron un proceso de retirada operacional a lo largo de la franja costera del mar Rojo con el objetivo de reforzar las defensas de la capital provisional de Adén ante el incremento de amenazas hostiles. El movimiento coincide con nuevos ataques con aeronaves no tripuladas sobre barrios de Saná que causaron víctimas mortales civiles según denuncias de las milicias hutíes.",
+   "region": "Oriente Medio (Yemen)",
+   "importance": 4,
+   "source": "The New York Times / Associated Press"
+  },
+  {
+   "title": "Susan Collins (Fed de Boston) apoya una trayectoria de subidas moderadas de tipos ante la resistencia de los precios",
+   "summary": "La presidenta de la Reserva Federal de Boston señaló en declaraciones públicas su preferencia por mantener incrementos de tasas a un ritmo gradual y descartó respaldar movimientos agresivos de medio punto para la reunión de diciembre. Collins subrayó que la solidez del mercado de empleo y la persistencia inflacionaria podrían empujar la tasa terminal a un nivel superior al inicialmente previsto.",
+   "region": "Estados Unidos",
+   "importance": 4,
+   "source": "InvestingLive"
+  },
+  {
+   "title": "El rendimiento del bono estadounidense a 10 años se sostiene en el 5,15% tras el repunte inflacionario",
+   "summary": "La rentabilidad del bono soberano estadounidense de referencia a 10 años inició la semana en torno al 5,15%, consolidando su cota más elevada en varias semanas. La deuda refleja un reajuste generalizado de las curvas soberanas ante la dificultad de moderar la inflación subyacente y la previsión de condiciones crediticias restrictivas por más tiempo.",
+   "region": "Global / Estados Unidos",
+   "importance": 4,
+   "source": "Investing.com / Trading Economics"
+  },
+  {
+   "title": "Los precios del gas europeo TTF descienden a 86 EUR/MWh tras los recientes máximos estacionales",
+   "summary": "El contrato de gas natural Dutch TTF en el mercado europeo experimentó una corrección del 5,45% hasta situarse en 86 EUR/MWh este 16 de noviembre. A pesar del alivio intradiario por ajustes en la demanda, el hidrocarburo cotiza más de un 170% por encima de los registros de 2025 debido a los retiros iniciales de inventarios y los riesgos logísticos globales.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "El crudo Brent oscila sobre los 95,8 USD/barril mientras la AIE proyecta un superávit de oferta en el trimestre",
+   "summary": "Las cotizaciones de petróleo internacional se mantienen en el rango de los 95,5 - 95,8 dólares el barril, contenidas por la fortaleza del índice dólar y el recorte en las previsiones mundiales de consumo de la AIE. No obstante, el riesgo de interrupción del tráfico comercial de crudo a través del golfo Pérsico continúa fijando un suelo elevado para los precios.",
+   "region": "Global / Mercados energéticos",
+   "importance": 4,
+   "source": "Barchart / Investing.com"
+  },
+  {
+   "title": "Nigeria avanza en un pacto con cinco países para integrar el comercio de servicios digitales en África",
+   "summary": "La ministra de Comercio e Inversión nigeriana, Jumoke Oduwole, anunció avances para rubricar un acuerdo este mes con Kenia, Sudáfrica, Ruanda, Ghana y Egipto que unifique criterios operativos en empresas digitales. El mecanismo persigue armonizar barreras regulatorias con bancos centrales locales bajo el marco del Tratado de Libre Comercio Africano.",
+   "region": "África",
+   "importance": 3,
+   "source": "Reuters"
+  }
+ ],
+ "ai": [
+  {
+   "tag": "",
+   "title": "La administración de EE. UU. prepara la designación de \"campeones nacionales\" de IA para impulsar exportaciones frente a China",
+   "summary": "La iniciativa prevé catalogar a más de dos decenas de empresas estadounidenses líderes (como Nvidia, OpenAI, Microsoft, Amazon y Anthropic) como entidades estratégicas con licencias de exportación aceleradas y financiamiento federal.",
+   "why": "La iniciativa prevé catalogar a más de dos decenas de empresas estadounidenses líderes (como Nvidia, OpenAI, Microsoft, Amazon y Anthropic) como entidades estratégicas con licencias de exportación aceleradas y financiamiento federal. Esto traslada la política exterior de EE. UU. desde la contención pasiva hacia la venta directa de arquitecturas tecnológicas integradas (hardware y modelos) a gobiernos extranjeros para frenar la adopción de infraestructuras chinas."
+  },
+  {
+   "tag": "",
+   "title": "Investigaciones por desvío irregular de semiconductores intensifican la presión sobre el liderazgo y la cadena de Nvidia",
+   "summary": "Las indagaciones oficiales sobre la firma intermediaria Megaspeed por sospechas de contrabando de chips avanzados hacia territorio chino, junto con la renuncia forzada de Jensen Huang, han desencadenado peticiones parlamentarias en Washington para blindar los controles de exportación tecnológica.",
+   "why": "Las indagaciones oficiales sobre la firma intermediaria Megaspeed por sospechas de contrabando de chips avanzados hacia territorio chino, junto con la renuncia forzada de Jensen Huang, han desencadenado peticiones parlamentarias en Washington para blindar los controles de exportación tecnológica. Acentúa la fractura de suministros entre Occidente y Asia y condiciona las líneas de financiación de infraestructuras de computación a nivel global."
+  },
+  {
+   "tag": "",
+   "title": "La demanda en la salida a bolsa (IPO) de Anthropic multiplica por siete las acciones ofrecidas",
+   "summary": "Con una operación proyectada de hasta 64.400 millones de dólares para una valoración objetivo cercana a los 1,4 billones, se registra una masiva sobresuscripción institucional en el desarrollador de Claude.",
+   "why": "Con una operación proyectada de hasta 64.400 millones de dólares para una valoración objetivo cercana a los 1,4 billones, la masiva sobresuscripción institucional en el desarrollador de Claude evidencia que la concentración de liquidez hacia modelos frontera de IA sigue batiendo récords de capitalización en los mercados de renta variable."
+  },
+  {
+   "tag": "",
+   "title": "La Reserva Federal advierte sobre la exposición crediticia bancaria al despliegue masivo de infraestructura para IA",
+   "summary": "Reguladores del banco central estadounidense señalaron que las mayores entidades financieras acumulan cerca de un billón de dólares en exposición directa e indirecta a promotores de centros de datos, acuerdos corporativos privados y suministros energéticos destinados a computación.",
+   "why": "Reguladores del banco central estadounidense señalaron que las mayores entidades financieras acumulan cerca de un billón de dólares en exposición directa e indirecta a promotores de centros de datos, acuerdos corporativos privados y suministros energéticos destinados a computación. Plantea riesgos de estabilidad financiera si el retorno económico del despliegue tecnológico sufre retrasos frente al coste de apalancamiento."
+  }
+ ],
+ "markets": {
+  "brent": 95.84,
+  "wti": 88.56,
+  "ttf": 86,
+  "us10y": 5.15
+ },
+ "tension": 78,
+ "sources": [
+  {
+   "title": "pbs.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7uEXOtZf-PKxh_RZsoUqBsm8L30hhA22C0-9pJWlTJiUdawmgqh3aYaDS66QKV2SizV5Eckd9FJW3iH2LWtUKHktmJuPazbKBmReYQSb_WUKFLaykskVqXbwdz6dOTKcF5-ODlKoGgRgRccUnDNEA9B1yuSvBaVNMRoAecUK394HN1SgX7Nu9mkE_xZ4-xtS_RMFaI5kwoDtkni5nJAVPRkgtyewXK63IlUci7S4n2Gd22fTfSivJMrXZWbg="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjY7yBQujeAVWoFMlcjRPoYgFysNMmHAV2u837VlHWFZ2MgOVuhfcRFHchU67GOR8CWyL0V9wRflaZb2pWwbfgPARIFEsQt21ZzMKbp511FdbQAAsIEYIhBRz9hP48Z_gv"
+  },
+  {
+   "title": "justsecurity.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZTpMaPs16hp8BAUzqfsOlsXO634X7PhTa0sLpEsTHHvd17sz9Ssj0X74WLsREXmWyAauLfMYdJtMjbe8NVwMblJAAaH2wXXf7-mx6YhRKgNWz0fHqSZKIPxBvlsKmUT2_qVYlbyzXFC3HKt9f-gvTF_zgWSGdYn1XYE-7KM10ZaDmG3zraNOiYPH-RwPavbagTGMEgyWesG-ZAdymjjSwP7WAYg7r2LJL_LkDO9Jnx4U3yA2n18tzbw1MjAB5P9O-uTRM"
+  },
+  {
+   "title": "investinglive.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmJA2u8Hv3BAN3Mae5-iyOOO5OHZqAq9TTUxwRnMMWeySbCsTUuqTNCejnOEfgnImHzysJ4I63dloYi8VOGEuoskXIpI4P77ex_p2Ih5oDJP1IFWRwY31-9UF07ijcZuIp0eObYoPW6nxLyq7MY8FHMoD6iPEUa9gQ9_m-eIcRbj81AjxjuJDDWP-L6NggZqrzwgTkaOvFLygIZk6TBv2wPuNROibcgRTuYZ4Juai9Y0m7FOkfUs-S"
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPNIM3_bfjfCRQOTRmfvSVVKtu4iuakQKxeBo34B-YH-Zm-VCa7imBY7JcUkfzfVaAth3J1B-iDFB2Qzgx0y2iv2U2Sf7yCOhXi4sXCL75FPANdLrNxYBNOBRdS765HqVLDL8EGj2Whuk7IxGefBm25tg3I33wotGzCgdLWV-TdDma2y6LJdbOGKoBeT5rrM8XUwMm_Ysn3EacgMmS8nb7ThobSkazT4jka4cOfuil"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKZ5hWWuoDMF-Xdd9rg5bbsWM5GeO1fYboU6GwDVl81SB778NgJsKR00JJvWN_75-KEJqdJw_b6NLG26MfsM-d7qa-m5OzjNzT-yX4Kf1UkIVBbcqPbW2KnehySFa9y0yB_OMmwA_kcstjPATAscjASlbZomI="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_FZhla865XhbA8bvy-umce5VReAc8GPZA0WKKvK3Vuaoijz_Af3PkVG1Gz8YTRyCUB8F3RABEEDgZi3YrpxpaS97RKX2SORNXdmsAp-jKAda9XaxDMU3-n23U-d21IBpnceGcGJw9CN0FXQ=="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9g-s0h2HI8WvJdNe_KqkkGO6hW9sko06VPqhMB4fgoP8jvZXr-Gz75r53mdBrSn7pTs-vFTVCozYdfrse7vFwpHQ_7wLYje8cKdnzIRUIInqr_no_4hWsuMazK4TQs8uokA=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBKS8MsIT20LwFCu92lAKhRtsVHLmBoggHALoIjxgIxYdwzz-7QZhmdt3wxQj6CD7zZWOWTkEXYNH6R0LQaaI4ZFP6n3SIiGCnYVFEta-rlPYehLIWQn6vC9KBzvATqY0Q31hG-NetLWD9G7X1Qcw4Ao7JBw=="
+  },
+  {
+   "title": "eia.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrEW-LpqrzFTysrjW45uVudbKwkAKzo6TWC8ukgxjcXXEF2OsG7PZOY1PxS20JihPCE-yaz1lpENdXJRZTheaa8lG_wx3v7cyAvNf52_L2faEP5B9PkZPZ"
+  },
+  {
+   "title": "cnbcafrica.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSbKHHKS78p1v3ASzdYQzr2SqsPfGYn86Yb4SF9xgg6ZKy9MilucmywPZfU7NlHfgnavXI-c4-bgi9Nythl-MK5Wobq9h_bMxuTrar8hjaAq3oEVzOMV2U1LnvUV8qzhptRVSar3QH_a8IwrkZPR5gpzcuUr7hWHKDWvixHa4mQK1tXeq4e5IMLiKnHjHQ_U3xpqPy_qXUqrYdnCrl3fIsOeohwv1CQw=="
+  },
+  {
+   "title": "aiweekly.co",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhzYRWjPZPm75K1YYZ-fsYa0TNeCcdjqDPcpcpofeK2Q-ns9emYLxK73eXLFTmnk2c_cEurScwtRJX3ZSp3ANy5D1qtR9GIaKq_7JOHzsdxR3axanFt29f-CvKqMQZ9zRjVNneawUXl5t7Tk_ae-0onpFit_zKFt4CODIgCOR-01lvcMNhyu3"
+  },
+  {
+   "title": "tipranks.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLc3tOgaazSShXEkzjzg5HKtqTFKwnVE9U39UR1l360duDj_LdZctocEudlreJjiNFSvOv_S6ZKm-jD9qbN2atXgl_q0PiUBW-FOH33NAV6bYVFtAyddvQbOrg7Ollrx8I08G01iBMdGmc6GkKZMc7glJr-z3sY4JxinnlfS1Er7KgKc1tDacJ5Qzp1WxWJPjbnFc="
+  },
+  {
+   "title": "washingtonpost.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFioiLy0i5idl0S1lbabrK75YfEBSEV4a0DDpm9SSAPNGSMgvFLpuOkx87FkHSI5-WH1PiBWXkXkuocwoEdoqbJPB1eo_WdKs9HmidOpGZKaPDFEmfVctfgsH8T_AE5YvrFlwK8IXoC8Decdd6y237AznGRDIxFKeGoqOKNZhLZ9QrWTHIr3HXtr-swlqoJc0IyzXSNhQN_MHDpxiTn2-XlO5y4EF3QeqjFuFb3"
+  },
+  {
+   "title": "taipeitimes.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLDjG2don6-ZLedW1ag3u1JI4tezqz-WfHnVKmTyR8Vr-bXmlYkkPiVl7_jrqDuYemI7psceFbtQUQcV_gBwb1QCSVq6sQY__Kpz2eUfo08CLd8nty3b5L_0jWSsH68cxYCrMQj61t9Nr2t97VQEUNukzGgRVMAO1N"
+  },
+  {
+   "title": "explainx.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC0gtjokSo4UxEUXYE8NIz5LsdFkXw-IMvZdZEiXna1nbZ0BLb535VfYFNtPeIojoJ11bBvcscDTgYtRa_btzsx3mc2i4hPjHiTSPOGffDEDIJeu-H6Q-fKJqkJUKiXkWKnkChov6UlH4rx8ff7LmFmdcIpi1iUJK8822Od1pcHwsWAFtENxnU_t8ipBChDDvacqvMVwo="
+  },
+  {
+   "title": "mlq.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAo14ZEIHZhrqBdCDqD-hv8scLeO8DCvJN0MURWHjjIeFTaXaYY5FhZPdcABETuKPTZlsyq8KIgYPSofFFzocueDadaaNlFpZgHhvKEkVc3k1TC7IESd6dlx3SbIPuB9A7pglwqiGd35vmjwUD25JmWEEyKiBwwL-gM17_Icb27IviuK008dYALxcMGqIT3qwXU8ql4t5Go5dd2EoUZw=="
+  },
+  {
+   "title": "federalreserve.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpngBrhf3um6WT0VeCrrzuOB8QTscJO9Je0bscVTNnqY0kEVfhYaIFotrjZgHMxMSgIMNcTohJAhnzmEfE0SAZ0oaQ9kyP0Nv6nhSiCqOU8XL-gEnw-F5Ueg0-feyWmagsxLOvPcn621TRATICHL8zgVhre_LgjuA="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2xzhlw1b3VE2SkPW5sFYRZeeLvCyGPXP4J8AlGwj3PmX4J3ZIPFcOZoWG6FUDJZcafSRUmLEsxfoQPvQDsLweT-h3QpH9q40DdVnaT4jkf0TErGciYBgrFtxhQeZtCJdCCrhRIPz4Okl5Pw=="
+  },
+  {
+   "title": "macrotrends.net",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhapE-QebDB2iitLGxevOzn7HXxatAMzg_GAirBD6fIqLdhxBbMwCz-4rXKQB5F2Un9J7nHGotd212aHSNrGb5QMgPrMWcnJD93yo2gwYoQdngKpycHTkjsUejJO1BoJG0nGD7RwyCcYe3P7iqE94vUpGMUbNMUDCsRNy-kT0F"
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrR7-UtpQphDlNHFJ4OcdHWJEOROL9_eBBdlksAEZws7WI9ktOpSwY9pJyQIypn4Us_V8aPl9YbXb_jNK_7-DKS5mFsrISGzi-Nk3vMCOLnx-O0DuBuMU_tlvxEkgssAJhgYg-y2vhjWGPHdCuk4CfCDPbdoh4bHHxxTTWRF4="
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjT33cuAwetFglH59uAprjIShoQTKnOCOVoA3EqVvUDt6S3GLgXsSd-iWIUVdEEQ0ZYCx8ElExivp_2xPWCqWUczTal_EdUgx49lyQDvxqX2W9CQKkWRATYbNAFU_4vBnuQpL-f4d4cKI="
+  }
+ ]
+}
