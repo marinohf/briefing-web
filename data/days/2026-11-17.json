@@ -1,0 +1,150 @@
+{
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T14:49:37.455Z",
+ "items": [
+  {
+   "title": "Ataques marítimos y hostilidades cruzadas en torno al Estrecho de Ormuz",
+   "summary": "Un petrolero sufrió impactos de proyectiles en las inmediaciones de Jasab (Omán) y la Guardia Revolucionaria iraní lanzó drones hacia dependencias de radar estadounidenses en Baréin. Pese a que el gobierno de EE. UU. descartó querer un conflicto indefinido, la navegación por el Estrecho de Ormuz sigue sujeta a severas interrupciones operativas y sobrecostes de transporte y seguros.",
+   "region": "Oriente Medio / Global",
+   "importance": 5,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "La Unión Europea añade 145 designaciones a su régimen de sanciones contra Rusia",
+   "summary": "Los Veintisiete formalizaron la inclusión de 145 nuevas entidades y personas a su lista de restricciones, abarcando empresarios, propagandistas y grupos de ciberataques vinculados a Moscú. De forma paralela, Francia y el Reino Unido acordaron celebrar una conferencia bilateral a inicios de diciembre para coordinar medidas contra la flota marítima en la sombra.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Reuters"
+  },
+  {
+   "title": "Kevin Warsh analiza la productividad y los riesgos laborales de la IA en la Reserva Federal",
+   "summary": "En una conferencia de la Reserva Federal de San Francisco, el presidente de la Fed Kevin Warsh subrayó que la adopción de inteligencia artificial puede acelerar el crecimiento económico a largo plazo. Al mismo tiempo, alertó sobre los riesgos de correcciones bursátiles o pérdidas de empleo si los elevados retornos esperados por la inversión en infraestructuras tecnológicas demoran en materializarse.",
+   "region": "América del Norte (Estados Unidos)",
+   "importance": 4,
+   "source": "Associated Press"
+  },
+  {
+   "title": "El Banco Central de Polonia congela desembolsos al Tribunal Constitucional",
+   "summary": "El Banco Nacional de Polonia (NBP) resolvió paralizar las órdenes de pago de las cuentas institucionales del Tribunal Constitucional tras recibir resoluciones jurídicas contradictorias sobre quién ejerce la representación de la corte. El ministro de Finanzas, Andrzej Domański, anunció que el ejecutivo intervendrá ante la parálisis institucional provocada.",
+   "region": "Europa (Polonia)",
+   "importance": 3,
+   "source": "Polish Press Agency (PAP)"
+  },
+  {
+   "title": "Goldman Sachs proyecta excedente petrolero en 2027 pero alerta por la oferta de GNL",
+   "summary": "Analistas del banco estimaron que el mercado mundial de crudo registrará un superávit de 2 millones de barriles diarios en 2027 a medida que aumente la producción en el Golfo y operen nuevas rutas de oleoductos fuera del Estrecho de Ormuz. Sin embargo, advirtieron que si los envíos regionales de gas natural licuado (GNL) siguen restringidos al 35% de sus niveles habituales, los precios del gas TTF se mantendrán por encima de 100 EUR/MWh.",
+   "region": "Global / Europa / Oriente Medio",
+   "importance": 4,
+   "source": "S&P Global"
+  },
+  {
+   "title": "El Nuevo Banco de Desarrollo suscribe crédito de 300 millones de USD con Uzbekistán",
+   "summary": "La entidad de financiamiento multilateral cerró un préstamo con el gobierno uzbeko para proyectos de energía solar, eólica, hidroeléctrica y nuclear. La iniciativa busca ampliar la matriz baja en carbono y recortar la dependencia estructural del gas natural en el país más poblado de Asia Central.",
+   "region": "Asia Central",
+   "importance": 3,
+   "source": "New Development Bank"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 93.98,
+  "wti": 84.47,
+  "ttf": 85.49,
+  "us10y": 5.12
+ },
+ "tension": 82,
+ "sources": [
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbBsw3-hvOG4Bsyjen4oxmNI_GvSxfD5FJ0-pQm5Tvf3h7wcHstivmnSiFNDQUhYoNi9nyg69dBwQDl-OnA-LnmBpglKJHsXspRA5X7JMcr0mMIPsZ8ZgKGGKXipznBQ0LOjQGpTB76P-B0Bo="
+  },
+  {
+   "title": "europa.eu",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsFT1x6PqM1wWZ5IvqrcpuM6vl_jnEUi8pPh2p0T4hYygPoGJFqLGWG3rEOUxmbe8EOMzSln4uScwii8r_9MRoeE5uEdbHW5gG7Wy-xONOkGdmctEt9Cvhun4Mr5Jk5r89kkZFDxYdB7CPMCvJtPEXeDK9yd9mpM5T7oPGkB9GjpZ6-SbI0Nx2_n3N_rA9g_MqkinqJgOUjcREfBBeTeiYbcwyJDxSZC3UOp3gOtLz6wE9VTmdgPHLbaFTi7y_4uuzKYhNmtNCHLOVVUfnY7r0t3aUKxK8D32IoA=="
+  },
+  {
+   "title": "fdd.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg7r2LDEf8_BbKC0Mf8qAv5bgkyL9TYnIJlsNLr7QsXTAcNJrMHjJ4QlFp_FUTztodhfgAb2lXpioISC9pPlFyp2YvAD396iNZJubIxXSfH_PoHTLRRR9x6VG7jzujxTmGfE84uxHqn2KdWg=="
+  },
+  {
+   "title": "federalreserve.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdKNhkkvbzuFFO1TIVfwtLd5WhQ6kYXHTUMAHp1RXf5COPe32UDEC4U9In2p72Nb-15sqPCV15tMGlvnrtTO5axMU6ionOLXXu_ePYiul7Y9Iqz38pQ497NZ9-CUiDoyWkpIZ-nuxR8mJn399u_FWlcOJnzIDwNTE5"
+  },
+  {
+   "title": "kvue.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnCdXTxyFFDFkcQuOwMDzMZHqJQd-EH-5-PgTdPFCeqyxym-CUtvTmWzDFCYzl7Lklqttv8jZ7J8yR8LQ_VxP55OXYS1cO0jejjemK46nY9LVEueOW-h-Cj4sax2S-hmNsHysdHVsQhmtmhHxsZoyUecnIzFYEjFmjSSvuFtJbkw7PgRUcvtEvd9rHP6JcIbRZwmiAiE--8CIhq7zAhnpZzkhryW5kJlKMzTjFRxlG6iSjSVvbCfkiDuzfvrXTYo3ryVbRor9sn3iCLWOa_KxhGEwlQfyNWhLFl6JnN2L4yt2_WnXbBvBFRaXKVyA="
+  },
+  {
+   "title": "poland.us",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHztGBwVYUjKl-v3UtUTrQXK9KdA060fgh7PpglX8u_mTLbWbgTWsGHZZN8fXEdVfGNWPgvIO_lq6z1MMQZ01yN5ZHl88sz9XwbN-DjeJXNqLsGu8zaYTB7zxHV9HJJx0dTcyUSb9X5PY-95AKusZVSWUiq-d53iB9_Olor_9-jraNtc484hw=="
+  },
+  {
+   "title": "spglobal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBRY6nxWXjKywALoFeVjgVInJ4xkDFmKifpf3dWYTDgwt1TgjD-18ZgHip3paEoKB11e0d48-cI09tylUjMs9R5zzE7IpF5Z5hcdxu4AIf4GCvUCjV9WcRWTfsNTp2c1WzWnHxejiR1UNHTZvLEfiudtH3ZjHKVKQmfbjK2vM9KjJY336FOhLDJvTKyw=="
+  },
+  {
+   "title": "hellenicshippingnews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3WRbMIDH0XLFebEjya1k_Mj5g0BhFkJSWkSRDFFgjnluC6-VrXiFoUJIsJk_hgiz3Ge5U1062TAcG4osFf2uYjc4KbNUFyPQGw3ha1tP8pWyiKONWM2pj6a6SYZ6mAvLEv_gOJRVHgReALREJbMp6SDiqPMR1kriKy_LsMqoEB1yKTsVR_f2jkSX9zce5X_2zRa9A-nTgXqQJ"
+  },
+  {
+   "title": "ndb.int",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRYWTNBcjBtn9WGRRBKmVx9bU6X8fr1izwprs3_4mJML3c26NP3xzVPQDJfixs5SCYI23TJt6t4JxsQHN3vHD5rOa7fqBoCo6HjPAbAd1FgQQWUdWxRVQB0Bi1B1_mL1i1LAtMTfm3ROfGW8TTxRsdyzu3SXow-ubLkGPKvmeAufqHWD41GT4PLaJJwYpnS2ImgyCYEZZWEDEgulx1A6zusBrv6NURNDDqaSfIu2tDz99N"
+  },
+  {
+   "title": "wiley.law",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbG2jwLWvYLAKHenYEWy3GZfxuRTPepW9H1ovDyOH0VttY9rYqNzPmJ9RCVJGpVnHy1Q21gWEuus_Izszta6IH5dRN07JjnwjLdlzPOXZQ9zgsmnSJq7GZ6cEP2uwMBha4cUPLdKF8ZOGn83tpNRgikJl240bM8IBWg2PPixKmsdlc63hE2EPdqq_B5PFWhrDSL4saHVfcW_Y8_LKRpZt1pXo2TK5CbbLw26DsGdkeRZIULI3A"
+  },
+  {
+   "title": "magzter.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1syN4DY9MSiRq9Ns-fl-4zbzT39HwzvyC0_w6uhyZHttqWpeClIkmgJWxGs1SgdDsp7NjjJIcM0Gmc1GCgK_S_cdVaxMPvf8IFDOJ5yFYEImeFJamz0z2emuZDEeLTC_SvsmBAOKD3SHy7MTawzDCCT6wnse4dpuzVJLGt7HE12AniuETc4FqwEYPNlzOHNjMq9eLF9k9fyjBNEZDKTkh"
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbEgjShs1IzfU71NkpW2TE8pODecN5F6PN8mVeG14rH7aHpR61HjMsL8B-EVFZOzv9PWXqvn77GiAtNJ_dpmYwtJye4m8uyLiOiqgP3NubdkuLG4CdMVO3MsNRiJGgoaDF"
+  },
+  {
+   "title": "wng.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk831-rej2n4mhx83kVBGqZGskB3-mH7L9ET4iosg20qqAUP4pWT-NZylLNC4x7jL0vP4A81CI9kjSiuHKS2ibOVYkLNOPHwJSKcGNkjq5ZBPGSVWKs3O_s5nLPRn507PWi8_SD88kNSqtnVOxTq2WI5vQZKKogERrc3pXp9JZ"
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGrgtNQwW14GTJEcVbjg7-hjb6djnGd2XBmFJqO-HodFTJbGcvxPWuFCb9WlKKYPH-FhXnv3oLkSgoJB8_o130cyAe9jy44PjUmdiDTu63suEoT1G9BTBGN3qNj2toR79_TlQ3HMoixIx3jxks8HQxeBSd3av53Q=="
+  },
+  {
+   "title": "amd.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGetlF3vodCiGcmnHbno8KWQ7fuivzgXtUEX3PS7PIUIyRKmm53-xvB7ojOBrxstN-m4KJI-VkJMSqsJHnB46VdKqNvxzUFpVih440ylOwBSFQ01zfdHrpH7vkS0kyNIWmFvtCCShWvFvJAeYb3FID9CzzTBxdPftXpQ33e3wjUhzPmvMsehiV-eL_V0UwXgh_h0AGifA=="
+  },
+  {
+   "title": "federalreserve.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiClzBsYEjopOv20JeVXzN4US_nMSafMh4DQtHePW8W9SXo0BUrBqoxWD40Qt8PClccEIt-VgU-ULRH4Esqwv5M7LolxmInwcgGwdLlB7mJGFTrWZHxACZNYg6XMGkVChm9M4xqpiZegOL8-dDtt3zTppSEK88oW8="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjyMm0JeZs1IqtL3OHPNqnUXmUoqm4aSCc02wxX1d0laCwqo-LRLwXqY7KccgN68iY1Hn8P_sitEcbu27dirTM4QrpBPtuGvyjaVU0E1FZ-5zMc_04C5Auy5varwdCp5cenQzpIw78-26RmspqPzW-c1ISnsw="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDSbuo0Wq3o_TPmLqDJ9gEdHBtxWPKcbPKQ9L9cUqL2fT0SkOOWvxanyxa_qs0Lnkj1QRXL46EawFCNlOz80ql1U_7Wg0HiqQ2jWnYOM1UP7ziSkodmF9RdrxxyNHxTvfSIx43b1VhMVDtA=="
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFs9nzen2ZEsf93wM3n2qmp-mCVUBgOlwR9hGZNGQ4N1ovgyIjJXUIltbe5pvTrq0Dh93Fz76Vc-9p4knVNoRAtDpR3TeB5aMr9KTnlc0gH0HXD5T0CkU5vyAN5PAQ426vzodl-7UyxOToHql6QIGRgBg75LkjjjZ6L6HckNx64IatgNAO1oV0A-D82T3pD_dq7aDStJU="
+  },
+  {
+   "title": "ice.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgXWD_sthVjjEJb577hA5hKAYvEsUAslKN3v-PhlTvdsPPy3HD9Ke5LggMcTIL2yGBuplLATu_m1H_JO1gM0Dhz_-Y_XyHA1ZMbKGhsxBVubvHnqSreJ52ceaL4QNQwItq13OBFzWv8xFs6Jky5xsubxIWyLcow0Yk1HHrM7E="
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuteWgq5nlbFk1N2b6YTP_hH3NjpHwmYi3HNpXcCAuEmdPrnkrySgaSle2D3-IJ06jXLn7qUabjLiso-I13q5t_txvI13anrk5zYKKJC1kCc8XLdnBoZyP6U8KX9Hpto-vIVEHnDt8TAtR"
+  },
+  {
+   "title": "factiq.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhSwfWVhiQwWsM37I8tkBM48GBAo0OFTwwZqpCgjyb03Wc7Vaf1pl2zD2j8HCny_HG_GV99d6QexLMDhAQGQj3vnsbnoTRgRy6mwOflVTH4HdWAp8HPM5T0dm9f96gHG4yUoBN_3g7O3sf23kEZ9EGEmJ1a0RrL6QF4vdMiVob5nXvIy4OQHhixCtS1TmVsE4qfhWV9VGek3TQMr10uPfErPtC"
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOfkSPChozU62VGywK7MWzMtPOprDil3nPbqIuoiB0FPtd_CLhtAgMgPq-n0nKxhNPULX6SIaIp9Ii6x6PWEQmCbcpQTRM1VsBvCp5PdcYOVGDzL29M4MCz2yC6dI_d1GyPEmlc2apUrIEFCDBDKniL0kGPHo8"
+  }
+ ]
+}
