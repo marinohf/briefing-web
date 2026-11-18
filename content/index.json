@@ -1,6 +1,14 @@
 {
  "diarios": [
   {
+   "date": "2026-11-18",
+   "label": "18 de noviembre de 2026",
+   "week": "2026-W47",
+   "items": 8,
+   "tension": 78,
+   "file": "content/diarios/2026-11-18.md"
+  },
+  {
    "date": "2026-11-17",
    "label": "17 de noviembre de 2026",
    "week": "2026-W47",
