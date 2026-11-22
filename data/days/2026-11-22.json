@@ -1,0 +1,129 @@
+{
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T13:33:22.309Z",
+ "items": [
+  {
+   "title": "El fondo soberano saudí (PIF) limita al 20% su inversión en el extranjero ante presiones fiscales",
+   "summary": "El Fondo de Inversión Pública de Arabia Saudí restringió su asignación de activos en el exterior a un máximo del 20% para concentrar sus recursos en proyectos nacionales. La decisión coincide con la proyección de un déficit presupuestario de 51.000 millones de dólares para 2026, acentuado por un alza del 26% en el gasto de defensa derivado de las tensiones bélicas regionales.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "Fortune / The National"
+  },
+  {
+   "title": "Reino Unido diseña planes de contingencia ante el riesgo de una nueva escalada militar contra Irán",
+   "summary": "El gobierno británico encabezado por Andy Burnham evalúa las posibles ramificaciones macroeconómicas y energéticas si Washington reanuda operaciones militares directas en territorio iraní. Evaluaciones oficiales advirtieron al gabinete que cualquier desenlace en la zona tendrá repercusiones severas en los precios energéticos y las cadenas comerciales.",
+   "region": "Europa / Oriente Medio",
+   "importance": 5,
+   "source": "Bloomberg"
+  },
+  {
+   "title": "El Banco Nacional Suizo advierte sobre efectos de segunda ronda tras el repunte inflacionario",
+   "summary": "El vicepresidente del BNS, Antoine Martin, confirmó que la entidad mantiene estrecha vigilancia sobre posibles efectos secundarios tras acelerarse el IPC interanual suizo al 1,5% en octubre frente al 1,0% previo. Aunque la cifra permanece dentro de la meta de estabilidad de precios, Martin subrayó que las presiones de costes importados y energéticos no permiten dar por superado el ciclo.",
+   "region": "Europa",
+   "importance": 3,
+   "source": "Le Matin Dimanche / Reuters"
+  },
+  {
+   "title": "CrowdStrike negocia la adquisición de Zscaler en una megaoperación de ciberseguridad",
+   "summary": "CrowdStrike mantiene conversaciones preliminares para comprar a su competidor Zscaler, cuya capitalización bursátil ronda los 32.000 millones de dólares. De concretarse, representaría una de las mayores transacciones en la historia del sector del software y la seguridad digital corporativa.",
+   "region": "América del Norte",
+   "importance": 4,
+   "source": "Bloomberg"
+  },
+  {
+   "title": "Goldman Sachs advierte de una corrección profunda por el repliegue del sector tecnológico",
+   "summary": "Estrategas de Goldman Sachs señalaron que la corrección bursátil reciente refleja el impacto de un enfriamiento en las valoraciones del gasto corporativo en capital intensivo. Su modelo proyecta un rango objetivo para el S&P 500 de entre 5.800 y 8.100 puntos en función de la capacidad de las empresas para sostener márgenes.",
+   "region": "América del Norte / Global",
+   "importance": 4,
+   "source": "Fortune"
+  },
+  {
+   "title": "Presión logística persistente en el estrecho de Kerch tras ataques al puente de Crimea",
+   "summary": "Informes del frente bélico ucraniano reportaron que el tráfico comercial y de suministros en el estrecho de Kerch se mantiene fuertemente afectado tras los daños estructurales sufridos por la infraestructura ferroviaria y vial. Moscú requerirá varios meses de obras para normalizar plenamente la capacidad de transporte logístico en el área.",
+   "region": "Europa del Este",
+   "importance": 4,
+   "source": "Institute for the Study of War (ISW)"
+  },
+  {
+   "title": "Proyecciones de UBS sitúan el crecimiento por delante del ruido geopolítico para 2027",
+   "summary": "El informe Year Ahead 2027 de UBS destaca que la política monetaria y los beneficios empresariales continuarán guiando el retorno de los activos globales a pesar de los conflictos en Europa del Este y Oriente Medio. La firma advierte, sin embargo, de que una disrupción sostenida en el transporte de crudo o gas natural en el Golfo Pérsico constituye el principal talón de Aquiles de la economía global.",
+   "region": "Global",
+   "importance": 3,
+   "source": "Investing.com"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 92.57,
+  "wti": 83.98,
+  "ttf": 88.45,
+  "us10y": 4.92
+ },
+ "tension": 78,
+ "sources": [
+  {
+   "title": "houseofsaud.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFawffmnNfusvDvOlwdf8n7VuPQNPIb6ciu44_aG9z05IigcrKq1IYn1vPj42BKFvuO9sKqlTc7zZsuBCKihL-WRL02hA1dWo1MdQ2GmCNjx1Z8oD7kf7jp0ewCBWTtGgbC5xQ5pbNAmQW3FhTmlpSHe-h9v4j2eAxZz9FvFDEJfQ=="
+  },
+  {
+   "title": "iranintl.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwTtj3cEzIpZ7ChOHBBy9NWcEkJrGxWdNIDfMsxmLxJbTnbFxaZBJb4TgyLv8L9GSls7vV8amlA4frJbMs-3Du3axl4aoLd3eGHnTti1P0ScJ3AjPvO0MX-p5kKhzJ"
+  },
+  {
+   "title": "digg.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRsCIiIHpcZzB0b5BjcLpLzvQ_OZlTqohCTrwzwVqeNpipHjQV3H43ELBINEOwWTcHAkPAdeA3ClTtFII3CJ68AZkgjp1GR7V0zwVJMIg5O55Umf2IIqnQUmoL_cx5"
+  },
+  {
+   "title": "crn.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhthQKOHuxoY-8Hipn8zFVRIUaFjuANKySuXtG03j2eB6PTTlxJlsQGPxphuzOxPBg6LYcC2QW9ydFprTP5V0_24AoaND2MoMvBXu7C36y2FAdWa_rYZUWCH4mt4eug9SJtpoYdQ3kUmOR6rc3JRtZV6mcRFehdoBjp8bwxsPJKcMSI-TwffaPCopxNm4I5fVjV_gtFNf6XUDkew8="
+  },
+  {
+   "title": "fortune.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEywtvvbZmfT5IqSIkuIc52VKNA1OosfOHTsb626HYhTv9pE7_NDWhEqso0oTyxPy12Ierqnve_7pK0DZeHE-3CV423E5HkyvNcoYFyjIpetr1V24n4sMxmzrFzIc9s_qvoMvW1WkFgRdKefuG3vCvC2ZxUkJDOnPeV22JuuCX644Z6fqbPDdnZYJ5thCAgjM7zA2k2c85mMH6jMlrK3yzxc-_5IKs27s0po328g0PR"
+  },
+  {
+   "title": "criticalthreats.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrpoGJwIjJv8rAI0xbrniRgo7rqjpjwrC6Sbnzujwx5bKdbkKqRkBBozax9hGAobq4mwmqb6Qg4uxKK8oPeHxkHkGG9H1w_2A1iD95SA6sKPz-TgYxY_aXf3pBp9G-WVoOO2Hy_-U1qnoMqvdKAOriZ0OhZ-gZEiHSBvs9yzBjYnkwbfAFA9aZgqIEvOYapxEQ63XChA=="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvpK26q9R0dJxrnytCkJCGyG4QYwKe_LHIyJK_i1TUi3xbB85K8hmSU5k6vnknAii3y5fOYs9qsZPyTR34OHD8s9qP4-XcrPuqu51I1M1go1da7Of9JHtDKXtNexMxO0Vt7nZYG15wESeA359L7Y_UxV8C53yRiFI8Dq8KL26lEnLuzg6W52UBOKieWCTL8gVMwr7WnB3N6MKWZtRooQ=="
+  },
+  {
+   "title": "stockanalysis.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmAnh_2RgOTX_peUdtpwe9d2HZHFzwa2SPp3GK7pX0yQI5yJtJHcI8NUELpEe_K5Ok8zF1h4sVxDCTR6xrykM8Ko2eLZguyQQsxgcsaXZq-E353fCeBc_-Ebl_4KD0-SmTMpQd_tPFTWEqgK-pFqBtvnuODCYsULUVHA=="
+  },
+  {
+   "title": "shattered.io",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXMWQZC88XJQIVlcJUkEfsGt5NQD4x1Wi5G4AHjaCTJN_9aOqdRmxylUNxDZg-Iy6fHWWsHTi4YxRdRCU4dS4UNNm_eVMEBJCFNCKHxW1QRlFBXYZ4pzf_Z6P3xbGN-pqQzkxhIwqVtP4WRWQCePa-JtKFxvlrysYxb_GXmJQSU2Q-ik8q6YQnuU98EDhinA=="
+  },
+  {
+   "title": "933thedrive.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPmZa36nrL-rb7v4FpJMYxpj_es92lm8l_w2QlYoN9IH3Rbd0rAORUyAcsP9o1q8UuEj7ycdGv5frtA7syGgVbWfHiIbjPD3FY8wt8p99JQo0yTd_D1p3t_GMs3qImO9vTpGsZeFxPWioapWkiHJnjTq3KXS8C6jo2XUGwZfOLjRx4MWCG4K6_vCpl4ug2vrzWd_da1-prlqPvkDmK31XFApNlkAV14-MIAnvvKjnDJVMBE1nXwnR6wFWVFOxh"
+  },
+  {
+   "title": "maccus.fr",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlxFHpfNolbIzHX-9n0lKXI_eHN_dE71zTpAqgaG3huuc3g1e0xf-w0mnm1btj_W5kShof9fYn4SXN-2R55ZugxDW8nT6F6PU7NC6fmTrREi44Yx2ZqmfAIR22q15S_0b8UILnZhw="
+  },
+  {
+   "title": "maccus.fr",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG7SUhkeH_27KYyO8V8jDE0Ahk68QBx-YwE1l0DWEg0eOF5NBmr7AbISadc2WgI2d6rOWkJX0t4IyPzC5THXF6f1g7bNA73-m8CQH00ueB747OjqW-Q2_9pe1UCdHO4sFTClPJJ7s="
+  },
+  {
+   "title": "energynow.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEEIJoSJfINpAQAG5ShpaJl72hzwzbtD8DT_HgY7BIAfjti99a3hBm73R5OJk-zMq-F5MjaNkGm1gtVqaoO5ReLnLu0SIK0EHY_Cr9Ao-XDzrYRY6Ijcm-VFZBcYmoX1rQrKFo5kkc4x9jXmjEJPurUQi9NrlUF6aUk6pnAhquXwyTZ3o-YyGab0Co0dMyF10WvVKS6AzIElHjIThsXsorFItstXyxjGBVH6OMHgdGlR15fU0hOyxYKfZiht1H4Yal4v70bEGkLQ3Vg=="
+  },
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjfh7etv-URUSakQ0SUkNzF9SbTFxs7NGckgpoqug-U-uWs6DN09hPXZ0PO9NMcnVN8mNLGKL_tIRlXBD8xznrtIjELALuxU264qtzsw0PZ9cbmti7MDAvSmskQtLAROUCZs3YitguMM-bUA=="
+  },
+  {
+   "title": "seekingalpha.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaLvD3jR20KsdgoZKqJ0moL-1TVmED1c30Vkm6RKVsauyDCgPHJdAn7xdZCdtrou_nhtAn5vaIuNeUBa6mDGJJySIpNttc6sFqf561bX7R9jxoVnhNO42LAPrMMAhQJxnXkEO5ibmUb7xfiKxcW1ES_9Ct6_zlEb-SHAHkzEQlrB_qjAwK0f6m"
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNW44PyMGZCAQAC6FshSP5tRPj8dLk1qQsmhUyb4ut_wyTgaZJ7rZPOk8gWwl-j1GhmcyVk5m96Gf6LO11EZ6Zn3umVgqx6r-RFAe7-war1JqTQ6FipbHyNGnk5Pw564DSF_RKj5Q6W8Cg"
+  }
+ ]
+}
