@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T16:23:46.061Z",
+ "items": [
+  {
+   "title": "Ataques cruzados en el Golfo Pérsico y diálogo condicionado entre EE. UU. e Irán",
+   "summary": "El presidente de Estados Unidos desestimó los términos iniciales de un acuerdo para frenar las hostilidades con Irán tras calificar las ofertas previas de inaceptables. Al mismo tiempo, la Guardia Revolucionaria iraní reivindicó ataques contra instalaciones y posiciones vinculadas a EE. UU. en el Golfo Pérsico, provocando impactos en una planta industrial civil de Bahréin tras varias intercepciones aéreas.",
+   "region": "Oriente Medio",
+   "importance": 5,
+   "source": "AP News / Reuters"
+  },
+  {
+   "title": "Impactos con drones en la región de Kiev y ataques a mercantes rusos en el Mar Báltico",
+   "summary": "Un ataque de drones rusos dañó gravemente un complejo residencial en Dymer, en las inmediaciones de Kiev, dejando más de una decena de personas desaparecidas bajo los escombros. En paralelo, dos buques mercantes rusos resultaron atacados en aguas del mar Báltico mediante drones, lo que suscitó una enérgica advertencia del gobierno finlandés sobre la expansión territorial del conflicto.",
+   "region": "Europa del Este / Báltico",
+   "importance": 4,
+   "source": "POLITICO / Reuters"
+  },
+  {
+   "title": "El BCE advierte sobre la instrumentalización geopolítica de los sistemas de pago",
+   "summary": "Fabio Panetta, consejero del Banco Central Europeo y gobernador del Banco de Italia, afirmó que las redes transaccionales internacionales se están usando como armas de poder geopolítico. Alertó de que la fragmentación y la búsqueda de autonomía unilateral aumentarán sustancialmente los costes de intermediación y desarticularán los intercambios comerciales globales.",
+   "region": "Europa",
+   "importance": 4,
+   "source": "Reuters"
+  },
+  {
+   "title": "El crudo Brent retrocede ante expectativas de negociación diplomática y sobreoferta prevista",
+   "summary": "El crudo Brent descendió hacia la cota de los 88-90 dólares por barril tras disiparse temores inmediatos de bloqueo comercial tras la apertura a negociaciones entre Washington y Teherán. El retroceso de la prima de riesgo coincidió con previsiones de la Agencia Internacional de la Energía que apuntan a un superávit global cercano a dos millones de barriles diarios.",
+   "region": "Global",
+   "importance": 4,
+   "source": "Trading Economics"
+  },
+  {
+   "title": "La Reserva Federal alerta sobre la persistencia de choques geopolíticos en las cadenas de valor",
+   "summary": "Lisa Cook, gobernadora del Consejo de la Reserva Federal, intervino en la conferencia anual del Banco Central de Chile señalando que los conflictos en Europa del Este y Oriente Medio siguen condicionando la política monetaria. Destacó que el daño a infraestructuras clave y el agotamiento de inventarios pueden prolongar la presión inflacionaria en los mercados energéticos.",
+   "region": "América Latina / Estados Unidos",
+   "importance": 3,
+   "source": "Federal Reserve Board / Central Banking"
+  },
+  {
+   "title": "Desacuerdo en la COP31 de Antalya sobre mitigación y combustibles fósiles",
+   "summary": "Las negociaciones multilaterales climáticas de la COP31 en Turquía finalizaron sin un pacto vinculante en torno a los calendarios de abandono de los hidrocarburos. Las divergencias entre países productores y economías en transición bloquearon las metas de captura de carbono y financiamiento compensatorio.",
+   "region": "Internacional / Turquía",
+   "importance": 3,
+   "source": "S&P Global Energy"
+  },
+  {
+   "title": "Escalada militar en Yemen y órdenes de evacuación en el puerto de Hodeida",
+   "summary": "El Mando Conjunto de la coalición liderada por Arabia Saudí ordenó la evacuación preventiva de civiles en áreas portuarias de Hodeida tras nuevas ofensivas de drones contra infraestructura estratégica saudí. Las milicias hutíes amenazaron con represalias en las rutas marítimas del mar Rojo si se atacan sus posiciones portuarias.",
+   "region": "Oriente Medio",
+   "importance": 4,
+   "source": "Barchart"
+  },
+  {
+   "title": "Renta variable dividida: avance de futuros en Nueva York y debilidad tecnológica en Asia",
+   "summary": "Los futuros de Wall Street cotizaron al alza en el inicio de la semana bursátil, mientras que los índices asiáticos como el KOSPI cerraron con caídas arrastrados por tomas de beneficios en empresas tecnológicas. La sesión reflejó cautela generalizada ante los costes de financiación y la evolución del gasto corporativo.",
+   "region": "Global / Asia y Estados Unidos",
+   "importance": 3,
+   "source": "AP News"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 88.06,
+  "wti": 83.41,
+  "ttf": 90.06,
+  "us10y": 4.92
+ },
+ "tension": 72,
+ "sources": [
+  {
+   "title": "tradingeconomics.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXTM2JsDgB5_0YsukYDPzvtYVuvvTsNl_f74Y2Sc2IAfeA4va1vROsKvd2Betl15ZeERrPUVcfdWZd_G8APW-XAxNzIMf6HfE3ZstQzNHqMVF6DXYixJlPb42SK9-1otNmXZMRtWMbT6KKHw=="
+  },
+  {
+   "title": "justsecurity.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA4yYrFn6mWYXaSnIkRv_-BAAFin62A6seuj8tVH1JtcKaQh_RFBYrqy69Z8EQyXf-EEL0jIpkIjwHUxJjUmCli7Qf-1KXWczcc3AxOlKOIPN0L6DbmewNKzMBUvSiD5AB6L7-hfAX2xbb--wNsC-p1IhtxWn_UtPc"
+  },
+  {
+   "title": "federalreserve.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoEtpzXtCYPzS23Os6uzO9jps-5ylrUDR2FsmycErutvDyBB-orZzRJM3lAn0lGfXfXTe65r5wk_rqfJ83FwCB_lZMJFd3y5OGzwI5UWLLYiulMe7st_QnvK9aADm72LDpcBxRmkvxMBvbuF-by_CJfF7sfB1LwA=="
+  },
+  {
+   "title": "barchart.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQip6nG2q9cebt9lkREdj8ugQQBQ8HL9G7UYJU_M0JSYGVIB-DuUXnFNVsp9WMf0xTZHyRQIqMNQdr5RG5tfzEQY87_QDbmPyjkHvgf0ddUOlzGbfjQeKg3qWeNxaryl59TBWvvAmsDz-p6EWhb2zW"
+  },
+  {
+   "title": "euronext.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbp0bu7TFoPIbX135rOdkcMFSltpL0bGwROUAPjT81tBNT-LoPxaBWR2s8DMOwKxUZERGkltjTNzL8MgtAZ9xqLsG4kPKdQkZR6MxOSVd3zoMaLtwbew-a5DUA_pUWxH5RsfddMJfqVviQ6fEAOTzt4gmzF5GpHFoqjMEzYRs1euf8wmAALc0Xh4_4bMV1b4G4Sj_9VCaMMeykV_CYnexPiPGIZYge2gI="
+  },
+  {
+   "title": "investing.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQfrPH8twShbArm8vq4PGB7wDCagDnGVmonR6Uz0D4pmkrYRl7hbFdE2_XRshks4sk-hwDIOclPAMTJ_zPstM4fyHqcx6u9CvGw7UVRykV-LGPo5VE3sJ6CjG7lF60Qz8UpJ-7"
+  },
+  {
+   "title": "centralbanking.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX3i40PvTYxJ7Qk7LMBmW8aYAzUepLf8aQHRAKknLCQLiOnWJmmu-bzeHVjgZ_9eheeCDvP5k4b4XukuYG35UultruSqO11edS5rBKJJAkMe8G8d-XGk4gktUJs4ZUkvD64jPCZS0="
+  },
+  {
+   "title": "spglobal.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnPPZjfknXzpdPVCowv_7-1b0CGsI6gOgKenV3bOfCgIH5vy_VWOh6mnRDcIQfq6Z_BcF7U9eD-IRosRSnYPTNHBbzm0RNzYH56TVJ6U_fRaaabqHAOyQdBtT_k2NPPchNApifnplaNtaPI3aPP3kBPkbIsJWfpy1K7_1jKmWlayrYrmDfks-Rit4KS86aGC1NI8r7iHM645KzbZNYY57ONnTFeLnKenDpE4V_Gbp7gIk="
+  },
+  {
+   "title": "apnews.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAwanNc1oHDLgq4FUe19q6TnnRyXo1Ufx_CZ2FSWVBs9_zbYuGMnZAiGiUmSTeixcHAqNNNIx7dSeXug5cX73_RXxec3GEzr11chzcjhMf-y4-gwfD78Y5zpxsB66Ju9SYZzAT9d9htMcreb1d-FpseoAS3ROFCsPzqQ8PB1IXGUP69uNkAf_Muw92Z66Zbx-UDYW9RdiBEGg_7YaDkw=="
+  },
+  {
+   "title": "jpmorgan.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYt2ygVsZkUgFG4Psi8zKwo8CEPNdUAn-ShnNY4jfhXSfie9_pF4qKvhyOhe9hEW_awtI5fMeMme1kmM6ifxbamkZe_vSmqIKzXuuaFOHA9eYO13ZZBQqlUMPb6YykKP0fHmNIelvHStpD3Md84o-18u7MF8pAaHwPahcS36mSUq5H-3_ngzXENQXLCWaklnzKVqDz5c8NMenhqn84c8P24xcftz5I1dbvQ-OFQkmLjbaqOY4Gm1ukC6nxG154"
+  },
+  {
+   "title": "brookings.edu",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqjCeeTnS7iS5vqH2SdwF_bFTfwAWbABdZoCiharQaTjr_kmJXOSc1oM0tq4RiQuS7egFO5cwKrQ8-ONlyCcU9XDN5rcKFeumb1aehzN01imn0O1QckiqLuZTSUfDLb9c9ytT9A4-1w-6SUg18Vs1ugIHOJz1XGirfPviUQrLRehbrZ5-Q3P0t"
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3EGDvvl84HU8Kkfy04XJCTSpYku4GvGL6rcABB79G4z6EZb5rADfCwawGcQCQLhoFYMm6NbuyJQ0j_tjHJZC_ax6PS8YnQe4jGwllXQhVp3mbs_JidWDzMKgZGfZirhmGhxGPk9J_udNm504ByxKWg6uo4A=="
+  },
+  {
+   "title": "sierra.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUWyFlgSzqlLnlc3U6JFqg9Oc4vrh3hcoZrK58JI6pqGwh3Qa8T47VWupD5J3WP3v8mc2da-Z7KCH7wOHYOlohm4bZgn34U0X3k_yt8-6GnhIKFUHNBSDahA=="
+  },
+  {
+   "title": "mashable.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeztC4rMnximX3lCfu8QaOwRqDnmHAxSWvnHc-pk-KLrleSyTLDMuGU5l9X2XCxjRB5LNJWB_dNPkNd49xWpP2adWxkG2Up-d0W73HLpn1JNoW02DTeagemIjKtT2BSvHx9cWWn8KT98C7rVf7Pj-q-sjPkyrkuewJIrNclrByL_V-6lODaqGNaC0LDXCgjZGfKH3QufMTW33WccozP8kjoyileX6yncJfvuszAC9wMIlR4Q=="
+  },
+  {
+   "title": "emergent.sh",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSY07KMtha-6fEgT8QvckWk11dim7srMWHPgif0Bts0wROl0zIyr7EScyIpqzkcKLJAN0WVryvtVsCCeU-f0w3LP2zbsxwGrobQxYQkuNzG2w5i39Sn6efnposzisrn8JMsVY2_Z67yfExfW58ZO_gyNpzV5HaYI4="
+  },
+  {
+   "title": "macrotrends.net",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7nqiXrnYaqJfF20IwPfC-4nrf2FDauFaGAt4ZBGmAXXsVrR6sdrglmrPti_grbpC7KbWh-jsw_XkExObAZSyczebYzVrsvc7rQHVKyABDBlqKSd7MBBNJpfDl6miKbuUO447Cd_17uu9Q-yef4cthfxgLb4bLP0_THo7_Xe4="
+  },
+  {
+   "title": "energy-charts.info",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmIomsMbdwpJVGuFJ-NkIVJM6c0Y-gc_pY_clsoQiHIP5G63XLMx73lMlfFztyrWTf0aNuRupyhXLTqXjE2lxfWYeTa-to3C8nLmx-iI8kzJ1V4UM5qJH4xS0h0L8jLVmkE7U5pQkSZW4nQQ8MIGMOxIg3Kj4rti63EhDG2FSKE_hUvb8PjbQMt9pANAUY1B7ilzen"
+  },
+  {
+   "title": "energy-charts.info",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLMGcj4i2wDnl3A0M_TAoLL07Ja4vU4bv3_QBIxzdEZSe-vjjPbOg7oiArajBKnHem3310oLtj_0fFszRauj2iXqEuQzKgW41uSCt7wtuLZMBod7EhZABSOISW4zKaOpKfa7akXkiGWSkIptTvNgyfO4qe1z3wpyvCggbTOL69Cq1fLfXpRY70Tec0scUYr_pxGLzjAw=="
+  },
+  {
+   "title": "ycharts.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiwqfL19f1Ty75lzRbtJB5Z7voAUzwPvpCP9b5nO7hohQEg_wh0Qdd8dQGgDyp7j7iYxiHM088GqmiV3UYc0bkqn-C4Orv1sDpR9Pea-s0F44wTyKzuJ3bxmLc75u4B7bteuETnNXUrX5C"
+  },
+  {
+   "title": "wisdomtree.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaV-9bUzXbALols1vttZpkxytPEvIuKp3XpLiDZaS53Po4NleMV0VPYyTcDw3o7UPzpWAqMrhE7mHJ0TUh6W6wZXVYqsvf54raUfNO9SmFUSxbAiWIeDWL3JklVKWefj-ANM0L7YyeNq3c2Hrrp4slU-nrU9okKNNPyhH-b0MSaLEm9pNu0p2D-A=="
+  }
+ ]
+}
