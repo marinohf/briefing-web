@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T16:13:21.624Z",
+ "items": [
+  {
+   "title": "Apertura de contactos diplomáticos en Qatar para distender el conflicto con Irán",
+   "summary": "El vicepresidente de EE. UU., JD Vance, y el secretario de Estado, Marco Rubio, sostuvieron reuniones en Washington con el primer ministro de Qatar, Mohammed bin Abdulrahman Al Thani, con el objetivo de encauzar posibles negociaciones con Teherán. La señal de diálogo impulsó un alivio inmediato en las primas de riesgo geopolítico en los mercados internacionales de crudo.",
+   "region": "Oriente Medio / América del Norte",
+   "importance": 5,
+   "source": "AP News / Just Security"
+  },
+  {
+   "title": "Irán advierte que responderá al bloqueo naval militar de Estados Unidos",
+   "summary": "El portavoz del Ministerio de Asuntos Exteriores iraní, Esmaeil Baghaei, declaró formalmente que el bloqueo naval estadounidense constituye un acto de agresión militar contra la República Islámica. Baghaei remarcó que el país utilizará todas las herramientas disponibles para defender su soberanía y romper el cerco marítimo.",
+   "region": "Oriente Medio",
+   "importance": 5,
+   "source": "Just Security"
+  },
+  {
+   "title": "Reanudación del bombeo en el yacimiento libio de Sharara alivia la oferta petrolera",
+   "summary": "Las autoridades libias completaron la reparación y reapertura del oleoducto clave dañado durante el fin de semana, permitiendo reiniciar la producción en el campo petrolero de Sharara. La vuelta de estos barriles al mercado físico contribuyó a la caída de más del 3% en las cotizaciones internacionales del petróleo.",
+   "region": "Norte de África / Internacional",
+   "importance": 3,
+   "source": "MUFG Research"
+  },
+  {
+   "title": "Ataque con misiles rusos contra un edificio residencial en Zaporiyia",
+   "summary": "Un bombardeo ruso impactó directamente un bloque de apartamentos de cinco plantas en la ciudad ucraniana de Zaporiyia, provocando al menos dos víctimas mortales y 44 heridos. El suceso motivó que la Embajada de EE. UU. en Kiev emitiera una alerta reforzada de seguridad ante la persistencia de ataques aéreos en todo el territorio ucraniano.",
+   "region": "Europa del Este",
+   "importance": 4,
+   "source": "AP / US Embassy Ukraine"
+  },
+  {
+   "title": "División en torno a los próximos pasos de la Reserva Federal ante la persistencia inflacionaria",
+   "summary": "Analistas como Ben Emons prevén una subida de 25 puntos básicos en la reunión de la Reserva Federal de diciembre debido a presiones persistentes en el IPC y costes energéticos derivados de las tensiones en Ormuz. Por su parte, inversores como Bill Ackman advierten de que mantener rígido el objetivo del 2% eleva el riesgo de recesión debido al encarecimiento del crédito corporativo e infraestructuras.",
+   "region": "América del Norte",
+   "importance": 4,
+   "source": "Fortune / Central Bank Central"
+  },
+  {
+   "title": "El Banco Central Europeo evalúa la resiliencia económica ante choques geopolíticos repetidos",
+   "summary": "Durante una conferencia en Viena, miembros del Banco Central Europeo destacaron cómo las sucesivas disrupciones en las cadenas globales de valor, la energía y las tensiones en Oriente Medio condicionan la política monetaria europea. La institución subraya la necesidad de reforzar la integración financiera para absorber el impacto de tipos altos en el club comunitario.",
+   "region": "Europa",
+   "importance": 3,
+   "source": "Banco Central Europeo (ECB)"
+  },
+  {
+   "title": "El Banco Central de Turquía estudia instrumentos respaldados en oro para sus reservas",
+   "summary": "El gobernador del Banco Central de Turquía, Fatih Karahan, anunció que evalúan implementar nuevos instrumentos vinculados al oro para proteger su posición de divisas tras un fuerte repunte del metal precioso. La autoridad monetaria destacó que el oro ya representa aproximadamente el 60% del total de las reservas internacionales de la institución.",
+   "region": "Oriente Medio / Europa",
+   "importance": 3,
+   "source": "MUFG Research"
+  },
+  {
+   "title": "Reunión consultiva del Consejo de Estabilidad Financiera (FSB) en Sídney sobre vulnerabilidades bancarias",
+   "summary": "Autoridades monetarias y bancos centrales de Asia-Pacífico celebraron su sesión plenaria del 23 al 24 de noviembre para analizar la estabilidad de los flujos de pagos transfronterizos y la liquidez ante focos de tensión global. El encuentro también abordó protocolos de preparación ante crisis financieras y la rápida adopción de herramientas de inteligencia artificial en el sector bancario.",
+   "region": "Asia-Pacífico",
+   "importance": 3,
+   "source": "Financial Stability Board (FSB)"
+  }
+ ],
+ "ai": [],
+ "markets": {
+  "brent": 88.66,
+  "wti": null,
+  "ttf": 88.65,
+  "us10y": 5.2
+ },
+ "tension": 74,
+ "sources": [
+  {
+   "title": "mufgresearch.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxk_FrGAoIVXAph2it3_c7zcyDfYYd6YXZ1eoZDAMQK8ykYfK8zyP24377GyiBdRbsIo5N1usB9-O84I568lfpO2G6w52jlGPuozR4ugfowYN5Rn5ed_-M6CYe7TNS5cJ2hT_WVzLmsNGS3LSGEJYSnOd5402URB-Y-KbJ"
+  },
+  {
+   "title": "justsecurity.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-n6JQYQXMByJWxJh1Fj35KInSCr2XuYzhhpq2nnrf1KaGSU1qvkgOL8WRgvfF-dPTOap2mdbDNv0fOE83fZuc0X0onHIlwG4yXsjqvgYJEVwN38Bn2hhUTts6yvLEYV5OIYmiKe-z9ZWL3qsxdx05jXF2n6PAMi_63YepUXLP7hl1BP4Z5Z5Qk7jl1i80QZJgiuYqtJEIr4QFBsAtdaVGytA1y7Qzj7OuYyH5BNQqhLnEgDSiNQKj0VN02Le_IoUFnGs="
+  },
+  {
+   "title": "wikipedia.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN80gWOcdJ8wlgTwG7OU1X1-JqdmnR0TeOuIs3fZsaZIoahq1z3eZWEIVq3tzdBH2XcaZC3KkNBufdIRTg4kAaiYWbjnEr6fjitZW1_NiKXX0eyv3akbOAVM2iCyrBZ9WL4nF_xBXyApTUF5z-pqdImi4CreZTIcXc"
+  },
+  {
+   "title": "usembassy.gov",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtIYcUaA8sEZ7KDNUb-VxS9lRoeOijKFjVjjIClBBhpvYttA2cGY85VAHXiAczM_qKWnpAnvtNj2H-nd7qO5F9hty7CNpaTn0Chp_pG4igkckSrTUOC60UmoEsmsZx04SaN3rUJ8soXJ7WwFsih2c8_Wuohp6vfbt8AHWoPfXXVxpH5Dixh7Q="
+  },
+  {
+   "title": "substack.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRjqxrlnzZLd9P8Nbb3QpLIJTbvfKpfIdbVarUpKEs5QCwXb4ql_hhpelBUiL8tUw2VLrnHvofkGF6BaPVVpvi0NtZDF1SeM3SJpvbHu2hoZuMHvKLpUKGT6nuJMosBnmu2YYFK4GaP25CCdRtkEvSgjyq2dakQmAyYS5QBQ=="
+  },
+  {
+   "title": "fortune.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ8u99t5tiCBTavEul2tQ9v7yS5rgfPnfULwBbH-Sg6bOlbxukrrwZ2XJMxAditCwxKQo5XpHdcr8_cRyAqd-GZBlLniqln5FVz5EOepBkST_EVm0KP61IiaPx2bboeJZSMy8TmajqvCrJa5YabVPCFNx3Kz1nti_rQ-zfOSy-NnL6wUv79kT0-rVS"
+  },
+  {
+   "title": "europa.eu",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdIi5xKoCAv_cHO3iTLLp7uTCGr726cYLm2FLB1X12KIHcB1mJ9tcYOs-pSeP-8mXkrMctvhuwVKnQyDMb9DwyD7D0xoA9wkyvwHPMGr_yFmE1iTquwHxtA2NGsOaqpVZB868yYaEhAIRNfWHwDml0ccOEdfpCiwTuNukoSH2upyfkhXSSjME="
+  },
+  {
+   "title": "fsb.org",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJS3Qaq7m_ExhCKvebC5UwKeaLzpAttAZrI13Iwvj6-_LQb1WQ7DZKKQCvSVBl3-bLv2gNDaUHxTiogv6medHhnAEFGydRNZC8pYT8Dx-LCXRAWDz8cz2D42HUS9Fib9zVN146iFp5HIFrsfrRHJDmbk0szSYksE1FWyVKQBSqUjWBZSYFxFRaavGWdA=="
+  },
+  {
+   "title": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHNNu3U3GfAV8io0Mef3-IxUaIslUigLAGkX7AEPb1WRcyMrlLNNrxxJytwjE-yEB6WhAwR8caqL9L7PpvbOu65vYCbudxWc85DRvj3cJ3FVnfj7OgcoAGX0G5hVBmPtE="
+  },
+  {
+   "title": "cnn.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmXrSRsNdNwnq_hJgvpojUoR34VWi2IGhpLCyfofyPoCSAwAPNQu7NROx6q6TW8vApfT5OFBjg_UNVhLjDbqazHwddhvdSfKUfaEhfPozgbd5LO_Q4R7jVeWngi52t4sgyWGIOv_sSds04upAgi0oOXqQS0k7kpDamviN96PQQiDU_Q=="
+  },
+  {
+   "title": "washingtonpost.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3bz1d5m-xht4o4P9cfAfv0AqjyO-OPGwUbOTa7GXBH2L6rjPl6-5HG2kQU0t21Qb8LQkZwf6U1oP_yAAi9S7NCIJDpo1uwO77bp-tBzQ0y4qDJlrKsHriP91WgX9sUqlOmpMN92oSwCGiLlrlYP0BDpd42k0hc4TcrZBXQiU4AzW-9f0a2YPfxZGP"
+  },
+  {
+   "title": "futurumgroup.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgf8ss5mqso2W8UZwbhd6t5i4MUOr_uccAfH384ylFUm88IttVGS_lxnrzFQzFQSliZgmSQE1OoTLP0UQQDb8v2-i80mgKt7pr_MvMq_Khh1B4kk7YNuY_tG5L1y-vGwKfW08tsHdCV88fFv2gXY_kKWhv491owuToHcFkBta7l56SVk3CLtqlbfNlJyjInK1O2fsOXNazQHOhxQ=="
+  },
+  {
+   "title": "therundown.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcsXXZ7uVRAVc0EA0aOxmd_KAZNBE1uG7S4H7-y7T6JgbOkI1egYYGtunSU2MzsjtAzGpSCPapZ3Av846h5Or_RsXCCyYDnkUY_bPZIhPzioJVoGl8ikTpFyIGMbNR7slbN8PqusoqmYMd4Bpfqfaf2Kag_gys8Zpy0GELlYy-9g=="
+  },
+  {
+   "title": "fortune.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKZZ0uXfmjm_r005EeMsuJPr3yboOtF4Fnd0xeNECMgzaSt3oplqIFLuMbVeI849_f0cKKHnnQILwa57gwwd3fe9yWLUUvujy_1j6iRp8zgS3WHk9oWnVyWqhTA64O29ZgaWLu2ErEZ00="
+  },
+  {
+   "title": "unn.ua",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg6q-5zqdy2lpkd-Em-xan078EUu4WONFVvLHXQmV7OdpvN8Wk7t8bDLp_Hap7yYaFxVQ8mprFHhE8HIi10LooQ2JLmscwTd8vVf7mO1434WMDx8RcPztuy3lVXBvv2YpEalD6Z-ni4kQinYNdeJpCQXC1V9XZblfyRV6IiBJmYKYNGUXOKk75O780Odx7ps1PWFusDSb-OMwF_BsVE5NqR8aHwpyX2sfXZ-rO22g="
+  },
+  {
+   "title": "ethifinance.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlN9TLgaL7cXmMmS-hWp2JJVdi-o6ch4ILg9KZBBIAgkJ3LLVdSXTldaQIpFIGUkyLAa3T_YJFPuteXKJV8MD3Q_ynJSXgPAe6MzNg21qzf2JCRVTp4HpX3_0kk4TYVX0_O-dcy49chSCs8Ti-qBy4wmsZBBWhNjAw"
+  }
+ ]
+}
