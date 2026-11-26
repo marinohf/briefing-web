@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:57:41.883Z",
+ "updated": "2026-11-26T15:40:08.649Z",
  "weeks": {
   "2026-W42b": {
    "start": "2026-10-12",
@@ -1464,163 +1464,6 @@
   }
  },
  "days": {
-  "2026-11-05": {
-   "date": "2026-11-05",
-   "generatedAt": "2026-11-05T13:27:40.040Z",
-   "items": [
-    {
-     "title": "El Banco de Inglaterra sube los tipos de interés al 4,0% para frenar el repunte inflacionario",
-     "summary": "El Banco de Inglaterra (BoE) elevó su tasa de interés de referencia en 25 puntos básicos hasta situarla en el 4,00%, marcando su primer endurecimiento monetario en más de tres años. La entidad justificó la medida por el repunte de los costes energéticos internacionales y advirtió de que, de persistir las tensiones en Oriente Medio, no se descartan ajustes adicionales.",
-     "region": "Europa (Reino Unido)",
-     "importance": 4,
-     "source": "DAWN (vía AFP)"
-    },
-    {
-     "title": "Victoria demócrata en las legislativas de EE. UU. impulsa un rally masivo en Wall Street",
-     "summary": "El índice Dow Jones subió 1.569 puntos (+3,03%) en su mejor jornada postelectoral en 44 años tras confirmarse que el Partido Demócrata se hizo con el control de ambas cámaras del Congreso. El mercado reaccionó favorablemente a la perspectiva de un gobierno dividido que contendrá el gasto presupuestario y moderará la política exterior beligerante.",
-     "region": "América del Norte (Estados Unidos)",
-     "importance": 5,
-     "source": "CNN / CNBC"
-    },
-    {
-     "title": "Los precios del crudo y del gas se desploman más de un 8% ante señales de desescalada entre EE. UU. e Irán",
-     "summary": "El barril de crudo Brent cayó un 8,7% (cerrando en 94,62 USD) y el WTI un 8,3% (88,12 USD) ante declaraciones del presidente Donald Trump que descartaron ataques directos inmediatos contra Irán tras las elecciones. La apertura hacia iniciativas diplomáticas promovidas por mediadores como Catar disminuyó el temor a un corte total de suministro en el estrecho de Ormuz.",
-     "region": "Global / Oriente Medio - Estados Unidos",
-     "importance": 5,
-     "source": "PFL Petroleum Markets Report / GreekReporter"
-    },
-    {
-     "title": "El rendimiento del bono del Tesoro estadounidense a 10 años retrocede hacia el 4,89%",
-     "summary": "El rendimiento del bono de referencia a 10 años en Estados Unidos cayó al 4,89% en el cierre de la jornada previa al descontarse una reducción de la presión de emisión fiscal futura. La demanda de renta fija soberana se vio estimulada como cobertura ante la incertidumbre legislativa generada por la nueva mayoría en el Capitolio.",
-     "region": "América del Norte (Estados Unidos)",
-     "importance": 4,
-     "source": "Trading Economics / Reddit (FluentInFinance)"
-    },
-    {
-     "title": "Ministros del G20 debaten medidas urgentes de seguridad energética y resiliencia en suministros",
-     "summary": "Los ministros de Asuntos Exteriores de las economías del G20 situaron los cuellos de botella marítimos, los riesgos de sanciones y la estabilidad de los combustibles en el centro de su agenda de trabajo. Los delegados concluyeron que la volatilidad de los precios energéticos se ha transformado en un parámetro estructural para la política monetaria y los costes del transporte global.",
-     "region": "Global (G20)",
-     "importance": 4,
-     "source": "Adalytica / FX Markets"
-    },
-    {
-     "title": "Fragilidad parlamentaria de Netanyahu tras la retirada de respaldo de facciones de su coalición",
-     "summary": "Facciones religiosas ultraortodoxas frenaron su apoyo parlamentario a Benjamin Netanyahu, debilitando su coalición gobernante en medio de las operaciones militares regionales. La oposición israelí aprovechó el cambio de composición en el Congreso de Washington para advertir de una eventual erosión del respaldo financiero y armamentístico estadounidense.",
-     "region": "Oriente Medio (Israel)",
-     "importance": 4,
-     "source": "The Hindu"
-    },
-    {
-     "title": "Extracciones anticipadas en el almacenamiento de gas de la UE ponen a prueba la reserva invernal",
-     "summary": "Los inventarios europeos de gas registraron sus primeras retiradas netas de cara a la temporada invernal con reservas que se ubican aproximadamente un 20% por debajo del promedio de los últimos cinco años. La competencia con terminales asiáticas por cargamentos de gas natural licuado (GNL) persiste como el principal factor de estrés para la matriz de generación del continente.",
-     "region": "Europa",
-     "importance": 3,
-     "source": "European Gas Hub"
-    }
-   ],
-   "ai": [],
-   "markets": {
-    "brent": 94.62,
-    "wti": 88.12,
-    "ttf": 84.65,
-    "us10y": 4.894
-   },
-   "tension": 68,
-   "sources": [
-    {
-     "title": "dawn.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkuuEx6dmKAL4t2KpiT9dX5Nu2FCNX6S-0tzNX2fDjhn8v9FPcB2HZvgMO0xJQDxSErNmHQee16S75KCdjTPQ0RUfMNIkuzsVNO1i1DA2kHXL1KRvZt8pishXADsQuyxRKSESbqyAdtG1YboqB3_2IT6fQ7Z9MRpFDO5uS8HmB0atsCd43YqSaGTe9ON58QBUl1KSBMYIrhBi94l7aC00="
-    },
-    {
-     "title": "google.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjYfhBiSq5lqZpVJdRNIj-HOuXVG5LWrSfsYB7NGaOMBg6GIlBx-CGzWn3vYmsxqu2-f8yU21Tg9pRUEAIRkSS-buo3OuFZEDZcX3IZKk="
-    },
-    {
-     "title": "reddit.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw8s1MtUJYsndTzkLhulKDXNevAT_gEcyZhjt-siWIQTNGRwoCqepwqd9or5zO4O9d3m-zqLf16m4-vOLFP66DKQZNacWAxqU0OPpDA8M2jnAfxIGI34Vk06xjHkcwht9hXO2Gso2yoG32w9vylGxMfztNC8O16b3sr1pHKymHKUCkFRxF4WOAIYplD-p1yyXeLUlPH4APRgRUX0RVW086PQ=="
-    },
-    {
-     "title": "tradingeconomics.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyipgd3ObTLNuaQFAW-dQnUnjb3tWpAHHBIJkdKnF_oLJ9jxQ9484jdfayOwjOu46rSzEK477ehdJGAE6S7aF7Z6DNlauVkeQ6Mu4wHah56jzjSzYot8H7ouFPgQsELyauNbi-RRvJcI0U_AETkhyJjGiC69T1wo4WwXbl1RFAgQARy1o66115bal-PbuIRn-jRf4r5g=="
-    },
-    {
-     "title": "pflpetroleum.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtDwVvmg7eIsB5zM-N8YCoDWZ9CjzKIBNmvWyEV5L9oH6qYw9HfaEgkp8UC295BnDcHO36ihbLnK-uPGh8W3hlxq0iBXga70MfaPpFsT_7_z_Z53sYo0bJc0RN1bmqi1DPUUK4EQrZ57ch_DV9el-QG5VfQ4QXUcs="
-    },
-    {
-     "title": "greekreporter.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd6PoHT3L2RaaBI7HhnTawTy6MXJjVMpucDAIR3c_-hRQS9_5aVPYtsNXDM3S8NHDhzAn2ivbLlvzj9myLFsNVu7xCPbGCqVou2HoNF1QzXE9jeiz4glvvTcyzMb3IU-gmz2Yh4qKie4G7QSgtFs2Vkvf-wvtQ"
-    },
-    {
-     "title": "europeangashub.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4MByzg1DDbe1S8C5w49Ba0KRYvpNMynytEUCF9kQJWn2ONftvZFvGNdk_bBQJMGSLEobbif95L2tNbJDKRd2Z7YJyH0MVbsr2nW4Pp7mfUfxntUL1xNYTowATMk1CmzMPNehbz7EvclBd-SptS6uW46JlbLZVBhfEG41L6F7tBuyVFLwfRO65"
-    },
-    {
-     "title": "portfolio-terminal.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0tI5wOtuqxYEaj-axpGsL9kYvAqMpA7d872nLTHwUjqA90YA6yaqaO7uRfiuXOVhZ9kI32HN5SmR_A5kUIYDu98axgQ5gShEZbiXh9xCB24FczDhm88AjDLawHZVAEw9FQAupA__-WdcTnewlV8Zc4Ogm"
-    },
-    {
-     "title": "adalytica.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_I3_TQzq60ZNl4tInbW0kHkXHuJHFpXcQGapg0RaW5iXDYETNnLEjd4ijbISyOa6p_v3RkyauVkGQROplO17HDOcquQbDcqUKwvUFgES-Hv5psycJENdr122jaATDaFZksuRqkc1CcIhOa4kcHfVLcir3TC5jPRI0jA=="
-    },
-    {
-     "title": "thehindu.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5qfeI4_kwBU6DtVP0P7xakwU9CQf7TMhYwRM7TnVsJGv7tli1ZC1wBHUwJBPIPfYKXX0JGTRNW-YBPHk4evNHw8W1GSSIof5RwEVr5uQjNGj1sdFaytW5I3IpqGFuniNuCw=="
-    },
-    {
-     "title": "moderndiplomacy.eu",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDpahRh0HsISqnhMUGRrV8eBsw2KpzW6mFAzWPx4XKUEVxMKGNkOiZ2VK89b1covJcmy9RdgoIJ-uc1iYFsiKBS2MRmWNAAen5sqkaY68-PXZB3sX-U737FJk2TPieAO1EyLoqGTTe6WKJggbzabApyaMQI3BnuwvVDiaDl-Br6qeT0vxP-OoS8kmpwAVWjnyeTkjy9SVgR24="
-    },
-    {
-     "title": "europeangashub.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQuDHgGLO_rRpF-xVf0dTPLFQTVxmx1n_FQ7zdKUKeaaWzt7nhke0ilV5U4mdKuSOUEzKHMjM-YjZcsur2og1_Jbdf7PeNTq2BgLYTj3M3rXgmDI1Pder41See8w=="
-    },
-    {
-     "title": "globalbankingandfinance.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpY3uTufwIhXab-JHys-U7gpeSdNMUlDQEKC1e9sFCx932clNjn8f-Ykf0BLFDfTOY-AALioW10mHT4BjYYrFkiw5HSTSs7h3yjC-932USX8DsXU8EibQWp52iOvfldti9HAa0wZTHPq8vT0Y5dqEjjpadEeqYNYwORQsRc-5Vyauz76Ygeu6D6OZoOg3rQR3R2X_-JszmSA=="
-    },
-    {
-     "title": "europeansting.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtV74FlPyk2HeG664DayBjuklawnhwCRSi0Vt3AZNd2-W0jyY8np0HYy1ZhsO0J0LLmZfNlSX6ZPZelPn3EWfurqo4qvNs05id717Vv9RGGfV0fH9v4LxPtr7dCa73tVQ0rnhtVC_YCwSicFLrtku3dh99HgEXSigWv7FaAStj5qhBJXJlBuEAeXZh8HKZQctp0QwBrNKmWlh1_EhEt3IRGoLUfsrNMPa-neayRF_1YzA="
-    },
-    {
-     "title": "wisevoter.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb9CFAz8KRX8Ko4ADmvdHNq9o91eW2wBU_eZmvPalqqvQj4e6_ttf6VVB3k_uuaMOd9btUqykeReT6UkvjJX4SDuLmvlhm5DJ05J8yOg8uOkgpuVoCrdl8K43S0qF7yD0res9AXQMLFb7Xfd4XeC4Bt7VctyxMih5klL4-ir365Yn49nKVux0rJwffXg=="
-    },
-    {
-     "title": "ebc.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOR3hQnjgxzwVshaSK0PKW-VX9x2bT5ikx5BPNdeLYzlLcnHQcqOq4rsahxFFEF1OSFLLhl9M4pnVVNgYB9QBenUapKJx6cdHWXTLcl2JHxDDSoUyE8qrOF-LgUtnIh7oOdj7e7PvkRNVcqSOmMA8qTg9xQLaRQvecgUKth5o="
-    },
-    {
-     "title": "uecn.org",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbfrz62gkWHDBLdG8Cju1NBzqvf3YYvf5-RipooxORs3-WCLMbrFDWqJNKpyTMcJRjoE_ThBgY2bB86CUsLa1SMmpN180j1JuMALJ92-Vh5xftzju7CC41WWl5x7l0ytVCItfICHAmIg4d9gn_hw7JV8k-79_FAa6wN-tc6zMkOyRteuxU3Q=="
-    },
-    {
-     "title": "emergent.sh",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5_IWBx6o_-mPaV7mCTYa-1-fUNFLiclLS2lIjhon7dvwITr8Jqk-o8S3J0Mw1i1LiAyE7XB0KhqLSiasFYvAmZ4m3WmsKXhUgmUNNasdi93qIm1BqljJkoqVplFoJ-uyCpeZVRsyEUTBGi08Bnumd23nHbZ0="
-    },
-    {
-     "title": "energynow.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf08tQkdpTA9glx7Bvq0yVQByHkSCX_lbIoTWkpGTXdbiLSD-CmB-bmt-9eRixc87TE4U2VblFufw1tOS8ppNr-xiGhpMjRbe2DP8uubLzfG4RD6QppeTNf6mjv5xKgs0bibiGa88JRXTkiR_Uo5P2zix-Fcnz2oNZD4C_9jJlJez3o8WoWvIwT-WapJa8E66UPwB6Hr54SEy9wJG_0gVxw-UjTeGC2agYvaunjojFhKqHUgshIu2q2XBbMg=="
-    },
-    {
-     "title": "buckheadenergy.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ0nZe3T0CDxUKsyMg5hmCUNyit95aG2eWma5vinyxhRuPaJPudqOl2Tvyl3yVZ3tmET53THVPp-hxmhk0TbZqcGv1kd7bcbVMBLhSGCYEQZOhIblu-DHczuwvBjKoubwf9hY="
-    },
-    {
-     "title": "profiteia.io",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-A8n9OkxGZZH7CMUyBMwGmYiXgJaz31U1UYV1ZkuGYJC9m6KzMB2xQS-CZIu3Y0xvARxhCXo-LXXMzI4u3B30ETqVo2I9KMlPufFo-7cLzFpc0yrC0gaXwb2rqTCXnKuJ1wz7AN67jqJHIFW_Hcq4coY1hj3LvW-3FFgvEvUTqopH6Nt_I4ox1eIjyf2mAe1S"
-    },
-    {
-     "title": "ice.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmniKXU1xZPt7roGdmP7qFNoRw7aj0SWvXUGOMaUy-40RxsBQfivzv5tjYwTIfbbv8shHoSVr54DF4V3GL08U7ZA6rQDilZWGF5akM2YwavVbirgp6959XyKRjl_EM-K5vl3e1OGQs5imr9M6mg_p-bANdepBelMNi9E_WfJKFQH-8NuDnTjN-j8I59UBCPw=="
-    },
-    {
-     "title": "tradingeconomics.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2aQ8LJ2faJq8mP84pciENBMPRc1g3RdvUH5nRPfHYAdJsId4iH7DhyWVO_sDwOYzMNx19x86DhOCxVRy8LTHouBBnTDJ_r1Q3eCKJXmX4zzZj5Gdm9kZaKcxmPCiSmnKXJfIKk9lxfft-02PpF8T0qS7FO4K8"
-    }
-   ]
-  },
   "2026-11-06": {
    "date": "2026-11-06",
    "generatedAt": "2026-11-06T13:11:02.639Z",
@@ -4900,6 +4743,150 @@
     {
      "title": "fool.com",
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHUlapBBxs1b-mLwI1X0lW4nMiYz31P_VzTC-8DqOwxGAPbtArp-e47PPFntyc8ee4Wpk5H8vbvCPpHbynmAURUItawciTur8CKMC_0He7nAGvNL1Zep0PkjTRKq8wP25S0wLL9zY-7FCy4iVf5i2U19suGsUTwN6LZLu_0iEh3SIvqYB_oJncwnNLlcxsAAZzVRiA_2_WV5GxO8XBo9I5YYnd78QmiLKCl_dCs4Eo8ESDGxhRJ3BZkh_jir_JygzdKr-o62QGfUVkl480RxRslBMhfdC9uiCmrPL7"
+    }
+   ]
+  },
+  "2026-11-26": {
+   "date": "2026-11-26",
+   "generatedAt": "2026-11-26T15:40:08.641Z",
+   "items": [
+    {
+     "title": "Incidentes con minas navales a petroleros en el estrecho de Ormuz elevan la alerta marítima",
+     "summary": "La Marina iraní y la Guardia Revolucionaria informaron de explosiones e incendios en petroleros tras impactar con minas navales al transitar por sectores restringidos de la estratégica ruta. Teherán ha condicionado la libre navegación por este paso clave al cese de las hostilidades y al levantamiento de sanciones internacionales.",
+     "region": "Oriente Medio (Estrecho de Ormuz / Golfo Pérsico)",
+     "importance": 5,
+     "source": "Anadolu Ajansı"
+    },
+    {
+     "title": "Ataques a refinerías rusas y choque en la cadena energética previo a la reunión de la OPEP+",
+     "summary": "Las autoridades energéticas rusas y el viceprimer ministro Alexander Novak señalaron interrupciones de suministro tras nuevos ataques contra refinerías petroleras en el contexto del conflicto con Ucrania. Las disrupciones en la infraestructura de refinado han añadido presión alcista al mercado petrolero global antes de definirse las cuotas para 2027.",
+     "region": "Europa del Este / Rusia",
+     "importance": 4,
+     "source": "Anadolu Ajansı"
+    },
+    {
+     "title": "Arabia Saudí intercepta drones sobre la infraestructura de Ras Tanura",
+     "summary": "La coalición liderada por Riad destruyó cuatro drones lanzados hacia la zona petrolera de Ras Tanura en la Provincia Oriental sin que se confirmaran víctimas mortales. La acción defensiva siguió a un ataque previo con drones en el distrito financiero de Riad atribuido a milicias hutíes.",
+     "region": "Oriente Medio (Arabia Saudí / Yemen)",
+     "importance": 4,
+     "source": "Anadolu Ajansı"
+    },
+    {
+     "title": "Trump fija el límite presupuestario de las operaciones de EE. UU. respecto a Irán hasta enero",
+     "summary": "El presidente de Estados Unidos declaró que la cobertura y financiamiento para las operaciones militares estadounidenses vinculadas a la confrontación con Irán tienen fondos asegurados hasta finales de enero. La revelación de este horizonte fiscal introduce incertidumbre operativa y estratégica para aliados regionales como Arabia Saudí.",
+     "region": "América del Norte / Oriente Medio",
+     "importance": 4,
+     "source": "House of Saud (citando entrevista en New York Post)"
+    },
+    {
+     "title": "La UNCTAD alerta sobre un grave estancamiento del comercio marítimo por riesgos geopolíticos",
+     "summary": "El informe anual sobre transporte marítimo de la ONU confirmó que los conflictos y bloqueos en pasos de navegación obligan a rutas más largas y costosas que lastran el comercio internacional. Los analistas advierten de que las economías menos desarrolladas y los pequeños estados insulares sufren el mayor impacto inflacionario en fletes y combustibles.",
+     "region": "Global",
+     "importance": 4,
+     "source": "UN News"
+    },
+    {
+     "title": "El Banco de Inglaterra propone un recorte de requisitos de capital a la gran banca",
+     "summary": "El Comité de Política Financiera del Banco de Inglaterra completó la revisión de su marco prudencial y propuso rebajar las exigencias de capital Tier 1 en unos 50 puntos básicos sobre activos ponderados. La medida busca liberar capacidad crediticia para préstamos a familias y empresas británicas manteniendo un suelo agregado en torno al 13%.",
+     "region": "Europa / Reino Unido",
+     "importance": 3,
+     "source": "Morningstar / Dow Jones Newswires"
+    },
+    {
+     "title": "La Reserva Federal insta a modernizar los marcos de supervisión financiera ante nuevos riesgos de mercado",
+     "summary": "En un foro conjunto con supervisores latinoamericanos y el Comité de Basilea, la vicepresidenta de supervisión de la Fed, Michelle Bowman, reclamó mayor anticipación y agilidad antes de que se materialicen fallas de liquidez. Bowman insistió en que las reglas regulatorias deben adaptarse rápidamente a las innovaciones tecnológicas y dinámicas de interconexión regional.",
+     "region": "Estados Unidos / América Latina",
+     "importance": 3,
+     "source": "Federal Reserve"
+    },
+    {
+     "title": "El Bundesbank y el BCE advierten de la fragmentación comercial y el reto de las dependencias exteriores",
+     "summary": "En Fráncfort, la vicepresidenta del Bundesbank, Sabine Mauderer, subrayó la urgencia de fortalecer la resiliencia europea y diversificar cadenas de suministro ante barreras comerciales crecientes. Al mismo tiempo, el BCE publicó un crecimiento anual del agregado M3 del 3,6% en octubre, reflejando cautela financiera en un entorno de tipos restrictivos.",
+     "region": "Europa / Zona Euro",
+     "importance": 3,
+     "source": "Bank for International Settlements (BIS) / European Central Bank"
+    }
+   ],
+   "ai": [],
+   "markets": {
+    "brent": 94.68,
+    "wti": 84.08,
+    "ttf": 89.3,
+    "us10y": 4.92
+   },
+   "tension": 76,
+   "sources": [
+    {
+     "title": "aa.com.tr",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcBz1FU6bMgxKTA5AYxNHJ8Ivfj5HMBYGE2iGz-JqDyPmMWUOWYgDYvjJnKdn_4eaeztnGY9GwOB9skX8PCKjq3WILyAqexGFpPWxdug38jdvRh_0yu-6kP4pGxOZy7mCzkAD1hCwCX3iKKOZFjLATs2iJxNCtl8cq19D89NzHDTxEH_uS9lZYxaDNhKXcJizmexZ8a9LyT5NCU3p3ivpqCqgBymWa5fw="
+    },
+    {
+     "title": "aa.com.tr",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwzes2mdtdhjAr0Hd5h9ZxSNGpOG2Mx_hFHHZvrFm3mShaIWJvSixROBLHlNtufNCRkG677x0XHFyqOFJ0zkkMrN5qLhYYiZCunAe34gaeo3kk5JpU9SZUdFTUQIDyqrjYIvpuC9avL5euMLDhrHgiRh1AfbTeaGw="
+    },
+    {
+     "title": "houseofsaud.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX7_DS56wVWZNbDKwG3BkMALEF-u0ulWenJdvUdWAjuuhpCI2iQsh4mqs0JKGNw1dP6qvIyS7-TTSQeN-4gN650BVpMAfSjipqSPCNfxC2n3GLKtQf6E8YqwBZatp7fvxNqhCu8ED-_IrMSw=="
+    },
+    {
+     "title": "un.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5pt42M4YUQfKkgW3WHzi_oXRPabneA7filVUZ4PD4f9MRz9KZwfYnQN7CYyzobqAehBXPE4he5L9y5qaXJ1RQ-WygUN77yO_b4hHq-uKCpg1IMfllly9Nqjay3wGXTg3F"
+    },
+    {
+     "title": "morningstar.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8qT5ZFz6ZAsmiaC5ouNO-S6mShSkZ2nD53woa80PZ4XTk2foUR-4wIzQ1zeEEXHciCaNFz8Mg1_6ADqmyUBV_q-OOG4yXyriGJZj5tNQYVP5GJtt5gAZw-tDl-7pPRK0x2LBB54Dx1yKA-1mwKu_JGjS9TkWHYjQRUDOkMCFgfUypyF59L_dcJvshb5D9PUGn__GjVww2c__XOaDuyqTr7YmJpMZm-bEK"
+    },
+    {
+     "title": "federalreserve.gov",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELQ1Rvxzna_qeRpLh0M4GfprWYugxAFD7D7RPsoCn_TNMao3BMPasUue-ze4uKcP3huJAHsbg4M-8POrbMaqJPK5bXS-epdaoWueLl80M8QciVljapAVbEpWXmW1d3WIrzDUsnKavHLu8BmxAf9FPLzW0eIIALxOG6"
+    },
+    {
+     "title": "bis.org",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD_0Y0oZUUN70L1eqsx94s67ar-DmE6OJN6U5a8h9Y7RLuek383teMmWRrvgp2dE_B0X_j0ZZNB9j923sFvcPW8ANd0sdLZTHTBBbXJHlnQMvMZzPITxbqS5PiHA42Q5ChGJZCRD0LgO7yIWwrfzqyGE0Xa7b5XlZR47YVNLEtryO5Lqzx1kHf2rPdCEFw0J8C"
+    },
+    {
+     "title": "europa.eu",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOMDwnFdAFCmPXIC0nFOOzebvm3nuWbM5E_pQmHb748bDIHslEiYwyTMWyptBv91Gyd5cwbfn58KKYuAJdtXe3IOwcwLT3CKIZpu8FnwOVJVhtTix2BlEYsosKvfjjdRYsR1lfj2BKtJWehMPfbReC0h6SY3NFui7fpNGFJ9Gibg=="
+    },
+    {
+     "title": "livemint.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMJoAkHkbE8fdZLdwT-i4DBQZQJ8zzjJlC94ePFKCCy_7Rc261oxc72NGNEnyT9StTBOhQLsFuVeiLM3ty7GzsTc1aurTvEAhjY6JN23Lqp2GLx2KnZwmRLJV4ddeP1VoL-B3_i5O5_PcJKw-w8TqA4Kl3P9scbTwGtrgjeZChA1tfTO1O5ADSkwFVWct6Xsyer8p7v4XwNoGf7wwt1RD_rqjQMShMbn2wCOW-zMi3oaMdJ0XHBlt3UJHBoQ6yhWgJbMQv"
+    },
+    {
+     "title": "mlq.ai",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMco3qcKAeFNkydEkSGNfdUD-oL15pMMqaL3uBcZl2IbYdne69pbpBwnZLHHZVirZ_oShNTekguKz_W6lBov5l-JBn33PBQ1n4ESapv01SbBWA3UfKM266KYL70U-DsVN7yQczlL0KUM18Cve3x4LYzpZe6OiPRxnWbVMw0sQV3S9f-ne7Q33LcdzNkD2eLhyAf-g="
+    },
+    {
+     "title": "spglobal.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF-AujQ315Z5Ut2ONHEDPliCE13lt69x6aRhOtt3x-40sf4Gbg-rfwzRX4wneO_hxhCn4sYz7KT0V98mXVdj2bpraCsVjtp3WhCgPHMrNKZbo5TtzdsTpnuYAeSJZrMcRRWy6MiV9OrYyy8B-7tohUkyluvtk7s-1NXg2ZvaJQ0S5fGLrr8EqKAB4-M42h8GQHCmrLC63HtNbowP3jGZYW9VbMDi9E7Dpb_WGd8f5nZtFux7EelNGevg=="
+    },
+    {
+     "title": "shattered.io",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZppJ44pPAnschBrhPH4ym6tOhZB2C3bYRq2gQK_iIyEsyhT-1HmVRDc_QdxZyAwf9WG7h5VCCmQqGNNo1axNgAF0zdXx3Uw1VSO8bulwK390e3qL11tcKzof-mHb03rJMwWJEb4yXW-1BEmcN1hcblA5STjkMlGa_r_ADnAUZzYY5vi10W3aE-RBXIiDqPVaeimO6SUeS"
+    },
+    {
+     "title": "spanglett.legal",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqNqybaacbeyIQBXVETbqUiIWkDfo8SDeqv5v0IcL4TL9BYI18nUPhoal_59wL1ZRO3U9edb59RFFLP5xlZmHM-3_CIUTvwQyYSACcUb4Z2yvUpC4o8DStICAPtuLPtOY6qHIwtumCmm8DONA5zl9gSZVodKn8GD81Ww=="
+    },
+    {
+     "title": "tradingeconomics.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjATSQ5V5ov01VKgdeXe97lla9uEomew_2vPifWBm0WK3ulYy_jrAKslyXx9niM65vyma4JZFhd7tNM_d4omAiU6kDOYT47SbO089kBjJ8fLqkdNl3-QGBa9Alu_2n5Jlqi36oKt3BH3krlEs="
+    },
+    {
+     "title": "macrotrends.net",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnR5fe6Dnl7YTopNJWvvlJduZExjMjPpZnkU_6W4Xqnzr8-c3IxniaFz5K5X0RBsmoFAZXimuTlSjsj3Pg7gb_fDl7bzZkQp_T6ZBc6Py-rxWiu7geTzUP3Z_rCxvkl2Vkgsv1PeYWVhqt2VnT3Za6y5xPksx8H0TWkNLjipML"
+    },
+    {
+     "title": "oenergetice.cz",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1FgisUfv6M81w6qhr7JdYEwSJeIstf968t-eXvueQFAdgFV4Hme8DTwnvE0IsxPJbUGColA4J8kMURRz-Z2ANaVSZ3nZrDutPif4Dp08glaExQAbdlJFbOnhh0fNFAOfZg5r6j-TZq_hohJ8dq7bTZ4x"
+    },
+    {
+     "title": "barchart.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHopgsrIpaQM6K-uWuO4PtuFvcTVD_kVEIENJsKLyrFhkMCouIa1jNJ3cSZFSR9oc3RT93qRon9SuJ_pdYSxhpQfkEQbE5Q-A5rOlLA4Bno14EbG2n9xLpyV5mPLQE2uG0xeQVhzKJwqOxnWk7Br-MW"
+    },
+    {
+     "title": "macrotrends.net",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ZqG2kmLp8tt-YUj5eFq6uSNtIxDfzUExx6MAsDSP-DUs7LVlJapp3mGfLZu-WcK19gotAfTFOesm8SQN30FcviVssqhi1QkmobIFgJYjHV8Wtc0t-VmR3e2-f5HLI_UOpFhlT9TjWUDO7bhmmsQqrF3aouAWZ1HJmeT8nQ=="
     }
    ]
   }
